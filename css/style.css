@@ -1,0 +1,264 @@
+/* line 5, style.scss */
+* {
+  font-family: Segoe UI,sans-serif;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 15, style.scss */
+body {
+  background-color: #bbb;
+}
+
+/* line 16, style.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 17, style.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 18, style.scss */
+hr {
+  margin: .3em 0;
+  width: 100%;
+  height: 1px;
+  border-width: 0;
+  color: #ddd;
+  background-color: #ddd;
+}
+
+/* line 19, style.scss */
+img {
+  border: none;
+  padding: .2em;
+  max-width: 100%;
+}
+
+/* line 20, style.scss */
+textarea {
+  resize: none;
+}
+
+/* line 27, style.scss */
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=number],
+textarea,
+select {
+  padding: .3em;
+}
+
+/* line 32, style.scss */
+.clear {
+  clear: both;
+}
+
+/* line 33, style.scss */
+.float-left {
+  float: left !important;
+}
+
+/* line 34, style.scss */
+.float-right {
+  float: right !important;
+}
+
+/* line 35, style.scss */
+.no-padding {
+  padding: 0 !important;
+}
+
+/* line 36, style.scss */
+.no-margin {
+  margin: 0 !important;
+}
+
+/* line 37, style.scss */
+.error, .alert, .notice, .success, .info {
+  padding: .6em;
+  margin: .2em 0;
+  border: none;
+  font-size: .8em;
+}
+
+/* line 38, style.scss */
+.error, .alert {
+  background: #FBE3E4;
+  color: #8A1F11;
+}
+
+/* line 39, style.scss */
+.notice {
+  background: #FFF6BF;
+  color: #514721;
+}
+
+/* line 40, style.scss */
+.info {
+  background: #ddd;
+  color: #264409;
+}
+
+/* line 41, style.scss */
+.success {
+  background: #E6EFC2;
+  color: #264409;
+}
+
+/* line 45, style.scss */
+.nav {
+  padding: 0 1em;
+  background-color: #707373;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#707373), to(#404343));
+  background-image: -webkit-linear-gradient(top, #707373, #404343);
+  background-image: -moz-linear-gradient(top, #707373, #404343);
+  background-image: -o-linear-gradient(top, #707373, #404343);
+  background-image: linear-gradient(to bottom, #707373, #404343);
+  -webkit-box-shadow: 0px 1px 6px 0px #555;
+  box-shadow: 0px 1px 6px 0px #555;
+  color: #d4d4d4;
+  cursor: pointer;
+}
+/* line 60, style.scss */
+.nav ul img {
+  max-height: 40px;
+  float: left;
+}
+/* line 61, style.scss */
+.nav ul li {
+  float: left;
+  padding: .7em;
+  font-family: 'Segoe UI Light', Segoe UI,sans-serif;
+}
+/* line 65, style.scss */
+.nav ul li:hover {
+  color: white;
+}
+/* line 68, style.scss */
+.nav ul li input {
+  background: url(../images/search.png) no-repeat 0px 50%;
+  padding: 0 0 0 20px;
+  border: none;
+  font-size: 1em;
+  color: #d4d4d4;
+}
+/* line 74, style.scss */
+.nav ul li input:hover, .nav ul li input:active, .nav ul li input:focus {
+  color: white;
+  border: none;
+}
+
+/* line 86, style.scss */
+.content {
+  font-family: 'Segoe UI',sans-serif;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin: .5em;
+  padding: .7em;
+  background: white;
+}
+
+/* line 94, style.scss */
+.posts {
+  width: 100%;
+}
+
+/* line 97, style.scss */
+.post {
+  width: 100%;
+  padding: .5em;
+  margin: 0 0 .5em 0;
+  -webkit-border-radius: 4px;
+  /* Safari 3-4, iOS 1-3.2, Android ≤1.6 */
+  border-radius: 4px;
+  border: 1px solid #eee;
+  -webkit-box-shadow: 1px 1px 1px 1px #ddd;
+  box-shadow: 1px 1px 1px 1px #ddd;
+}
+/* line 106, style.scss */
+.post:hover {
+  border: 1px solid #ddd;
+}
+/* line 109, style.scss */
+.post img {
+  display: block;
+  border: 1px solid #ddd;
+  max-height: 300px;
+  padding: .3em;
+  margin: .3em auto;
+}
+
+/* line 117, style.scss */
+.post-comments {
+  display: none;
+  background: #fafafa;
+  padding: .2em;
+  font-size: .9em;
+}
+
+/* line 123, style.scss */
+.post-comment {
+  border: 1px solid #e3e3e3;
+  padding: 0 .2em;
+  margin: .2em;
+}
+/* line 127, style.scss */
+.post-comment p {
+  padding: 0 0 0 47px;
+}
+
+/* line 131, style.scss */
+.post-thumb {
+  float: left;
+  width: 40px;
+  margin: .2em !important;
+  padding: .15em !important;
+}
+
+/* line 137, style.scss */
+.post-time {
+  font-size: .8em;
+  color: #707373;
+}
+
+/* line 141, style.scss */
+.post-new-comment {
+  display: none;
+}
+/* line 143, style.scss */
+.post-new-comment span {
+  margin: .3em 0 0 0;
+}
+
+/* line 147, style.scss */
+.post-meta {
+  padding: 0 .4em;
+}
+/* line 149, style.scss */
+.post-meta span {
+  cursor: pointer;
+  margin: 0 1em 0 0;
+  font-size: .8em;
+}
+
+/* line 156, style.scss */
+.footer {
+  margin: .5em;
+  padding: .3em;
+}
+
+@media only screen and (min-width: 720px) {
+  /* line 164, style.scss */
+  .posts {
+    width: 62.5%;
+  }
+}
