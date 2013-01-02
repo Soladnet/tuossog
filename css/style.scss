@@ -1,6 +1,13 @@
 $gossout-black: #707373;
 $gossout-green-1: #9ac43c;
 $gossout-green-2: #9ac43c;
+$nav-gradient-1: #cbe3ba;
+$nav-gradient-2: #a6cc8b;
+$body-gradient-1: #bababa;
+$body-gradient-2: #fdfdfd;
+$logo-image-svg: "../images/gossout-logo-image-svg.svg";
+$logo-image-text-svg: "../images/gossout-logo-text-and-image-svg.svg";
+$logo-text-svg: "../images/gossout-logo-text-svg.svg";
 
 * {
 font-family: Segoe UI,sans-serif;
@@ -12,7 +19,16 @@ font-family: Segoe UI,sans-serif;
     -ms-box-sizing                    : border-box;
     box-sizing                        : border-box;
 }
-body { background-color: #bbb;}
+body {
+	background-color: $body-gradient-1;
+	background-image: url($logo-image-svg), -webkit-gradient(linear, left top, left bottom, from($body-gradient-1), to($body-gradient-2));
+	background-image: url($logo-image-svg), -webkit-linear-gradient(top, $body-gradient-1, $body-gradient-2);
+	background-image: url($logo-image-svg),    -moz-linear-gradient(top, $body-gradient-1, $body-gradient-2);
+	background-image: url($logo-image-svg),      -o-linear-gradient(top, $body-gradient-1, $body-gradient-2);
+	background-image: url($logo-image-svg),         linear-gradient(to bottom, $body-gradient-1, $body-gradient-2);
+	background-repeat: no-repeat;
+	background-position: 100% 0%;
+}
 a { text-decoration: none;}
 ol,ul { list-style: none; }
 hr { margin: .3em 0; width: 100%; height: 1px; border-width:0; color: #ddd; background-color: #ddd;}
@@ -32,6 +48,7 @@ select {
 .clear { clear: both;}
 .float-left { float: left !important;}
 .float-right { float: right !important;}
+.float-none {float: none !important;}
 .no-padding { padding: 0 !important;}
 .no-margin { margin: 0 !important;}
 .error, .alert, .notice, .success, .info { padding: .6em; margin: .2em 0; border: none; font-size: .8em; }
@@ -43,22 +60,25 @@ select {
 .page-wrapper { }
 
 .nav {
-	padding: 0 1em;
-	background-color: #707373;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#707373), to(#404343));
-	background-image: -webkit-linear-gradient(top, #707373, #404343);
-	background-image:    -moz-linear-gradient(top, #707373, #404343);
-	background-image:      -o-linear-gradient(top, #707373, #404343);
-	background-image:         linear-gradient(to bottom, #707373, #404343);
+	padding: 0 2em; 
+	@media only screen and (max-width: 720px) {
+		padding: .2em;
+	}
+	background-color: $nav-gradient-1;
+	background-image: -webkit-gradient(linear, left top, left bottom, from($nav-gradient-1), to($nav-gradient-2));
+	background-image: -webkit-linear-gradient(top, $nav-gradient-1, $nav-gradient-2);
+	background-image:    -moz-linear-gradient(top, $nav-gradient-1, $nav-gradient-2);
+	background-image:      -o-linear-gradient(top, $nav-gradient-1, $nav-gradient-2);
+	background-image:         linear-gradient(to bottom, $nav-gradient-1, $nav-gradient-2);
 
 	-webkit-box-shadow: 0px 1px 6px 0px #555;
 	box-shadow: 0px 1px 6px 0px #555;
 
-	color: #d4d4d4;
-    cursor: pointer;
+	color: #222;
     ul {
     	img { max-height: 40px; float: left;}
     	li{
+    		cursor: pointer;
 	    	float: left;
 			padding: .7em;
 			font-family: 'Segoe UI Light', Segoe UI,sans-serif;
@@ -66,45 +86,94 @@ select {
 				color: white;
 			}
 			input {
-				background: url(../images/search.png) no-repeat 0px 50%;
-				padding: 0 0 0 20px;
+				-webkit-border-radius: 5px;
+					 -o-border-radius: 5px;
+        				border-radius: 5px;
+				padding: 0;
 				border: none;
 				font-size: 1em;
-				color: #d4d4d4;
+				color: #aaa;
 				&:hover, &:active, &:focus {
-					color: white;
+					color: #707373;
 					border: none;
 					}
 				}
 			}	
     	}
+    	.nav-login {
+    		float: right !important;
+    		@media only screen and (max-width: 500px) {
+    			
+    		}
+    	}
 	}
-
-
-
+.nav-search-container {
+	@media only screen and (max-width: 720px) {
+		display: none !important;
+	}
+}
+.nav-user {
+	padding: 0 2em;
+	margin: 3px 0;
+	background: rgba(255, 255, 255, 0.9);
+	@media only screen and (max-width: 720px) {
+		padding: .2em;
+	}
+	ul {
+		li{
+			padding: .7em;
+			font-size: .75em;
+			float: left; 
+			color: #555;
+		}
+	}
+	-webkit-box-shadow: 0px 1px 6px 0px #555;
+	box-shadow: 0px 1px 6px 0px #555;
+}
+.nav-user-profile {
+	float: right !important;
+}
 
 .content {
 	font-family: 'Segoe UI',sans-serif;
 	-webkit-border-radius: 5px;
+		 -o-border-radius: 5px;
         	border-radius: 5px;
-	margin: .5em;
+	-webkit-box-shadow: 0px 1px 5px 0px #888;
+			box-shadow: 0px 1px 5px 0px #888;
 	padding: .7em;
-	background: white;
+	background: rgba(255, 255, 255, 0.7);
+	border: 8px transparent;
+	margin: .5em 2em;
+	@media only screen and (max-width : 720px) {
+		margin: .5em;
+		padding: 0;
+		background: none;
+		border: none;
+
+	}
 }
 .posts{
 	width: 100%;
+	padding: .2em;
+	@media only screen and (min-width : 720px) {
+		width: 62.5%;
+		float: right;
+	}
 }
 .post{
+	background: rgba(255, 255, 255, 0.7);
 	width: 100%;
 	padding: .5em;
 	margin: 0 0 .5em 0;
-	-webkit-border-radius: 4px; /* Safari 3-4, iOS 1-3.2, Android ≤1.6 */
+	-webkit-border-radius: 4px; 
+		 -o-border-radius: 4px;
         	border-radius: 4px;
 	border: 1px solid #eee;
-    -webkit-box-shadow: 1px 1px 1px 1px #ddd;
-			box-shadow: 1px 1px 1px 1px #ddd;
+    -webkit-box-shadow: 1px 1px 1px 1px #555;
+			box-shadow: 1px 1px 1px 1px #555;
     &:hover {
-		border: 1px solid #ddd;
+		border: 1px solid #bbb;
     }
 	img {
 		display: block;
@@ -156,12 +225,12 @@ select {
 .footer {
 	margin: .5em;
 	padding: .3em;
-}
-
-
-@media only screen and (min-width : 720px) {
-
-.posts{ 
-	width: 62.5%;
+	margin: .5em 2em;
+	@media only screen and (max-width : 720px) {
+		margin: .5em;
+	} 
+	li{
+		float: left;
+		padding: .2em 1em .2em 0;
 	}
 }
