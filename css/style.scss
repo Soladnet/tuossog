@@ -1,3 +1,7 @@
+@import "sprites.scss";
+@import "16px-sprites.scss";
+
+
 $gossout-black: #707373;
 $gossout-green-1: #9ac43c;
 $gossout-green-2: #9ac43c;
@@ -10,14 +14,16 @@ $logo-image-text-svg: "../images/gossout-logo-text-and-image-svg.svg";
 $logo-text-svg: "../images/gossout-logo-text-svg.svg";
 
 * {
-font-family: Segoe UI,sans-serif;
-    margin        : 0;
-    padding       : 0;
-    vertical-align: top;
-    -webkit-box-sizing                : border-box;
-    -moz-box-sizing                   : border-box;
-    -ms-box-sizing                    : border-box;
-    box-sizing                        : border-box;
+	
+	font-family: "Segoe UI Light", Segeo UI,sans-serif;
+	margin        : 0;
+	padding       : 0;
+	vertical-align: top;
+	-webkit-box-sizing                : border-box;
+	-moz-box-sizing                   : border-box;
+	-ms-box-sizing                    : border-box;
+	box-sizing                        : border-box;
+	*behavior: url(/scripts/boxsizing.htc);
 }
 body {
 	background-color: $body-gradient-1;
@@ -29,9 +35,10 @@ body {
 	background-repeat: no-repeat;
 	background-position: 100% 0%;
 }
-a { text-decoration: none;}
+a { text-decoration: none; }
 ol,ul { list-style: none; }
-hr { margin: .3em 0; width: 100%; height: 1px; border-width:0; color: #ddd; background-color: #ddd;}
+h1,h2,h3,h4,h5,h6 { margin: .2em 0;}
+hr { margin: .3em 0; width: 100%; height: 1px; border-width:0; color: #eee; background-color: #eee;}
 img { border: none; padding: .2em; max-width: 100%;}
 textarea { resize: none;}
 
@@ -56,13 +63,24 @@ select {
 .notice{ background: #FFF6BF;    color: #514721;}
 .info{ background: #ddd; color: #264409;}
 .success{ background: #E6EFC2; color: #264409;}
-
+.icon-16-gossout {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-image: url(../images/gossout-logo-image-svg.svg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
 .page-wrapper { }
 
 .nav {
+
 	padding: 0 2em; 
-	@media only screen and (max-width: 720px) {
+	@media only screen and (max-width: 1024px) {
 		padding: .2em;
+	}
+	a{
+		color: #222;
 	}
 	background-color: $nav-gradient-1;
 	background-image: -webkit-gradient(linear, left top, left bottom, from($nav-gradient-1), to($nav-gradient-2));
@@ -74,40 +92,48 @@ select {
 	-webkit-box-shadow: 0px 1px 6px 0px #555;
 	box-shadow: 0px 1px 6px 0px #555;
 
-	color: #222;
-    ul {
-    	img { max-height: 40px; float: left;}
-    	li{
-    		cursor: pointer;
-	    	float: left;
-			padding: .7em;
+	
+	ul {
+		img { max-height: 40px; float: left;}
+		li{	
+			-webkit-transition: all 0.5s ease-out;  
+			-moz-transition: all 0.5s ease-out;  
+			-o-transition: all 0.5s ease-out;  
+			transition: all 0.5s ease-out;
+			cursor: pointer;
+			float: left;
+			padding: .5em .7em;
 			font-family: 'Segoe UI Light', Segoe UI,sans-serif;
 			&:hover {
-				color: white;
+				background: #fff;
+				background: rgba(255, 255, 255, 0.9);
+			}
+			span{
+				padding: 0 .2em;
 			}
 			input {
 				-webkit-border-radius: 5px;
-					 -o-border-radius: 5px;
-        				border-radius: 5px;
-				padding: 0;
+				-o-border-radius: 5px;
+				border-radius: 5px;
+				padding: .2em;
 				border: none;
-				font-size: 1em;
+				font-size: .8em;
 				color: #aaa;
 				&:hover, &:active, &:focus {
 					color: #707373;
 					border: none;
-					}
 				}
-			}	
-    	}
-    	.nav-login {
-    		float: right !important;
-    		@media only screen and (max-width: 500px) {
-    			
-    		}
-    	}
+			}
+		}	
 	}
+	.nav-login {
+		float: right !important;
+	}
+}
 .nav-search-container {
+	&:hover {
+		background-color: transparent !important;
+	}
 	@media only screen and (max-width: 720px) {
 		display: none !important;
 	}
@@ -115,16 +141,25 @@ select {
 .nav-user {
 	padding: 0 2em;
 	margin: 3px 0;
+	background: #fff;
 	background: rgba(255, 255, 255, 0.9);
-	@media only screen and (max-width: 720px) {
+	@media only screen and (max-width: 1024px) {
 		padding: .2em;
 	}
 	ul {
 		li{
-			padding: .7em;
+			padding: .6em;
 			font-size: .75em;
 			float: left; 
-			color: #555;
+			a{
+				color: #555;
+				&:hover{
+					color:#000;
+				}
+			}
+			span{
+				padding: 0 .3em;
+			}
 		}
 	}
 	-webkit-box-shadow: 0px 1px 6px 0px #555;
@@ -137,44 +172,46 @@ select {
 .content {
 	font-family: 'Segoe UI',sans-serif;
 	-webkit-border-radius: 5px;
-		 -o-border-radius: 5px;
-        	border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
 	-webkit-box-shadow: 0px 1px 5px 0px #888;
-			box-shadow: 0px 1px 5px 0px #888;
+	box-shadow: 0px 1px 5px 0px #888;
 	padding: .7em;
+	background: #fff;
 	background: rgba(255, 255, 255, 0.7);
 	border: 8px transparent;
 	margin: .5em 2em;
-	@media only screen and (max-width : 720px) {
+	@media only screen and (max-width : 1024px) {
 		margin: .5em;
 		padding: 0;
-		background: none;
 		border: none;
 
 	}
 }
 .posts{
 	width: 100%;
-	padding: .2em;
+
 	@media only screen and (min-width : 720px) {
 		width: 62.5%;
 		float: right;
+		padding: 0 0 0 .2em;padding: .5em;
 	}
 }
 .post{
-	background: rgba(255, 255, 255, 0.7);
+	background: #fff;
+	background: rgba(255, 255, 255, 0.9);
 	width: 100%;
 	padding: .5em;
 	margin: 0 0 .5em 0;
 	-webkit-border-radius: 4px; 
-		 -o-border-radius: 4px;
-        	border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
 	border: 1px solid #eee;
-    -webkit-box-shadow: 1px 1px 1px 1px #555;
-			box-shadow: 1px 1px 1px 1px #555;
-    &:hover {
+	-webkit-box-shadow: 0 0 4px 0 #BDBDBD;
+	box-shadow: 0 0 4px 0 #BDBDBD; 
+	&:hover {
 		border: 1px solid #bbb;
-    }
+	}
 	img {
 		display: block;
 		border: 1px solid #ddd;
@@ -216,21 +253,104 @@ select {
 .post-meta {
 	padding: 0 .4em;
 	span {
-    	cursor: pointer;
-		margin: 0 1em 0 0;
+		cursor: pointer;
 		font-size: .8em;
+		color: #888;
+		&:hover{
+			color: #000;
+		}
 	}
 }
+.aside {
+	overflow: auto;
+	padding: .5em;
+	margin: 0 1em .5em 0;
+	@media only screen and (max-width : 720px) {
+		margin: 0;
+	}
+	-webkit-border-radius: 4px; 
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #eee; 
+}
+.aside-wrapper{
+	background: #fff;
+	background: rgba(255, 255, 255, 0.9);
+	margin: 0 0 .3em 0;
+	padding: .3em;	
+	.profile-pic {
+		float: left;
+		margin: 0 .2em .2em 0;
+		@media only screen and (max-width: 1024px) {
+			float: none;
+			display: block;
+			margin: .2em auto;
+		}
+		@media only screen and (max-width: 720px) {
+			float: left;
+			display: inline-block;
+			margin: .2em auto;
+		}
+		@media only screen and (max-width: 440px) {
+			float: none;
+			display: block;
+			margin: .2em auto;
+		}
+	}
+	h3 {
+		font-weight: normal;
+		padding: 0 0 .3em 0;
+	}
+	.profile-meta {
+		font-size: .8em;
 
+	}
+	.profile-meta-functions {
+		font-size: .8em;
+		padding: .4em;
+		margin: 0 0 .2em .2em;
+		border: 1px solid $nav-gradient-1; 
+		overflow: hidden;
+		display: inline-block;
+		float: right;
+		background-color: #FFF;
+		&:hover {
+			background-color: $nav-gradient-1;
+			cursor: pointer;
+		}
+	}
+	.community-listing {
+		font-size: .9em;
+	}
+	.community-functions {
+		font-size: .78em;
+		padding: .3em;
+		margin: .2em;
+		overflow: hidden;
+		display: inline-block;
+		background-color: #FFF;
+		float: right;
+		&:hover {
+			background-color: $nav-gradient-1;
+			cursor: pointer;
+		}
+	}
+}
 .footer {
-	margin: .5em;
 	padding: .3em;
 	margin: .5em 2em;
-	@media only screen and (max-width : 720px) {
+	@media only screen and (max-width : 1024px) {
 		margin: .5em;
 	} 
 	li{
+		color: #555;
 		float: left;
 		padding: .2em 1em .2em 0;
+		a{
+			color: #555;
+			&:hover{
+				color: #000;
+			}
+		}
 	}
 }

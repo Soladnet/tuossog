@@ -9,7 +9,6 @@
 	<div class="page-wrapper">
 		<?php
 		include ("nav.php");
-		include ("nav-user.php");
 		?>
 		<div class="content">
 			<script type="text/javascript">
