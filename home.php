@@ -26,11 +26,14 @@
 				}
 			}
 			</script>
-			<?php 
-			include("new-post.php");
-			include("new-post.php");
-			include("new-post.php");
-			?>
+			<div class="posts">
+				<?php 
+				include("post-box.php");
+				include("new-post.php");
+				include("new-post.php");
+				?>
+			</div>
+			
 			<div class="aside">
 				<div class="aside-wrapper">
 					<img class="profile-pic" src="images/1.jpg">
@@ -58,10 +61,10 @@
 					<br>
 					<hr>
 					<script type="text/javascript">
-						function openChat() {
-							window.open("http://tlk.io/Gossout-30",null,"toolbar=no,menubar=no,resizable =yes,copyhistory=no,location=no,directories=no,height=500,width=300");
-							  };
-							
+					function openChat() {
+						window.open("http://tlk.io/Gossout-30",null,"toolbar=no,menubar=no,resizable =yes,copyhistory=no,location=no,directories=no,height=500,width=300");
+					};
+					
 					</script>
 					<p class="community-listing"><span><a href="">Ahmadu Bello University, Zaria, Nigeria&nbsp;</a></span>
 						<span class="community-functions"><span class="icon-16-cross"></span> Leave</span>
