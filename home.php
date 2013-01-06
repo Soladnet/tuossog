@@ -66,23 +66,29 @@
 					};
 					
 					</script>
-					<p class="community-listing"><span><a href="">Ahmadu Bello University, Zaria, Nigeria&nbsp;</a></span>
-						<span class="community-functions"><span class="icon-16-cross"></span> Leave</span>
-						<span class="community-functions" onclick="openChat();"><span class="icon-16-chat"></span> Chat</span>
+					<div class="community-listing"><span><a href="">Ahmadu Bello University, Zaria, Nigeria&nbsp;</a></span>
+						<div class="community-functions-wrapper">
+							<span class="community-functions"><span class="icon-16-cross"></span> Leave</span>
+							<span class="community-functions" onclick="openChat();"><span class="icon-16-chat"></span> Chat</span>
+						</div>
 						<div class="clear"></div>
-					</p>
+					</div>
 					<hr>
-					<p class="community-listing"><span><a href="">Eko Radio Party&nbsp;</a></span>
-						<span class="community-functions"><span class="icon-16-cross"></span> Leave</span>
-						<span class="community-functions" onclick="openChat();"><span class="icon-16-chat"></span> Chat</span>
+					<div class="community-listing"><span><a href="">Eko Radio Party&nbsp;</a></span>
+						<div class="community-functions-wrapper">
+							<span class="community-functions"><span class="icon-16-cross"></span> Leave</span>
+							<span class="community-functions" onclick="openChat();"><span class="icon-16-chat"></span> Chat</span>
+						</div>
 						<div class="clear"></div>
-					</p>
+					</div>
 					<hr>
-					<p class="community-listing"><span><a href="">Abuja, Federal Capital Territory, Nigeria&nbsp;</a></span>
-						<span class="community-functions"><span class="icon-16-cross"></span> Leave</span>
-						<span class="community-functions" onclick="openChat();"><span class="icon-16-chat"></span> Chat</span>
+					<div class="community-listing"><span><a href="">Abuja, Federal Capital Territory, Nigeria&nbsp;</a></span>
+						<div class="community-functions-wrapper">
+							<span class="community-functions"><span class="icon-16-cross"></span> Leave</span>
+							<span class="community-functions" onclick="openChat();"><span class="icon-16-chat"></span> Chat</span>
+						</div>
 						<div class="clear"></div>
-					</p>
+					</div>
 					<hr>
 					<p class="community-listing"><span><a href="">... Show all&nbsp;</a></span>
 					</p>

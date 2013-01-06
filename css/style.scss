@@ -404,6 +404,9 @@ select {
 		font-size: .9em;
 		
 	}
+	.community-functions-wrapper{
+		float: right;
+	}
 	.community-functions {
 		font-size: .78em;
 		padding: .3em;
@@ -411,7 +414,6 @@ select {
 		overflow: hidden;
 		display: inline-block;
 		background-color: #FFF;
-		float: right;
 		&:hover {
 			background-color: $nav-gradient-1;
 			cursor: pointer;
