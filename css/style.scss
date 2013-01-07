@@ -55,6 +55,7 @@ select {
 .float-right { float: right !important;}
 .float-none {float: none !important;}
 .no-padding { padding: 0 !important;}
+.no-display {display: none;}
 .no-margin { margin: 0 !important;}
 .error, .alert, .notice, .success, .info { padding: .6em; margin: .2em 0; border: none; font-size: .8em; }
 .error, .alert{ background: #FBE3E4; color: #8A1F11;}
@@ -219,6 +220,7 @@ select {
 		width: 120px;
 		margin: 0 .3em 0 0;
 		&:hover{
+
 			border: 1px solid #aaa;
 		}
 		select{
@@ -238,6 +240,15 @@ select {
 		&:hover {
 			border: 1px solid #aaa;
 		} 
+		&:focus{
+			outline: 0;
+			box-shadow: inset 0 0 5px $nav-gradient-1;
+			border:1px solid $nav-gradient-1;
+			-webkit-transition: all 0.5s ease-out;  
+			-moz-transition: all 0.5s ease-out;  
+			-o-transition: all 0.5s ease-out;  
+			transition: all 0.5s ease-out;
+		}
 	}
 	.group-2 {
 		display: block; 
@@ -296,7 +307,7 @@ select {
 }
 .post-thumb {
 	float: left;
-	width: 40px;
+	width: 40px !important;
 	margin: .2em !important;
 	padding: .15em !important;
 }
@@ -340,6 +351,15 @@ select {
 			color: #000;
 		}
 	}
+}
+.friends-thumbnails{
+	    display: inline-block;
+		border: 1px solid #ddd;
+		max-width: 50px;
+		width: 100%;
+		padding: .2em;
+		margin: .4em auto;
+		overflow: hidden;
 }
 .aside {
 	font-size: .9em;
@@ -414,7 +434,6 @@ select {
 		float: right;
 	}
 	.community-functions {
-		font-size: .78em;
 		padding: .3em;
 		margin: .2em;
 		overflow: hidden;

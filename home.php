@@ -25,6 +25,19 @@
 					}
 				}
 			}
+
+			function toggle(ele, txt) {
+				var element = document.getElementById(ele);
+				var text = document.getElementById(txt);
+				if(element.style.display == 'block') {
+					element.style.display = 'none';
+					text.innerHTML = "Suggested Friends";
+				}
+				else {
+					element.style.display = "block";
+					text.innerHTML = "Hide Suggested Friends";
+				}
+			} 
 			</script>
 			<div class="posts">
 				<?php 
@@ -90,9 +103,30 @@
 						<div class="clear"></div>
 					</div>
 					<hr>
-					<p class="community-listing"><span><a href="">... Show all&nbsp;</a></span>
+					<p class="community-listing"><span><a href="">Show all&nbsp;</a> <a href="">Suggested Communities</a></span>
 					</p>
 				</div>
+				<hr>
+				<div class="aside-wrapper">
+					<h4>Friends</h4>
+					<p>You have <a href=""><span class="icon-16-user"></span>&nbsp;205 Friends</a></p>
+					<hr>
+					<img class= "friends-thumbnails" src="images/1.jpg">
+					<img class= "friends-thumbnails" src="images/2.jpg">
+					<img class= "friends-thumbnails" src="images/3.jpg">
+					<img class= "friends-thumbnails" src="images/snip.jpg">
+					<p class="community-listing">
+						<span>
+							<a href="">Show all&nbsp;</a> 
+							<a id="show-suggested-friends" href="javascript:toggle('suggested-friends', 'show-suggested-friends');" > Suggested Friends</a>
+						</span>
+					</p>
+				</div>
+				<hr>
+				<div id= "suggested-friends" class="aside-wrapper no-display" > 
+					<h4>Suggested Friends </h4>
+				</div>
+				
 			</div>	
 			<div class="clear"></div>		
 		</div>
