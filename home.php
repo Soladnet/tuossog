@@ -29,13 +29,28 @@
 			function toggle(ele, txt) {
 				var element = document.getElementById(ele);
 				var text = document.getElementById(txt);
+
 				if(element.style.display == 'block') {
 					element.style.display = 'none';
-					text.innerHTML = "Suggested Friends";
+
+					if(text.id=="show-suggested-friends"){
+						text.innerHTML = "Suggested Friends";
+					}
+					else if (text.id=="show-full-profile"){
+					    text.innerHTML = "View Full Profile";
+					}
+					
 				}
 				else {
 					element.style.display = "block";
-					text.innerHTML = "Hide Suggested Friends";
+
+					if(text.id=="show-suggested-friends"){
+						text.innerHTML = "Hide Suggested Friends";
+					}
+						
+					else if(text.id=="show-full-profile"){
+						text.innerHTML = "Hide Full Profile";
+					}
 				}
 			} 
 			</script>
@@ -53,9 +68,9 @@
 					<table>
 						<tr><td></td><td><h3>Ciroma Chukwuma Adekunle</h3></td></tr>
 						<tr><td><span class="icon-16-map"></span></td><td class="profile-meta"> Abuja, Federal Capital Territory, Nigeria</td></tr>
-						<tr><td><span class="icon-16-calendar"></span></td><td class="profile-meta"> 31st January, 1960</td></tr>
+						<tr><td><span class="icon-16-calendar"></span></td><td class="profile-meta"> University of Abuja</td></tr>
 						<tr><td><span class="icon-16-user"></span></td><td class="profile-meta"> Male</td></tr>
-						<tr><td><span>...</span></td><td class="profile-meta"><span> View/Edit Full Profile</span></td></tr>
+						<tr><td><span> </span></td><td class="profile-meta"><a id="show-full-profile" href="javascript:toggle('full-profile-data', 'show-full-profile');" > View Full Profile</a> </td></tr>
 					</table>					
 					<div class="clear"></div>
 
@@ -66,7 +81,28 @@
 					<p class="profile-meta-functions"><span class="icon-16-checkmark"></span> Accept Friendship</p>
 
 					<div class="clear"></div>
+					<div id="full-profile-data" class="no-display">
+						<hr>
+						<b>Personal Information</b>
+						<table class="profile-meta">
+							<tr><td>Name</td><td>Ciroma Chukwuma Adekunle <td></tr>
+							<tr><td>Email</td><td>chukwuade2344555555@gmail.com<td></tr>
+							<tr><td>Gender</td><td>Male<td></tr>
+							<tr><td>Date of Birth</td><td>31 January <td></tr>
+							<tr><td>Relationship</td><td>Single<td></tr>
+							<tr><td>Phone</td><td>+234000000000<td></tr>
+							<tr><td>Website</td><td>www.chukwuade.com<td></tr>
+						</table>
+				        <hr>
+						<p><b>Location</b></p>
+						<!-- <iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.ng/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Abuja,+Abuja+Capital+Territory,+Nigeria&amp;aq=0&amp;oq=abuja,+niger&amp;sll=9.033872,8.677457&amp;sspn=11.762511,21.643066&amp;ie=UTF8&amp;hq=&amp;hnear=Abuja,+Abuja+Capital+Territory&amp;t=m&amp;ll=9.066839,7.482376&amp;spn=0.20342,0.136642&amp;z=11&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com.ng/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Abuja,+Abuja+Capital+Territory,+Nigeria&amp;aq=0&amp;oq=abuja,+niger&amp;sll=9.033872,8.677457&amp;sspn=11.762511,21.643066&amp;ie=UTF8&amp;hq=&amp;hnear=Abuja,+Abuja+Capital+Territory&amp;t=m&amp;ll=9.066839,7.482376&amp;spn=0.20342,0.136642&amp;z=11&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+						 -->
+						<hr>
+						<p><b>College</b></p>
+					</div>
 				</div>
+				
+
 				<hr>
 				<div class="aside-wrapper">
 					<h4>Communities</h4>
@@ -123,8 +159,15 @@
 					</p>
 				</div>
 				<hr>
-				<div id= "suggested-friends" class="aside-wrapper no-display" > 
+				<div id= "suggested-friends" class="no-display suggested-friends aside-wrapper" > 
 					<h4>Suggested Friends </h4>
+					<hr>
+					<img class= "friends-thumbnails float-left" src="images/snip.jpg"> 
+					<div class="float-left">
+						<a href=" " class="name">Al-Asaad Bin Muhammad Al-Menk Daud Suleiman</a>
+						<p class="location">Abuja, Federal Capital Territory, Nigeria</p>
+				    </div>
+				    <div class="clear"></div>
 				</div>
 				
 			</div>	
