@@ -74,17 +74,17 @@
 					</table>					
 					<div class="clear"></div>
 
-					<p class="profile-meta-functions"><span class="icon-16-eye"></span> Wink</p>
-					<p class="profile-meta-functions"><span class="icon-16-mail"></span> Send Message</p><!-- 
+					<p class="profile-meta-functions button"><span class="icon-16-eye"></span> Wink</p>
+					<p class="profile-meta-functions button"><span class="icon-16-mail"></span> Send Message</p><!-- 
 					<p class="profile-meta-functions"><span class="icon-16-add-to-list"></span> Request Friendship</p>
-					<p class="profile-meta-functions"><span class="icon-16-cross"></span> De-Friend</p> -->
-					<p class="profile-meta-functions"><span class="icon-16-checkmark"></span> Accept Friendship</p>
+					<p class="profile-meta-functions"><span class="icon-16-cross"></span> De-Friend</p> 
+					<p class="profile-meta-functions button"><span class="icon-16-checkmark"></span> Accept Friendship</p>-->
 
 					<div class="clear"></div>
 					<div id="full-profile-data" class="no-display">
 						<hr>
 						<b>Personal Information</b>
-						<table class="profile-meta">
+						<table class="profile-meta" colspan="1">
 							<tr><td>Name</td><td>Ciroma Chukwuma Adekunle <td></tr>
 							<tr><td>Email</td><td>chukwuade2344555555@gmail.com<td></tr>
 							<tr><td>Gender</td><td>Male<td></tr>
@@ -117,24 +117,24 @@
 					</script>
 					<div class="community-listing"><span><a href="">Ahmadu Bello University, Zaria, Nigeria&nbsp;</a></span>
 						<div class="community-functions-wrapper">
-							<span class="community-functions"><span class="icon-16-cross"></span> Leave</span>
-							<span class="community-functions" onclick="openChat();"><span class="icon-16-chat"></span> Chat</span>
+							<!-- <span class="community-functions button"><span class="icon-16-cross"></span> Leave</span> -->
+							<span class="community-functions button" onclick="openChat();"><span class="icon-16-chat"></span> Chat</span>
 						</div>
 						<div class="clear"></div>
 					</div>
 					<hr>
 					<div class="community-listing"><span><a href="">Eko Radio Party&nbsp;</a></span>
 						<div class="community-functions-wrapper">
-							<span class="community-functions"><span class="icon-16-cross"></span> Leave</span>
-							<span class="community-functions" onclick="openChat();"><span class="icon-16-chat"></span> Chat</span>
+							<!-- <span class="community-functions button"><span class="icon-16-cross"></span> Leave</span> -->
+							<span class="community-functions button" onclick="openChat();"><span class="icon-16-chat"></span> Chat</span>
 						</div>
 						<div class="clear"></div>
 					</div>
 					<hr>
 					<div class="community-listing"><span><a href="">Abuja, Federal Capital Territory, Nigeria&nbsp;</a></span>
 						<div class="community-functions-wrapper">
-							<span class="community-functions"><span class="icon-16-cross"></span> Leave</span>
-							<span class="community-functions" onclick="openChat();"><span class="icon-16-chat"></span> Chat</span>
+							<!-- <span class="community-functions button"><span class="icon-16-cross"></span> Leave</span> -->
+							<span class="community-functions button" onclick="openChat();"><span class="icon-16-chat"></span> Chat</span>
 						</div>
 						<div class="clear"></div>
 					</div>

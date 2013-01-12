@@ -17,7 +17,7 @@ $logo-text-svg: "../images/gossout-logo-text-svg.svg";
 	margin        : 0;
 	padding       : 0;
 	vertical-align: top;
-	-webkit-box-sizing                : border-box;
+	-webkit-box-sizing                : border-box; 
 	-moz-box-sizing                   : border-box;
 	-ms-box-sizing                    : border-box;
 	box-sizing                        : border-box;
@@ -70,6 +70,22 @@ select {
 	background-repeat: no-repeat;
 	background-position: 0 0;
 }
+.button{
+
+	background-color: #F8F8F8;
+	border: 1px solid #DDDDDD;
+	box-shadow: 0px 1px 2px 0 #E4E4E4;
+	&:hover{
+		cursor: pointer;
+		background-color: $nav-gradient-1;
+
+	}
+	&:active{
+		box-shadow: none;
+		box-shadow: inset 1px 1px 1px 0 #E4E4E4;
+	}
+}
+
 .page-wrapper { }
 
 .nav {
@@ -257,11 +273,10 @@ select {
 			font-size: .8em;
 			padding: .4em;
 			margin: 0 0 .2em .2em;
-			border: 1px solid $nav-gradient-1; 
-			background-color: #FFF;
+			background-color: $nav-gradient-1;
+			border: 1px solid #AAA;
 			&:hover {
-				background-color: $nav-gradient-1;
-				cursor: pointer;
+				
 			}
 		}
 	}
@@ -337,7 +352,7 @@ select {
 		border: 1px solid $nav-gradient-1; 
 		background-color: #FFF;
 		&:hover {
-			background-color: $nav-gradient-1;
+			background-color: $nav-gradient-2;
 		}
 	}
 }
@@ -416,15 +431,9 @@ select {
 		font-size: .8em;
 		padding: .4em;
 		margin: 0 0 .2em .2em;
-		border: 1px solid $nav-gradient-1; 
 		overflow: hidden;
 		display: inline-block;
 		float: right;
-		background-color: #FFF;
-		&:hover {
-			background-color: $nav-gradient-1;
-			cursor: pointer;
-		}
 	}
 	.community-listing {
 		font-size: .9em;
@@ -438,10 +447,9 @@ select {
 		margin: .2em;
 		overflow: hidden;
 		display: inline-block;
-		background-color: #FFF;
-		&:hover {
-			background-color: $nav-gradient-1;
-			cursor: pointer;
+		color: #777;
+		&:hover{
+			color: #000;
 		}
 	}
 }

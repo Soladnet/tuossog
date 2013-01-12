@@ -9,7 +9,7 @@
 		</p>
 		<p class="group-2">
 			<span class="icon-camera"></span>
-			<input type="submit" class="submit">
+			<input type="submit" class="submit button" value="Share">
 		</p>
 	</form>
 	<div class="clear"></div>
