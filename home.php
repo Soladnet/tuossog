@@ -138,8 +138,8 @@
 					<hr>
 					<p class="community-listing">
 						<span>
-							<a href=""><span class="icon-16-dot"></span>Show all</a> 
-							<a href=""><span class="icon-16-dot"></span>Suggested Communities</a>
+							<span><span class="icon-16-dot"></span><a href="">Show all</a></span>
+							<span><span class="icon-16-dot"></span><a href="">Suggested Communities</a></span>
 						</span>
 					</p>
 				</div>
@@ -154,8 +154,8 @@
 					<img class= "friends-thumbnails" src="images/snip.jpg">
 					<p class="community-listing">
 						<span>
-							<a href=""><span class="icon-16-dot"></span>Show all</a> 
-							<a id="show-suggested-friends" href="javascript:toggle('suggested-friends', 'show-suggested-friends');" > <span class="icon-16-dot"></span>Suggested Friends</a>
+							<span><span class="icon-16-dot"></span><a href="">Show all</a></span>
+							<span><span class="icon-16-dot"></span><a id="show-suggested-friends" href="javascript:toggle('suggested-friends', 'show-suggested-friends');" >Suggested Friends</a></span>
 						</span>
 					</p>
 				</div>
