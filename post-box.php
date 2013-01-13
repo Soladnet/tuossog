@@ -3,8 +3,9 @@
 		<textarea required placeholder="What say ye?..."></textarea>
 		<p class="group-1">	
 			<select> 
-				<option> Friends </option>
-				<option> Ahmadu Bello University, Zaria, Nigeria </option>
+				<option>Ahmadu Bello University, Zaria, Nigeria </option>
+				<option>Eko Radio Party</option>
+				<option>Abuja, Federal Capital Territory, Nigeria</option>
 			</select>
 		</p>
 		<p class="group-2">

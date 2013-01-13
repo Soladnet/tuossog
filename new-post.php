@@ -18,9 +18,9 @@
 	<!-- *************************************************************************************** -->
 	<div class="post-meta">
 		<hr>
-		<span id="post-new-comment-show" class="" onclick="showHide('post-new-comment');return false;"><span class="icon-16-comment"></span>Comment &nbsp;</span>
-		<span class="post-meta-delete"><span class="icon-16-cross"></span>Delete &nbsp;</span>
-		<span id="post-comments-show" onclick="showHide('post-comments');return false;"><span class="icon-16-list"></span>Show Comment(s) &nbsp;</span>
+		<span id="post-new-comment-show" class="" onclick="showHide('post-new-comment');return false;"><span class="icon-16-comment"></span>Comment </span>
+		<span class="post-meta-delete"><span class="icon-16-cross"></span>Delete </span>
+		<span id="post-comments-show" onclick="showHide('post-comments');return false;"><span class="icon-16-list"></span>Show Comment(s) </span>
 		<span class="post-meta-gossout"><span class="icon-16-gossout"></span>Gossout</span>
 
 	</div>
@@ -34,7 +34,8 @@
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
 			</p>
 			<hr>
-			<span class="post-meta"><span class="icon-16-cross"></span>Delete Post &nbsp;</span>
+			<p class="post-meta"><span><span class="icon-16-cross"></span>Delete Post </span></p>
+			<hr>
 			<div class="clear"></div>
 		</div>
 		<div class="post-comment">

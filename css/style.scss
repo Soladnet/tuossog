@@ -12,12 +12,13 @@ $body-gradient-2: #fdfdfd;
 $logo-image-svg: "../images/gossout-logo-image-svg.svg";
 $logo-image-text-svg: "../images/gossout-logo-text-and-image-svg.svg";
 $logo-text-svg: "../images/gossout-logo-text-svg.svg";
+$max-width: 981px;
 
 * {
 	margin        : 0;
 	padding       : 0;
 	vertical-align: top;
-	-webkit-box-sizing                : border-box; 
+	-webkit-box-sizing                : border-box;
 	-moz-box-sizing                   : border-box;
 	-ms-box-sizing                    : border-box;
 	box-sizing                        : border-box;
@@ -30,7 +31,7 @@ body {
 	background-image: url($logo-image-svg),      -o-linear-gradient(top, $body-gradient-1, $body-gradient-2);
 	background-image: url($logo-image-svg),         linear-gradient(to bottom, $body-gradient-1, $body-gradient-2);
 	background-repeat: no-repeat;
-	background-position: 100% 0%;
+	background-position: 100% 15%;
 	background-attachment: fixed;
 }
 a { text-decoration: none; }
@@ -62,29 +63,20 @@ select {
 .notice{ background: #FFF6BF;    color: #514721;}
 .info{ background: #ddd; color: #264409;}
 .success{ background: #E6EFC2; color: #264409;}
-.icon-16-gossout {
-	display: inline-block;
-	width: 16px;
-	height: 16px;
-	background-image: url(../images/gossout-logo-image-svg.svg);
-	background-repeat: no-repeat;
-	background-position: 0 0;
-}
 .button{
-
 	background-color: #F8F8F8;
 	border: 1px solid #DDDDDD;
 	box-shadow: 0px 1px 2px 0 #E4E4E4;
 	&:hover{
 		cursor: pointer;
 		background-color: $nav-gradient-1;
-
 	}
 	&:active{
 		box-shadow: none;
 		box-shadow: inset 1px 1px 1px 0 #E4E4E4;
 	}
 }
+
 
 .page-wrapper { }
 
@@ -109,6 +101,8 @@ select {
 
 	
 	ul {
+		max-width: $max-width !important;
+		margin: 0 auto !important;
 		img { max-height: 40px; float: left;}
 		li{	
 			-webkit-transition: all 0.5s ease-out;  
@@ -154,8 +148,7 @@ select {
 	}
 }
 .nav-user {
-	font-family: 'Open Sans',sans-serif;
-	padding: 0 2em;
+	font-family: 'Segoe UI',sans-serif;
 	margin: 3px 0;
 	background: #fff;
 	background: rgba(255, 255, 255, 0.9);
@@ -163,6 +156,8 @@ select {
 		padding: .2em;
 	}
 	ul {
+		max-width: $max-width !important;
+		margin: 0 auto !important;
 		li{
 			padding: .6em;
 			font-size: .75em;
@@ -186,7 +181,9 @@ select {
 }
 
 .content {
-	font-family: 'Open Sans',sans-serif;
+	max-width: $max-width !important;
+	margin: .15em auto !important;
+	font-family: 'Segoe UI',sans-serif;
 	-webkit-border-radius: 5px;
 	-o-border-radius: 5px;
 	border-radius: 5px;
@@ -196,7 +193,6 @@ select {
 	background: #fff;
 	background: rgba(255, 255, 255, 0.7);
 	border: 8px transparent;
-	margin: .5em 2em;
 	@media only screen and (max-width : 1024px) {
 		margin: .5em;
 		padding: 0;
@@ -232,7 +228,7 @@ select {
 		overflow: hidden;
 		padding: 0 0 0 22px;
 		border: 1px solid #eee;
-		background:	rgba(255, 255, 255, 0.9) url(../images/location.png) no-repeat left;
+		background:	rgba(255, 255, 255, 0.9) url(../images/community.png) no-repeat left;
 		width: 120px;
 		margin: 0 .3em 0 0;
 		&:hover{
@@ -275,8 +271,10 @@ select {
 			margin: 0 0 .2em .2em;
 			background-color: $nav-gradient-1;
 			border: 1px solid #AAA;
+
 			&:hover {
-				
+				background-color: $nav-gradient-2;
+				cursor: pointer;
 			}
 		}
 	}
@@ -349,8 +347,8 @@ select {
 		height: 38px;
 		padding: .5em;
 		margin: .2em !important;
-		border: 1px solid $nav-gradient-1; 
-		background-color: #FFF;
+		background-color: $nav-gradient-1; 
+		border: 1px solid #aaa;
 		&:hover {
 			background-color: $nav-gradient-2;
 		}
@@ -396,6 +394,9 @@ select {
 		} 
 }
 .aside-wrapper{
+	border: 1px solid #ebebeb;
+	-webkit-box-shadow: 0 0 3px 0 #dbdbdb;
+			box-shadow: 0 0 3px 0 #dbdbdb;
 	background: #fff;
 	background: rgba(255, 255, 255, 0.9);
 	margin: 0 0 .3em 0;
@@ -431,9 +432,15 @@ select {
 		font-size: .8em;
 		padding: .4em;
 		margin: 0 0 .2em .2em;
+		border: 1px solid $nav-gradient-1; 
 		overflow: hidden;
 		display: inline-block;
 		float: right;
+		background-color: #FFF;
+		&:hover {
+			background-color: $nav-gradient-1;
+			cursor: pointer;
+		}
 	}
 	.community-listing {
 		font-size: .9em;
@@ -444,17 +451,21 @@ select {
 	}
 	.community-functions {
 		padding: .3em;
-		margin: .2em;
 		overflow: hidden;
 		display: inline-block;
+		background-color: #FFF;
 		color: #777;
 		&:hover{
 			color: #000;
-		}
+			background-color: $nav-gradient-1;
+			cursor: pointer;
 	}
 }
+}
 .footer {
-	font-family: 'Open Sans',sans-serif;
+	max-width: $max-width !important;
+	margin: 0 auto !important;
+	font-family: 'Segoe UI',sans-serif;
 	padding: .3em;
 	margin: .5em 2em;
 	@media only screen and (max-width : 1024px) {

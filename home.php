@@ -68,23 +68,23 @@
 					<table>
 						<tr><td></td><td><h3>Ciroma Chukwuma Adekunle</h3></td></tr>
 						<tr><td><span class="icon-16-map"></span></td><td class="profile-meta"> Abuja, Federal Capital Territory, Nigeria</td></tr>
-						<tr><td><span class="icon-16-calendar"></span></td><td class="profile-meta"> University of Abuja</td></tr>
-						<tr><td><span class="icon-16-user"></span></td><td class="profile-meta"> Male</td></tr>
-						<tr><td><span> </span></td><td class="profile-meta"><a id="show-full-profile" href="javascript:toggle('full-profile-data', 'show-full-profile');" > View Full Profile</a> </td></tr>
+						<tr><td><span class="icon-16-female"></span></td><td class="profile-meta"> Female</td></tr>
+						<tr><td><span class="icon-16-male"></span></td><td class="profile-meta"> Male</td></tr>
+						<tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a id="show-full-profile" href="javascript:toggle('full-profile-data', 'show-full-profile');" > View Full Profile</a> </td></tr>
 					</table>					
 					<div class="clear"></div>
 
 					<p class="profile-meta-functions button"><span class="icon-16-eye"></span> Wink</p>
 					<p class="profile-meta-functions button"><span class="icon-16-mail"></span> Send Message</p><!-- 
 					<p class="profile-meta-functions"><span class="icon-16-add-to-list"></span> Request Friendship</p>
-					<p class="profile-meta-functions"><span class="icon-16-cross"></span> De-Friend</p> 
-					<p class="profile-meta-functions button"><span class="icon-16-checkmark"></span> Accept Friendship</p>-->
+					<p class="profile-meta-functions"><span class="icon-16-cross"></span> De-Friend</p> -->
+					<p class="profile-meta-functions button"><span class="icon-16-checkmark"></span> Accept Friendship</p>
 
 					<div class="clear"></div>
 					<div id="full-profile-data" class="no-display">
 						<hr>
 						<b>Personal Information</b>
-						<table class="profile-meta" colspan="1">
+						<table class="profile-meta " colspan="1">
 							<tr><td>Name</td><td>Ciroma Chukwuma Adekunle <td></tr>
 							<tr><td>Email</td><td>chukwuade2344555555@gmail.com<td></tr>
 							<tr><td>Gender</td><td>Male<td></tr>
@@ -106,7 +106,7 @@
 				<hr>
 				<div class="aside-wrapper">
 					<h4>Communities</h4>
-					<p>You're a member of <a href=""><span class="icon-16-location"></span>&nbsp;5 Communities</a></p>
+					<p>You're a member of <a href=""><span class="icon-16-contract"></span>5 Communities</a></p>
 					<br>
 					<hr>
 					<script type="text/javascript">
@@ -115,37 +115,38 @@
 					};
 					
 					</script>
-					<div class="community-listing"><span><a href="">Ahmadu Bello University, Zaria, Nigeria&nbsp;</a></span>
+					<div class="community-listing"><span><a href="">Ahmadu Bello University, Zaria, Nigeria.</a></span>
 						<div class="community-functions-wrapper">
-							<!-- <span class="community-functions button"><span class="icon-16-cross"></span> Leave</span> -->
 							<span class="community-functions button" onclick="openChat();"><span class="icon-16-chat"></span> Chat</span>
 						</div>
 						<div class="clear"></div>
 					</div>
 					<hr>
-					<div class="community-listing"><span><a href="">Eko Radio Party&nbsp;</a></span>
+					<div class="community-listing"><span><a href="">Eko Radio Party</a></span>
 						<div class="community-functions-wrapper">
-							<!-- <span class="community-functions button"><span class="icon-16-cross"></span> Leave</span> -->
 							<span class="community-functions button" onclick="openChat();"><span class="icon-16-chat"></span> Chat</span>
 						</div>
 						<div class="clear"></div>
 					</div>
 					<hr>
-					<div class="community-listing"><span><a href="">Abuja, Federal Capital Territory, Nigeria&nbsp;</a></span>
+					<div class="community-listing"><span><a href="">Abuja, Federal Capital Territory, Nigeria</a></span>
 						<div class="community-functions-wrapper">
-							<!-- <span class="community-functions button"><span class="icon-16-cross"></span> Leave</span> -->
 							<span class="community-functions button" onclick="openChat();"><span class="icon-16-chat"></span> Chat</span>
 						</div>
 						<div class="clear"></div>
 					</div>
 					<hr>
-					<p class="community-listing"><span><a href="">Show all&nbsp;</a> <a href="">Suggested Communities</a></span>
+					<p class="community-listing">
+						<span>
+							<a href=""><span class="icon-16-dot"></span>Show all</a> 
+							<a href=""><span class="icon-16-dot"></span>Suggested Communities</a>
+						</span>
 					</p>
 				</div>
 				<hr>
 				<div class="aside-wrapper">
 					<h4>Friends</h4>
-					<p>You have <a href=""><span class="icon-16-user"></span>&nbsp;205 Friends</a></p>
+					<p>You have <a href=""><span class="icon-16-user"></span>205 Friends</a></p>
 					<hr>
 					<img class= "friends-thumbnails" src="images/1.jpg">
 					<img class= "friends-thumbnails" src="images/2.jpg">
@@ -153,8 +154,8 @@
 					<img class= "friends-thumbnails" src="images/snip.jpg">
 					<p class="community-listing">
 						<span>
-							<a href="">Show all&nbsp;</a> 
-							<a id="show-suggested-friends" href="javascript:toggle('suggested-friends', 'show-suggested-friends');" > Suggested Friends</a>
+							<a href=""><span class="icon-16-dot"></span>Show all</a> 
+							<a id="show-suggested-friends" href="javascript:toggle('suggested-friends', 'show-suggested-friends');" > <span class="icon-16-dot"></span>Suggested Friends</a>
 						</span>
 					</p>
 				</div>
