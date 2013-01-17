@@ -1,6 +1,6 @@
 @import "sprites.scss";
 @import "16px-sprites.scss";
-
+@import "communities.scss";
 
 $gossout-black: #707373;
 $gossout-green-1: #9ac43c;
@@ -365,6 +365,9 @@ select {
 		}
 	}
 }
+
+
+
 .friends-thumbnails{
 	display: inline-block;
 	border: 1px solid #ddd;

@@ -1,0 +1,75 @@
+$nav-gradient-1: #cbe3ba;
+$nav-gradient-2: #a6cc8b;
+.communities-list{
+	width: 62.5%;
+	float: right;
+	padding: 0 0 0 .2em;padding: .5em;
+	@media only screen and (max-width : 720px) {
+		width: 100%;
+		font-size: .9em;
+
+
+	}
+	.community-box{
+	margin: 0 0 .5em 0;
+	padding: .5em;
+	background: #fff;
+	background: rgba(255, 255, 255, 0.9);
+	-webkit-box-shadow: 0 0 1px 0 #BDBDBD;
+	box-shadow: 0 0 2px 0 #BDBDBD;
+	    .name-members-box{
+	    	padding: 0 0 .3em 0;
+	    	vertical-align: text-bottom;
+
+	    }
+		.details{
+			padding: 0 0 .2em 0;
+			font-size:.9em;
+		
+			}
+		.members{
+			float:left;
+			margin-right:.3em;
+			font-size:.8em;
+			@media only screen and (max-width : 240px) {
+		
+			}
+		}
+		a{
+			color: #777;
+			&:hover{
+			color: #000;
+			}
+		}
+		h3{
+			font-weight: normal;
+			font-size:1em;
+			padding: 0 0 .3em 0;
+			
+			display:inline-block;
+	        }
+	 }
+	.community-search-box{
+		
+	}
+	.community-search-field{
+		min-width: 75%;
+		@media only screen and (max-width : 240px) {
+
+			}
+	}
+	.community-search-button{
+		display: block; 
+		float: right;
+		font-size: .8em;
+		padding: .4em;
+		margin: 0 0 .2em .2em;
+		background-color: $nav-gradient-1;
+		border: 1px solid #AAA;
+
+		&:hover {
+			background-color: $nav-gradient-2;
+			cursor: pointer;
+		}
+	}
+}
