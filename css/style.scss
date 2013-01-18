@@ -1,6 +1,8 @@
 @import "sprites.scss";
 @import "16px-sprites.scss";
 @import "communities.scss";
+@import "index.scss";
+
 
 $gossout-black: #707373;
 $gossout-green-1: #9ac43c;
@@ -23,22 +25,18 @@ $max-width: 981px;
 	-ms-box-sizing                    : border-box;
 	box-sizing                        : border-box;
 }
-body {
-	background-color: $body-gradient-1;
-	background-image: url($logo-image-svg), -webkit-gradient(linear, left top, left bottom, from($body-gradient-1), to($body-gradient-2));
-	background-image: url($logo-image-svg), -webkit-linear-gradient(top, $body-gradient-1, $body-gradient-2);
-	background-image: url($logo-image-svg),    -moz-linear-gradient(top, $body-gradient-1, $body-gradient-2);
-	background-image: url($logo-image-svg),      -o-linear-gradient(top, $body-gradient-1, $body-gradient-2);
-	background-image: url($logo-image-svg),         linear-gradient(to bottom, $body-gradient-1, $body-gradient-2);
-	background-repeat: no-repeat;
-	background-position: 99.5% 10%, 0% 0%;
-	background-size: auto, 100%;
-	background-attachment: fixed;
+html {
+	font-family: "open sans",arial,sans-serif;
+	font-weight: 300;
 }
 a { text-decoration: none; }
 ol,ul { list-style: none; }
-h1,h2,h3,h4,h5,h6 { margin: .2em 0;}
-hr { margin: .3em 0; width: 100%; height: 1px; border-width:0; color: #eee; background-color: #eee;}
+h1,h2,h3,h4,h5,h6 { 
+	margin: .2em 0; 
+	font-weight: 500;
+	line-height: 1;
+}
+hr { margin: .3em 0; width: 100%; height: 1px; border-width:0; background-color: #ddd;}
 img { border: none; padding: .2em; max-width: 100%;}
 textarea { resize: none;}
 
@@ -77,9 +75,27 @@ select {
 		box-shadow: inset 1px 1px 1px 0 #E4E4E4;
 	}
 }
+.tag a {
+	padding: 0 .15em;
+	color: #777;
+	font-style: italic;
+	&:hover{
+		color: #000;
+	}
+}
 
-
-.page-wrapper { }
+.page-wrapper {
+	background-color: $body-gradient-1;
+	background-image: url($logo-image-svg), -webkit-gradient(linear, left top, left bottom, from($body-gradient-1), to($body-gradient-2));
+	background-image: url($logo-image-svg), -webkit-linear-gradient(top, $body-gradient-1, $body-gradient-2);
+	background-image: url($logo-image-svg),    -moz-linear-gradient(top, $body-gradient-1, $body-gradient-2);
+	background-image: url($logo-image-svg),      -o-linear-gradient(top, $body-gradient-1, $body-gradient-2);
+	background-image: url($logo-image-svg),         linear-gradient(to bottom, $body-gradient-1, $body-gradient-2);
+	background-repeat: no-repeat;
+	background-position: 99.5% 10%, 0% 0%;
+	background-size: auto, 100%;
+	background-attachment: fixed;
+	}
 
 .nav {
 	@media only screen and (min-width: 1024px) {
@@ -109,14 +125,12 @@ select {
 			transition: all 0.5s ease-out;
 			cursor: pointer;
 			float: left;
-			padding: .5em .7em;
+			padding: .5em .5em .5em 0;
+			margin: 0 .25em 0 0;
 			font-family: 'Segoe UI Light', Segoe UI,sans-serif;
 			&:hover {
 				background: #fff;
 				background: rgba(255, 255, 255, 0.9);
-			}
-			span{
-				padding: 0 .2em;
 			}
 			input {
 				-webkit-border-radius: 5px;
@@ -146,7 +160,6 @@ select {
 	}
 }
 .nav-user {
-	font-family: 'Segoe UI',sans-serif;
 	margin: 3px 0;
 	background: #fff;
 	background: rgba(255, 255, 255, 0.9);
@@ -157,18 +170,20 @@ select {
 		max-width: $max-width !important;
 		margin: 0 auto !important;
 		li{
-			padding: .6em;
+			padding: .6em 0;
 			font-size: .75em;
 			float: left; 
 			a{
+				padding: 0 .5em 0 0;
 				color: #555;
 				&:hover{
 					color:#000;
 				}
 			}
 			span{
-				padding: 0 .3em;
+				padding: 0 .1em;
 			}
+
 		}
 	}
 	-webkit-box-shadow: 0px 1px 6px 0px #555;
@@ -181,26 +196,24 @@ select {
 .content {
 	max-width: $max-width !important;
 	margin: .15em auto !important;
-	font-family: 'Segoe UI',sans-serif;
 	-webkit-border-radius: 5px;
-	-o-border-radius: 5px;
-	border-radius: 5px;
+		 -o-border-radius: 5px;
+			border-radius: 5px;
 	-webkit-box-shadow: 0px 1px 5px 0px #888;
-	box-shadow: 0px 1px 5px 0px #888;
+			box-shadow: 0px 1px 5px 0px #888;
 	padding: .7em;
 	background: #f2f2f2;
 	background: rgba(255, 255, 255, 0.7);
 	border: 8px transparent;
 	@media only screen and (max-width : 1024px) {
-		margin: .5em;
-		padding: 0;
+		margin: .2em !important;
 		border: none;
 
 	}
 	@media only screen and (max-width : 720px) {		
 		-webkit-box-shadow: none;
 		box-shadow: none;
-		padding: .7em;
+		padding: .4em;
 		background: none;
 	}
 }
@@ -329,6 +342,8 @@ select {
 	color: $gossout-black;
 }
 .post-new-comment{
+	margin: .2em;
+	padding: .2em;
 	display: none;
 	span {
 		margin: .3em 0 0 0;
@@ -365,9 +380,6 @@ select {
 		}
 	}
 }
-
-
-
 .friends-thumbnails{
 	display: inline-block;
 	border: 1px solid #ddd;
@@ -379,15 +391,15 @@ select {
 }
 .aside {
 	font-size: .9em;
-	overflow: auto;
+	overflow: auto !important;
 	padding: .5em;
 	margin: 0 1em .5em 0;
 	@media only screen and (max-width : 720px) {
 		margin: 0;
 	}
 	-webkit-border-radius: 4px; 
-	-o-border-radius: 4px;
-	border-radius: 4px;
+		 -o-border-radius: 4px;
+	   		border-radius: 4px;
 	border: 1px solid #eee;
 	a {
 		color: #777;
@@ -399,7 +411,7 @@ select {
 .aside-wrapper{
 	border: 1px solid #ebebeb;
 	-webkit-box-shadow: 0 0 3px 0 #dbdbdb;
-	box-shadow: 0 0 3px 0 #dbdbdb;
+			box-shadow: 0 0 3px 0 #dbdbdb;
 	background: #fff;
 	background: rgba(255, 255, 255, 0.9);
 	margin: 0 0 .3em 0;
@@ -468,7 +480,6 @@ select {
 .footer {
 	max-width: $max-width !important;
 	margin: 0 auto !important;
-	font-family: 'Segoe UI',sans-serif;
 	padding: .3em;
 	margin: .5em 2em;
 	@media only screen and (max-width : 1024px) {
