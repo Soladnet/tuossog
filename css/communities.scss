@@ -17,22 +17,53 @@ $nav-gradient-2: #a6cc8b;
 	background: rgba(255, 255, 255, 0.9);
 	-webkit-box-shadow: 0 0 1px 0 #BDBDBD;
 	box-shadow: 0 0 2px 0 #BDBDBD;
-	    .name-members-box{
+	
+	.community-box-wrapper{
+
+		@media only screen and (max-width : 320px){
+			
+		}
+	}
+
+	    .community-image{
+	    	display: inline-block;
+	    	width:20%;
+	    	min-width:100px;
+	    	@media only screen and (max-width : 320px){
+			
+			}
+	    }
+	    .community-text{
+	    	display: inline-block;
+	    	width:75%;
+	    	@media only screen and (max-width : 768px){
+				width:70%;
+			}
+	    	@media only screen and (max-width : 380px){
+				width:100%;
+			}
+	    	
+
+	    }
+	    .community-name{
 	    	padding: 0 0 .3em 0;
 	    	vertical-align: text-bottom;
+	    	border-bottom: 1px solid #eee;
 
 	    }
 		.details{
-			padding: 0 0 .2em 0;
+			padding: .3em 0 .3em 0;
 			font-size:.9em;
-		
+			text-align:justify;
+			text-justify:inter-word;
+			min-height:50px;
 			}
 		.members{
-			float:left;
-			margin-right:.3em;
-			font-size:.8em;
-			@media only screen and (max-width : 240px) {
-		
+			margin-right:.5em;
+			font-size:.7em;
+			@media only screen and (max-width : 800px) {
+				float:left;
+				display: inline-block;
 			}
 		}
 		a{
