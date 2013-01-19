@@ -11,7 +11,7 @@
 		include ("nav.php");
 		include ("nav-user.php");
 		?>
-		<div class="logo"><img src="images/gossout-logo-text-and-image.png" alt=""></div>
+		<div class="logo"><img src="images/gossout-logo-text-svg.svg" alt=""></div>
 
 		<div class="content">
 			<script type="text/javascript">

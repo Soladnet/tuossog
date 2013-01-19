@@ -8,8 +8,7 @@
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 		</p>
 		<img src="images/pic-1.jpg">						
-		<img src="images/eset.jpg">						
-		<img src="images/pic-2.jpg">						
+		<img src="images/eset.jpg">							
 		<h3 class="name">Sample Name</h3>
 		<span class="post-time"><span class="icon-16-time"></span> 5 minutes ago </span>
 		<span class="post-time"><span class="icon-16-checkmark"></span> Seen by 242 </span>

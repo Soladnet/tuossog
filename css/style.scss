@@ -120,7 +120,6 @@ select {
 		img { max-height: 40px; float: left;}
 		.last { border-right: 1px solid $nav-border-1;}
 		li{	
-			text-transform: uppercase;;
 			border-left: 1px solid $nav-border-1;			
 			-webkit-transition: all 0.4s ease-out;  
 			-moz-transition: all 0.4s ease-out;  
@@ -203,9 +202,9 @@ select {
 	max-width: $max-width !important;
 	margin: 0 auto !important;
 	img { 
+		max-width: 200px !important;
 		margin-top: .5em !important;
 		display: block;
-		max-height: 100px;
 		margin: 0 auto;
 		
 	}
