@@ -1,20 +1,23 @@
-@import "sprites.scss";
-@import "16px-sprites.scss";
-@import "communities.scss";
-@import "index.scss";
-
-
 $gossout-black: #707373;
 $gossout-green-1: #9ac43c;
 $gossout-green-2: #9ac43c;
-$nav-gradient-1: #cbe3ba;
-$nav-gradient-2: #a6cc8b;
+$nav-gradient-1: #99C43D;
+$nav-gradient-2: #BAD533;
+
+$nav-border-1: #8AA883;
+$nav-border-2: #eaeaea;
 $body-gradient-1: #bababa;
 $body-gradient-2: #fdfdfd;
 $logo-image-svg: "../images/gossout-logo-image-svg.svg";
 $logo-image-text-svg: "../images/gossout-logo-text-and-image-svg.svg";
 $logo-text-svg: "../images/gossout-logo-text-svg.svg";
-$max-width: 981px; 
+$max-width: 1025px; 
+
+@import "sprites.scss";
+@import "16px-sprites.scss";
+@import "communities.scss";
+@import "index.scss";
+
 
 * {
 	margin        : 0;
@@ -32,6 +35,7 @@ html {
 a { text-decoration: none; }
 ol,ul { list-style: none; }
 h1,h2,h3,h4,h5,h6 { 
+	color: $nav-gradient-1;
 	margin: .2em 0; 
 	font-weight: 500;
 	line-height: 1;
@@ -63,16 +67,17 @@ select {
 .info{ background: #ddd; color: #264409;}
 .success{ background: #E6EFC2; color: #264409;}
 .button{
-	background-color: #F8F8F8;
-	border: 1px solid #DDDDDD;
-	box-shadow: 0px 1px 2px 0 #E4E4E4;
+	padding: .7em;
+	background-color: #f8f8f8;
+	font-size: .8em;
+	margin: 0 0 .2em .2em;
+	display: inline-block;
+	overflow: auto;
 	&:hover{
 		cursor: pointer;
 		background-color: $nav-gradient-1;
 	}
 	&:active{
-		box-shadow: none;
-		box-shadow: inset 1px 1px 1px 0 #E4E4E4;
 	}
 }
 .tag a {
@@ -85,6 +90,9 @@ select {
 }
 
 .page-wrapper {
+	background-color: #f6f6f6;
+	}
+.page-wrapper2 {
 	background-color: $body-gradient-1;
 	background-image: url($logo-image-svg), -webkit-gradient(linear, left top, left bottom, from($body-gradient-1), to($body-gradient-2));
 	background-image: url($logo-image-svg), -webkit-linear-gradient(top, $body-gradient-1, $body-gradient-2);
@@ -105,29 +113,26 @@ select {
 	a {
 		color: #222;
 	}
-	background-color: $nav-gradient-1;
-	background-image: -webkit-gradient(linear, left top, left bottom, from($nav-gradient-1), to($nav-gradient-2));
-	background-image: -webkit-linear-gradient(top, $nav-gradient-1, $nav-gradient-2);
-	background-image:    -moz-linear-gradient(top, $nav-gradient-1, $nav-gradient-2);
-	background-image:      -o-linear-gradient(top, $nav-gradient-1, $nav-gradient-2);
-	background-image:         linear-gradient(to bottom, $nav-gradient-1, $nav-gradient-2);
-
-
-	
+	background-color: $nav-gradient-1;	
 	ul {
 		max-width: $max-width !important;
 		margin: 0 auto !important;
 		img { max-height: 40px; float: left;}
+		.last { border-right: 1px solid $nav-border-1;}
 		li{	
-			-webkit-transition: all 0.5s ease-out;  
-			-moz-transition: all 0.5s ease-out;  
-			-o-transition: all 0.5s ease-out;  
-			transition: all 0.5s ease-out;
+			text-transform: uppercase;;
+			border-left: 1px solid $nav-border-1;			
+			-webkit-transition: all 0.4s ease-out;  
+			-moz-transition: all 0.4s ease-out;  
+			-o-transition: all 0.4s ease-out;  
+			transition: all 0.4s ease-out;
 			cursor: pointer;
 			float: left;
-			padding: .5em .5em .5em 0;
-			margin: 0 .25em 0 0;
+			padding: .3em .5em;
 			font-family: 'Segoe UI Light', Segoe UI,sans-serif;
+			font-size: 1.2em;
+			text-shadow: 0 1px 1px rgba(0, 0, 0, 0.48);
+			box-shadow: 2px 0 0 rgba(255, 255, 255, 0.11);
 			&:hover {
 				background: #fff;
 				background: rgba(255, 255, 255, 0.9);
@@ -152,6 +157,7 @@ select {
 	}
 }
 .nav-search-container {
+	border: none !important;
 	&:hover {
 		background-color: transparent !important;
 	}
@@ -169,13 +175,14 @@ select {
 	ul {
 		max-width: $max-width !important;
 		margin: 0 auto !important;
+		.last { border-right: 1px solid $nav-border-2;}
 		li{
-			padding: .6em 0;
+			border-left: 1px solid $nav-border-2;
+			padding: .5em;
 			font-size: .75em;
 			float: left; 
 			a{
-				padding: 0 .5em 0 0;
-				color: #555;
+				color: #969696;
 				&:hover{
 					color:#000;
 				}
@@ -192,29 +199,40 @@ select {
 .nav-user-profile {
 	float: right !important;
 }
-
+.logo {
+	max-width: $max-width !important;
+	margin: 0 auto !important;
+	img { 
+		margin-top: .5em !important;
+		display: block;
+		max-height: 100px;
+		margin: 0 auto;
+		
+	}
+}
 .content {
 	max-width: $max-width !important;
-	margin: .15em auto !important;
+	margin: 0 auto !important;
+	margin-top: .5em !important;
 	-webkit-border-radius: 5px;
 		 -o-border-radius: 5px;
 			border-radius: 5px;
-	-webkit-box-shadow: 0px 1px 5px 0px #888;
-			box-shadow: 0px 1px 5px 0px #888;
-	padding: .7em;
-	background: #f2f2f2;
-	background: rgba(255, 255, 255, 0.7);
-	border: 8px transparent;
-	@media only screen and (max-width : 1024px) {
-		margin: .2em !important;
-		border: none;
+	padding: .5em;
+	background: #fff;
+	border: 1px solid #ddd;
+	@media only screen and (max-width : 1024px) {	
+		margin: .4em !important;
+		background-color: #fff;
 
 	}
-	@media only screen and (max-width : 720px) {		
-		-webkit-box-shadow: none;
-		box-shadow: none;
+	@media only screen and (max-width : 720px) {	
+	-webkit-border-radius: 0 !important;
+		 -o-border-radius: 0 !important;
+			border-radius: 0 !important;
+		margin: .2em 0 !important;
 		padding: .4em;
-		background: none;
+		border: none !important;
+		border-top: 1px solid #ddd !important;
 	}
 }
 .posts{
@@ -227,12 +245,10 @@ select {
 	}
 }
 .post-box{
-	margin: 0 0 .5em 0;
+	margin: 0 0 1em 0;
 	padding: .5em;
-	background: #fff;
-	background: rgba(255, 255, 255, 0.9);
-	-webkit-box-shadow: 0 0 4px 0 #BDBDBD;
-	box-shadow: 0 0 4px 0 #BDBDBD;
+	border: 1px solid #dadada;
+	background-color: #fff;
 	.group-1 {
 		font-size: .8em;
 		float: left;
@@ -267,7 +283,6 @@ select {
 		} 
 		&:focus{
 			outline: 0;
-			box-shadow: inset 0 0 5px $nav-gradient-1;
 			border:1px solid $nav-gradient-1;
 			-webkit-transition: all 0.5s ease-out;  
 			-moz-transition: all 0.5s ease-out;  
@@ -303,8 +318,6 @@ select {
 	-o-border-radius: 4px;
 	border-radius: 4px;
 	border: 1px solid #eee;
-	-webkit-box-shadow: 0 0 4px 0 #BDBDBD;
-	box-shadow: 0 0 4px 0 #BDBDBD; 
 	&:hover {
 		border: 1px solid #bbb;
 	}
@@ -317,18 +330,20 @@ select {
 		margin: .4em auto;
 	}
 }
+.post-content {
+	color: #4c4c4c;
+	line-height: 1.5em;
+}
 .post-comments {
 	display: none;
 	background: #fafafa;
-	padding: .2em;
-	font-size: .9em;
 }
 .post-comment {
-	border: 1px solid #e3e3e3;
-	padding: 0 .2em;
-	margin: .2em;	
+	border-bottom: 1px solid #e3e3e3;
+	padding: .4em;	
 	p {
 		padding: 0 0 0 47px;
+		line-height: 1.4em;
 	}
 }
 .post-thumb {
@@ -397,10 +412,6 @@ select {
 	@media only screen and (max-width : 720px) {
 		margin: 0;
 	}
-	-webkit-border-radius: 4px; 
-		 -o-border-radius: 4px;
-	   		border-radius: 4px;
-	border: 1px solid #eee;
 	a {
 		color: #777;
 		&:hover{
@@ -410,12 +421,9 @@ select {
 }
 .aside-wrapper{
 	border: 1px solid #ebebeb;
-	-webkit-box-shadow: 0 0 3px 0 #dbdbdb;
-			box-shadow: 0 0 3px 0 #dbdbdb;
-	background: #fff;
-	background: rgba(255, 255, 255, 0.9);
-	margin: 0 0 .3em 0;
-	padding: .3em;	
+	background: #fcfcfc;
+	margin: 0 0 1em 0;
+	padding: .3em .3em 1em .3em;	
 	.profile-pic {
 		float: left;
 		margin: 0 .2em .2em 0;
@@ -443,38 +451,17 @@ select {
 		font-size: .8em;
 
 	}
-	.profile-meta-functions {
-		font-size: .8em;
-		padding: .4em;
-		margin: 0 0 .2em .2em;
-		border: 1px solid $nav-gradient-1; 
-		overflow: hidden;
-		display: inline-block;
-		float: right;
-		background-color: #FFF;
-		&:hover {
-			background-color: $nav-gradient-1;
-			cursor: pointer;
-		}
-	}
 	.community-listing {
 		font-size: .9em;
-		
+		padding: .5em 0;		
 	}
 	.community-functions-wrapper{
 		float: right;
 	}
 	.community-functions {
-		padding: .3em;
+		padding: .5em;
 		overflow: hidden;
 		display: inline-block;
-		background-color: #FFF;
-		color: #777;
-		&:hover{
-			color: #000;
-			background-color: $nav-gradient-1;
-			cursor: pointer;
-		}
 	}
 }
 .footer {

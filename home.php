@@ -11,6 +11,8 @@
 		include ("nav.php");
 		include ("nav-user.php");
 		?>
+		<div class="logo"><img src="images/gossout-logo-text-and-image.png" alt=""></div>
+
 		<div class="content">
 			<script type="text/javascript">
 			function showHide(shID) {
@@ -37,7 +39,7 @@
 						text.innerHTML = "Suggested Friends";
 					}
 					else if (text.id=="show-full-profile"){
-					    text.innerHTML = "View Full Profile";
+						text.innerHTML = "View Full Profile";
 					}
 					
 				}
@@ -47,7 +49,7 @@
 					if(text.id=="show-suggested-friends"){
 						text.innerHTML = "Hide Suggested Friends";
 					}
-						
+					
 					else if(text.id=="show-full-profile"){
 						text.innerHTML = "Hide Full Profile";
 					}
@@ -74,11 +76,11 @@
 					</table>					
 					<div class="clear"></div>
 
-					<p class="profile-meta-functions button"><span class="icon-16-eye"></span> Wink</p>
-					<p class="profile-meta-functions button"><span class="icon-16-mail"></span> Send Message</p><!-- 
-					<p class="profile-meta-functions"><span class="icon-16-add-to-list"></span> Request Friendship</p>
-					<p class="profile-meta-functions"><span class="icon-16-cross"></span> De-Friend</p> -->
-					<p class="profile-meta-functions button"><span class="icon-16-checkmark"></span> Accept Friendship</p>
+					<p class=" button"><span class="icon-16-eye"></span> Wink</p>
+					<p class=" button"><span class="icon-16-mail"></span> Send Message</p><!-- 
+					<p class=""><span class="icon-16-add-to-list"></span> Request Friendship</p>
+					<p class=""><span class="icon-16-cross"></span> De-Friend</p> -->
+					<p class=" button"><span class="icon-16-checkmark"></span> Accept Friendship</p>
 
 					<div class="clear"></div>
 					<div id="full-profile-data" class="no-display">
@@ -93,47 +95,46 @@
 							<tr><td>Phone</td><td>+234000000000<td></tr>
 							<tr><td>Website</td><td>www.chukwuade.com<td></tr>
 						</table>
-				        <hr>
+						<hr>
 						<p><b>Location</b></p>
 						<!-- <iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.ng/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Abuja,+Abuja+Capital+Territory,+Nigeria&amp;aq=0&amp;oq=abuja,+niger&amp;sll=9.033872,8.677457&amp;sspn=11.762511,21.643066&amp;ie=UTF8&amp;hq=&amp;hnear=Abuja,+Abuja+Capital+Territory&amp;t=m&amp;ll=9.066839,7.482376&amp;spn=0.20342,0.136642&amp;z=11&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com.ng/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Abuja,+Abuja+Capital+Territory,+Nigeria&amp;aq=0&amp;oq=abuja,+niger&amp;sll=9.033872,8.677457&amp;sspn=11.762511,21.643066&amp;ie=UTF8&amp;hq=&amp;hnear=Abuja,+Abuja+Capital+Territory&amp;t=m&amp;ll=9.066839,7.482376&amp;spn=0.20342,0.136642&amp;z=11&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>
-						 -->
-						<hr>
-						<p><b>College</b></p>
-					</div>
-				</div>
-				
-
-				<hr>
-				<div class="aside-wrapper">
-					<h4>Communities</h4>
-					<p>You're a member of <a href=""><span class="icon-16-contract"></span>5 Communities</a></p>
-					<br>
+					-->
 					<hr>
-					<script type="text/javascript">
-					function openChat() {
-						window.open("http://tlk.io/Gossout-30",null,"toolbar=no,menubar=no,resizable =yes,copyhistory=no,location=no,directories=no,height=500,width=300");
-					};
-					
-					</script>
-					<div class="community-listing"><span><a href="">Ahmadu Bello University, Zaria, Nigeria.</a></span>
-						<div class="community-functions-wrapper">
+					<p><b>College</b></p>
+				</div>
+			</div>
+			
+
+			<div class="aside-wrapper">
+				<h3>Communities</h3>
+				<p>You're a member of <a href=""><span class="icon-16-contract"></span>5 Communities</a></p>
+				<br>
+				<hr>
+				<script type="text/javascript">
+				function openChat() {
+					window.open("http://tlk.io/Gossout-30",null,"toolbar=no,menubar=no,resizable =yes,copyhistory=no,location=no,directories=no,height=500,width=300");
+				};
+				
+				</script>
+				<div class="community-listing"><span><a href="">Ahmadu Bello University, Zaria, Nigeria.</a></span>
+						<!-- <div class="community-functions-wrapper">
 							<span class="community-functions button" onclick="openChat();"><span class="icon-16-chat"></span> Chat</span>
 						</div>
-						<div class="clear"></div>
+						<div class="clear"></div> -->
 					</div>
 					<hr>
 					<div class="community-listing"><span><a href="">Eko Radio Party</a></span>
-						<div class="community-functions-wrapper">
+						<!-- <div class="community-functions-wrapper">
 							<span class="community-functions button" onclick="openChat();"><span class="icon-16-chat"></span> Chat</span>
 						</div>
-						<div class="clear"></div>
+						<div class="clear"></div> -->
 					</div>
 					<hr>
 					<div class="community-listing"><span><a href="">Abuja, Federal Capital Territory, Nigeria</a></span>
-						<div class="community-functions-wrapper">
+						<!-- <div class="community-functions-wrapper">
 							<span class="community-functions button" onclick="openChat();"><span class="icon-16-chat"></span> Chat</span>
 						</div>
-						<div class="clear"></div>
+						<div class="clear"></div> -->
 					</div>
 					<hr>
 					<p class="community-listing">
@@ -143,9 +144,8 @@
 						</span>
 					</p>
 				</div>
-				<hr>
 				<div class="aside-wrapper">
-					<h4>Friends</h4>
+					<h3>Friends</h3>
 					<p>You have <a href=""><span class="icon-16-user"></span>205 Friends</a></p>
 					<hr>
 					<img class= "friends-thumbnails" src="images/1.jpg">
@@ -159,16 +159,15 @@
 						</span>
 					</p>
 				</div>
-				<hr>
 				<div id= "suggested-friends" class="no-display suggested-friends aside-wrapper" > 
-					<h4>Suggested Friends </h4>
+					<h3>Suggested Friends </h3>
 					<hr>
 					<img class= "friends-thumbnails float-left" src="images/snip.jpg"> 
 					<div class="float-left">
 						<a href=" " class="name">Al-Asaad Bin Muhammad Al-Menk Daud Suleiman</a>
 						<p class="location">Abuja, Federal Capital Territory, Nigeria</p>
-				    </div>
-				    <div class="clear"></div>
+					</div>
+					<div class="clear"></div>
 				</div>
 				
 			</div>	

@@ -33,9 +33,9 @@
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
 			</p>
-			<hr>
-			<p class="post-meta"><span><span class="icon-16-cross"></span>Delete Post </span></p>
-			<hr>
+			
+			<span class="button"><span class="icon-16-cross"></span>Delete Post </span>
+			
 			<div class="clear"></div>
 		</div>
 		<div class="post-comment">

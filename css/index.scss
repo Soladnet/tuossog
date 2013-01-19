@@ -18,7 +18,7 @@ $stock-image-5: "../images/shutterstock_97614038.jpg";
 		margin: .5em 0;
 	}
 }
-.index-intro {
+.index-intr {
 	color: #fff;
 	margin: 1em 1em 0 1em;
 	padding: 2em;
@@ -50,8 +50,8 @@ $stock-image-5: "../images/shutterstock_97614038.jpg";
 	color: #444;
 	font-size: 1.1em;
 	padding: 2em;
-	background: #f3f3f3;
-	border: 2px solid #ddd;
+	background: #fafafa;
+	border: 1px solid #dadada;
 	margin: 0 0 .5em 0;
 	h1 {
 		margin: 1em 0 0 0;
@@ -71,12 +71,13 @@ $stock-image-5: "../images/shutterstock_97614038.jpg";
 .index-aside-divs {
 	padding: 2em;
 	margin: 0 0 .5em 0;
-	border: 2px solid #f2f2f2;
+	border: 1px solid #ececec;
+	background: #fcfcfc;
 	h5 { float: right;}
 	.index-search {
 		width: 100%;
 		padding: .8em;
-		border: 2px solid #f2f2f2;
+		border: 1px solid #f2f2f2;
 		background: #fafafa;
 		margin-top: .5em;
 	}

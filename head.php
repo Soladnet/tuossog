@@ -1,5 +1,4 @@
 <link rel="stylesheet" media="screen" href="css/style.css">
 <link rel="shortcut icon" href="favicon.ico">
-<!-- <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" rel="stylesheet"> -->
 <title>Gossout - </title>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />  
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" > 
