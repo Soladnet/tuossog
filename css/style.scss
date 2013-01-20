@@ -202,8 +202,10 @@ select {
 	max-width: $max-width !important;
 	margin: 0 auto !important;
 	img { 
+		width: 100%;
+		height: 100%;
 		max-width: 200px !important;
-		margin-top: .5em !important;
+		margin-top: .3em !important;
 		display: block;
 		margin: 0 auto;
 		
