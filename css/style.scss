@@ -29,15 +29,16 @@ $max-width: 1025px;
 	box-sizing                        : border-box;
 }
 html {
-	font-family: "open sans",arial,sans-serif;
+	font-family: "Segoe UI",Segoe,sans-serif;
 	font-weight: 300;
 }
 a { text-decoration: none; }
 ol,ul { list-style: none; }
 h1,h2,h3,h4,h5,h6 { 
+	font-family: 'Segoe UI Light', Segoe UI,sans-serif;
 	color: $nav-gradient-1;
 	margin: .2em 0; 
-	font-weight: 500;
+	font-weight: 400;
 	line-height: 1;
 }
 hr { margin: .3em 0; width: 100%; height: 1px; border-width:0; background-color: #ddd;}
@@ -67,6 +68,7 @@ select {
 .info{ background: #ddd; color: #264409;}
 .success{ background: #E6EFC2; color: #264409;}
 .button{
+	border: 1px solid #ddd;
 	padding: .7em;
 	background-color: #f8f8f8;
 	font-size: .8em;
@@ -77,12 +79,28 @@ select {
 		cursor: pointer;
 		background-color: $nav-gradient-1;
 	}
-	&:active{
-	}
 }
+.button-big { 
+		font-size: 1.2em;
+		padding: .5em 1em;
+		-webkit-border-radius: 5px;
+        		border-radius: 5px;
+		-webkit-box-shadow: 0px 0px 4px 0px #ccc;
+        		box-shadow: 0px 0px 4px 0px #ccc;
+        background-color: #b9d532;
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#b9d532), to(#99c53d));
+		background-image: -webkit-linear-gradient(top, #b9d532, #99c53d);
+		background-image:    -moz-linear-gradient(top, #b9d532, #99c53d);
+		background-image:      -o-linear-gradient(top, #b9d532, #99c53d);
+		background-image:         linear-gradient(to bottom, #b9d532, #99c53d);
+		&:hover{
+		cursor: pointer;
+		background-color: $nav-gradient-1;
+	}
+	}
 .tag a {
 	padding: 0 .15em;
-	color: #777;
+	color: $nav-gradient-1;
 	font-style: italic;
 	&:hover{
 		color: #000;
@@ -412,6 +430,7 @@ select {
 	margin: 0 1em .5em 0;
 	@media only screen and (max-width : 720px) {
 		margin: 0;
+		padding: .5em;
 	}
 	a {
 		color: #777;
