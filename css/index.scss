@@ -45,7 +45,10 @@ $nav-gradient-1: #99C43D;
 }
 .index-banner{
 	margin-bottom: 1em;
-	img { padding: 1em 0;}
+	img { 
+		display: block;
+		margin: .25em auto;
+	}
 }
 .index-intro {
 	border-top: 1px solid #ccc;

@@ -18,10 +18,10 @@
 		</div>
 		<div class="index-intro">
 			<div class="index-intro-1">
-				<h2>
+				<h1>
 					What if we had a headline so punchy that 
 					no one could refuse to click our button? 
-				</h2>
+				</h1>
 				<hr>
 			</div>
 		</div>
