@@ -35,7 +35,7 @@ html {
 a { text-decoration: none; }
 ol,ul { list-style: none; }
 h1,h2,h3,h4,h5,h6 { 
-	font-family: 'Segoe UI Light', Segoe UI,sans-serif;
+	font-family: 'Segoe UI Light', Segoe UI, sans-serif;
 	color: $nav-gradient-1;
 	margin: .2em 0; 
 	font-weight: 400;
@@ -69,7 +69,7 @@ select {
 .success{ background: #E6EFC2; color: #264409;}
 .button{
 	border: 1px solid #ddd;
-	padding: .7em;
+	padding: .5em;
 	background-color: #f8f8f8;
 	font-size: .8em;
 	margin: 0 0 .2em .2em;
