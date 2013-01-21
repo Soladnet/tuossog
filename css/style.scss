@@ -167,6 +167,13 @@ select {
 					border: none;
 				}
 			}
+			span{
+				@media only screen and (max-width: 340px) {
+				margin: 0px auto;
+				font-size: 0.8em;
+				display:block;
+				}
+			}
 		}	
 	}
 	.nav-login {
@@ -206,6 +213,10 @@ select {
 			}
 			span{
 				padding: 0 .1em;
+			}
+			.notifier{
+				color: $nav-gradient-1;
+				cursor:pointer;
 			}
 
 		}
