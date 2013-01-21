@@ -35,7 +35,7 @@ $nav-gradient-1: #99C43D;
 	}
 }
 .index-nav {
-	padding: 1em;
+	padding: 1em 1em 0 1em ;
 	.index-login { 
 		font-size: .8em;
 		float: right;
@@ -46,8 +46,12 @@ $nav-gradient-1: #99C43D;
 .index-banner{
 	margin-bottom: 1em;
 	img { 
+		height: 200px;
 		display: block;
 		margin: .25em auto;
+		@media only screen and (max-width : 721px) {
+			height: 120px;
+		}
 	}
 }
 .index-intro {
@@ -84,7 +88,6 @@ $nav-gradient-1: #99C43D;
 	color: #444;
 	font-size: 1.1em;
 	padding: 2em;
-	background: #fafafa;
 	border: 1px solid #dadada;
 	margin: 0 0 .5em 0;
 	h1 {
@@ -99,7 +102,7 @@ $nav-gradient-1: #99C43D;
 	overflow: auto !important;
 }
 .index-aside-divs {
-	padding: 2em;
+	padding: 1em;
 	margin: 0 0 .5em 0;
 	background: #fcfcfc;
 	h5 { float: right;}
