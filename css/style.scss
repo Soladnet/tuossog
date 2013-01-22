@@ -97,7 +97,7 @@ select {
 		cursor: pointer;
 		background-color: $nav-gradient-1;
 	}
-	}
+}
 .tag a {
 	padding: 0 .15em;
 	color: $nav-gradient-1;
@@ -426,13 +426,15 @@ select {
 	}
 }
 .friends-thumbnails{
-	display: inline-block;
 	border: 1px solid #ddd;
 	max-width: 50px;
 	width: 100%;
 	padding: .2em;
-	margin: .4em auto;
+	margin: .2em auto !important;
 	overflow: hidden;
+}
+.suggested-friend {	
+	padding: .2em;
 }
 .aside {
 	font-size: .9em;
