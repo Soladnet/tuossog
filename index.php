@@ -33,7 +33,7 @@
 				Sapiente similique magnam error repudiandae in tempore iusto libero porro 
 				fugit nemo. Minima quia odio saepe ea blanditiis labore molestias dolores impedit.
 			</p>
-			<a href="" class="button-big">Sign up now!</a>
+			<a href="signup.php" class="button-big">Sign up now!</a>
 			<div class="clear"></div>
 		</div>
 		<div class="index-shadow-bottom"></div>

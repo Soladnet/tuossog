@@ -62,11 +62,11 @@ select {
 .no-padding { padding: 0 !important;}
 .no-display {display: none;}
 .no-margin { margin: 0 !important;}
-.error, .alert, .notice, .success, .info { padding: .6em; margin: .2em 0; border: none; font-size: .8em; }
-.error, .alert{ background: #FBE3E4; color: #8A1F11;}
-.notice{ background: #FFF6BF;    color: #514721;}
-.info{ background: #ddd; color: #264409;}
-.success{ background: #E6EFC2; color: #264409;}
+.error, .alert, .notice, .success, .info { padding: .6em; margin: .2em 0; border: none; font-size: .9em; }
+.error, .alert{ background: #FBE3E4; color: #8A1F11 !important;}
+.notice{ background: #FFF6BF;    color: #514721 !important;}
+.info{ background: #ddd; color: #264409 !important;}
+.success{ background: #E6EFC2; color: #264409 !important;}
 .button{
 	border: 1px solid #ddd;
 	padding: .5em;
@@ -81,19 +81,21 @@ select {
 	}
 }
 .button-big { 
-		font-size: 1.2em;
-		padding: .5em 1em;
-		-webkit-border-radius: 5px;
-        		border-radius: 5px;
-		-webkit-box-shadow: 0px 0px 4px 0px #ccc;
-        		box-shadow: 0px 0px 4px 0px #ccc;
-        background-color: #b9d532;
-		background-image: -webkit-gradient(linear, left top, left bottom, from(#b9d532), to(#99c53d));
-		background-image: -webkit-linear-gradient(top, #b9d532, #99c53d);
-		background-image:    -moz-linear-gradient(top, #b9d532, #99c53d);
-		background-image:      -o-linear-gradient(top, #b9d532, #99c53d);
-		background-image:         linear-gradient(to bottom, #b9d532, #99c53d);
-		&:hover{
+	color: #777;
+	font-size: 1.2em;
+	padding: .5em 1em;
+	-webkit-border-radius: 5px;
+    		border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 4px 0px #ccc;
+    		box-shadow: 0px 0px 4px 0px #ccc;
+    background-color: #b9d532;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#b9d532), to(#99c53d));
+	background-image: -webkit-linear-gradient(top, #b9d532, #99c53d);
+	background-image:    -moz-linear-gradient(top, #b9d532, #99c53d);
+	background-image:      -o-linear-gradient(top, #b9d532, #99c53d);
+	background-image:         linear-gradient(to bottom, #b9d532, #99c53d);
+	&:hover{
+		color: #fff;
 		cursor: pointer;
 		background-color: $nav-gradient-1;
 	}
