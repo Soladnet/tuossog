@@ -74,7 +74,6 @@ select {
 	font-size: .8em;
 	margin: 0 0 .2em .2em;
 	display: inline-block;
-	overflow: auto;
 	&:hover{
 		cursor: pointer;
 		background-color: $nav-gradient-1;
@@ -216,11 +215,10 @@ select {
 			span{
 				padding: 0 .1em;
 			}
-			.notifier{
+			.notification-number{
 				color: $nav-gradient-1;
 				cursor:pointer;
 			}
-
 		}
 	}
 	-webkit-box-shadow: 0px 1px 6px 0px #555;
