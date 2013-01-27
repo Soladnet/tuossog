@@ -226,6 +226,83 @@ select {
 	-webkit-box-shadow: 0px 1px 6px 0px #555;
 			box-shadow: 0px 1px 6px 0px #555;
 }
+.notifications-container{
+	position:relative;
+	display:none;
+	.notifications{
+				border:1px solid #dadada;
+				background: white;
+				z-index:100000;
+   				position: absolute;
+   				padding: .5em;
+   				left:-6px;
+   				width: 25em;
+   				min-height: 200px;
+   				top:15px;
+   				border: 1px solid #bbb;
+   				@media only screen and (max-width: 300px) {
+			   			width: 18em;
+			   		}
+			   }
+			   hr{
+					background-color:#F0F0F0;
+				}
+				a{
+					margin: 0 0 0 .6em;
+					cursor:pointer;
+				}
+			   .individual-notification{
+			   		border: 1px solid #ebebeb;
+			   		padding: .3em;
+			   		margin: 0 0 .4em 0;
+			   		background-color: #f8f8f8;
+			   }
+			   .viewed-notification{
+			   		background-color:#fff !important;
+			   }
+			   .notification-icon{
+			   		float:left;
+			   		width:50px;
+			   		margin: 0 .2em 0 0;
+			   		@media only screen and (max-width: 300px) {
+			   			display:none;
+			   		}
+			   }
+			   .notification-text{
+			   		float:left;
+			   }	
+			   .notification-actions{
+			   		float:right;
+			   }	
+			   .name{
+			   		color:#99c43d;
+			   }	
+}
+.content {
+	max-width: $max-width !important;
+	margin: 0 auto !important;
+	margin-top: .5em !important;
+	-webkit-border-radius: 5px;
+		 -o-border-radius: 5px;
+			border-radius: 5px;
+	padding: .5em;
+	background: #fff;
+	border: 1px solid #ddd;
+	@media only screen and (max-width : 1024px) {	
+		margin: .4em !important;
+		background-color: #fff;
+
+	}
+	@media only screen and (max-width : 720px) {	
+	-webkit-border-radius: 0 !important;
+		 -o-border-radius: 0 !important;
+			border-radius: 0 !important;
+		margin: .2em 0 !important;
+		padding: .4em;
+		border: none !important;
+		border-top: 1px solid #ddd !important;
+	}
+}
 .nav-user-profile {
 	float: right !important;
 }
