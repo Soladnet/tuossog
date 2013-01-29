@@ -347,10 +347,19 @@ input[type=text], input[type=password], input[type=email], input[type=number], t
 @media only screen and (max-width: 1024px) { .content { margin: .4em !important; background-color: #fff; } }
 @media only screen and (max-width: 720px) { .content { -webkit-border-radius: 0 !important; -o-border-radius: 0 !important; border-radius: 0 !important; margin: .2em 0 !important; padding: .4em; border: none !important; border-top: 1px solid #ddd !important; } }
 
+.timeline-filter { float: right; }
+.timeline-filter .active { background-color: #f8f8f8; border: 1px solid #eee; color: #000; }
+.timeline-filter ul { min-height: 20px; }
+.timeline-filter ul li { cursor: pointer; float: left; padding: .1em .3em; margin: .1em; }
+.timeline-filter ul li:hover { background-color: #f8f8f8; }
+.timeline-filter ul li a { color: #969696; font-size: .8em; }
+.timeline-filter ul li a:hover { color: #000; }
+.timeline-filter ul li a p { text-align: center; }
+
 .posts { width: 62.5%; float: right; padding: 0 0 0 .2em; padding: .5em; }
 @media only screen and (max-width: 720px) { .posts { width: 100%; font-size: .9em; } }
 
-.post-box { margin: 0 0 1em 0; padding: .5em; border: 1px solid #dadada; background-color: #fff; }
+.post-box { margin: 0 0 0.5em 0; padding: .5em; border: 1px solid #dadada; background-color: #fff; }
 .post-box .group-1 { font-size: .8em; float: left; display: inline-block; overflow: hidden; padding: 0 0 0 22px; border: 1px solid #eee; background: white url(../images/community.png) no-repeat left; background: rgba(255, 255, 255, 0.9) url(../images/community.png) no-repeat left; width: 120px; margin: 0 .3em 0 0; }
 .post-box .group-1:hover { border: 1px solid #aaa; }
 .post-box .group-1 select { max-width: 96px; border: 0; -webkit-appearance: none; background: transparent; }

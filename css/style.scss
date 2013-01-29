@@ -342,6 +342,37 @@ select {
 		border-top: 1px solid #ddd !important;
 	}
 }
+.timeline-filter{
+	float: right;
+	.active{
+				background-color: #f8f8f8;	
+				border: 1px solid #eee;	
+				color:#000;
+			}
+	ul{
+		min-height: 20px;
+		li{
+			
+			cursor: pointer;
+			float: left;
+			padding: .1em .3em;
+			margin: .1em;
+			&:hover{
+				background-color: #f8f8f8;			}
+			a{
+				color: #969696;
+				font-size: .8em;
+				&:hover{
+					color:#000;
+				}
+				p{
+					text-align: center;
+				}
+			}
+		}
+	}
+	
+}
 .posts{
 	width: 62.5%;
 	float: right;
@@ -352,7 +383,7 @@ select {
 	}
 }
 .post-box{
-	margin: 0 0 1em 0;
+	margin: 0 0 0.5em 0;
 	padding: .5em;
 	border: 1px solid #dadada;
 	background-color: #fff;

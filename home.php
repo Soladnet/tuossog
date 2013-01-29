@@ -59,6 +59,7 @@
 			<div class="posts">
 				<?php 
 				include("post-box.php");
+				include("home-timeline-filter.php");
 				include("new-post.php");
 				include("new-post.php");
 				?>
