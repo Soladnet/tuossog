@@ -1,12 +1,12 @@
 <div class="nav-user">
 	<ul>
 		<li>
-			<a id="gossbag" href="javascript:toggle('pop-up-notifier-container','gossbag');" >
+			<a id="gossbag" href="javascript:toggle('pop-up-notification','gossbag');" >
 				<span class="icon-16-list"></span>
 				<span>Gossbag</span>
 			</a>
 			<span class="notification-number">19</span>
-			<div class="notifications-container" id="pop-up-notifier-container">
+			<div class="notifications-container" id="pop-up-notification">
 				<div class="notifications">
 					<div class="individual-notification">
 						<p> 
@@ -57,15 +57,89 @@
 					</div>
 
 					<a href=""> See all</a>
+				</div>
+			</div>
+			<div class="notifications-container" id="pop-up-message">
+				<div class="notifications">
+					<div class="individual-notification">
+						<p> 
+							<!--<span class="icon-16-mail"></span>-->
+							<span class="float-right"> 17 hrs </span>
+						</p>
+						<img class= "notification-icon" src="images/1.jpg">
+						<div class="notification-text"> 
+							<p class="name">Chiroma Chukwuma Adekunle </p>
+							<p>Message body...</p>
+						</div>
+						<div class="clear"></div>
+						<hr>
+						 <a class="notification-actions">View</a>
+						 <div class="clear"></div>
+					</div>
+					<div class="individual-notification viewed-notification">
+						<p> 
+							<!--<span class="icon-16-mail"></span>-->
+							 <span class="float-right"> 17 hrs </span></p>
+						
+						<img class= "notification-icon" src="images/1.jpg">
+						<div class="notification-text"> 
+							<p class="name">Chiroma Chukwuma Adekunle </p>
+							<p>
+								<span class="icon-16-reply"></span>
+								Lorem ipsum dolor sit amet...
+							</p>
+						</div>
+						<div class="clear"></div>
+						<hr>
+						 <a class="notification-actions">View</a>
+						 <div class="clear"></div>
+					</div>
+
+					<a href=""> See all</a>
 
 				</div>
 			</div>
 		</li>
 		<li>
-		<a id="messages" href="javascript:toggle('pop-up-notifier-container','gossbag');" >
+		<a id="messages" href="javascript:toggle('pop-up-message','messages');" >
 				<span class="icon-16-mail"></span><span>Messages</span>
 			</a>
 			<span class="notification-number">15</span>
+			<div class="notifications-container" id="pop-up-message">
+				<div class="notifications">
+					<div class="individual-notification">
+						<p> 
+							<span class="icon-16-user-add"></span> 
+							<span class="float-right"> 17 hrs </span>
+						</p>
+						<img class= "notification-icon" src="images/1.jpg">
+						<div class="notification-text"> 
+							<p class="name">Chiroma Chukwuma Adekunle </p>
+							<p>Message body...</p>
+						</div>
+						<div class="clear"></div>
+						<hr>
+						 <a class="notification-actions">View</a>
+						 <div class="clear"></div>
+					</div>
+					<div class="individual-notification viewed-notification">
+						<p> <span class="icon-16-comment"></span> <span class="float-right"> 17 hrs </span></p>
+						
+						<img class= "notification-icon" src="images/1.jpg">
+						<div class="notification-text"> 
+							<p class="name">Chiroma Chukwuma Adekunle </p>
+							<p>Message body</p>
+						</div>
+						<div class="clear"></div>
+						<hr>
+						 <a class="notification-actions">View</a>
+						 <div class="clear"></div>
+					</div>
+
+					<a href=""> See all</a>
+
+				</div>
+			</div>
 		<li>
 		<!-- <li><a href=""><span class="icon-16-mail"></span><span>Messages</span></a></li>
 		<li  class="last"><a href=""><span class="icon-16-user-add"></span><span>Friend Requests</span></a></li> -->
