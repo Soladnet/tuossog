@@ -64,14 +64,6 @@
 					<a href=""> See all</a>
 				</div>
 			</div>
-		</li>
-
-		<li class="last">
-		<a id="messages" href="javascript:toggle('pop-up-message','messages');" >
-				<span class="icon-16-mail"></span>
-				<span>Messages</span>
-			</a>
-			<span class="notification-number">15</span>
 			<div class="notifications-container" id="pop-up-message">
 				<div class="notifications">
 					<a href="javascript:toggle('pop-up-message','messages');" class="float-right">
@@ -113,6 +105,14 @@
 
 				</div>
 			</div>
+		</li>
+
+		<li class="last">
+		<a id="messages" href="javascript:toggle('pop-up-message','messages');" >
+				<span class="icon-16-mail"></span>
+				<span>Messages</span>
+			</a>
+			<span class="notification-number">15</span>
 		</li>
 		
 		<li class="nav-user-profile last"><a href=""><span>Ciroma Chukwuma Adekunle</span><span class="icon-16-vcard"></span></a></li>
