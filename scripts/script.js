@@ -25,6 +25,7 @@
 					else if (text.id=="show-full-profile"){
 						text.innerHTML = "View Full Profile";
 					}
+
 					
 					
 				}
@@ -37,6 +38,14 @@
 					
 					else if(text.id=="show-full-profile"){
 						text.innerHTML = "Hide Full Profile";
+					}
+					else if(text.id=="gossbag"){
+						var messages = document.getElementById('pop-up-message');
+						messages.style.display = 'none';
+					}
+					else if(text.id=="messages"){
+						var messages = document.getElementById('pop-up-gossbag');
+						messages.style.display = 'none';
 					}
 				}
 			} 
