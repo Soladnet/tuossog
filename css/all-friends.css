@@ -1,0 +1,17 @@
+.all-friends-list { width: 62.5%; float: right; padding: 0 0 0 .2em; padding: .5em; }
+@media only screen and (max-width: 720px) { .all-friends-list { width: 100%; font-size: .9em; } }
+.all-friends-list .friends-box { background: #fff; border: 1px solid #dadada; margin: 0 0 1em 0; }
+.all-friends-list .friends-box .friend-box-wrapper { border: 1px solid #ebebeb; padding: 0.2em; width: 48%; float: left; margin: 0.2em; }
+@media only screen and (max-width: 720px) { .all-friends-list .friends-box .friend-box-wrapper { width: 100%; } }
+.all-friends-list .friends-box .friend-image { display: inline-block; width: 20%; min-width: 50px; max-width: 60px; }
+.all-friends-list .friends-box .friend-text { display: inline-block; }
+.all-friends-list .friends-box .friend-name { padding: 0 0 .3em 0; vertical-align: text-bottom; }
+.all-friends-list .friends-box .details { padding: .3em 0 .3em 0; font-size: .7em; text-align: justify; text-justify: inter-word; }
+.all-friends-list .friends-box a { color: #99c43d; }
+.all-friends-list .friends-box a:hover { color: #000; }
+.all-friends-list .friends-box h3 { font-weight: normal; font-size: 1em; padding: 0 0 .3em 0; display: inline-block; }
+.all-friends-list .friend-search-box { padding: 1em; }
+.all-friends-list .friend-search-button { display: block; float: right; font-size: .8em; padding: .4em; margin: 0 0 .2em .2em; background-color: #f8f8f8; border: 1px solid #AAA; }
+.all-friends-list .friend-search-button:hover { background-color: #bad533; cursor: pointer; }
+.all-friends-list .friend-invite-button { display: block; float: right; font-size: .8em; padding: .4em; margin: 0 0 .2em .2em; background-color: #99c43d; border: 1px solid #AAA; }
+.all-friends-list .friend-invite-button:hover { background-color: #bad533; cursor: pointer; }

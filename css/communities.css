@@ -2,7 +2,7 @@
 @media only screen and (max-width: 720px) { .communities-list { width: 100%; font-size: .9em; } }
 .communities-list .community-box { background: #fff; border: 1px solid #dadada; margin: 0 0 1em 0; }
 .communities-list .community-box .community-box-wrapper { border-bottom: 1px solid #dadada; padding: 1em; }
-.communities-list .community-box .community-image { display: inline-block; width: 20%; min-width: 100px; }
+.communities-list .community-box .community-image { display: inline-block; width: 20%; min-width: 100px; max-width: 150px; }
 .communities-list .community-box .community-text { display: inline-block; width: 75%; }
 @media only screen and (max-width: 768px) { .communities-list .community-box .community-text { width: 70%; } }
 @media only screen and (max-width: 380px) { .communities-list .community-box .community-text { width: 100%; } }
@@ -14,6 +14,7 @@
 .communities-list .community-box a:hover { color: #000; }
 .communities-list .community-box h3 { font-weight: normal; font-size: 1em; padding: 0 0 .3em 0; display: inline-block; }
 .communities-list .community-search-box { padding: 1em; }
-.communities-list .community-search-field { min-width: 75%; }
-.communities-list .community-search-button { display: block; float: right; font-size: .8em; padding: .4em; margin: 0 0 .2em .2em; background-color: #99c43d; border: 1px solid #AAA; }
+.communities-list .community-search-button { display: block; float: left; font-size: .8em; padding: .4em; margin: 0 0 .2em .2em; background-color: #f8f8f8; border: 1px solid #AAA; }
 .communities-list .community-search-button:hover { background-color: #bad533; cursor: pointer; }
+.communities-list .community-create-button { display: block; float: right; font-size: .8em; padding: .4em; margin: 0 0 .2em .2em; background-color: #99c43d; border: 1px solid #AAA; }
+.communities-list .community-create-button:hover { background-color: #bad533; cursor: pointer; }

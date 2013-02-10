@@ -27,14 +27,81 @@
 					}
 				}
 			}
+
 			</script>
-			<div class="posts">
-				<?php 
-				include("post-box.php");
-				include("home-timeline-filter.php");
-				include("new-post.php");
-				include("new-post.php");
-				?>
+			<div class="all-friends-list">
+				<div class="friends-box">
+					
+					<div class="friend-search-box">
+						<input name="" class="friend-search-field float-left" placeholder="Search Friends" type="text" value="" required="">
+						<div class="float-left">
+							<input type="submit" class="friend-search-button" value="Search">
+						</div>
+						<div class="float-right">
+							<input type="submit" class="friend-invite-button" value="Invite Friends">
+						</div>
+						<div class="clear"></div>
+					</div>
+					
+					
+					
+				</div>
+
+				<div class="friends-box">	
+					<div class="friend-box-wrapper">
+						<div class="friend-image">
+							<img src="images/1.jpg">
+						</div>
+						<div class="friend-text">
+							<div class="friend-name"><a href="sample-community.php">Chiroma Chukwuma Adekunle</a> </div>
+							<div class="details">
+								
+							</div>
+						</div>
+
+					</div>
+					<div class="friend-box-wrapper">
+						<div class="friend-image">
+							<img src="images/1.jpg">
+						</div>
+						<div class="friend-text">
+							<div class="friend-name"><a href="sample-community.php">Chiroma Chukwuma Adekunle</a> </div>
+							<div class="details">
+								
+							</div>
+							
+						</div>
+					</div>
+					<div class="friend-box-wrapper">
+						<div class="friend-image">
+							<img src="images/1.jpg">
+						</div>
+						<div class="friend-text">
+							<div class="friend-name"><a href="sample-community.php">Chiroma Chukwuma Adekunle</a> </div>
+							<div class="details">
+								
+							</div>
+							
+						</div>
+					</div>
+					<div class="friend-box-wrapper">
+						<div class="friend-image">
+							<img src="images/1.jpg">
+						</div>
+						<div class="friend-text">
+							<div class="friend-name"><a href="sample-community.php">Chiroma Chukwuma Adekunle</a> </div>
+							<div class="details">
+								
+							</div>
+							
+						</div>
+					</div>
+					
+
+					
+					
+					<div class="clear"></div>
+				</div>
 			</div>
 			
 			<div class="aside">
@@ -49,11 +116,11 @@
 					</table>					
 					<div class="clear"></div>
 
-					<p class=" button"><span class="icon-16-eye"></span> Wink</p>
-					<p class=" button"><span class="icon-16-mail"></span> Send Message</p><!-- 
-					<p class=""><span class="icon-16-add-to-list"></span> Request Friendship</p>
-					<p class=""><span class="icon-16-cross"></span> De-Friend</p> -->
-					<p class=" button"><span class="icon-16-checkmark"></span> Accept Friendship</p>
+					<p class="profile-meta-functions button"><span class="icon-16-eye"></span> Wink</p>
+					<p class="profile-meta-functions button"><span class="icon-16-mail"></span> Send Message</p><!-- 
+					<p class="profile-meta-functions"><span class="icon-16-add-to-list"></span> Request Friendship</p>
+					<p class="profile-meta-functions"><span class="icon-16-cross"></span> De-Friend</p> -->
+					<p class="profile-meta-functions button"><span class="icon-16-checkmark"></span> Accept Friendship</p>
 
 					<div class="clear"></div>
 					<div id="full-profile-data" class="no-display">
@@ -76,8 +143,9 @@
 					<p><b>College</b></p>
 				</div>
 			</div>
-			
 
+
+			
 			<div class="aside-wrapper">
 				<h3>Communities</h3>
 				<p>You're a member of <a href=""><span class="icon-16-contract"></span>5 Communities</a></p>
@@ -117,9 +185,10 @@
 						</span>
 					</p>
 				</div>
+				
 				<div class="aside-wrapper">
-					<h3>Friends</h3>
-					<p>You have <a href=""><span class="icon-16-user"></span>205 Friends</a></p>
+					<h4>Friends</h4>
+					<p>You have <a href="all-friends.php"><span class="icon-16-user"></span>205 Friends</a></p>
 					<hr>
 					<img class= "friends-thumbnails" src="images/1.jpg">
 					<img class= "friends-thumbnails" src="images/2.jpg">
@@ -127,24 +196,23 @@
 					<img class= "friends-thumbnails" src="images/snip.jpg">
 					<p class="community-listing">
 						<span>
-							<span><span class="icon-16-dot"></span><a href="all-friends.php">Show all</a></span>
+							<span><span class="icon-16-dot"></span><a href="">Show all</a></span>
 							<span><span class="icon-16-dot"></span><a id="show-suggested-friends" href="javascript:toggle('suggested-friends', 'show-suggested-friends');" >Suggested Friends</a></span>
 						</span>
 					</p>
 				</div>
-				<div id= "suggested-friends" class="no-display suggested-friends aside-wrapper" > 
-					<h3>Suggested Friends </h3>
-					<hr>
-					<div class="suggested-friend">
-						<img class= "friends-thumbnails float-left" src="images/snip.jpg"> 
-						<div class="">
-							<a href=" " class="name">Al-Asaad Bin Muhammad Al-Menk Daud Suleiman</a>
-							<p class="location">Abuja, Federal Capital Territory, Nigeria</p>
-						</div>
-						<div class="clear"></div>
-					</div>
-				</div>
 				
+				<div id= "suggested-friends" class="no-display suggested-friends aside-wrapper" > 
+					<h4>Suggested Friends </h4>
+					<hr>
+					<img class= "friends-thumbnails float-left" src="images/snip.jpg"> 
+					<div class="float-left">
+						<a href=" " class="name">Al-Asaad Bin Muhammad Al-Menk Daud Suleiman</a>
+						<p class="location">Abuja, Federal Capital Territory, Nigeria</p>
+					</div>
+					<div class="clear"></div>
+				</div>
+
 			</div>	
 			<div class="clear"></div>		
 		</div>

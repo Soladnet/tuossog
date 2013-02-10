@@ -1,69 +1,60 @@
 $nav-gradient-1: #99C43D;
 $nav-gradient-2: #BAD533;
 
-.communities-list{
+.all-friends-list{
 	width: 62.5%;
 	float: right;
 	padding: 0 0 0 .2em;padding: .5em;
 	@media only screen and (max-width : 720px) {
 		width: 100%;
 		font-size: .9em;
-
-
 	}
-	.community-box{
+	.friends-box{
 		background: #fff;
 		border: 1px solid #dadada;
 		margin: 0 0 1em 0;
-		.community-box-wrapper{
-			border-bottom: 1px solid #dadada;
-			padding: 1em;
+		.friend-box-wrapper{
+			border: 1px solid #ebebeb;
+			padding: 0.2em;
+			width:48%;
+			float:left;
+			margin: 0.2em;
+				@media only screen and (max-width : 720px) {
+					width:100%;
+				}
 		}
-	    .community-image{
+	    .friend-image{
 	    	display: inline-block;
 	    	width:20%;
-	    	min-width:100px;
-	    	max-width:150px;
+	    	min-width:50px;
+	    	max-width:60px;
 	    	@media only screen and (max-width : 320px){
 			
 			}
 	    }
-	    .community-text{
+	    .friend-text{
 	    	display: inline-block;
-	    	width:75%;
+	    
 	    	@media only screen and (max-width : 768px){
-				width:70%;
+				
 			}
 	    	@media only screen and (max-width : 380px){
-				width:100%;
+				
 			}
 	    	
 
 	    }
-	    .community-name{
+	    .friend-name{
  	    	padding: 0 0 .3em 0;
 	    	vertical-align: text-bottom;
-	    	border-bottom: 1px solid #eee;
- 
  	    }
 		.details{
 			padding: .3em 0 .3em 0;
-			font-size:.9em;
+			font-size:.7em;
 			text-align:justify;
 			text-justify:inter-word;
-			min-height:50px;
 			}
 
-		.members{
-			margin-right:.5em;
-			font-size:.7em;
-			@media only screen and (max-width : 800px) {
-				float:left;
-				display: inline-block;
-
-		
-			}
-		}
 		a{
 			color: $nav-gradient-1;
 			&:hover{
@@ -78,18 +69,18 @@ $nav-gradient-2: #BAD533;
 			display:inline-block;
 	        }
 	 }
-	.community-search-box{
+	.friend-search-box{
 		padding: 1em;
 		
 	}
-	.community-search-field{
+	.friend-search-field{
 		@media only screen and (max-width : 240px) {
 
 			}
 	}
-	.community-search-button{
+	.friend-search-button{
 		display: block; 
-		float: left;
+		float: right;
 		font-size: .8em;
 		padding: .4em;
 		margin: 0 0 .2em .2em;
@@ -101,7 +92,7 @@ $nav-gradient-2: #BAD533;
 			cursor: pointer;
 		}
 	}
-	.community-create-button{
+	.friend-invite-button{
 		display: block; 
 		float: right;
 		font-size: .8em;

@@ -28,33 +28,6 @@
 				}
 			}
 
-			function toggle(ele, txt) {
-				var element = document.getElementById(ele);
-				var text = document.getElementById(txt);
-
-				if(element.style.display == 'block') {
-					element.style.display = 'none';
-
-					if(text.id=="show-suggested-friends"){
-						text.innerHTML = "Suggested Friends";
-					}
-					else if (text.id=="show-full-profile"){
-						text.innerHTML = "View Full Profile";
-					}
-					
-				}
-				else {
-					element.style.display = "block";
-
-					if(text.id=="show-suggested-friends"){
-						text.innerHTML = "Hide Suggested Friends";
-					}
-
-					else if(text.id=="show-full-profile"){
-						text.innerHTML = "Hide Full Profile";
-					}
-				}
-			} 
 			</script>
 			<div class="communities-list">
 				<div class="community-box">
@@ -62,8 +35,10 @@
 					<div class="community-search-box">
 						<input name="" class="community-search-field float-left" placeholder="Search Communities" type="text" value="" required="">
 						<div class="float-left">
-							<span ></span>
 							<input type="submit" class="community-search-button" value="Search">
+						</div>
+						<div class="float-right">
+							<input type="submit" class="community-create-button" value="Create Community">
 						</div>
 						<div class="clear"></div>
 					</div>
@@ -215,7 +190,7 @@
 					<hr>
 					<p class="community-listing">
 						<span>
-							<span><span class="icon-16-dot"></span><a href="">Show all</a></span>
+							<span><span class="icon-16-dot"></span><a href="communities.php">Show all</a></span>
 							<span><span class="icon-16-dot"></span><a href="">Suggested Communities</a></span>
 						</span>
 					</p>
@@ -231,7 +206,7 @@
 					<img class= "friends-thumbnails" src="images/snip.jpg">
 					<p class="community-listing">
 						<span>
-							<span><span class="icon-16-dot"></span><a href="">Show all</a></span>
+							<span><span class="icon-16-dot"></span><a href="all-friends.php">Show all</a></span>
 							<span><span class="icon-16-dot"></span><a id="show-suggested-friends" href="javascript:toggle('suggested-friends', 'show-suggested-friends');" >Suggested Friends</a></span>
 						</span>
 					</p>

@@ -44,8 +44,8 @@
 						messages.style.display = 'none';
 					}
 					else if(text.id=="messages"){
-						var messages = document.getElementById('pop-up-gossbag');
-						messages.style.display = 'none';
+						var gossbag = document.getElementById('pop-up-gossbag');
+						gossbag.style.display = 'none';
 					}
 				}
 			} 

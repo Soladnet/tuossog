@@ -28,33 +28,6 @@
 				}
 			}
 
-			function toggle(ele, txt) {
-				var element = document.getElementById(ele);
-				var text = document.getElementById(txt);
-
-				if(element.style.display == 'block') {
-					element.style.display = 'none';
-
-					if(text.id=="show-suggested-friends"){
-						text.innerHTML = "Suggested Friends";
-					}
-					else if (text.id=="show-full-profile"){
-						text.innerHTML = "View Full Profile";
-					}
-					
-				}
-				else {
-					element.style.display = "block";
-
-					if(text.id=="show-suggested-friends"){
-						text.innerHTML = "Hide Suggested Friends";
-					}
-					
-					else if(text.id=="show-full-profile"){
-						text.innerHTML = "Hide Full Profile";
-					}
-				}
-			} 
 			</script>
 			<div class="posts">
 				<?php 
@@ -66,16 +39,18 @@
 			
 			<div class="aside">
 				<div class="aside-wrapper">
-					<table>
-						<tr><td></td><td><h3>Eko Radio Party</h3></td></tr>
-						<tr><td><!-- <span class="icon-16-map"></span> --></td><td > ERP, a radio programme like no other...
-							with sole objective of making serious issues light. We educate and entertain</td></tr>
-						</table>					
+					<img class="profile-pic" src="images/1.jpg">
+					<div>
+						<h3>Eko Radio Party</h3>
+						<div> ERP, a radio programme like no other...
+							with sole objective of making serious issues light. We educate and entertain
+						</div>
+					</div>					
 						<div class="clear"></div>
-						<br>
-						<p class=" button"><span ></span>More</p>
-						<p class=" button"><span class="icon-16-eye"></span> Invite Members</p>
-						<p class=" button"><span class="icon-16-chat"></span> Chat</p>
+						
+						<p class="button"><span ></span>More</p>
+						<p class="button"><span class="icon-16-eye"></span> Invite Members</p>
+						<p class="button"><span class="icon-16-chat"></span> Chat</p>
 						<div class="clear"></div>
 						
 					</div>
