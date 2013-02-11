@@ -18,6 +18,9 @@ $nav-gradient-2: #BAD533;
 		.community-box-wrapper{
 			border-bottom: 1px solid #dadada;
 			padding: 1em;
+			&:hover{
+				background:#f8f8f8;
+			}
 		}
 	    .community-image{
 	    	display: inline-block;

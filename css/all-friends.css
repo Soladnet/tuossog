@@ -2,6 +2,7 @@
 @media only screen and (max-width: 720px) { .all-friends-list { width: 100%; font-size: .9em; } }
 .all-friends-list .friends-box { background: #fff; border: 1px solid #dadada; margin: 0 0 1em 0; }
 .all-friends-list .friends-box .friend-box-wrapper { border: 1px solid #ebebeb; padding: 0.2em; width: 48%; float: left; margin: 0.2em; }
+.all-friends-list .friends-box .friend-box-wrapper:hover { background-color: #f8f8f8; }
 @media only screen and (max-width: 720px) { .all-friends-list .friends-box .friend-box-wrapper { width: 100%; } }
 .all-friends-list .friends-box .friend-image { display: inline-block; width: 20%; min-width: 50px; max-width: 60px; }
 .all-friends-list .friends-box .friend-text { display: inline-block; }

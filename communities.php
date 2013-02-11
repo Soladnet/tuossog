@@ -61,11 +61,7 @@
 							</div>
 							<div class="members">200 Members</div>
 							<div class="members">200 Posts</div>
-							
 						</div>
-						
-						<!-- <span class="button communities-button" onclick="openChat();"><span class="icon-16-chat"></span> Chat</span>
-						<span class="button communities-button"><span class="icon-16-checkmark"></span> Join </span> -->
 					</div>
 					
 					

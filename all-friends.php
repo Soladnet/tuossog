@@ -49,53 +49,33 @@
 
 				<div class="friends-box">	
 					<div class="friend-box-wrapper">
-						<div class="friend-image">
-							<img src="images/1.jpg">
-						</div>
-						<div class="friend-text">
-							<div class="friend-name"><a href="sample-community.php">Chiroma Chukwuma Adekunle</a> </div>
-							<div class="details">
-								
+						<a href="home.php">
+							<div class="friend-image">
+								<img src="images/1.jpg">
 							</div>
-						</div>
-
+							<div class="friend-text">
+								<div class="friend-name">Chiroma Chukwuma Adekunle</div>
+								<div class="details">
+									
+								</div>
+							</div>
+						</a>
 					</div>
 					<div class="friend-box-wrapper">
-						<div class="friend-image">
-							<img src="images/1.jpg">
-						</div>
-						<div class="friend-text">
-							<div class="friend-name"><a href="sample-community.php">Chiroma Chukwuma Adekunle</a> </div>
-							<div class="details">
-								
+						<a href="home.php">
+							<div class="friend-image">
+								<img src="images/1.jpg">
 							</div>
-							
-						</div>
-					</div>
-					<div class="friend-box-wrapper">
-						<div class="friend-image">
-							<img src="images/1.jpg">
-						</div>
-						<div class="friend-text">
-							<div class="friend-name"><a href="sample-community.php">Chiroma Chukwuma Adekunle</a> </div>
-							<div class="details">
-								
+							<div class="friend-text">
+								<div class="friend-name">Chiroma Chukwuma Adekunle</div>
+								<div class="details">
+									
+								</div>
 							</div>
-							
-						</div>
+						</a>
 					</div>
-					<div class="friend-box-wrapper">
-						<div class="friend-image">
-							<img src="images/1.jpg">
-						</div>
-						<div class="friend-text">
-							<div class="friend-name"><a href="sample-community.php">Chiroma Chukwuma Adekunle</a> </div>
-							<div class="details">
-								
-							</div>
-							
-						</div>
-					</div>
+					
+					
 					
 
 					

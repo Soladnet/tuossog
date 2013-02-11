@@ -19,6 +19,9 @@ $nav-gradient-2: #BAD533;
 			width:48%;
 			float:left;
 			margin: 0.2em;
+			&:hover {
+			background-color: #f8f8f8;
+		}
 				@media only screen and (max-width : 720px) {
 					width:100%;
 				}
