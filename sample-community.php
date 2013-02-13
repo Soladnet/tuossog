@@ -48,9 +48,9 @@
 					</div>					
 						<div class="clear"></div>
 						
-						<p class="button"><span ></span>More</p>
-						<p class="button"><span class="icon-16-eye"></span> Invite Members</p>
-						<p class="button"><span class="icon-16-chat"></span> Chat</p>
+						<button class="button"><span ></span>More</button>
+						<button class="button"><span class="icon-16-eye"></span> Invite Members</button>
+						<button class="button"><span class="icon-16-chat"></span> Chat</button>
 						<div class="clear"></div>
 						
 					</div>

@@ -22,23 +22,24 @@
 					What if we had a headline so punchy that 
 					no one could refuse to click our button? 
 				</h1>
-				<hr>
 			</div>
 		</div>
-		<div class="index-intro-2">
-			<p>And if our headline wasn't good
-				enough, what if our secondary messaging 
-				was here to further push our value proposition?
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-				Sapiente similique magnam error repudiandae in tempore iusto libero porro 
-				fugit nemo. Minima quia odio saepe ea blanditiis labore molestias dolores impedit.
-			</p>
-			<a href="signup.php" class="button-big">Sign up now!</a>
-			<div class="clear"></div>
+		<div class="index-intro-2-container">
+			<div class="index-intro-2">	
+				<p>And if our headline wasn't good
+					enough, what if our secondary messaging 
+					was here to further push our value proposition?
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+					Sapiente similique magnam error repudiandae in tempore iusto libero porro 
+					fugit nemo. Minima quia odio saepe ea blanditiis labore molestias dolores impedit.
+				</p>
+				<a href="signup.php" class="button-big">Sign up now!</a>
+				<div class="clear"></div>
+			</div>
 		</div>
 		<div class="index-shadow-bottom"></div>
 		<div class="index-content-wrapper">
-			<div class="index-content">
+			<!-- <div class="index-content">
 				<div class="index-content-divs">
 					
 					<h2 class="first">Share With Communities</h2>
@@ -62,7 +63,7 @@
 
 					<input type="" class="index-search" placeholder="Search for Communities, Tags, People">
 				</div>
-			</div>
+			</div> -->
 			<?php
 			include("footer.php");
 			?>

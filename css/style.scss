@@ -29,9 +29,14 @@ $max-width: 1025px;
 	-ms-box-sizing                    : border-box;
 	box-sizing                        : border-box;
 }
+.sample {
+	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+}
 html {
 	font-family: "Segoe UI",Segoe,sans-serif;
 	font-weight: 300;
+	background: url(http://subtlepatterns.com/patterns/connect.png);
 }
 a { text-decoration: none; }
 ol,ul { list-style: none; }
@@ -78,6 +83,9 @@ select {
 	&:hover{
 		cursor: pointer;
 		background-color: $nav-gradient-1;
+		-moz-box-shadow:    0px 1px 3px 2px #ddd;
+		-webkit-box-shadow: 0px 1px 3px 2px #ddd;
+		box-shadow:         0px 1px 3px 2px #ddd;
 	}
 }
 .button-big { 
@@ -108,10 +116,6 @@ select {
 		color: #000;
 	}
 }
-
-.page-wrapper {
-	background-color: #f6f6f6;
-	}
 .page-wrapper2 {
 	background-color: $body-gradient-1;
 	background-image: url($logo-image-svg), -webkit-gradient(linear, left top, left bottom, from($body-gradient-1), to($body-gradient-2));
@@ -229,15 +233,18 @@ select {
 	position:relative;
 	display:none;
 	.notifications{
+				-moz-box-shadow:    0px 3px 5px 3px #ccc;
+				-webkit-box-shadow: 0px 3px 5px 3px #ccc;
+				box-shadow:         0px 3px 5px 3px #ccc;
 				border:1px solid #dadada;
 				background: white;
 				z-index:100000;
    				position: absolute;
-   				padding: .5em;
+   				padding: 0 .5em .5em .5em;
    				left:-6px;
    				width: 25em;
    				min-height: 200px;
-   				top:15px;
+   				top:8px;
    				border: 1px solid #bbb;
    				@media only screen and (max-width: 300px) {
 			   			width: 18em;
@@ -249,6 +256,7 @@ select {
 				a{
 					margin: 0 0 0 .6em;
 					cursor:pointer;
+					padding: .3em;
 				}
 			   .individual-notification{
 			   		border: 1px solid #ebebeb;

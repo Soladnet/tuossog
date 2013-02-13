@@ -96,11 +96,11 @@
 					</table>					
 					<div class="clear"></div>
 
-					<p class="profile-meta-functions button"><span class="icon-16-eye"></span> Wink</p>
-					<p class="profile-meta-functions button"><span class="icon-16-mail"></span> Send Message</p><!-- 
-					<p class="profile-meta-functions"><span class="icon-16-add-to-list"></span> Request Friendship</p>
-					<p class="profile-meta-functions"><span class="icon-16-cross"></span> De-Friend</p> -->
-					<p class="profile-meta-functions button"><span class="icon-16-checkmark"></span> Accept Friendship</p>
+					<button class="profile-meta-functions button"><span class="icon-16-eye"></span> Wink</button>
+					<button class="profile-meta-functions button"><span class="icon-16-mail"></span> Send Message</button><!-- 
+					<button class="profile-meta-functions"><span class="icon-16-add-to-list"></span> Request Friendship</button>
+					<button class="profile-meta-functions"><span class="icon-16-cross"></span> De-Friend</button> -->
+					<button class="profile-meta-functions button"><span class="icon-16-checkmark"></span> Accept Friendship</button>
 
 					<div class="clear"></div>
 					<div id="full-profile-data" class="no-display">

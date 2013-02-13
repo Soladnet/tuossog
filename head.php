@@ -8,5 +8,6 @@
 </script>-->
 <script type="text/javascript" src="scripts/script.js">
 </script>
+<link href='http://fonts.googleapis.com/css?family=Ubuntu|Open+Sans:300' rel='stylesheet' type='text/css'>
 <title>Gossout - </title>
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" > 

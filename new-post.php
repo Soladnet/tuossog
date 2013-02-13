@@ -33,7 +33,7 @@
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
 			</p>
 			
-			<span class="button"><span class="icon-16-cross"></span>Delete Post </span>
+			<button class="button"><span class="icon-16-cross"></span>Delete Post </button>
 			
 			<div class="clear"></div>
 		</div>

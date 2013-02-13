@@ -9,7 +9,7 @@
 			</select>
 		</p>
 		<p class="group-2">
-			<span class="icon-camera"></span>
+			<button style="padding: 0 .5em;"><span class="icon-camera"></span></button>
 			<input type="submit" class="submit button" value="Share">
 		</p>
 	</form>
