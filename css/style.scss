@@ -36,7 +36,7 @@ $max-width: 1025px;
 html {
 	font-family: "Segoe UI",Segoe,sans-serif;
 	font-weight: 300;
-	background: url(http://subtlepatterns.com/patterns/connect.png);
+	background: url(../images/connect.png);
 }
 a { text-decoration: none; }
 ol,ul { list-style: none; }
@@ -359,18 +359,15 @@ select {
 				color:#000;
 			}
 	ul{
-		min-height: 20px;
 		li{
 			
 			cursor: pointer;
 			float: left;
-			padding: .1em .3em;
-			margin: .1em;
+			padding: .25em .55em;
 			&:hover{
 				background-color: #f8f8f8;			}
 			a{
 				color: #969696;
-				font-size: .8em;
 				&:hover{
 					color:#000;
 				}
@@ -469,11 +466,8 @@ select {
 		border: 1px solid #bbb;
 	}
 	img {
-		display: block;
 		border: 1px solid #ddd;
-		max-width: 400px;
-		width: 100%;
-		padding: .4em;
+		max-height: 150px;
 		margin: .4em auto;
 	}
 }
