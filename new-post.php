@@ -7,16 +7,17 @@
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 		</p>
-		<img src="images/pic-1.jpg">						
-		<img src="images/eset.jpg">							
+		<a  class="fancybox" rel="gallery1"  href="images/pic-1.jpg" rel="group"><img src="images/pic-1.jpg"></a>					
+		<a  class="fancybox" rel="gallery1"  href="images/eset.jpg" rel="group"><img src="images/eset.jpg"></a>	
+		<hr>						
 		<h3 class="name">Sample Name</h3>
-		<span class="post-time"><span class="icon-16-time"></span> 5 minutes ago </span>
-		<span class="post-time"><span class="icon-16-checkmark"></span> Seen by 242 </span>
+		<span class="post-time"><span class="icon-16-time"></span>5 minutes ago </span>
+		<span class="post-time"><span class="icon-16-checkmark"></span>Seen by 242 </span>
 	</div>
 	<!-- ******** 	To be hidden/visualised using js onclick when "Show all" button is clicked 	***** -->
 	<!-- *************************************************************************************** -->
 	<div class="post-meta">
-		<hr>
+		
 		<span id="post-new-comment-show" class="" onclick="showHide('post-new-comment');return false;"><span class="icon-16-comment"></span>Comment </span>
 		<span class="post-meta-delete"><span class="icon-16-cross"></span>Delete </span>
 		<span id="post-comments-show" onclick="showHide('post-comments');return false;"><span class="icon-16-list"></span>Show Comment(s) </span>

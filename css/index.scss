@@ -27,7 +27,6 @@ $nav-gradient-1: #99C43D;
 	}
 }
 .index-page-wrapper {
-	background: url(http://subtlepatterns.com/patterns/connect.png);
 	.footer {
 		margin: 0 .5em !important;
 		padding: .5em !important;
@@ -43,7 +42,7 @@ $nav-gradient-1: #99C43D;
 .index-nav {
 	padding: 1em 1em 0 1em ;
 	.index-login { 
-		font-size: .8em;
+		font-size: .9em;
 		float: right;
 		color: #555;
 		a { color: $nav-gradient-1;}
@@ -69,7 +68,7 @@ $nav-gradient-1: #99C43D;
 	border-top: 1px solid #ccc;
 	border-bottom: 1px solid #ccc;
 	max-width: 100% !important;
-	padding: 1em 1em 0 1em;
+	padding: 1em 0 0 0;
 	background-color: #f6f6f4;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#f6f6f4), to(#ffffff)); 
 	background-image: -webkit-linear-gradient(top, #f6f6f4, #ffffff); 
@@ -79,12 +78,9 @@ $nav-gradient-1: #99C43D;
 }
 .index-intro-2-container {
 	max-width: 100% !important;
-	background: #fff;
 }
 .index-intro-2 {
-	background: transparent url($stock-image-6) no-repeat 50% 100%;
-	margin-bottom: 1.6em !important;
-	margin: 0 1em 1em 1em auto;
+	margin: 1em auto;
 	padding-bottom: 1.5em;
 	p {
 		color: #777;
