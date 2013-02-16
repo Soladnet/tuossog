@@ -13,12 +13,13 @@ $nav-gradient-2: #BAD533;
 		background: #fff;
 		border: 1px solid #dadada;
 		margin: 0 0 1em 0;
-		.friend-box-wrapper{
+	}
+		.individual-friend-box{
 			border: 1px solid #ebebeb;
 			padding: 0.2em;
-			width:48%;
+			width:50%;
 			float:left;
-			margin: 0.2em;
+			margin:0.1em 0 0 0;
 			&:hover {
 			background-color: #f8f8f8;
 		}
@@ -71,7 +72,7 @@ $nav-gradient-2: #BAD533;
 			
 			display:inline-block;
 	        }
-	 }
+	 
 	.friend-search-box{
 		padding: 1em;
 		

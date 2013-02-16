@@ -46,9 +46,10 @@
 					
 					
 				</div>
-
-				<div class="friends-box">	
-					<div class="friend-box-wrapper">
+	
+					
+					
+					<div class="individual-friend-box">
 						<a href="home.php">
 							<div class="friend-image">
 								<img src="images/1.jpg">
@@ -61,7 +62,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="friend-box-wrapper">
+					<div class="individual-friend-box">
 						<a href="home.php">
 							<div class="friend-image">
 								<img src="images/1.jpg">
@@ -74,14 +75,46 @@
 							</div>
 						</a>
 					</div>
-					
-					
-					
-
-					
-					
+					<div class="individual-friend-box">
+						<a href="home.php">
+							<div class="friend-image">
+								<img src="images/1.jpg">
+							</div>
+							<div class="friend-text">
+								<div class="friend-name">Chiroma Chukwuma Adekunle</div>
+								<div class="details">
+									
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="individual-friend-box">
+						<a href="home.php">
+							<div class="friend-image">
+								<img src="images/1.jpg">
+							</div>
+							<div class="friend-text">
+								<div class="friend-name">Chiroma Chukwuma Adekunle</div>
+								<div class="details">
+									
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="individual-friend-box">
+						<a href="home.php">
+							<div class="friend-image">
+								<img src="images/1.jpg">
+							</div>
+							<div class="friend-text">
+								<div class="friend-name">Chiroma Chukwuma Adekunle</div>
+								<div class="details">
+									
+								</div>
+							</div>
+						</a>
+					</div>
 					<div class="clear"></div>
-				</div>
 			</div>
 			
 			<div class="aside">
