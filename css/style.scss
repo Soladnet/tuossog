@@ -13,12 +13,12 @@ $logo-image-text-svg: "../images/gossout-logo-text-and-image-svg.svg";
 $logo-text-svg: "../images/gossout-logo-text-svg.svg";
 $max-width: 1025px; 
 
-@import "sprites.scss";
-@import "16px-sprites.scss";
-@import "communities.scss";
-@import "index.scss";
-@import "all-friends.scss";
-@import "jquery.fancybox.scss";
+@import "_sprites.scss";
+@import "_16px-sprites.scss";
+@import "_communities.scss";
+@import "_index.scss";
+@import "_all-friends.scss";
+@import "_jquery.fancybox.scss";
 
 
 
