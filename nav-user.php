@@ -61,7 +61,7 @@
                         <div class="clear"></div>
                     </div>
 
-                    <a href=""> See all</a>
+                    <a href="all-notifications.php"> See all</a>
                 </div>
             </div>
             <div class="notifications-container" id="pop-up-message">
@@ -115,7 +115,8 @@
             <span class="notification-number">15</span>
         </li>
 
-        <li class="nav-user-profile last"><a href=""><span>Ciroma Chukwuma Adekunle</span><span class="icon-16-vcard"></span></a></li>
+        <li class="nav-user-profile last"><a href=""><span class="icon-16-vcard"></span></a></li>
+        <li class="nav-user-profile"><a href=""><span class="icon-16-cog"></span></a></li>
     </ul>
     <div class="clear"></div>
 </div>

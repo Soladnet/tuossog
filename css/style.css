@@ -166,7 +166,7 @@
 
 .icon-16-fullscreen-exit { background-position: -256px -64px; }
 
-.communities-list { width: 62.5%; float: right; padding: 0 0 0 .2em; padding: .5em; }
+.communities-list { width: 62.5%; float: right; padding: .5em; }
 @media only screen and (max-width: 720px) { .communities-list { width: 100%; font-size: .9em; } }
 .communities-list .community-box { background: #fff; border: 1px solid #dadada; margin: 0 0 1em 0; }
 .communities-list .community-box .community-box-wrapper { border-bottom: 1px solid #dadada; padding: 1em; }
@@ -243,7 +243,7 @@
 .index-aside-divs h5 { float: right; }
 .index-aside-divs .index-search { width: 100%; padding: .8em; border: 1px solid #f2f2f2; background: #fff; margin-top: .5em; }
 
-.all-friends-list { width: 62.5%; float: right; padding: 0 0 0 .2em; padding: .5em; }
+.all-friends-list { width: 62.5%; float: right; padding: .5em; }
 @media only screen and (max-width: 720px) { .all-friends-list { width: 100%; font-size: .9em; } }
 .all-friends-list .friends-box { background: #fff; border: 1px solid #dadada; margin: 0 0 1em 0; }
 .all-friends-list .individual-friend-box { border: 1px solid #ebebeb; padding: 0.2em; width: 100%; float: left; margin: 0.1em 0 0 0; }
@@ -259,6 +259,23 @@
 .all-friends-list .friend-search-button:hover { background-color: #bad533; cursor: pointer; }
 .all-friends-list .friend-invite-button { display: block; float: right; font-size: .8em; padding: .4em; margin: 0 0 .2em .2em; background-color: #99c43d; border: 1px solid #AAA; }
 .all-friends-list .friend-invite-button:hover { background-color: #bad533; cursor: pointer; }
+
+.all-notifications-list { width: 62.5%; float: right; padding: .5em; }
+@media only screen and (max-width: 720px) { .all-notifications-list { width: 100%; font-size: .9em; } }
+.all-notifications-list .notification-box { background: #fff; border: 1px solid #dadada; margin: 0 0 1em 0; }
+.all-notifications-list .individual-notification-box { border: 1px solid #ebebeb; padding: 0.5em; width: 100%; float: left; margin: 0 0 0.2em 0; }
+.all-notifications-list .individual-notification-box:hover { background-color: #f8f8f8; }
+@media only screen and (max-width: 720px) { .all-notifications-list .individual-notification-box { width: 100%; } }
+.all-notifications-list .all-notifications-time { float: right; font-size: 0.8em; }
+.all-notifications-list .all-notification-image { float: left; width: 60px; display: block; }
+.all-notifications-list .all-notification-text { display: block; margin: 0 0 0 0.3em; }
+.all-notifications-list .all-notifications-message { font-size: 0.8em; }
+.all-notifications-list .all-notifications-actions-container { width: 100%; }
+.all-notifications-list .all-notifications-actions { float: right; margin: 0 0 0 0.5em; cursor: pointer; color: #777; font-size: 0.8em; }
+.all-notifications-list .all-notifications-actions:hover { color: #000; }
+.all-notifications-list a { color: #99c43d; }
+.all-notifications-list h3 { font-weight: normal; font-size: 1em; }
+.all-notifications-list hr { background-color: #F0F0F0; }
 
 /* fancyBox v2.1.4 fancyapps.com | fancyapps.com/fancybox/#license */
 .fancybox-wrap, .fancybox-skin, .fancybox-outer, .fancybox-inner, .fancybox-image, .fancybox-wrap iframe, .fancybox-wrap object, .fancybox-nav, .fancybox-nav span, .fancybox-tmp { padding: 0; margin: 0; border: 0; outline: none; vertical-align: top; }
@@ -443,8 +460,7 @@ input[type=text], input[type=password], input[type=email], input[type=number], t
 
 .timeline-filter { float: right; }
 .timeline-filter .active { background-color: #f8f8f8; border: 1px solid #eee; color: #000; }
-.timeline-filter ul li { cursor: pointer; float: left; padding: .25em .55em; }
-.timeline-filter ul li:hover { background-color: #f8f8f8; }
+.timeline-filter ul li { margin: 0.2em 0; cursor: pointer; float: left; padding: .25em .55em; }
 .timeline-filter ul li a { color: #969696; }
 .timeline-filter ul li a:hover { color: #000; }
 .timeline-filter ul li a p { text-align: center; }

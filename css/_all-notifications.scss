@@ -1,0 +1,74 @@
+$nav-gradient-1: #99C43D;
+$nav-gradient-2: #BAD533;
+
+.all-notifications-list{
+	width: 62.5%;
+	float: right;
+	padding: .5em;
+	@media only screen and (max-width : 720px) {
+		width: 100%;
+		font-size: .9em;
+	}
+	.notification-box{
+		background: #fff;
+		border: 1px solid #dadada;
+		margin: 0 0 1em 0;
+	}
+		.individual-notification-box{
+			border: 1px solid #ebebeb;
+			padding: 0.5em;
+			width:100%;
+			float:left;
+			margin:0 0 0.2em 0;
+			&:hover {
+			background-color: #f8f8f8;
+		}
+				@media only screen and (max-width : 720px) {
+					width:100%;
+				}
+		}
+		.all-notifications-time{
+	    	float:right;
+	    	font-size: 0.8em;
+	    }
+	    .all-notification-image{
+	    	float:left;
+	    	width:60px;
+	    	display:block;
+	    	
+	    }
+	    .all-notification-text{
+	    	 display:block;
+	    	 margin:0 0 0 0.3em;  	
+ 	    }
+ 	    .all-notifications-message{
+	    	 font-size:0.8em;
+ 	    }
+ 	    .all-notifications-actions-container{
+ 	    	width:100%;
+ 	    }
+ 	    .all-notifications-actions{
+ 	    	float:right;
+ 	    	margin:0 0 0 0.5em;
+ 	    	cursor: pointer;
+ 	    	color:#777;
+		    font-size:0.8em;
+		    &:hover{
+		    	color:#000;
+			}
+ 	    }
+ 	    
+		a{
+			color: $nav-gradient-1;
+			&:hover{
+
+			}
+		}
+		h3{
+			font-weight: normal;
+			font-size:1em;
+	        }
+	    hr{
+					background-color:#F0F0F0;
+				}
+}

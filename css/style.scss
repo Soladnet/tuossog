@@ -18,6 +18,7 @@ $max-width: 1025px;
 @import "_communities.scss";
 @import "_index.scss";
 @import "_all-friends.scss";
+@import "_all-notifications.scss";
 @import "_jquery.fancybox.scss";
 
 
@@ -395,12 +396,10 @@ select {
 			}
 	ul{
 		li{
-			
+			margin: 0.2em 0;
 			cursor: pointer;
 			float: left;
 			padding: .25em .55em;
-			&:hover{
-				background-color: #f8f8f8;			}
 			a{
 				color: #969696;
 				&:hover{
