@@ -45,7 +45,7 @@
                     </div>
 
                     <div class="individual-notification viewed-notification">
-                        <p> <span class="icon-16-comment"></span> 
+                        <p> <span class="icon-16-contract"></span> 
                             <span class="float-right"> 17 hrs </span>
                         </p>
                         <img class= "notification-icon" src="images/1.jpg">
