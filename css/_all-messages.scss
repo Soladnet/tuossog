@@ -1,7 +1,7 @@
 $nav-gradient-1: #99C43D;
 $nav-gradient-2: #BAD533;
 
-.all-notifications-list{
+.all-messages-list{
 	width: 62.5%;
 	float: right;
 	padding: .5em;
@@ -9,12 +9,12 @@ $nav-gradient-2: #BAD533;
 		width: 100%;
 		font-size: .9em;
 	}
-	.notification-box{
+	.messages-box{
 		background: #fff;
 		border: 1px solid #dadada;
 		margin: 0 0 1em 0;
 	}
-		.individual-notification-box{
+		.individual-message-box{
 			border: 1px solid #ebebeb;
 			padding: 0.5em;
 			width:100%;
@@ -27,27 +27,32 @@ $nav-gradient-2: #BAD533;
 					width:100%;
 				}
 		}
-		.all-notifications-time{
+		.all-messages-unread{
+			font-weight: bold;
+		}
+		.all-messages-time{
 	    	float:right;
 	    	font-size: 0.8em;
 	    }
-	    .all-notification-image{
+	    .all-messages-image{
+	    	width:50px;
 	    	float:left;
-	    	width:60px;
-	    	display:block;
 	    	
 	    }
-	    .all-notification-text{
-	    	 display:block;
-	    	 margin:0 0 0 0.3em;  	
+	    .all-messages-text{
+	    	 padding: 0 0 0 50px;
  	    }
- 	    .all-notifications-message{
+ 	    .all-messages-message{
 	    	 font-size:0.8em;
  	    }
- 	    .all-notifications-actions-container{
+ 	    .all-messages-comment{
+	    	 font-size:0.8em;
+	    	 padding: 0.2em 0 0 0;
+ 	    }
+ 	    .all-messages-actions-container{
  	    	width:100%;
  	    }
- 	    .all-notifications-actions{
+ 	    .all-messages-actions{
  	    	float:right;
  	    	margin:0 0 0 0.5em;
  	    	cursor: pointer;

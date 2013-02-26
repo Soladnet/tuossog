@@ -1,5 +1,7 @@
 <link rel="stylesheet" media="screen" href="css/style.css">
+<link rel="stylesheet" href="css/hint.min.css">
 <link rel="shortcut icon" href="favicon.ico">
+
 <!--<script src="scripts/svgeezy.js"></script>
 <script>
     $(function() {

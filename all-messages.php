@@ -41,57 +41,47 @@
 			}
 
 			</script>
-			<div class="all-notifications-list">
-				<div class="timeline-filter">
-					<ul>
-						<li><span class="icon-16-list"></span></li>
-						<li class="active"><a href="">All</a></li>
-						<li><a href=""><p>Requests</p> </a></li>
-						<li><a href=""><p>Interactions</p></a></li>
-					</ul>
-				</div>
-				<div class="clear"></div>
-				<div class="individual-notification-box">
+			<div class="all-messages-list">
+				
+				<div class="individual-message-box">
                         <p> 
                             <span class="icon-16-user-add"></span> 
-                            <span class="all-notifications-time"> 17 hrs </span>
+                            <span class="all-messages-time"> 17 hrs </span>
                         </p>
-                        <img class= "all-notification-image" src="images/1.jpg">
-                        <div class="all-notification-text"> 
+                        <img class= "all-messages-image" src="images/1.jpg">
+                        <div class="all-messages-text"> 
                             <a href=""><h3>Chiroma Chukwuma Adekunle </h3></a>
-                            <div class="all-notifications-message">Wants To Add You</div>
+                            <div class="all-messages-message">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor.....</div>
                         </div> 
                         <hr>
                         <p>
-	                        <a class="all-notifications-actions"><span class="icon-16-cross"></span>Decline</a>
-	                        <a class="all-notifications-actions"><span class="icon-16-checkmark"></span>Accept</a>
-	                        <a class="all-notifications-actions"><span class="icon-16-dot"></span>View</a>
-                        </p>
-                        
+	                        <a class="all-messages-actions"><span class="icon-16-cross"></span>Delete</a>
+	                        <a class="all-messages-actions"><span class="icon-16-reply"></span>Reply</a>
+                        </p>   
                  </div>
-                 <div class="individual-notification-box">
+                 <div class="individual-message-box">
                         <p> 
                             <span class="icon-16-user-add"></span> 
-                            <span class="all-notifications-time"> 17 hrs </span>
+                            <span class="all-messages-time"> 17 hrs </span>
                         </p>
-                        <img class= "all-notification-image" src="images/1.jpg">
-                        <div class="all-notification-text"> 
-                            <a href=""><h3>Chiroma Chukwuma Adekunle</h3></a>
-                            <div class="all-notifications-message">Commented on Your Post</div>
-                            <div class="all-notifications-comment"> "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        <img class= "all-messages-image" src="images/1.jpg">
+                        <div class="all-messages-text"> 
+                            <a href=""><h3>Chiroma Chukwuma Adekunle </h3></a>
+                            <div class="all-messages-message">
+                            	<span class="icon-16-reply"></span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ......."</div>
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor.....</div>
                         </div> 
                         <hr>
                         <p>
-	                        <a class="all-notifications-actions"><span class="icon-16-dot"></span>View</a>
-                        </p>
-                        
+	                        <a class="all-messages-actions"><span class="icon-16-cross"></span>Delete</a>
+	                        <a class="all-messages-actions"><span class="icon-16-dot"></span>View</a>
+                        </p>   
                  </div>
-
-
-
-          
 			</div>
 			
 			<div class="aside">

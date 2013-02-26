@@ -101,7 +101,7 @@
                         <div class="clear"></div>
                     </div>
 
-                    <a href=""> See all</a>
+                    <a href="all-messages.php"> See all</a>
 
                 </div>
             </div>
@@ -115,8 +115,8 @@
             <span class="notification-number">15</span>
         </li>
 
-        <li class="nav-user-profile last"><a href=""><span class="icon-16-vcard"></span></a></li>
-        <li class="nav-user-profile"><a href=""><span class="icon-16-cog"></span></a></li>
+        <li class="nav-user-profile last hint hint--bottom" data-hint="My Profile"><a href=""><span class="icon-16-vcard"></span></a></li>
+        <li class="nav-user-profile hint hint--bottom" data-hint="Profile Settings"><a href=""><span class="icon-16-cog"></span></a></li>
     </ul>
     <div class="clear"></div>
 </div>
