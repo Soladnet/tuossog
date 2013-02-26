@@ -188,31 +188,69 @@ class GossoutUser {
         }
         return $arrFetch;
     }
-
     /**
-     * 
-     * @return Array This method counts the number of friends this user has. Array is with key 'count'
-     * 
-     * 
+     * Fetches user’s gossbag combining post,comment, and tweak and wink
+     * @return Array
+     * @throws Exception is thrown when the connection to the server fails
      */
-//    public function getFriendCount() {
-//        $mysql = new mysqli(HOSTNAME, USERNAME, PASSWORD, DATABASE_NAME);
-//        $count = 0;
-//        if ($mysql->connect_errno > 0) {
-//            throw new Exception("Connection to server failed!");
-//        } else {
-//            $sql = "SELECT count(if(" . $this->id . "<>username1,username1,username2)) as count FROM usercontacts WHERE (username1=" . $this->id . " OR username2=" . $this->id . ") AND status='Y'";
-//            if ($result = $mysql->query($sql)) {
-//                if ($result->num_rows > 0) {
-//                    $arr = $result->fetch_assoc();
-//                    $count = $arr['count'];
-//                }
-//                $result->free();
-//            }
-//        }
-//        $mysql->close();
-//        return $count;
-//    }
+    public function getGossbag() {
+        $arrFetch = array();
+        $mysql = new mysqli(HOSTNAME, USERNAME, PASSWORD, DATABASE_NAME);
+        if ($mysql->connect_errno > 0) {
+            throw new Exception("Connection to server failed!");
+        } else {
+            //$sql = "SELECT p.`id`, p.`post`, p.`community_id`, p.`sender_id`,u.firstname,u.lastname, p.`time`, p.`status` FROM post as p JOIN `community_subscribers` as cs ON p.community_id=cs.community_id JOIN user_personal_info as u ON p.sender_id=u.id WHERE cs.user=$this->id AND p.sender_id<>$this->id order by p.time desc";
+            $sql = "SELECT p.`id`, p.`post`, p.`community_id`, p.`sender_id`,u.firstname,u.lastname, p.`time`, p.`status` FROM post as p JOIN `community_subscribers` as cs ON p.community_id=cs.community_id JOIN user_personal_info as u ON p.sender_id=u.id JOIN usercontacts as uc ON (p.sender_id=uc.username1 AND uc.username2=$this->id) OR (p.sender_id=uc.username2 AND uc.username1=$this->id) AND uc.status='Y' WHERE cs.user=$this->id AND p.sender_id<>$this->id order by p.time desc";
+            if ($result = $mysql->query($sql)) {
+                if ($result->num_rows > 0) {
+                    while ($row = $result->fetch_assoc()) {
+                        $row['type'] = "post";
+                        $arrFetch['bag'][] = $row;
+                    }
+                    $arrFetch['status'] = TRUE;
+                } else {
+                    $arrFetch['status'] = FALSE;
+                }
+            } else {
+                $arrFetch['status'] = FALSE;
+            }
+            
+            $sql = "SELECT c.`id`, c.`comment`, c.`post_id`, c.`sender_id`,u.firstname,u.lastname, c.`time` FROM comments as c JOIN `post` as p ON c.post_id=p.id JOIN community_subscribers as cs ON cs.community_id=p.community_id JOIN user_personal_info as u ON c.sender_id=u.id JOIN usercontacts as uc ON (p.sender_id=uc.username1 AND uc.username2=$this->id) OR (p.sender_id=uc.username2 AND uc.username1=$this->id ) AND uc.status='Y' WHERE cs.user=$this->id AND c.sender_id<>$this->id order by c.time desc";
+            if ($result = $mysql->query($sql)) {
+                if ($result->num_rows > 0) {
+                    while ($row = $result->fetch_assoc()) {
+                        $row['type'] = "comment";
+                        $arrFetch['bag'][] = $row;
+                    }
+                    $arrFetch['status'] = TRUE;
+                } else {
+                    if (!$arrFetch['status'])
+                        $arrFetch['status'] = FALSE;
+                }
+            } else {
+                if (!$arrFetch['status'])
+                    $arrFetch['status'] = FALSE;
+            }
+            
+            $sql = "SELECT t.`id`, t.`sender_id`,u.firstname,u.lastname, t.`type`, t.`time`, t.`status` FROM `tweakwink` as t JOIN user_personal_info as u ON t.sender_id=u.id  WHERE t.`receiver_id` =$this->id order by t.time desc";
+            if ($result = $mysql->query($sql)) {
+                if ($result->num_rows > 0) {
+                    while ($row = $result->fetch_assoc()) {
+                        $row['type'] = "TW";
+                        $arrFetch['bag'][] = $row;
+                    }
+                    $arrFetch['status'] = TRUE;
+                } else {
+                    if (!$arrFetch['status'])
+                        $arrFetch['status'] = FALSE;
+                }
+            } else {
+                if (!$arrFetch['status'])
+                    $arrFetch['status'] = FALSE;
+            }
+        }
+        return $arrFetch;
+    }
 
     /**
      * 

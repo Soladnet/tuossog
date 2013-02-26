@@ -57,15 +57,15 @@ if (isset($_GET['param'])) {
                 $comm = new Community();
                 $start = 0;
                 $limit = 10;
-                
+
                 if (isset($_GET['start']) && is_numeric($_GET['start'])) {
                     $start = $_GET['start'];
                 }
                 if (isset($_GET['limit']) && is_numeric($_GET['limit'])) {
                     $limit = $_GET['limit'];
                 }
-                
-                $user_comm = $comm->userComm($_GET['uid'],$start,$limit);
+
+                $user_comm = $comm->userComm($_GET['uid'], $start, $limit);
                 if ($user_comm['status']) {
                     header('Content-type: application/json');
                     echo json_encode($user_comm['community_list']);
@@ -78,7 +78,7 @@ if (isset($_GET['param'])) {
         } else {
             displayError(400, "The request cannot be fulfilled due to bad syntax");
         }
-    }else if ($_GET['param'] == "messages") {
+    } else if ($_GET['param'] == "messages") {
         include_once 'GossoutUser.php';
         if (isset($_GET['uid'])) {
             if (is_numeric($_GET['uid'])) {
@@ -93,13 +93,43 @@ if (isset($_GET['param'])) {
                     $limit = $_GET['limit'];
                 }
                 if (isset($_GET['status'])) {
-                    $status = $_GET['status']==""?"":"AND status='".clean($_GET['status'])."'";
+                    $status = $_GET['status'] == "" ? "" : "AND status='" . clean($_GET['status']) . "'";
                 }
-                
-                $user_msg = $msg->getMessages($start,$limit,$status);
+
+                $user_msg = $msg->getMessages($start, $limit, $status);
                 if ($user_msg['status']) {
                     header('Content-type: application/json');
                     echo json_encode($user_msg['message']);
+                } else {
+                    displayError(404, "Not Found");
+                }
+            } else {
+                displayError(400, "The request cannot be fulfilled due to bad syntax");
+            }
+        } else {
+            displayError(400, "The request cannot be fulfilled due to bad syntax");
+        }
+    } else if ($_GET['param'] == "gossbag") {
+        include_once 'GossoutUser.php';
+        if (isset($_GET['uid'])) {
+            if (is_numeric($_GET['uid'])) {
+                $bag = new GossoutUser($_GET['uid']);
+                $start = 0;
+                $limit = 10;
+                if (isset($_GET['start']) && is_numeric($_GET['start'])) {
+                    $start = $_GET['start'];
+                }
+                if (isset($_GET['limit']) && is_numeric($_GET['limit'])) {
+                    $limit = $_GET['limit'];
+                }
+
+                $user_bag = $bag->getGossbag();
+                if ($user_bag['status']) {
+                    include_once("sortArray_$.php");
+                    $SMA = new SortMultiArray($user_bag['bag'], "time", 1);
+                    $SortedArray = $SMA->GetSortedArray($start, $limit);
+                    header('Content-type: application/json');
+                    echo json_encode($SortedArray);
                 } else {
                     displayError(404, "Not Found");
                 }
