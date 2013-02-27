@@ -232,17 +232,10 @@
 						</span>
 					</p>
 				</div>
+				<?php
+				include("suggested-friends.php");
+				?>
 				
-				<div id= "suggested-friends" class="no-display suggested-friends aside-wrapper" > 
-					<h4>Suggested Friends </h4>
-					<hr>
-					<img class= "friends-thumbnails float-left" src="images/snip.jpg"> 
-					<div class="float-left">
-						<a href=" " class="name">Al-Asaad Bin Muhammad Al-Menk Daud Suleiman</a>
-						<p class="location">Abuja, Federal Capital Territory, Nigeria</p>
-					</div>
-					<div class="clear"></div>
-				</div>
 
 			</div>	
 			<div class="clear"></div>		

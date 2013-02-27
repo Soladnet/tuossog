@@ -1,0 +1,98 @@
+$nav-gradient-1: #99C43D;
+$nav-gradient-2: #BAD533;
+
+.suggested-friends{
+	width:100% !important;
+}
+.all-friends-list{
+	width: 62.5%;
+	float: right;
+	padding:.5em;
+	@media only screen and (max-width : 720px) {
+		width: 100%;
+		font-size: .9em;
+	}
+	.friends-box{
+		background: #fff;
+		border: 1px solid #dadada;
+		margin: 0 0 1em 0;
+	}
+		.individual-friend-box{
+			border: 1px solid #ebebeb;
+			padding: 0.2em;
+			width:100%;
+			float:left;
+			margin:0.1em 0 0 0;
+			&:hover {
+			background-color: #f8f8f8;
+		}
+				@media only screen and (max-width : 720px) {
+					width:100%;
+				}
+		}
+	    .friend-image{
+	    	float:left;
+	    	width:50px;
+	    	display:block;
+	    	
+	    }
+	    .friend-text{
+	    	 display:block;
+	    	 padding:0 0 0 52px; 	
+ 	    }
+	    .friend-name{
+ 	    	color:$nav-gradient-1 !important;
+ 	    }
+ 	    .friend-location{
+ 	    	font-size:0.8em;
+ 	    	color: #777;
+ 	    }
+		a{
+			color: $nav-gradient-1;
+			&:hover{
+			
+			}
+		}
+		h3{
+			font-weight: normal;
+			font-size:1em;
+	        }
+	 
+	.friend-search-box{
+		padding: 1em;
+		
+	}
+	.friend-search-field{
+		@media only screen and (max-width : 240px) {
+
+			}
+	}
+	.friend-search-button{
+		display: block; 
+		float: right;
+		font-size: .8em;
+		padding: .4em;
+		margin: 0 0 .2em .2em;
+		background-color: #f8f8f8;
+		border: 1px solid #AAA;
+
+		&:hover {
+			background-color: $nav-gradient-2;
+			cursor: pointer;
+		}
+	}
+	.friend-invite-button{
+		display: block; 
+		float: right;
+		font-size: .8em;
+		padding: .4em;
+		margin: 0 0 .2em .2em;
+		background-color: $nav-gradient-1;
+		border: 1px solid #AAA;
+
+		&:hover {
+			background-color: $nav-gradient-2;
+			cursor: pointer;
+		}
+	}
+}

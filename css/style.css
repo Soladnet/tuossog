@@ -243,6 +243,8 @@
 .index-aside-divs h5 { float: right; }
 .index-aside-divs .index-search { width: 100%; padding: .8em; border: 1px solid #f2f2f2; background: #fff; margin-top: .5em; }
 
+.suggested-friends { width: 100% !important; }
+
 .all-friends-list { width: 62.5%; float: right; padding: .5em; }
 @media only screen and (max-width: 720px) { .all-friends-list { width: 100%; font-size: .9em; } }
 .all-friends-list .friends-box { background: #fff; border: 1px solid #dadada; margin: 0 0 1em 0; }
@@ -250,7 +252,8 @@
 .all-friends-list .individual-friend-box:hover { background-color: #f8f8f8; }
 @media only screen and (max-width: 720px) { .all-friends-list .individual-friend-box { width: 100%; } }
 .all-friends-list .friend-image { float: left; width: 50px; display: block; }
-.all-friends-list .friend-text { display: block; padding: 0 0 0 50px; }
+.all-friends-list .friend-text { display: block; padding: 0 0 0 52px; }
+.all-friends-list .friend-name { color: #99c43d !important; }
 .all-friends-list .friend-location { font-size: 0.8em; color: #777; }
 .all-friends-list a { color: #99c43d; }
 .all-friends-list h3 { font-weight: normal; font-size: 1em; }
@@ -267,10 +270,10 @@
 .all-notifications-list .individual-notification-box:hover { background-color: #f8f8f8; }
 @media only screen and (max-width: 720px) { .all-notifications-list .individual-notification-box { width: 100%; } }
 .all-notifications-list .all-notifications-time { float: right; font-size: 0.8em; }
-.all-notifications-list .all-notification-image { width: 50px; float: left; }
-.all-notifications-list .all-notification-text { padding: 0 0 0 50px; }
+.all-notifications-list .all-notification-image { float: left; width: 50px; display: block; }
+.all-notifications-list .all-notification-text { display: block; padding: 0 0 0 52px; }
 .all-notifications-list .all-notifications-message { font-size: 0.8em; }
-.all-notifications-list .all-notifications-comment { font-size: 0.8em; padding: 0.2em 0 0 0; }
+.all-notifications-list .all-notifications-comment { font-size: 0.8em; color: #777; }
 .all-notifications-list .all-notifications-actions-container { width: 100%; }
 .all-notifications-list .all-notifications-actions { float: right; margin: 0 0 0 0.5em; cursor: pointer; color: #777; font-size: 0.8em; }
 .all-notifications-list .all-notifications-actions:hover { color: #000; }
@@ -287,7 +290,7 @@
 .all-messages-list .all-messages-unread { font-weight: bold; }
 .all-messages-list .all-messages-time { float: right; font-size: 0.8em; }
 .all-messages-list .all-messages-image { width: 50px; float: left; }
-.all-messages-list .all-messages-text { padding: 0 0 0 50px; }
+.all-messages-list .all-messages-text { padding: 0 0 0 52px; }
 .all-messages-list .all-messages-message { font-size: 0.8em; }
 .all-messages-list .all-messages-comment { font-size: 0.8em; padding: 0.2em 0 0 0; }
 .all-messages-list .all-messages-actions-container { width: 100%; }
@@ -461,7 +464,7 @@ input[type=text], input[type=password], input[type=email], input[type=number], t
 .notifications-container .viewed-notification { background-color: #fff !important; }
 .notifications-container .notification-icon { float: left; width: 50px; margin: 0 .2em 0 0; }
 @media only screen and (max-width: 300px) { .notifications-container .notification-icon { display: none; } }
-.notifications-container .notification-text { float: left; }
+.notifications-container .notification-text { padding: 0 0 0 52px; }
 .notifications-container .notification-actions { float: right; }
 .notifications-container .name { color: #99c43d; }
 
