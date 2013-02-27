@@ -74,6 +74,20 @@ $nav-gradient-2: #BAD533;
 			font-size:1em;
 	        }
 	    hr{
-					background-color:#F0F0F0;
+				background-color:#F0F0F0;
+			}
+		.compose-box{
+			border: 1px solid #ebebeb;
+			background-color: #f8f8f8;
+			padding: 0.5em;
+			width:100%;
+			margin: 0 0 1em 0;
+			form{
+				textarea{
+					width:100%;
+					margin: 0 0 0.5em 0;
+					}
 				}
+		}
+
 }

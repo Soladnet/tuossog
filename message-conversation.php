@@ -41,25 +41,28 @@
 			}
 
 			</script>
+
 			<div class="all-messages-list">
-				
+				<div class="compose-box">
+					<form>
+						<textarea required placeholder="Compose a message"></textarea>
+							<button style="padding: 0 .5em;"><span class="icon-camera"></span></button>
+							<input type="submit" class="submit button float-right" value="Send">
+						
+					</form>
+					<div class="clear"></div>
+				</div>
+
+				<div class="float-right"><span class="icon-16-reply"></span>Back to messages</div>
 				<div class="individual-message-box">
-                        <p> 
-                            <span class="all-messages-time"> 17 hrs </span>
+                        <p>
+                            <span class="all-messages-time"> 19 hrs </span>
                         </p>
                         <img class= "all-messages-image" src="images/1.jpg">
                         <div class="all-messages-text"> 
                             <a href=""><h3>Chiroma Chukwuma Adekunle </h3></a>
-                            <div class="all-messages-message">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor.....</div>
-                        </div> 
-                        <hr>
-                        <p>
-	                        <a class="all-messages-actions"><span class="icon-16-cross"></span>Delete</a>
-	                        <a href="message-conversation.php" class="all-messages-actions"><span class="icon-16-reply"></span>Reply</a>
-                        </p>   
+                            <div class="all-messages-message">Lorem</div>
+                        </div>    
                  </div>
                  <div class="individual-message-box">
                         <p>
@@ -73,12 +76,7 @@
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                             consequat. Duis aute irure dolor.....</div>
-                        </div> 
-                        <hr>
-                        <p>
-	                        <a class="all-messages-actions"><span class="icon-16-cross"></span>Delete</a>
-	                        <a href="message-conversation.php" class="all-messages-actions"><span class="icon-16-dot"></span>View</a>
-                        </p>   
+                        </div>   
                  </div>
 			</div>
 			

@@ -299,6 +299,8 @@
 .all-messages-list a { color: #99c43d; }
 .all-messages-list h3 { font-weight: normal; font-size: 1em; }
 .all-messages-list hr { background-color: #F0F0F0; }
+.all-messages-list .compose-box { border: 1px solid #ebebeb; background-color: #f8f8f8; padding: 0.5em; width: 100%; margin: 0 0 1em 0; }
+.all-messages-list .compose-box form textarea { width: 100%; margin: 0 0 0.5em 0; }
 
 /* fancyBox v2.1.4 fancyapps.com | fancyapps.com/fancybox/#license */
 .fancybox-wrap, .fancybox-skin, .fancybox-outer, .fancybox-inner, .fancybox-image, .fancybox-wrap iframe, .fancybox-wrap object, .fancybox-nav, .fancybox-nav span, .fancybox-tmp { padding: 0; margin: 0; border: 0; outline: none; vertical-align: top; }
