@@ -61,7 +61,13 @@
 						<tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a id="show-full-profile" href="javascript:toggle('full-profile-data', 'show-full-profile');" > View Full Profile</a> </td></tr>
 					</table>					
 					<div class="clear"></div>
-
+					<div class="profile-summary">
+						<div class="profile-summary-wrapper"><p>50 </p> <p>Posts</p></div>
+						<div class="profile-summary-wrapper"><p>30 </p> <p>Communities</p></div>
+						<div class="profile-summary-wrapper"><p>50 </p> <p>Friends</p></div>
+						<div class="clear"></div>
+					</div>
+					<div class="clear"></div>
 					<button class=" button"><span class="icon-16-eye"></span> Wink</button>
 					<button class=" button"><span class="icon-16-mail"></span> Send Message</button><!-- 
 					<button class=""><span class="icon-16-add-to-list"></span> Request Friendship</button>
