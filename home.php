@@ -56,23 +56,23 @@
 					<table>
 						<tr><td></td><td><h3>Ciroma Chukwuma Adekunle</h3></td></tr>
 						<tr><td><span class="icon-16-map"></span></td><td class="profile-meta"> Abuja, Federal Capital Territory, Nigeria</td></tr>
-						<tr><td><span class="icon-16-female"></span></td><td class="profile-meta"> Female</td></tr>
+						<tr><td><span class="icon-16-female"></span></td><td class="profile-meta">Joined on Feb 18, 2013 </td></tr>
 						<tr><td><span class="icon-16-male"></span></td><td class="profile-meta"> Male</td></tr>
 						<tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a id="show-full-profile" href="javascript:toggle('full-profile-data', 'show-full-profile');" > View Full Profile</a> </td></tr>
 					</table>					
 					<div class="clear"></div>
 					<div class="profile-summary">
-						<div class="profile-summary-wrapper"><p>50 </p> <p>Posts</p></div>
-						<div class="profile-summary-wrapper"><p>30 </p> <p>Communities</p></div>
-						<div class="profile-summary-wrapper"><p>50 </p> <p>Friends</p></div>
+						<div class="profile-summary-wrapper"><a><p class="number">50 </p> <p class="type">Posts</p></a></div>
+						<div class="profile-summary-wrapper"><a><p class="number">30 </p> <p class="type">Communities</p></a></div>
+						<div class="profile-summary-wrapper"><a><p class="number">50 </p> <p class="type">Friends</p></a></div>
 						<div class="clear"></div>
 					</div>
 					<div class="clear"></div>
 					<button class=" button"><span class="icon-16-eye"></span> Wink</button>
-					<button class=" button"><span class="icon-16-mail"></span> Send Message</button><!-- 
+					<button class=" button"><span class="icon-16-mail"></span> Message</button><!-- 
 					<button class=""><span class="icon-16-add-to-list"></span> Request Friendship</button>
 					<button class=""><span class="icon-16-cross"></span> De-Friend</button> -->
-					<button class=" button"><span class="icon-16-checkmark"></span> Accept Friendship</button>
+					<button class=" button"><span class="icon-16-checkmark"></span> Accept</button>
 
 					<div class="clear"></div>
 					<div id="full-profile-data" class="no-display">
