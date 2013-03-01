@@ -44,10 +44,21 @@
 			<div class="posts">
 				<?php 
 				include("post-box.php");
-				include("home-timeline-filter.php");
+				?>
+				<div class="timeline-filter">
+					<ul>
+						<li><span class="icon-16-chat"></span></li>
+						<li class="active"><a href="">All</a></li>
+						<li><a href=""><p>Friends</p> </a></li>
+						<li><a href=""><p>Communities</p></a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+				<?php 
 				include("new-post.php");
 				include("new-post.php");
 				?>
+				
 			</div>
 			
 			<div class="aside">
@@ -68,11 +79,11 @@
 						<div class="clear"></div>
 					</div>
 					<div class="clear"></div>
-					<button class=" button"><span class="icon-16-eye"></span> Wink</button>
-					<button class=" button"><span class="icon-16-mail"></span> Message</button><!-- 
+					<button class=" button profile-button"><span class="icon-16-eye"></span> Wink</button>
+					<button class=" button profile-button"><span class="icon-16-mail"></span> Message</button><!-- 
 					<button class=""><span class="icon-16-add-to-list"></span> Request Friendship</button>
 					<button class=""><span class="icon-16-cross"></span> De-Friend</button> -->
-					<button class=" button"><span class="icon-16-checkmark"></span> Accept</button>
+					<button class=" button profile-button"><span class="icon-16-checkmark"></span> Accept</button>
 
 					<div class="clear"></div>
 					<div id="full-profile-data" class="no-display">
@@ -95,8 +106,7 @@
 					<p><b>College</b></p>
 				</div>
 			</div>
-			
-
+		
 			<div class="aside-wrapper">
 				<h3>Communities</h3>
 				
@@ -153,16 +163,17 @@
 				?>
 				<div class="aside-wrapper">
 					<h3>Trends</h3>
-					<p>#newGossout</p>
-					<p>#newGossout</p>
-					<p>#newGossout</p>
+					<p><a>#newGossout</a></p>
+					<p><a>#newGossout</a></p>
+					<p><a>#newGossout</a></p>
+					<p><a>#newGossout</a></p>
+					<p><a>#newGossout</a></p>
 					<p class="community-listing">
 						<span>
 							<span><span class="icon-16-dot"></span><a href="">Show all</a></span>
 						</span>
 					</p>
-				</div>
-				
+			</div>
 				
 			</div>	
 			<div class="clear"></div>		

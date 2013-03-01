@@ -13,7 +13,15 @@ $nav-gradient-2: #BAD533;
 		background: #fff;
 		border: 1px solid #dadada;
 		margin: 0 0 1em 0;
-	}
+	}	
+		.back{
+			cursor:pointer;
+			color:#777;
+			font-size:0.8em;
+			&:hover{
+				color:#000;
+			}
+		}
 		.individual-message-box{
 			border: 1px solid #ebebeb;
 			padding: 0.5em;

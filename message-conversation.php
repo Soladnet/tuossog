@@ -46,14 +46,13 @@
 				<div class="compose-box">
 					<form>
 						<textarea required placeholder="Compose a message"></textarea>
-							<button style="padding: 0 .5em;"><span class="icon-camera"></span></button>
-							<input type="submit" class="submit button float-right" value="Send">
-						
+						    <input type="submit" class="submit button float-right" value="Send">
+							<button class="button float-right hint hint--left" data-hint ="Upload Image"><span class="icon-16-camera"></span></button>
 					</form>
 					<div class="clear"></div>
 				</div>
 
-				<div class="float-right"><span class="icon-16-reply"></span>Back to messages</div>
+				<div class="float-right"><span class="icon-16-reply"></span><a href="all-messages.php" class="back">Back to messages</a></div>
 				<div class="individual-message-box">
                         <p>
                             <span class="all-messages-time"> 19 hrs </span>

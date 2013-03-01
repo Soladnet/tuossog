@@ -1,17 +1,16 @@
 <div class="post-box">
 	<form>
-		<textarea required placeholder="What say ye?..."></textarea>
-		<p class="group-1">	
+		<textarea required placeholder="Post to a community"></textarea>
+		<div class="group-1 button">	
 			<select> 
 				<option>Ahmadu Bello University, Zaria, Nigeria </option>
 				<option>Eko Radio Party</option>
 				<option>Abuja, Federal Capital Territory, Nigeria</option>
+				<option>Abuja, Federal Capital Territory, Nigeria Abuja, Federal Capital Territory, Nigeria</option>
 			</select>
-		</p>
-		<p class="group-2">
-			<button style="padding: 0 .5em;"><span class="icon-camera"></span></button>
-			<input type="submit" class="submit button" value="Share">
-		</p>
+		</div>
+		    <input type="submit" class="submit button float-right" value="Post">
+			<button class="button hint hint--left  float-right" data-hint="Upload image"><span class="icon-16-camera"></span></button>	
 	</form>
 	<div class="clear"></div>
 </div>

@@ -145,6 +145,9 @@ select {
 	    transition-duration: 0.2s;
 	}
 }
+.profile-button{
+	min-width: 7em;
+}
 .tag a {
 	padding: 0 .15em;
 	color: $nav-gradient-1;
@@ -401,6 +404,7 @@ select {
 			cursor: pointer;
 			float: left;
 			padding: .25em .55em;
+			font-size:.8em;
 			a{
 				color: #969696;
 				&:hover{
@@ -427,24 +431,29 @@ select {
 	margin: 0 0 0.5em 0;
 	padding: .5em;
 	border: 1px solid #dadada;
-	background-color: #fff;
+	background-color: #f8f8f8;
 	.group-1 {
-		font-size: .8em;
 		float: left;
 		display: inline-block;
 		overflow: hidden;
+		font-size:.8em;
 		padding: 0 0 0 22px;
 		border: 1px solid #eee;
 		background:	#fff url(../images/community.png) no-repeat left;
 		background:	rgba(255, 255, 255, 0.9) url(../images/community.png) no-repeat left;
-		width: 120px;
-		margin: 0 .3em 0 0;
-		&:hover{
+		width: 320px;
+		@media only screen and (max-width : 768px) {
+			width: 100%;
+			margin: 0 0 0.3em  0;
 
-			border: 1px solid #aaa;
 		}
-		select{
-			max-width: 96px;
+		&:hover{
+			border: 1px solid #ddd;
+		}
+		
+		select{	
+			font-size: .9em;
+			width:100%;
 			border: 0;
 			-webkit-appearance: none;
 			background: transparent;
@@ -460,29 +469,16 @@ select {
 		&:hover {
 			border: 1px solid #aaa;
 		} 
-		&:focus{
-			outline: 0;
-			border:1px solid $nav-gradient-1;
-			-webkit-transition: all 0.5s ease-out;  
-			-moz-transition: all 0.5s ease-out;  
-			-o-transition: all 0.5s ease-out;  
-			transition: all 0.5s ease-out;
-		}
 	}
-	.group-2 {
-		display: block; 
-		float: right;
-		.submit {
-			background-color: #99C43D;
-			color: #f2f2f2;
-			&:hover {
-				color: #777;
-				background-color: #c1e089;
-			}
-		}
-	}
-	
-}
+ }
+ .submit {
+ 	background-color: #99C43D;
+ 	color: #f2f2f2;
+ 	&:hover {
+ 		color: #777;
+ 		background-color: #c1e089;
+ 	}
+ }
 .post{
 	background: #fff;
 	background: rgba(255, 255, 255, 0.9);
