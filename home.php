@@ -99,9 +99,7 @@
 
 			<div class="aside-wrapper">
 				<h3>Communities</h3>
-				<p>You're a member of <a href=""><span class="icon-16-contract"></span>5 Communities</a></p>
-				<br>
-				<hr>
+				
 				<script type="text/javascript">
 				function openChat() {
 					window.open("http://tlk.io/Gossout-30",null,"toolbar=no,menubar=no,resizable =yes,copyhistory=no,location=no,directories=no,height=500,width=300");
@@ -138,12 +136,11 @@
 				</div>
 				<div class="aside-wrapper">
 					<h3>Friends</h3>
-					<p>You have <a href=""><span class="icon-16-user"></span>205 Friends</a></p>
-					<hr>
 					<img class= "friends-thumbnails" src="images/1.jpg">
 					<img class= "friends-thumbnails" src="images/2.jpg">
 					<img class= "friends-thumbnails" src="images/3.jpg">
 					<img class= "friends-thumbnails" src="images/snip.jpg">
+					<img class= "friends-thumbnails" src="images/1.jpg">
 					<p class="community-listing">
 						<span>
 							<span><span class="icon-16-dot"></span><a href="all-friends.php">Show all</a></span>
@@ -154,6 +151,18 @@
 				<?php
 				include("suggested-friends.php");
 				?>
+				<div class="aside-wrapper">
+					<h3>Trends</h3>
+					<p>#newGossout</p>
+					<p>#newGossout</p>
+					<p>#newGossout</p>
+					<p class="community-listing">
+						<span>
+							<span><span class="icon-16-dot"></span><a href="">Show all</a></span>
+						</span>
+					</p>
+				</div>
+				
 				
 			</div>	
 			<div class="clear"></div>		

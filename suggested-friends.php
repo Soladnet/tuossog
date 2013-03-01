@@ -1,6 +1,5 @@
 <div id= "suggested-friends" class="no-display suggested-friends aside-wrapper" > 
-					<h4>Suggested Friends </h4>
-					<hr>
+					<h3>Suggested Friends </h3>
 					<div class="all-friends-list suggested-friends">
 						<div class="individual-friend-box">
 							<a class= "fancybox" id="inline" href="#data1">
