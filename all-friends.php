@@ -79,12 +79,17 @@
 													<tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a href="">See Profile</a> </td></tr>
 												</table>					
 												<div class="clear"></div>
-
+												<div class="profile-summary">
+													<div class="profile-summary-wrapper"><a href=""><p class="number">50 </p> <p class="type">Posts</p></a></div>
+													<div class="profile-summary-wrapper"><a href="communities.php"><p class="number">30 </p> <p class="type">Communities</p></a></div>
+													<div class="profile-summary-wrapper"><a href="all-friends.php"><p class="number">50 </p> <p class="type">Friends</p></a></div>
+													<div class="clear"></div>
+												</div>
 												<button class="profile-meta-functions button"><span class="icon-16-eye"></span> Wink</button>
-												<button class="profile-meta-functions button"><span class="icon-16-mail"></span> Send Message</button><!-- 
+												<button class="profile-meta-functions button"><span class="icon-16-mail"></span> Send</button><!-- 
 												<button class="profile-meta-functions"><span class="icon-16-add-to-list"></span> Request Friendship</button>
 												<button class="profile-meta-functions"><span class="icon-16-cross"></span> De-Friend</button> -->
-												<button class="profile-meta-functions button"><span class="icon-16-checkmark"></span> Accept Friendship</button>
+												<button class="profile-meta-functions button"><span class="icon-16-checkmark"></span> Accept</button>
 
 												<div class="clear"></div>
 										</div>
