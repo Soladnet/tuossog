@@ -35,10 +35,10 @@
 					<div class="community-search-box">
 						<input name="" class="community-search-field float-left" placeholder="Search Communities" type="text" value="" required="">
 						<div class="float-left">
-							<input type="submit" class="community-search-button" value="Search">
+							<input type="submit" class="button" value="Search">
 						</div>
 						<div class="float-right">
-							<input type="submit" class="community-create-button" value="Create Community">
+							<input type="submit" class="button submit" value="Create Community">
 						</div>
 						<div class="clear"></div>
 					</div>

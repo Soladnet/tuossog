@@ -183,10 +183,7 @@
 .communities-list .community-box a:hover { color: #000; }
 .communities-list .community-box h3 { font-weight: normal; font-size: 1em; padding: 0 0 .3em 0; display: inline-block; }
 .communities-list .community-search-box { padding: 1em; }
-.communities-list .community-search-button { display: block; float: left; font-size: .8em; padding: .4em; margin: 0 0 .2em .2em; background-color: #f8f8f8; border: 1px solid #AAA; }
-.communities-list .community-search-button:hover { background-color: #bad533; cursor: pointer; }
-.communities-list .community-create-button { display: block; float: right; font-size: .8em; padding: .4em; margin: 0 0 .2em .2em; background-color: #99c43d; border: 1px solid #AAA; }
-.communities-list .community-create-button:hover { background-color: #bad533; cursor: pointer; }
+@media only screen and (max-width: 380px) { .communities-list .community-buttons { width: 100%; display: block; } }
 
 ::-webkit-input-placeholder { color: #ccc; }
 
@@ -258,10 +255,6 @@
 .all-friends-list a { color: #99c43d; }
 .all-friends-list h3 { font-weight: normal; font-size: 1em; }
 .all-friends-list .friend-search-box { padding: 1em; }
-.all-friends-list .friend-search-button { display: block; float: right; font-size: .8em; padding: .4em; margin: 0 0 .2em .2em; background-color: #f8f8f8; border: 1px solid #AAA; }
-.all-friends-list .friend-search-button:hover { background-color: #bad533; cursor: pointer; }
-.all-friends-list .friend-invite-button { display: block; float: right; font-size: .8em; padding: .4em; margin: 0 0 .2em .2em; background-color: #99c43d; border: 1px solid #AAA; }
-.all-friends-list .friend-invite-button:hover { background-color: #bad533; cursor: pointer; }
 
 .all-notifications-list { width: 62.5%; float: right; padding: .5em; }
 @media only screen and (max-width: 720px) { .all-notifications-list { width: 100%; font-size: .9em; } }
@@ -427,7 +420,7 @@ input[type=text], input[type=password], input[type=email], input[type=number], t
 .button-big:hover { color: #fff; cursor: pointer; background-color: #99c43d; }
 .button-big:active { -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6); -moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6); box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6); -webkit-transition-duration: 0.2s; -moz-transition-duration: 0.2s; transition-duration: 0.2s; }
 
-.profile-button { min-width: 7em; }
+.profile-button { min-width: 6em; }
 
 .tag a { padding: 0 .15em; color: #99c43d; font-style: italic; }
 .tag a:hover { color: #000; }

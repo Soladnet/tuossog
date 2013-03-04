@@ -47,10 +47,10 @@
 					<div class="friend-search-box">
 						<input name="" class="friend-search-field float-left" placeholder="Search Friends" type="text" value="" required="">
 						<div class="float-left">
-							<input type="submit" class="friend-search-button" value="Search">
+							<input type="submit" class="button" value="Search">
 						</div>
 						<div class="float-right">
-							<input type="submit" class="friend-invite-button" value="Invite Friends">
+							<input type="submit" class="button submit" value="Invite Friends">
 						</div>
 						<div class="clear"></div>
 					</div>	

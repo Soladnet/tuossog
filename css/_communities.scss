@@ -90,32 +90,11 @@ $nav-gradient-2: #BAD533;
 
 			}
 	}
-	.community-search-button{
-		display: block; 
-		float: left;
-		font-size: .8em;
-		padding: .4em;
-		margin: 0 0 .2em .2em;
-		background-color: #f8f8f8;
-		border: 1px solid #AAA;
-
-		&:hover {
-			background-color: $nav-gradient-2;
-			cursor: pointer;
-		}
+	.community-buttons{
+				@media only screen and (max-width : 380px) {
+					width:100%;
+					display:block;
+			}
 	}
-	.community-create-button{
-		display: block; 
-		float: right;
-		font-size: .8em;
-		padding: .4em;
-		margin: 0 0 .2em .2em;
-		background-color: $nav-gradient-1;
-		border: 1px solid #AAA;
-
-		&:hover {
-			background-color: $nav-gradient-2;
-			cursor: pointer;
-		}
-	}
+	
 }
