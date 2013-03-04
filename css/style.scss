@@ -269,22 +269,88 @@ select {
 	-webkit-box-shadow: 0px 1px 6px 0px #555;
 			box-shadow: 0px 1px 6px 0px #555;
 }
-.notifications-container{
+.search-pop-out{
+	font-size:0.8em !important;
+}
+.search-result-container{
 	position:relative;
 	display:none;
-	.notifications{
-				-moz-box-shadow:    0px 3px 5px 3px #ccc;
+	.search-friends-list{
+		width:100% !important;
+	}
+	.search{
+		-moz-box-shadow:    0px 3px 5px 3px #ccc;
 				-webkit-box-shadow: 0px 3px 5px 3px #ccc;
 				box-shadow:         0px 3px 5px 3px #ccc;
 				border:1px solid #dadada;
 				background: white;
-				z-index:100000;
+				z-index:1000;
    				position: absolute;
    				padding: 0 .5em .5em .5em;
    				left:-6px;
    				width: 25em;
    				min-height: 200px;
-   				top:8px;
+   				top:15px;
+   				border: 1px solid #bbb;
+   				font-size: .8em !important;
+   				text-shadow:none !important;
+	}
+}
+.notifications-container:before, .search-result-container:before {
+	content: ' ';
+	height: 0;
+	position: absolute;
+	width: 0;
+	border: 8px solid transparent;
+	border-bottom-color: #bbb;
+	z-index:10000;
+}
+.notifications-container:after, .search-result-container:after {
+	content: ' ';
+	height: 0;
+	position: absolute;
+	width: 0;
+	border: 9px solid transparent;
+	border-bottom-color: #fff;
+	z-index:10000;
+}
+.messages-container:before {
+	left:95px;
+	content: ' ';
+	height: 0;
+	position: absolute;
+	width: 0;
+	border: 8px solid transparent;
+	border-bottom-color: #bbb;
+	z-index:10000;
+}
+.messages-container:after {
+	left:95px;
+	content: ' ';
+	height: 0;
+	position: absolute;
+	width: 0;
+	border: 9px solid transparent;
+	border-bottom-color: #fff;
+	z-index:10000;
+}
+
+.notifications-container, .messages-container{
+	position:relative;
+	display:none;
+	.notifications, .messages{
+				-moz-box-shadow:    0px 3px 5px 3px #ccc;
+				-webkit-box-shadow: 0px 3px 5px 3px #ccc;
+				box-shadow:         0px 3px 5px 3px #ccc;
+				border:1px solid #dadada;
+				background: white;
+				z-index:1000;
+   				position: absolute;
+   				padding: 0 .5em .5em .5em;
+   				left:-6px;
+   				width: 25em;
+   				min-height: 200px;
+   				top:15px;
    				border: 1px solid #bbb;
    				@media only screen and (max-width: 300px) {
 			   			width: 18em;
@@ -597,6 +663,7 @@ select {
 	background: #fcfcfc;
 	margin: 0 0 1em 0;
 	padding: .3em .3em 1em .3em;	
+
 	.profile-pic {
 		float: left;
 		margin: 0 .2em .2em 0;
@@ -620,6 +687,7 @@ select {
 		font-weight: normal;
 		padding: 0 0 .3em 0;
 	}
+
 	.profile-meta {
 		font-size: .8em;
 
@@ -664,6 +732,7 @@ select {
 		}
 	}
 }
+
 .footer {
 	max-width: $max-width !important;
 	margin: 0 auto !important;

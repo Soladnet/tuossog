@@ -70,7 +70,7 @@
 								<div style="display:none">
 									<div id="data1">
 										<div class="aside-wrapper">
-												<img class="profile-pic" src="images/1.jpg">
+												<img class="profile-pic margin" src="images/1.jpg">
 												<table>
 													<tr><td></td><td><h3>Ciroma Chukwuma Adekunle</h3></td></tr>
 													<tr><td><span class="icon-16-map"></span></td><td class="profile-meta"> Abuja, Federal Capital Territory, Nigeria</td></tr>

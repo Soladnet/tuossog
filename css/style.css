@@ -461,18 +461,32 @@ input[type=text], input[type=password], input[type=email], input[type=number], t
 .nav-user ul li span { padding: 0 .1em; }
 .nav-user ul li .notification-number { color: #99c43d; cursor: pointer; }
 
-.notifications-container { position: relative; display: none; }
-.notifications-container .notifications { -moz-box-shadow: 0px 3px 5px 3px #ccc; -webkit-box-shadow: 0px 3px 5px 3px #ccc; box-shadow: 0px 3px 5px 3px #ccc; border: 1px solid #dadada; background: white; z-index: 100000; position: absolute; padding: 0 .5em .5em .5em; left: -6px; width: 25em; min-height: 200px; top: 8px; border: 1px solid #bbb; }
-@media only screen and (max-width: 300px) { .notifications-container .notifications { width: 18em; } }
-.notifications-container hr { background-color: #F0F0F0; }
-.notifications-container a { margin: 0 0 0 .6em; cursor: pointer; padding: .3em; }
-.notifications-container .individual-notification { border: 1px solid #ebebeb; padding: .3em; margin: 0 0 .4em 0; background-color: #f8f8f8; }
-.notifications-container .viewed-notification { background-color: #fff !important; }
-.notifications-container .notification-icon { float: left; width: 50px; margin: 0 .2em 0 0; }
-@media only screen and (max-width: 300px) { .notifications-container .notification-icon { display: none; } }
-.notifications-container .notification-text { padding: 0 0 0 52px; }
-.notifications-container .notification-actions { float: right; }
-.notifications-container .name { color: #99c43d; }
+.search-pop-out { font-size: 0.8em !important; }
+
+.search-result-container { position: relative; display: none; }
+.search-result-container .search-friends-list { width: 100% !important; }
+.search-result-container .search { -moz-box-shadow: 0px 3px 5px 3px #ccc; -webkit-box-shadow: 0px 3px 5px 3px #ccc; box-shadow: 0px 3px 5px 3px #ccc; border: 1px solid #dadada; background: white; z-index: 1000; position: absolute; padding: 0 .5em .5em .5em; left: -6px; width: 25em; min-height: 200px; top: 15px; border: 1px solid #bbb; font-size: .8em !important; text-shadow: none !important; }
+
+.notifications-container:before, .search-result-container:before { content: ' '; height: 0; position: absolute; width: 0; border: 8px solid transparent; border-bottom-color: #bbb; z-index: 10000; }
+
+.notifications-container:after, .search-result-container:after { content: ' '; height: 0; position: absolute; width: 0; border: 9px solid transparent; border-bottom-color: #fff; z-index: 10000; }
+
+.messages-container:before { left: 95px; content: ' '; height: 0; position: absolute; width: 0; border: 8px solid transparent; border-bottom-color: #bbb; z-index: 10000; }
+
+.messages-container:after { left: 95px; content: ' '; height: 0; position: absolute; width: 0; border: 9px solid transparent; border-bottom-color: #fff; z-index: 10000; }
+
+.notifications-container, .messages-container { position: relative; display: none; }
+.notifications-container .notifications, .notifications-container .messages, .messages-container .notifications, .messages-container .messages { -moz-box-shadow: 0px 3px 5px 3px #ccc; -webkit-box-shadow: 0px 3px 5px 3px #ccc; box-shadow: 0px 3px 5px 3px #ccc; border: 1px solid #dadada; background: white; z-index: 1000; position: absolute; padding: 0 .5em .5em .5em; left: -6px; width: 25em; min-height: 200px; top: 15px; border: 1px solid #bbb; }
+@media only screen and (max-width: 300px) { .notifications-container .notifications, .notifications-container .messages, .messages-container .notifications, .messages-container .messages { width: 18em; } }
+.notifications-container hr, .messages-container hr { background-color: #F0F0F0; }
+.notifications-container a, .messages-container a { margin: 0 0 0 .6em; cursor: pointer; padding: .3em; }
+.notifications-container .individual-notification, .messages-container .individual-notification { border: 1px solid #ebebeb; padding: .3em; margin: 0 0 .4em 0; background-color: #f8f8f8; }
+.notifications-container .viewed-notification, .messages-container .viewed-notification { background-color: #fff !important; }
+.notifications-container .notification-icon, .messages-container .notification-icon { float: left; width: 50px; margin: 0 .2em 0 0; }
+@media only screen and (max-width: 300px) { .notifications-container .notification-icon, .messages-container .notification-icon { display: none; } }
+.notifications-container .notification-text, .messages-container .notification-text { padding: 0 0 0 52px; }
+.notifications-container .notification-actions, .messages-container .notification-actions { float: right; }
+.notifications-container .name, .messages-container .name { color: #99c43d; }
 
 .content { max-width: 1025px !important; margin: 0 auto !important; margin-top: .5em !important; -webkit-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; padding: .5em; background: #fff; border: 1px solid #ddd; }
 @media only screen and (max-width: 1024px) { .content { margin: .4em !important; background-color: #fff; } }

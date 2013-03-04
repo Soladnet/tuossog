@@ -64,8 +64,8 @@
                     <a href="all-notifications.php"> See all</a>
                 </div>
             </div>
-            <div class="notifications-container" id="pop-up-message">
-                <div class="notifications">
+            <div class="messages-container" id="pop-up-message">
+                <div class="messages">
                     <a href="javascript:toggle('pop-up-message','messages');" class="float-right">
                         <span class="icon-16-cross"></span>Close 
                     </a>

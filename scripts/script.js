@@ -41,11 +41,21 @@
 					}
 					else if(text.id=="gossbag"){
 						var messages = document.getElementById('pop-up-message');
+						var search = document.getElementById('pop-up-search');
 						messages.style.display = 'none';
+						search.style.display = 'none';
 					}
 					else if(text.id=="messages"){
 						var gossbag = document.getElementById('pop-up-gossbag');
+						var search = document.getElementById('pop-up-search');
 						gossbag.style.display = 'none';
+						search.style.display = 'none';
+					}
+					else if(text.id=="search"){
+						var gossbag = document.getElementById('pop-up-gossbag');
+						var messages = document.getElementById('pop-up-message');
+						gossbag.style.display = 'none';
+						messages.style.display = 'none';
 					}
 				}
 			} 
