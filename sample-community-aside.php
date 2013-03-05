@@ -9,7 +9,7 @@
 					<div class="profile-summary">
 						<div class="profile-summary-wrapper"><a href=""><p class="number">50 </p> <p class="type">Posts</p></a></div>
 						<div class="profile-summary-wrapper"><a href="communities.php"><p class="number">30 </p> <p class="type">Members</p></a></div>
-						<div class="profile-summary-wrapper"><a href="all-friends.php"><p class="number">5 </p> <p class="type">Admin</p></a></div>
+						<div class="profile-summary-wrapper"><a href="all-friends.php"><p class="number">1 </p> <p class="type">Admin</p></a></div>
 						<div class="clear"></div>
 					</div>
 					<div class="clear"></div>
@@ -66,4 +66,5 @@
 					</p>
 			</div>
 			
+				<div class="clear"></div>
 			</div>	
