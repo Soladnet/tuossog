@@ -482,7 +482,7 @@ input[type=text], input[type=password], input[type=email], input[type=number], t
 .notifications-container .name, .messages-container .name { color: #99c43d; }
 
 .more-container { position: relative; display: none; }
-.more-container .more { -moz-box-shadow: 0px 1px 1px 2px #ddd; -webkit-box-shadow: 0px 1px 1px 2px #ddd; box-shadow: 0px 1px 1px 2px #ddd; border: 1px solid #dadada; background: white; z-index: 1000; position: absolute; right: -6px; min-width: 10em; min-height: 100px; top: 15px; border: 1px solid #bbb; text-align: left; }
+.more-container .more { -moz-box-shadow: 0px 1px 1px 2px #ddd; -webkit-box-shadow: 0px 1px 1px 2px #ddd; box-shadow: 0px 1px 1px 2px #ddd; border: 1px solid #dadada; background: white; z-index: 1000; position: absolute; right: -6px; min-width: 12em; min-height: 100px; top: 15px; border: 1px solid #bbb; text-align: left; }
 .more-container .more ul li { padding: 0.8em 0.5em; width: 100%; }
 .more-container .more ul li:hover { background-color: #f8f8f8; }
 
