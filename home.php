@@ -56,6 +56,7 @@
 				<div class="clear"></div>
 				<?php 
 				include("new-post.php");
+				include("new-post.php");
 				?>
 				
 			</div>
@@ -72,9 +73,9 @@
 					</table>					
 					<div class="clear"></div>
 					<div class="profile-summary">
-						<div class="profile-summary-wrapper"><a href=""><p class="number">50 </p> <p class="type">Posts</p></a></div>
-						<div class="profile-summary-wrapper"><a href="communities.php"><p class="number">30 </p> <p class="type">Communities</p></a></div>
-						<div class="profile-summary-wrapper"><a href="all-friends.php"><p class="number">50 </p> <p class="type">Friends</p></a></div>
+						<div class="profile-summary-wrapper"><a><p class="number">50 </p> <p class="type">Posts</p></a></div>
+						<div class="profile-summary-wrapper"><a><p class="number">30 </p> <p class="type">Communities</p></a></div>
+						<div class="profile-summary-wrapper"><a><p class="number">50 </p> <p class="type">Friends</p></a></div>
 						<div class="clear"></div>
 					</div>
 					<div class="clear"></div>
