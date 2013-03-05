@@ -43,7 +43,7 @@ html {
 	font-weight: 300;
 	background: url(../images/connect.png);
 }
-a { text-decoration: none; }
+a { text-decoration: none;}
 ol,ul { list-style: none; }
 h1,h2,h3,h4,h5,h6 { 
 	font-family: 'Segoe UI Light', Segoe UI, sans-serif;
@@ -296,7 +296,7 @@ select {
    				text-shadow:none !important;
 	}
 }
-.notifications-container:before, .search-result-container:before {
+.notifications-container:before, .search-result-container:before, .more-container:before{
 	content: ' ';
 	height: 0;
 	position: absolute;
@@ -305,7 +305,7 @@ select {
 	border-bottom-color: #bbb;
 	z-index:10000;
 }
-.notifications-container:after, .search-result-container:after {
+.notifications-container:after, .search-result-container:after, .more-container:after {
 	content: ' ';
 	height: 0;
 	position: absolute;
@@ -390,6 +390,34 @@ select {
 			   .name{
 			   		color:#99c43d;
 			   }	
+}
+.more-container{
+	position:relative;
+	display:none;
+	.more {
+				-moz-box-shadow:    0px 1px 1px 2px #ddd;
+				-webkit-box-shadow: 0px 1px 1px 2px #ddd;
+				box-shadow:         0px 1px 1px 2px #ddd;
+				border:1px solid #dadada;
+				background: white;
+				z-index:1000;
+   				position: absolute;
+   				right:-6px;
+   				min-width: 10em;
+   				min-height: 100px;
+   				top:15px;
+   				border: 1px solid #bbb;
+   				text-align:left;
+   				ul{
+   					li{
+   						padding: 0.8em 0.5em;
+   						width:100%;
+   						&:hover{
+   							background-color:#f8f8f8;
+   						}
+   					}
+   				}
+	}
 }
 .content {
 	max-width: $max-width !important;

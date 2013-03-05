@@ -56,7 +56,6 @@
 				<div class="clear"></div>
 				<?php 
 				include("new-post.php");
-				include("new-post.php");
 				?>
 				
 			</div>
@@ -73,17 +72,32 @@
 					</table>					
 					<div class="clear"></div>
 					<div class="profile-summary">
-						<div class="profile-summary-wrapper"><a><p class="number">50 </p> <p class="type">Posts</p></a></div>
-						<div class="profile-summary-wrapper"><a><p class="number">30 </p> <p class="type">Communities</p></a></div>
-						<div class="profile-summary-wrapper"><a><p class="number">50 </p> <p class="type">Friends</p></a></div>
+						<div class="profile-summary-wrapper"><a href=""><p class="number">50 </p> <p class="type">Posts</p></a></div>
+						<div class="profile-summary-wrapper"><a href="communities.php"><p class="number">30 </p> <p class="type">Communities</p></a></div>
+						<div class="profile-summary-wrapper"><a href="all-friends.php"><p class="number">50 </p> <p class="type">Friends</p></a></div>
 						<div class="clear"></div>
 					</div>
 					<div class="clear"></div>
-					<button class=" button profile-button"><span class="icon-16-eye"></span> Wink</button>
-					<button class=" button profile-button"><span class="icon-16-mail"></span> Message</button><!-- 
+					<!-- <button class=" button profile-button"><span class="icon-16-eye"></span> Wink</button>
+					<button class=" button profile-button"><span class="icon-16-mail"></span> Message</button>
 					<button class=""><span class="icon-16-add-to-list"></span> Request Friendship</button>
 					<button class=""><span class="icon-16-cross"></span> De-Friend</button> -->
-					<button class=" button profile-button"><span class="icon-16-checkmark"></span> Accept</button>
+					<button class=" button profile-button"><span class="icon-16-mail"></span> Message</button>
+					<button class=" button profile-button" id="more" onclick="javascript:toggle('pop-up-more','more');">More Actions <span class="icon-16-checkmark"></span>
+						<div class="more-container" id="pop-up-more">
+							<div class="more">
+								<ul>
+									<li><span class="icon-16-eye"></span> Wink</li>
+									<li><span class="icon-16-mail"></span> Message</li>
+									<li><a><span class="icon-16-checkmark"></span> Favourite</a></li>
+									<hr>
+									<li><a><span class="icon-16-checkmark"></span> Mute</a></li>
+									<li><a><span class="icon-16-cross"></span> Delete</a></li>
+								</ul>
+							</div>
+						</div>
+
+					</button>
 
 					<div class="clear"></div>
 					<div id="full-profile-data" class="no-display">
