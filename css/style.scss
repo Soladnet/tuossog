@@ -21,7 +21,7 @@ $max-width: 1025px;
 @import "_all-notifications.scss";
 @import "_all-messages.scss";
 @import "_jquery.fancybox.scss";
-
+@import "_settings.scss";
 
 
 
@@ -43,7 +43,7 @@ html {
 	font-weight: 300;
 	background: url(../images/connect.png);
 }
-a { text-decoration: none;}
+a { text-decoration: none; cursor:pointer;}
 ol,ul { list-style: none; }
 h1,h2,h3,h4,h5,h6 { 
 	font-family: 'Segoe UI Light', Segoe UI, sans-serif;
@@ -687,6 +687,7 @@ select {
 		}			
 	} 
 }
+
 .aside-wrapper{
 	border: 1px solid #ebebeb;
 	background: #fcfcfc;
@@ -719,6 +720,7 @@ select {
 
 	.profile-meta {
 		font-size: .8em;
+		color: #000;
 
 	}
 	.community-listing {
@@ -734,7 +736,6 @@ select {
 		display: inline-block;
 	}
 	.profile-summary{
-			width:100%;
 			margin: 0 0 0.5em 0;
 			border: 1px solid #ebebeb;
 			border-left:none;
@@ -754,6 +755,13 @@ select {
 		.type{
 			color: #000;
 			font-size: 0.8em;
+		}
+
+		a{
+			color: #777;
+			&:hover{
+				color: #000;
+			}
 		}
 			p{
 				text-align: center;

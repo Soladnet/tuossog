@@ -16,11 +16,7 @@
 						<div class="clear"></div>
 					</div>
 					<div class="clear"></div>
-					<!-- <button class=" button profile-button"><span class="icon-16-eye"></span> Wink</button>
 					<button class=" button profile-button"><span class="icon-16-mail"></span> Message</button>
-					<button class=""><span class="icon-16-add-to-list"></span> Request Friendship</button>
-					<button class=""><span class="icon-16-cross"></span> De-Friend</button> -->
-					<button class=" button profile-button" onclick="humane.log("Hello", {timeout: 10000});"><span class="icon-16-mail"></span> Message</button>
 					<button class=" button profile-button" id="more" onclick="javascript:toggle('pop-up-more','more');">More<span class="icon-16-checkmark"></span>
 						<div class="more-container" id="pop-up-more">
 							<div class="more">
@@ -98,7 +94,7 @@
 				</div>
 				<div class="aside-wrapper">
 					<h3>Friends</h3>
-					<img class= "friends-thumbnails" src="images/1.jpg">
+					<a href=""><img class= "friends-thumbnails" src="images/1.jpg"></a>
 					<img class= "friends-thumbnails" src="images/2.jpg">
 					<img class= "friends-thumbnails" src="images/3.jpg">
 					<img class= "friends-thumbnails" src="images/snip.jpg">
