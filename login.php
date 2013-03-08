@@ -39,7 +39,7 @@
 						</li>
 						</ul>
 						<br>
-						<a href="home.php" class="button-big">Login!</a>
+						<button class="button-big"><a href="home.php">Login!</a></button>						
 					</form>
 					<div class="clear"></div>
 				</div>

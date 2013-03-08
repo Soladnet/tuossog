@@ -42,6 +42,7 @@
 
 			</script>
 			<div class="all-messages-list">
+				<h1>Messages</h1>
 				<input type="submit" class="button submit float-right" value="New Message">
 				<div class="individual-message-box">
                         <p> 

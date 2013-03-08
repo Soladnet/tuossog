@@ -30,6 +30,7 @@
 
 			</script>
 			<div class="communities-list">
+				<h1>Communities</h1>
 				<div class="community-box">
 					
 					<div class="community-search-box">
@@ -55,6 +56,7 @@
 						</div>
 						<div class="community-text">
 							<div class="community-name"><a href="sample-community.php">Eko Radio Party</a> </div>
+							<hr>
 							<div class="details">ERP, a radio programme like no other... 
 								with sole objective of making serious issues light. We educate and entertain.
 
@@ -62,6 +64,7 @@
 							<div class="members">200 Members</div>
 							<div class="members">200 Posts</div>
 						</div>
+						<div class="clear"></div>
 					</div>
 					
 					
@@ -79,10 +82,7 @@
 							<div class="members">200 Posts</div>
 							
 						</div>
-						
-						<!-- <span class="button communities-button" onclick="openChat();"><span class="icon-16-chat"></span> Chat</span>
-						<span class="button communities-button"><span class="icon-16-checkmark"></span> Join </span> -->
-					</div>
+						<div class="clear"></div></div>
 					
 					
 					<div class="community-box-wrapper">
@@ -98,10 +98,7 @@
 							<div class="members">200 Posts</div>
 							
 						</div>
-						<div class="clear"></div>
-						<!-- <span class="button communities-button" onclick="openChat();"><span class="icon-16-chat"></span> Chat</span>
-						<span class="button communities-button"><span class="icon-16-checkmark"></span> Join </span> -->
-					</div>
+						<div class="clear"></div></div>
 					
 
 					

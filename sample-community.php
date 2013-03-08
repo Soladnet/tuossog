@@ -42,6 +42,7 @@
 			}
 			</script>
 			<div class="posts">
+				<h1>Sample Community</h1>
 				<?php 
 				include("post-box.php");
 				?>

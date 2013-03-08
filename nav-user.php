@@ -114,7 +114,7 @@
             </a>
             <span class="notification-number">15</span>
         </li>
-        <li class="nav-user-profile last hint hint--left" data-hint="Profile Settings"><a href=""><span class="icon-16-cog"></span></a></li>
+        <li class="nav-user-profile last hint hint--left" data-hint="Profile Settings"><a href="settings.php"><span class="icon-16-cog"></span></a></li>
         <li class="nav-user-profile hint hint--left" data-hint="My Profile"><a href=""><span class="icon-16-vcard"></span></a></li>
         
     </ul>

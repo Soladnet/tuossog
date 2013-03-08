@@ -24,62 +24,37 @@ $nav-gradient-2: #BAD533;
 		}
 	    .community-image{
 	    	display: inline-block;
-	    	width:20%;
-	    	min-width:100px;
-	    	max-width:150px;
-	    	@media only screen and (max-width : 320px){
-			
+	    	width:100px;
+	    	float: left;	    	
+	    	@media only screen and (max-width : 260px){
+				float: none;
+				display: block;
+				margin: 0 auto;
 			}
 	    }
 	    .community-text{
-	    	display: inline-block;
-	    	width:75%;
-	    	@media only screen and (max-width : 768px){
-				width:70%;
-			}
-	    	@media only screen and (max-width : 380px){
+	    	display: table;
+	    	@media only screen and (max-width : 260px){
 				width:100%;
 			}
 	    	
 
 	    }
 	    .community-name{
- 	    	padding: 0 0 .3em 0;
-	    	vertical-align: text-bottom;
-	    	border-bottom: 1px solid #eee;
- 
+ 	    	padding: 0 0 .2em 0;
+	    	vertical-align: text-bottom; 
  	    }
 		.details{
-			padding: .3em 0 .3em 0;
-			font-size:.9em;
+			font-size:.8em;
 			text-align:justify;
 			text-justify:inter-word;
-			min-height:50px;
 			}
 
 		.members{
+			color: #ccc;
 			margin-right:.5em;
 			font-size:.7em;
-			@media only screen and (max-width : 800px) {
-				float:left;
-				display: inline-block;
-
-		
-			}
 		}
-		a{
-			color: $nav-gradient-1;
-			&:hover{
-			color: #000;
-			}
-		}
-		h3{
-			font-weight: normal;
-			font-size:1em;
-			padding: 0 0 .3em 0;
-			
-			display:inline-block;
-	        }
 	 }
 	.community-search-box{
 		padding: 1em;

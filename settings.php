@@ -42,17 +42,20 @@
 			}
 			</script>
 			<div class="settings-list">
+				<h1>Settings</h1>
+				<hr>
+				<hr>
 				<div class="individual-setting">
-					Basic Settings
+					<h2>Basic Settings</h2>
 					<p>Name</p>
 					<p>Email</p>
 				</div>
 				<div class="individual-setting">
-					Privacy
+					<h2>Privacy</h2>
 					<p>Make my account private</p>
 				</div>
 				<div class="individual-setting">
-					Notifications
+					<h2>Notifications</h2>
 					<p>Receive notifications through e-mail</p>
 				</div>	
 			</div>

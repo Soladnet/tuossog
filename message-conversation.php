@@ -43,6 +43,8 @@
 			</script>
 
 			<div class="all-messages-list">
+				<h2> <a href="#">Ciroma Chukwuma Adekunle <span class="icon-16-chat"></span></a></h2>
+				<hr>
 				<div class="compose-box">
 					<form>
 						<textarea required placeholder="Compose a message"></textarea>

@@ -3,6 +3,7 @@
 		<textarea required placeholder="Post to a community"></textarea>
 		<div class="group-1 button">	
 			<select> 
+				<option>Select Community to Post to...!</option>
 				<option>Ahmadu Bello University, Zaria, Nigeria </option>
 				<option>Eko Radio Party</option>
 				<option>Abuja, Federal Capital Territory, Nigeria</option>

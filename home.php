@@ -42,9 +42,8 @@
 			}
 			</script>
 			<div class="posts">
-				<?php 
-				include("post-box.php");
-				?>
+				<h1>Timeline Feed (All)</h1>
+				<hr>
 				<div class="timeline-filter">
 					<ul>
 						<li><span class="icon-16-chat"></span></li>
@@ -54,8 +53,9 @@
 					</ul>
 				</div>
 				<div class="clear"></div>
+				<hr>
 				<?php 
-				include("new-post.php");
+				include("timeline.php");
 				?>
 				
 			</div>

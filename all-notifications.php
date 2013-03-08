@@ -42,6 +42,7 @@
 
 			</script>
 			<div class="all-notifications-list">
+				<h1>Notifications</h1>
 				<div class="timeline-filter">
 					<ul>
 						<li><span class="icon-16-list"></span></li>
