@@ -41,18 +41,12 @@
 			</script>			
 			<div class="all-friends-list">
 				<h1>All Friends</h1>
-				<div class="friends-box">
-					<div class="friend-search-box">
-						<input name="" class="friend-search-field float-left" placeholder="Search Friends" type="text" value="" required="">
-						<div class="float-left">
-							<input type="submit" class="button" value="Search">
-						</div>
-						<div class="float-right">
-							<input type="submit" class="button submit" value="Invite Friends">
-						</div>
-						<div class="clear"></div>
-					</div>	
+
+				<div class="friend-search-box">
+					<input name="" class="friend-search-field " placeholder="Search Friends" type="text" value="" required="">
+					<input type="submit" class="button" value="Search">
 				</div>
+				<div class="clear"></div>
 
 				<div class="individual-friend-box">
 					<a class= "fancybox " id="inline" href="#kori">

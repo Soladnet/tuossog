@@ -31,22 +31,13 @@
 			</script>
 			<div class="communities-list">
 				<h1>Communities</h1>
-				<div class="community-box">
-					
-					<div class="community-search-box">
-						<input name="" class="community-search-field float-left" placeholder="Search Communities" type="text" value="" required="">
-						<div class="float-left">
-							<input type="submit" class="button" value="Search">
-						</div>
-						<div class="float-right">
-							<input type="submit" class="button submit" value="Create Community">
-						</div>
-						<div class="clear"></div>
-					</div>
-					
-					
-					
+
+				<div class="community-search-box">
+					<input name="" class="community-search-field " placeholder="Search Communities" type="text" value="" required="">
+					<input type="submit" class="button" value="Search">
 				</div>
+				<div class="clear"></div>
+				
 
 				<div class="community-box">
 					
@@ -83,38 +74,38 @@
 							
 						</div>
 						<div class="clear"></div></div>
-					
-					
-					<div class="community-box-wrapper">
-						<div class="community-image">
-							<img src="images/eset.jpg">
-						</div>
-						<div class="community-text">
-							<div class="community-name"><a href="sample-community.php">The Pennsylvania State University New Kensington Campus of the Commonwealth College</a> </div>
-							<div class="details">
+
+
+						<div class="community-box-wrapper">
+							<div class="community-image">
+								<img src="images/eset.jpg">
+							</div>
+							<div class="community-text">
+								<div class="community-name"><a href="sample-community.php">The Pennsylvania State University New Kensington Campus of the Commonwealth College</a> </div>
+								<div class="details">
+
+								</div>
+								<div class="members">200 Members</div>
+								<div class="members">200 Posts</div>
 
 							</div>
-							<div class="members">200 Members</div>
-							<div class="members">200 Posts</div>
-							
+							<div class="clear"></div></div>
+
+
+
+
+
 						</div>
-						<div class="clear"></div></div>
-					
+					</div>
 
-					
-					
-
+					<?php
+					include("aside.php");
+					?>	
 				</div>
+				<?php
+				include("footer.php");
+				?>
 			</div>
-			
-		<?php
-			include("aside.php");
-		?>	
-		</div>
-		<?php
-			include("footer.php");
-		?>
-	</div>
 
-</body>
-</html>
+		</body>
+		</html>

@@ -15,6 +15,11 @@
 	p{
 		color: #777;
 		min-height: 21px;
+		margin: .1em .2em .1em 47px;
+		&.post-meta{
+			padding: .5em 0 .2em 0;
+			border-top: 1px dashed #dedede;
+		}
 	}
 	.timeline-time{
 		font-size: .8em;
