@@ -2,8 +2,9 @@
 				<div class="aside-wrapper">
 					<img class="profile-pic" src="images/1.jpg">
 					<table>
-						<tr><td></td><td><h3>Eko Radio Party</h3></td></tr>
-						<tr><td></td><td class="profile-meta"> ERP, a radio programme like no other... with sole objective of making serious issues light. We educate and entertain.</td></tr>
+						<tr><td colspan="2"><h3>Eko Radio Party</h3></td></tr>
+						<tr><td><span class="icon-16-warning"></span> Private</td></tr>
+						<tr><td class="profile-meta"> ERP, a radio programme like no other... with sole objective of making serious issues light. We educate and entertain.</td></tr>
 						</table>					
 					<div class="clear"></div>
 					<div class="profile-summary">
