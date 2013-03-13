@@ -17,7 +17,7 @@
 		</div>
 		<div class="clear"></div>
 		<button class=" button profile-button"><span class="icon-16-mail"></span> Message</button>
-		<button class=" button profile-button" id="more" onclick="javascript:toggle('pop-up-more','more');">More<span class="icon-16-checkmark"></span>
+		<div class="button profile-button more-div" id="more" onclick="javascript:toggle('pop-up-more','more');"> More<span class="icon-16-checkmark"></span>
 			<div class="more-container" id="pop-up-more">
 				<div class="more">
 					<ul>
@@ -31,7 +31,7 @@
 				</div>
 			</div>
 
-		</button>
+		</div>
 
 		<div class="clear"></div>
 		<div id="full-profile-data" class="no-display">
