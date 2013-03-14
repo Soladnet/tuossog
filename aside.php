@@ -79,11 +79,126 @@
 			</div>
 			<div class="aside-wrapper">
 				<h3><a href="all-friends.php">Friends</a></h3>
-				<a href=""><img class= "friends-thumbnails" src="images/1.jpg"></a>
-				<img class= "friends-thumbnails" src="images/2.jpg">
-				<img class= "friends-thumbnails" src="images/3.jpg">
-				<img class= "friends-thumbnails" src="images/snip.jpg">
-				<img class= "friends-thumbnails" src="images/1.jpg">
+					<a class= "fancybox " id="inline" href="#kori">
+						<img class= "friends-thumbnails" src="images/2.jpg">
+						<div style="display:none">
+							<div id="kori">
+								<div class="aside-wrapper">
+									<img class="profile-pic" src="images/2.jpg">
+									<table>
+										<tr><td></td><td><h3>Kori Muhammad Abdullahi</h3></td></tr>
+										<tr><td><span class="icon-16-map"></span></td><td class="profile-meta"> Abuja, Federal Capital Territory, Nigeria</td></tr>
+										<tr><td><span class="icon-16-female"></span></td><td class="profile-meta"> Female</td></tr>
+										<tr><td><span class="icon-16-male"></span></td><td class="profile-meta"> Male</td></tr>
+										<tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a href="">See Profile</a> </td></tr>
+									</table>					
+									<div class="clear"></div>
+									<button class="profile-meta-functions button"><span class="icon-16-eye"></span> Wink</button>
+									<button class="profile-meta-functions button"><span class="icon-16-mail"></span> Send Message</button>
+									<button class="profile-meta-functions button"><span class="icon-16-checkmark"></span> Accept Friendship</button>
+
+									<div class="clear"></div>
+								</div>
+							</div>
+						</div>
+					</a>
+
+					<a class= "fancybox " id="inline" href="#kori">
+						<img class= "friends-thumbnails" src="images/2.jpg">
+						<div style="display:none">
+							<div id="kori">
+								<div class="aside-wrapper">
+									<img class="profile-pic" src="images/2.jpg">
+									<table>
+										<tr><td></td><td><h3>Kori Muhammad Abdullahi</h3></td></tr>
+										<tr><td><span class="icon-16-map"></span></td><td class="profile-meta"> Abuja, Federal Capital Territory, Nigeria</td></tr>
+										<tr><td><span class="icon-16-female"></span></td><td class="profile-meta"> Female</td></tr>
+										<tr><td><span class="icon-16-male"></span></td><td class="profile-meta"> Male</td></tr>
+										<tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a href="">See Profile</a> </td></tr>
+									</table>					
+									<div class="clear"></div>
+									<button class="profile-meta-functions button"><span class="icon-16-eye"></span> Wink</button>
+									<button class="profile-meta-functions button"><span class="icon-16-mail"></span> Send Message</button>
+									<button class="profile-meta-functions button"><span class="icon-16-checkmark"></span> Accept Friendship</button>
+
+									<div class="clear"></div>
+								</div>
+							</div>
+						</div>
+					</a>
+
+					<a class= "fancybox " id="inline" href="#kori">
+						<img class= "friends-thumbnails" src="images/2.jpg">
+						<div style="display:none">
+							<div id="kori">
+								<div class="aside-wrapper">
+									<img class="profile-pic" src="images/2.jpg">
+									<table>
+										<tr><td></td><td><h3>Kori Muhammad Abdullahi</h3></td></tr>
+										<tr><td><span class="icon-16-map"></span></td><td class="profile-meta"> Abuja, Federal Capital Territory, Nigeria</td></tr>
+										<tr><td><span class="icon-16-female"></span></td><td class="profile-meta"> Female</td></tr>
+										<tr><td><span class="icon-16-male"></span></td><td class="profile-meta"> Male</td></tr>
+										<tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a href="">See Profile</a> </td></tr>
+									</table>					
+									<div class="clear"></div>
+									<button class="profile-meta-functions button"><span class="icon-16-eye"></span> Wink</button>
+									<button class="profile-meta-functions button"><span class="icon-16-mail"></span> Send Message</button>
+									<button class="profile-meta-functions button"><span class="icon-16-checkmark"></span> Accept Friendship</button>
+
+									<div class="clear"></div>
+								</div>
+							</div>
+						</div>
+					</a>
+
+					<a class= "fancybox " id="inline" href="#kori">
+						<img class= "friends-thumbnails" src="images/2.jpg">
+						<div style="display:none">
+							<div id="kori">
+								<div class="aside-wrapper">
+									<img class="profile-pic" src="images/2.jpg">
+									<table>
+										<tr><td></td><td><h3>Kori Muhammad Abdullahi</h3></td></tr>
+										<tr><td><span class="icon-16-map"></span></td><td class="profile-meta"> Abuja, Federal Capital Territory, Nigeria</td></tr>
+										<tr><td><span class="icon-16-female"></span></td><td class="profile-meta"> Female</td></tr>
+										<tr><td><span class="icon-16-male"></span></td><td class="profile-meta"> Male</td></tr>
+										<tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a href="">See Profile</a> </td></tr>
+									</table>					
+									<div class="clear"></div>
+									<button class="profile-meta-functions button"><span class="icon-16-eye"></span> Wink</button>
+									<button class="profile-meta-functions button"><span class="icon-16-mail"></span> Send Message</button>
+									<button class="profile-meta-functions button"><span class="icon-16-checkmark"></span> Accept Friendship</button>
+
+									<div class="clear"></div>
+								</div>
+							</div>
+						</div>
+
+						<a class= "fancybox " id="inline" href="#kori">
+						<img class= "friends-thumbnails" src="images/2.jpg">
+						<div style="display:none">
+							<div id="kori">
+								<div class="aside-wrapper">
+									<img class="profile-pic" src="images/2.jpg">
+									<table>
+										<tr><td></td><td><h3>Kori Muhammad Abdullahi</h3></td></tr>
+										<tr><td><span class="icon-16-map"></span></td><td class="profile-meta"> Abuja, Federal Capital Territory, Nigeria</td></tr>
+										<tr><td><span class="icon-16-female"></span></td><td class="profile-meta"> Female</td></tr>
+										<tr><td><span class="icon-16-male"></span></td><td class="profile-meta"> Male</td></tr>
+										<tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a href="">See Profile</a> </td></tr>
+									</table>					
+									<div class="clear"></div>
+									<button class="profile-meta-functions button"><span class="icon-16-eye"></span> Wink</button>
+									<button class="profile-meta-functions button"><span class="icon-16-mail"></span> Send Message</button>
+									<button class="profile-meta-functions button"><span class="icon-16-checkmark"></span> Accept Friendship</button>
+
+									<div class="clear"></div>
+								</div>
+							</div>
+						</div>
+					</a>
+					</a>
+				
 				<p class="community-listing">
 					<span>
 						<span><span class="icon-16-dot"></span><a href="all-friends.php">Show all</a></span>

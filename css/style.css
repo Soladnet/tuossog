@@ -490,6 +490,9 @@ input[type=text], input[type=password], input[type=email], input[type=number], t
 .nav-user ul li span { padding: 0 .1em; }
 .nav-user ul li .notification-number { color: #99c43d; cursor: pointer; }
 
+.mobile-search { display: none; }
+@media only screen and (max-width: 720px) { .mobile-search { display: inline-block; } }
+
 .search-pop-out { font-size: 0.8em !important; }
 
 .search-result-container { position: relative; display: none; }
