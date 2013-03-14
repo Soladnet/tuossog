@@ -49,15 +49,17 @@
 					<h2>Basic Settings</h2>
 					<p>Name</p>
 					<p>Email</p>
+					<p>Password</p>
 				</div>
 				<div class="individual-setting">
 					<h2>Privacy</h2>
-					<p>Make my account private</p>
+					<p> <input type="checkbox"> Make my account private</p>
 				</div>
 				<div class="individual-setting">
 					<h2>Notifications</h2>
-					<p>Receive notifications through e-mail</p>
-				</div>	
+					<p> <input type="checkbox"> Receive notifications through e-mail</p>
+				</div>
+				<input type="button" class="button submit" value="Save Changes">	
 			</div>
 			
 		<?php

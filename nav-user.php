@@ -114,8 +114,21 @@
             </a>
             <span class="notification-number">15</span>
         </li>
-        <li class="nav-user-profile last hint hint--left" data-hint="Profile Settings"><a href="settings.php"><span class="icon-16-cog"></span></a></li>
-        <li class="nav-user-profile hint hint--left" data-hint="My Profile"><a href=""><span class="icon-16-vcard"></span></a></li>
+        <li class="nav-user-profile hint hint--left last" data-hint="My Profile" id="user-actions">
+            <a href="javascript:toggle('pop-up-user-actions','user-actions');"><span class="icon-16-vcard"></span></a>
+            
+                <div class="user-actions-container" id="pop-up-user-actions">
+                    <div class="user-actions">
+                        <ul>
+                            <li><a href="home.php"><span class="icon-16-vcard"></span> My Profile</a></li>
+                            <li><a href="settings.php"><span class="icon-16-cog"></span> Settings</a></li>
+                            <hr>
+                            <li><a><span class="icon-16-logout"></span> Log Out</a></li>
+                        </ul>
+                    </div>
+                 </div>
+                
+        </li>
         
     </ul>
     <div class="clear"></div>

@@ -348,9 +348,13 @@ select {
    				border: 1px solid #bbb;
    				font-size: .8em !important;
    				text-shadow:none !important;
+   				li{
+   					border:none;
+   				}
+
 	}
 }
-.notifications-container:before, .search-result-container:before, .more-container:before{
+.notifications-container:before, .search-result-container:before, .more-container:before, .user-actions-container:before{
 	content: ' ';
 	height: 0;
 	position: absolute;
@@ -359,7 +363,7 @@ select {
 	border-bottom-color: #bbb;
 	z-index:10000;
 }
-.notifications-container:after, .search-result-container:after, .more-container:after {
+.notifications-container:after, .search-result-container:after, .more-container:after, .user-actions-container:after{
 	content: ' ';
 	height: 0;
 	position: absolute;
@@ -388,7 +392,38 @@ select {
 	border-bottom-color: #fff;
 	z-index:10000;
 }
-
+.user-actions-container{
+		position:relative;
+		display:none;
+	.user-actions{	
+		-webkit-border-radius: 3px;
+    			border-radius: 3px;
+		-moz-box-shadow:    0px 3px 5px 3px #ccc;
+		-webkit-box-shadow: 0px 3px 5px 3px #ccc;
+		box-shadow:         0px 3px 5px 3px #ccc;
+		border:1px solid #dadada;
+		background: white;
+		z-index:1000;
+		position: absolute;
+		padding: 0 .5em .5em .5em;
+		right:-6px;
+		width: 10em;
+		min-height: 50px;
+		top:15px;
+		border: 1px solid #bbb;
+			ul{
+				li{
+					border:none;
+					font-size:1em;
+					padding: 0.8em 0.5em;
+					width:100%;
+					&:hover{
+						background-color:#f8f8f8;
+					}
+				}
+			}
+		}
+}
 .notifications-container, .messages-container{
 	position:relative;
 	display:none;
