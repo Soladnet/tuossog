@@ -3,12 +3,12 @@
 <link rel="stylesheet" href="css/libnotify.css">
 <link rel="shortcut icon" href="favicon.ico">
 
-<!--<script src="scripts/svgeezy.js"></script>
+<script src="scripts/svgeezy.js"></script>
 <script>
     $(function() {
-        svgeezy.init("nocheck", "png");
+        svgeezy.init(true, "png");
     });
-</script>-->
+</script>
 <script type="text/javascript" src="scripts/script.js"></script>
 <script type="text/javascript" src="scripts/humane.min.js"></script>
 <!-- <link href='http://fonts.googleapis.com/css?family=Ubuntu|Open+Sans:300' rel='stylesheet' type='text/css'> -->
