@@ -396,6 +396,13 @@
 .settings-list .individual-setting { border-bottom: 1px solid #dadada; padding: .5em; width: 100%; margin: 0 0 0.5em 0; }
 .settings-list input[type="checkbox"] { vertical-align: baseline !important; }
 
+.create-community { width: 62.5%; float: right; padding: .5em; }
+@media only screen and (max-width: 720px) { .create-community { width: 100%; font-size: .9em; } }
+.create-community .individual-detail { border-bottom: 1px solid #dadada; padding: .5em; width: 100%; margin: 0 0 0.5em 0; }
+.create-community .desc { margin: 0.5em 0; font-size: 0.8em; color: #777; }
+.create-community input { vertical-align: baseline !important; border: 1px solid #c6c6c6; }
+.create-community input[type=text], .create-community textarea { width: 100%; }
+
 * { margin: 0; padding: 0; vertical-align: top; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box; }
 
 .sample { font-family: 'Ubuntu', sans-serif; font-family: 'Open Sans', sans-serif; }
@@ -471,6 +478,7 @@ input[type=text], input[type=password], input[type=email], input[type=number], t
 .nav ul img { max-height: 40px; float: left; }
 .nav ul .last { border-right: 1px solid #8aa883; }
 .nav ul li { border-left: 1px solid #8aa883; -webkit-transition: all 0.4s ease-out; -moz-transition: all 0.4s ease-out; -o-transition: all 0.4s ease-out; transition: all 0.4s ease-out; cursor: pointer; float: left; padding: .3em .5em; font-family: 'Segoe UI Light', Segoe UI,sans-serif; font-size: 1.2em; text-shadow: 0 1px 1px #ddd !important; box-shadow: 2px 0 0 rgba(255, 255, 255, 0.11); }
+@media only screen and (max-width: 240px) { .nav ul li { padding: .3em; } }
 .nav ul li:hover { background: #fff; background: rgba(255, 255, 255, 0.9); }
 .nav ul li input { -webkit-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; padding: .2em; border: none; font-size: .8em; color: #aaa; }
 .nav ul li input:hover, .nav ul li input:active, .nav ul li input:focus { color: #707373; border: none; }
@@ -486,6 +494,7 @@ input[type=text], input[type=password], input[type=email], input[type=number], t
 .nav-user ul { max-width: 1025px !important; margin: 0 auto !important; }
 .nav-user ul .last { border-right: 1px solid #eaeaea; }
 .nav-user ul li { border-left: 1px solid #eaeaea; padding: .5em; font-size: .75em; float: left; }
+@media only screen and (max-width: 240px) { .nav-user ul li { padding: .3em; } }
 .nav-user ul li a { color: #969696; }
 .nav-user ul li a:hover { color: #000; }
 .nav-user ul li span { padding: 0 .1em; }

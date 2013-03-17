@@ -1,0 +1,27 @@
+.create-community{
+	width: 62.5%;
+	float: right;
+	padding:.5em;
+	@media only screen and (max-width : 720px) {
+		width: 100%;
+		font-size: .9em;
+	}
+	.individual-detail{
+		border-bottom: 1px solid #dadada;
+		padding:.5em;
+		width:100%;
+		margin: 0 0 0.5em 0;
+	}
+	.desc{
+		margin: 0.5em 0;
+		font-size: 0.8em;
+		color:#777;
+	}
+	input{
+		vertical-align: baseline !important;
+		border: 1px solid #c6c6c6;
+	}
+	input[type=text], textarea{
+		width:100%;
+	}
+}
