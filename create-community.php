@@ -75,7 +75,7 @@
 					<p class="desc">Private communities can only be accessed by members that are invited to join</p>
 				</div>
 				<br>
-				<input type="button" class="button submit" value="Save Changes">	
+				<input type="button" class="button submit" value="Create">	
 			</div>
 			
 		<?php
