@@ -1,6 +1,6 @@
 <div class="search-result-container" id="pop-up-search">
                 <div class="search">
-                    <a href="javascript:toggle('pop-up-search','search');" class="float-right">
+                    <a href="javascript:toggle('pop-up-search','search');" class="float-right actions">
                         <span class="icon-16-cross"></span>Close 
                     </a>
                     <div class="clear"></div>
@@ -90,6 +90,6 @@
                 </div>
 
                 <div class="clear"></div>
-                    <a href=""> See all</a>
+                    <a href="" class="actions"> See all</a>
                 </div>
             </div>

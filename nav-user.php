@@ -114,9 +114,10 @@
             </a>
             <span class="notification-number">15</span>
         </li>
-        <li class="nav-user-profile hint hint--left last" data-hint="My Profile" id="user-actions">
-            <a href="javascript:toggle('pop-up-user-actions','user-actions');"><span class="icon-16-vcard"></span></a>
-            
+
+        <li class="nav-user-profile last"  id="user-actions">
+            <a href="javascript:toggle('pop-up-user-actions','user-actions');">
+                <span class="icon-16-vcard"></span></a>
                 <div class="user-actions-container" id="pop-up-user-actions">
                     <div class="user-actions">
                         <ul>

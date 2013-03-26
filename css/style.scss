@@ -266,7 +266,7 @@ select {
 				}
 			}
 			span{
-				@media only screen and (max-width: 340px) {
+				@media only screen and (max-width: 350px) {
 				margin: 0px auto;
 				font-size: 0.8em;
 				display:block;
@@ -339,7 +339,7 @@ select {
 	.search-friends-list{
 		width:100% !important;
 	}
-	.search{
+	.search{ 
 		-moz-box-shadow:    0px 3px 5px 3px #ccc;
 				-webkit-box-shadow: 0px 3px 5px 3px #ccc;
 				box-shadow:         0px 3px 5px 3px #ccc;
@@ -348,8 +348,8 @@ select {
 				z-index:1000;
    				position: absolute;
    				padding: 0 .5em .5em .5em;
-   				left:-6px;
-   				width: 18.5em;
+   				right: 0px;
+   				width: 25em;
    				min-height: 200px;
    				top:15px;
    				border: 1px solid #bbb;
@@ -358,7 +358,9 @@ select {
    				li{
    					border:none;
    				}
-
+   				.actions{
+   					font-size:.9em;
+   				}
 	}
 }
 .notifications-container:before, .search-result-container:before, .more-container:before, .user-actions-container:before{
@@ -447,7 +449,6 @@ select {
 		padding: 0 .5em .5em .5em;
 		left:-6px;
 		width: 25em;
-		min-height: 200px;
 		top:15px;
 		border: 1px solid #bbb;
 		@media only screen and (max-width: 300px) {
