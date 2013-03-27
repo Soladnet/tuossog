@@ -37,7 +37,7 @@ $nav-gradient-2: #BAD533;
 	    	display: table;
 	    	@media only screen and (max-width : 260px){
 				width:100%;
-			}
+			} 
 	    	
 
 	    }
@@ -52,6 +52,7 @@ $nav-gradient-2: #BAD533;
 			}
 
 		.members{
+			display: inline;
 			color: #ccc;
 			margin-right:.5em;
 			font-size:.7em;

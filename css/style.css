@@ -178,7 +178,7 @@
 @media only screen and (max-width: 260px) { .communities-list .community-box .community-text { width: 100%; } }
 .communities-list .community-box .community-name { padding: 0 0 .2em 0; vertical-align: text-bottom; }
 .communities-list .community-box .details { font-size: .8em; text-align: justify; text-justify: inter-word; }
-.communities-list .community-box .members { color: #ccc; margin-right: .5em; font-size: .7em; }
+.communities-list .community-box .members { display: inline; color: #ccc; margin-right: .5em; font-size: .7em; }
 .communities-list .community-search-box { display: inline-block; float: right; margin: .85em 0 .4em 0; }
 @media only screen and (max-width: 520px) { .communities-list .community-search-box { display: block; float: none; } }
 .communities-list .community-search-box input[type=text] { border: 1px solid #ddd; border-radius: 4px; padding: .4em; }

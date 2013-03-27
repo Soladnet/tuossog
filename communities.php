@@ -48,53 +48,142 @@
 						<div class="community-text">
 							<div class="community-name"><a href="sample-community.php">Eko Radio Party</a> </div>
 							<hr>
+							<p class="community-privacy"> 
 							<div class="details">ERP, a radio programme like no other... 
 								with sole objective of making serious issues light. We educate and entertain.
 
 							</div>
+							<div class="members">Private</div>
 							<div class="members">200 Members</div>
 							<div class="members">200 Posts</div>
 						</div>
 						<div class="clear"></div>
 					</div>
-					
-					
 					<div class="community-box-wrapper">
 						<div class="community-image">
 							<img src="images/1.jpg">
 						</div>
 						<div class="community-text">
 							<div class="community-name"><a href="sample-community.php">Eko Radio Party</a> </div>
+							<hr>
+							<p class="community-privacy"> 
 							<div class="details">ERP, a radio programme like no other... 
 								with sole objective of making serious issues light. We educate and entertain.
 
 							</div>
+							<div class="members">Private</div>
 							<div class="members">200 Members</div>
 							<div class="members">200 Posts</div>
-							
 						</div>
-						<div class="clear"></div></div>
-
-
-						<div class="community-box-wrapper">
-							<div class="community-image">
-								<img src="images/eset.jpg">
-							</div>
-							<div class="community-text">
-								<div class="community-name"><a href="sample-community.php">The Pennsylvania State University New Kensington Campus of the Commonwealth College</a> </div>
-								<div class="details">
-
-								</div>
-								<div class="members">200 Members</div>
-								<div class="members">200 Posts</div>
+						<div class="clear"></div>
+					</div>
+					<div class="community-box-wrapper">
+						<div class="community-image">
+							<img src="images/1.jpg">
+						</div>
+						<div class="community-text">
+							<div class="community-name"><a href="sample-community.php">Eko Radio Party</a> </div>
+							<hr>
+							<p class="community-privacy"> 
+							<div class="details">ERP, a radio programme like no other... 
+								with sole objective of making serious issues light. We educate and entertain.
 
 							</div>
-							<div class="clear"></div></div>
+							<div class="members">Private</div>
+							<div class="members">200 Members</div>
+							<div class="members">200 Posts</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="community-box-wrapper">
+						<div class="community-image">
+							<img src="images/1.jpg">
+						</div>
+						<div class="community-text">
+							<div class="community-name"><a href="sample-community.php">Eko Radio Party</a> </div>
+							<hr>
+							<p class="community-privacy"> 
+							<div class="details">ERP, a radio programme like no other... 
+								with sole objective of making serious issues light. We educate and entertain.
 
+							</div>
+							<div class="members">Private</div>
+							<div class="members">200 Members</div>
+							<div class="members">200 Posts</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="community-box-wrapper">
+						<div class="community-image">
+							<img src="images/1.jpg">
+						</div>
+						<div class="community-text">
+							<div class="community-name"><a href="sample-community.php">Eko Radio Party</a> </div>
+							<hr>
+							<p class="community-privacy"> 
+							<div class="details">ERP, a radio programme like no other... 
+								with sole objective of making serious issues light. We educate and entertain.
 
+							</div>
+							<div class="members">Private</div>
+							<div class="members">200 Members</div>
+							<div class="members">200 Posts</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="community-box-wrapper">
+						<div class="community-image">
+							<img src="images/1.jpg">
+						</div>
+						<div class="community-text">
+							<div class="community-name"><a href="sample-community.php">Eko Radio Party</a> </div>
+							<hr>
+							<p class="community-privacy"> 
+							<div class="details">ERP, a radio programme like no other... 
+								with sole objective of making serious issues light. We educate and entertain.
 
+							</div>
+							<div class="members">Private</div>
+							<div class="members">200 Members</div>
+							<div class="members">200 Posts</div>
+						</div>
+					</div>
+					<div class="community-box-wrapper">
+						<div class="community-image">
+							<img src="images/1.jpg">
+						</div>
+						<div class="community-text">
+							<div class="community-name"><a href="sample-community.php">Eko Radio Party</a> </div>
+							<hr>
+							<p class="community-privacy"> 
+							<div class="details">ERP, a radio programme like no other... 
+								with sole objective of making serious issues light. We educate and entertain.
 
+							</div>
+							<div class="members">Private</div>
+							<div class="members">200 Members</div>
+							<div class="members">200 Posts</div>
+						</div>
+					</div>
+					<div class="community-box-wrapper">
+						<div class="community-image">
+							<img src="images/1.jpg">
+						</div>
+						<div class="community-text">
+							<div class="community-name"><a href="sample-community.php">Eko Radio Party</a> </div>
+							<hr>
+							<p class="community-privacy"> 
+							<div class="details">ERP, a radio programme like no other... 
+								with sole objective of making serious issues light. We educate and entertain.
 
+							</div>
+							<div class="members">Private</div>
+							<div class="members">200 Members</div>
+							<div class="members">200 Posts</div>
+						</div>
+					</div>
+					
+				
 						</div>
 					</div>
 

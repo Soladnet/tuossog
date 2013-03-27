@@ -225,3 +225,4 @@ window.open("http://tlk.io/Gossout-30", null, "toolbar=no,menubar=no,resizable =
     </div>
 
 </div>	
+<div class="clear"></div>
