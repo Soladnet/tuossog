@@ -360,6 +360,7 @@ select {
    				}
    				.actions{
    					font-size:.9em;
+   					color: $nav-gradient-1 !important;
    				}
 	}
 }
@@ -603,7 +604,7 @@ select {
 			padding: .25em .55em;
 			font-size:.8em;
 			a{
-				color: #969696;
+				color: #nav-gradient-1 !important;
 				&:hover{
 					color:#000;
 				}
