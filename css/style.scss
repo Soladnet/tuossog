@@ -24,6 +24,8 @@ $max-width: 1025px;
 @import "_jquery.fancybox.scss";
 @import "_settings.scss";
 @import "_create-community.scss";
+@import "_slide-in.scss";
+
 
 
 
@@ -49,6 +51,10 @@ html {
 		       -o-transition: all 0.1s ease-out; 
 		          transition: all 0.1s ease-out; 
 		      }
+}
+[placeholder]:focus::-webkit-input-placeholder {
+	transition: opacity 0.5s 0.5s ease; 
+	opacity: 0;
 }
 a { 
 	text-decoration: none;
@@ -82,8 +88,7 @@ a {
 ol,ul { list-style: none; }
 h1,h2,h3,h4,h5,h6 { 
 	font-family: 'Segoe UI Light', Segoe UI, sans-serif;
-	color: $nav-gradient-1;
-	//line-height: 1;
+	color: #707373;
 	margin: .15em 0; 
 	font-weight: 400;
 }
@@ -100,6 +105,13 @@ select {
 	padding: .3em;
 
 }
+select {
+	width: 180px;
+	max-width: 100%;
+}
+input[type=checkbox]{
+	vertical-align: baseline !important;
+}
 
 .clear { clear: both;}
 .float-left { float: left !important;}
@@ -108,11 +120,11 @@ select {
 .no-padding { padding: 0 !important;}
 .no-display {display: none;}
 .no-margin { margin: 0 !important;}
-.error, .alert, .notice, .success, .info { padding: .6em; margin: .2em 0; border: none; font-size: .9em; }
+.error, .alert, .notice, .success, .info { padding: .75em; margin: .5em 0; border: none; font-size: .9em; }
 .error, .alert{ background: #FBE3E4; color: #8A1F11 !important;}
 .notice{ background: #FFF6BF;    color: #514721 !important;}
 .info{ background: #ddd; color: #264409 !important;}
-.success{ background: #E6EFC2; color: #264409 !important;}
+.success{ background: #F1F8D2; color: #264409 !important;}
 .button{
 	color: #777;
 	border: 1px solid #ddd;
@@ -149,15 +161,15 @@ select {
 	    transition-duration: 0.2s;
 	}
 }
-.button-big { 
+.button-big{ 
     -webkit-user-select:none;
     -moz-user-select:none;
     -ms-user-select:none;
     user-select:none;
     border: none;
-	color: #777;
+	color: #777 !important;
 	font-size: 1.2em;
-	padding: .5em 1em;
+	padding: .5em .8em;
 	-webkit-border-radius: 5px;
     		border-radius: 5px;
 	-webkit-box-shadow: 0px 0px 4px 0px #ccc;
@@ -169,7 +181,7 @@ select {
 	background-image:      -o-linear-gradient(top, #b9d532, #99c53d);
 	background-image:         linear-gradient(to bottom, #b9d532, #99c53d);
 	&:hover{
-		color: #fff;
+		color: #fff !important;
 		cursor: pointer;
 		background-color: $nav-gradient-1;
 	}
@@ -180,6 +192,13 @@ select {
 		-webkit-transition-duration: 0.2s;
 	    -moz-transition-duration: 0.2s;
 	    transition-duration: 0.2s;
+	}
+	a {
+		color: #777 !important;
+		&:hover{
+			color: #fff !important;
+		}
+
 	}
 }
 .profile-button{
@@ -360,7 +379,6 @@ select {
    				}
    				.actions{
    					font-size:.9em;
-   					color: $nav-gradient-1 !important;
    				}
 	}
 }
@@ -604,7 +622,7 @@ select {
 			padding: .25em .55em;
 			font-size:.8em;
 			a{
-				color: #nav-gradient-1 !important;
+				color: #969696;
 				&:hover{
 					color:#000;
 				}
@@ -751,7 +769,7 @@ select {
 	}
 }
 .post-meta {
-	padding: 0 .4em;
+	padding: .4em 0 0;
 	span {
 		cursor: pointer;
 		font-size: .8em;

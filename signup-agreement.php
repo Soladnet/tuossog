@@ -43,7 +43,6 @@
 							</p>
 						</li>
 					</ul>
-					<br>
 					<button class="button-big"><a href="home.php">Finish!</a></button>
 				</form>
 				<div class="clear"></div>

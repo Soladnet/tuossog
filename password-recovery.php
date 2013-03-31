@@ -23,25 +23,22 @@
 			<div class="registration">
 				<div class="index-intro-1">
 				<h1>
-					We knew you'd come back ;) How've you been?
+					Password Recovery!
 				</h1>
 				<hr>
 			</div>
 				<form>
 					<ul>
 						<li>
+							<p class="info">
+								Enter the email address you used to register with us and you'll 
+								revieve an email from us with instructions on how to reset your password!
+							</p>
 							<label for="email">e-mail Address</label>
 							<input class="input-fields" name="email" placeholder="email@awesome.com" type="text" value="" spellcheck="false" required/>
 						</li>
-						<li>
-							<label for="password">Password</label>
-							<input class="input-fields" name="password" placeholder="******" type="text" value="" spellcheck="false" required/>
-						</li>
-						<li><input type="checkbox" name="" value=""> Remember me</li>
-						</ul>
-						<button class="button-big"><a href="home.php">Login!</a></button>
-						<p class="float-right"><a href="password-recovery.php">Forgot Password?...</a></p>
-						<div class="clear"></div>						
+						
+						<button class="button-big"><a href="">Send</a></button>						
 					</form>
 					<div class="clear"></div>
 				</div>

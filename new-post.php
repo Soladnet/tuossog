@@ -1,4 +1,59 @@
-<div class="post">
+<script type="text/javascript">
+(function($) {
+
+  /**
+   * Copyright 2012, Digital Fusion
+   * Licensed under the MIT license.
+   * http://teamdf.com/jquery-plugins/license/
+   *
+   * @author Sam Sehnert
+   * @desc A small plugin that checks whether elements are within
+   *     the user visible viewport of a web browser.
+   *     only accounts for vertical position, not horizontal.
+   */
+
+  $.fn.visible = function(partial) {
+    
+      var $t            = $(this),
+          $w            = $(window),
+          viewTop       = $w.scrollTop(),
+          viewBottom    = viewTop + $w.height(),
+          _top          = $t.offset().top,
+          _bottom       = _top + $t.height(),
+          compareTop    = partial === true ? _bottom : _top,
+          compareBottom = partial === true ? _top : _bottom;
+    
+    return ((compareBottom <= viewBottom) && (compareTop >= viewTop));
+
+  };
+    
+})(jQuery);
+
+// ------------------------------------
+
+var win = $(window);
+
+var allMods = $(".post");
+
+allMods.each(function(i, el) {
+  var el = $(el);
+  if (el.visible(true)) {
+    el.addClass("already-visible"); 
+  } 
+});
+
+win.scroll(function(event) {
+  
+  allMods.each(function(i, el) {
+    var el = $(el);
+    if (el.visible(true)) {
+      el.addClass("come-in"); 
+    } 
+  });
+  
+});
+</script>
+<div class="post ">
 	<div class="post-content">
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -10,18 +65,23 @@
 		<a  class="fancybox" rel="gallery1"  href="images/pic-1.jpg" rel="group"><img src="images/pic-1.jpg"></a>					
 		<a  class="fancybox" rel="gallery1"  href="images/eset.jpg" rel="group"><img src="images/eset.jpg"></a>	
 		<hr>						
-		<h3 class="name">Sample Name</h3>
-		<span class="post-time"><span class="icon-16-time"></span>5 minutes ago </span>
-		<span class="post-time"><span class="icon-16-checkmark"></span>Seen by 242 </span>
+		<h3 class="name">Sample Name
+			<div class="float-right">
+				<span class="post-time"><span class="icon-16-comment"></span>50</span>
+				<span class="post-time"><span class="icon-16-share"></span>24</span>
+				<span class="post-time"><span class="icon-16-clock"></span>5 mins</span>
+			</div>
+		</h3>
 	</div>
 	<!-- ******** 	To be hidden/visualised using js onclick when "Show all" button is clicked 	***** -->
 	<!-- *************************************************************************************** -->
+	<hr>
 	<div class="post-meta">
 		
-		<span id="post-new-comment-show" class="" onclick="showHide('post-new-comment');return false;"><span class="icon-16-comment"></span>Comment </span>
-		<span class="post-meta-delete"><span class="icon-16-cross"></span>Delete </span>
-		<span id="post-comments-show" onclick="showHide('post-comments');return false;"><span class="icon-16-list"></span>Show Comment(s) </span>
-		<span class="post-meta-gossout"><span class="icon-16-gossout"></span>Gossout</span>
+		<span id="post-new-comment-show" class="" onclick="javascript:toggle('post-comments', 'post-new-comment-show');"><span class="icon-16-comment"></span>Comment</span>
+		<span class="post-meta-gossout"><span class="icon-16-share"></span>Share</span>
+		<span class="post-meta-delete"><span class="icon-16-trash"></span>Delete </span>
+		
 
 	</div>
 	<!-- ************************************************************************************** -->

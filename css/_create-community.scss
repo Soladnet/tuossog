@@ -7,10 +7,10 @@
 		font-size: .9em;
 	}
 	.individual-detail{
-		border-bottom: 1px solid #dadada;
-		padding:.5em;
-		width:100%;
-		margin: 0 0 0.5em 0;
+		border-bottom: 1px solid #eee;
+		padding:.1em .5em 1.2em .5em;
+		width: 100%;
+		margin: .5em 0;
 	}
 	.desc{
 		margin: 0.5em 0;
@@ -23,5 +23,13 @@
 	}
 	input[type=text], textarea{
 		width:100%;
+	}
+	.pic-community {
+		display: block;
+ 		border: 1px solid #ddd;
+		max-width: 300px;
+		width: 100%;
+		padding: .4em;
+		margin: 0 auto;
 	}
 }

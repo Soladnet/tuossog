@@ -57,8 +57,12 @@
 				<div class="clear"></div>
 				<?php 
 				include("new-post.php");
+				include("new-post.php");
+				include("new-post.php");
+				include("new-post.php");
+				include("new-post.php");
 				?>
-				
+				<div class="clear"></div>
 			</div>
 			
 		<?php

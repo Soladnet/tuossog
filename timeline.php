@@ -100,12 +100,31 @@
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		<p class="post-meta">
 			
-			<span id="post-new-comment-show" class="" onclick="showHide('post-new-comment');return false;"><span class="icon-16-comment"></span>Comment </span>
-			<span class="post-meta-delete"><span class="icon-16-cross"></span>Delete </span>
-			<span id="post-comments-show" onclick="showHide('post-comments');return false;"><span class="icon-16-list"></span>Show Comment(s) </span>
-			<span class="post-meta-gossout"><span class="icon-16-gossout"></span>Gossout</span>
+			<span id="comment" class=""><span class="icon-16-comment"></span>Comment(20)</span>
+			<span class="post-meta-gossout"><span class="icon-16-share"></span>Share(20)</span>
+			<!--<span class="post-meta-delete"><span class="icon-16-trash"></span> Delete </span>
+			-->
 
 		</p>
+		<div class="clear"></div>
+	</div>
+
+
+	<div class="timeline-news-single">
+		<div class="timeline-news-profile-pic">
+			<img src="images/2.jpg">
+		</div>
+		<p><a class="fancybox " id="inline" href="#Jeremy">Sanusi Lamido</a> created a new <a href="sample-community.php">Community</a></p>
+		<p class="timeline-time">25 minutes ago.</p>
+		<div class="community-meta">
+			<img src="images/cbn.jpg">
+			<h3><a href="">Central Bank of Nigeria</a></h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.</p>
+			<p><a href="">Join</a></p>
+		</div>
 		<div class="clear"></div>
 	</div>
 

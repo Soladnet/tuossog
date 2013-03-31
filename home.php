@@ -54,6 +54,10 @@
 				</div>
 				<div class="clear"></div>
 				<hr>
+				<div class="success">
+					While you were away, <a href="all-notifications.php">700 of your friends</a> 
+					posted new stuffs in  <a href="sample-community.php">Sample Community Name</a>
+				</div>
 				<?php 
 				include("timeline.php");
 				?>
