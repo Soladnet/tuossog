@@ -45,7 +45,7 @@
 						Here are some suggestions we think you might like!
 
 					</div>
-					<div class="timeline-filter">
+				<div class="timeline-filter">
 					<ul>
 						<li><span class="icon-16-earth"></span></li>
 						<li class="active"><a href=""><p>Suggestions</p> </a></li>
