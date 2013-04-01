@@ -45,6 +45,14 @@
 						Here are some suggestions we think you might like!
 
 					</div>
+					<div class="timeline-filter">
+					<ul>
+						<li><span class="icon-16-earth"></span></li>
+						<li class="active"><a href=""><p>Suggestions</p> </a></li>
+						<li><a href=""><p>My Communities</p></a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
 					
 					<div class="community-box-wrapper">
 						<div class="community-image">

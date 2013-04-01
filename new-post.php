@@ -1,58 +1,3 @@
-<script type="text/javascript">
-(function($) {
-
-  /**
-   * Copyright 2012, Digital Fusion
-   * Licensed under the MIT license.
-   * http://teamdf.com/jquery-plugins/license/
-   *
-   * @author Sam Sehnert
-   * @desc A small plugin that checks whether elements are within
-   *     the user visible viewport of a web browser.
-   *     only accounts for vertical position, not horizontal.
-   */
-
-  $.fn.visible = function(partial) {
-    
-      var $t            = $(this),
-          $w            = $(window),
-          viewTop       = $w.scrollTop(),
-          viewBottom    = viewTop + $w.height(),
-          _top          = $t.offset().top,
-          _bottom       = _top + $t.height(),
-          compareTop    = partial === true ? _bottom : _top,
-          compareBottom = partial === true ? _top : _bottom;
-    
-    return ((compareBottom <= viewBottom) && (compareTop >= viewTop));
-
-  };
-    
-})(jQuery);
-
-// ------------------------------------
-
-var win = $(window);
-
-var allMods = $(".post");
-
-allMods.each(function(i, el) {
-  var el = $(el);
-  if (el.visible(true)) {
-    el.addClass("already-visible"); 
-  } 
-});
-
-win.scroll(function(event) {
-  
-  allMods.each(function(i, el) {
-    var el = $(el);
-    if (el.visible(true)) {
-      el.addClass("come-in"); 
-    } 
-  });
-  
-});
-</script>
 <div class="post ">
 	<div class="post-content">
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -94,8 +39,6 @@ win.scroll(function(event) {
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
 			</p>
 			
-			<button class="button"><span class="icon-16-cross"></span>Delete Post </button>
-			
 			<div class="clear"></div>
 		</div>
 		<div class="post-comment">
@@ -109,6 +52,7 @@ win.scroll(function(event) {
 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+				<br><span class="post-meta-delete"><span class="icon-16-trash"></span><span>Delete</span> </span>
 			</p>
 			<div class="clear"></div>
 		</div>

@@ -4,10 +4,6 @@
 	<?php
 	include ("head.php");
 	?>
-<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-<!-- <link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.4" type="text/css" media="screen" /> -->
-<script type="text/javascript" src="scripts/jquery.fancybox.pack.js?v=2.1.4"></script>
-
 </head>
 <body>
 	<script type="text/javascript">

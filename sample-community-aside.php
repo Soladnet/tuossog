@@ -3,7 +3,7 @@
 					<img class="profile-pic" src="images/1.jpg">
 					<table>
 						<tr><td colspan="2"><h3>Eko Radio Party</h3></td></tr>
-						<tr><td><span class="icon-16-warning"></span> Private</td></tr>
+						<tr><td><span class="icon-16-lock"></span>Private</td></tr>
 						<tr><td class="profile-meta"> ERP, a radio programme like no other... with sole objective of making serious issues light. We educate and entertain.</td></tr>
 						</table>					
 					<div class="clear"></div>
@@ -21,11 +21,12 @@
 							<div class="more">
 								<ul>
 									<li><a href=""><span class="icon-16-chat"></span> Chat</a></li>
-									<li><a href=""><span class="icon-16-mail"></span> Invite Members</a></li>
-									<li><a href=""><span class="icon-16-checkmark"></span> Favourite</a></li>
+									<li><a href=""><span class="icon-16-user-add"></span> Invite Members</a></li>
+									<li><a href=""><span class="icon-16-star"></span> Favourite</a></li>
+									<li><a href=""><span class="icon-16-star-empty"></span> Un-Favourite</a></li>
 									<hr>
-									<li><a href=""><span class="icon-16-checkmark"></span> Mute</a></li>
-									<li><a href=""><span class="icon-16-cross"></span> Leave</a></li>
+									<li><a href=""><span class="icon-16-sound-off"></span> Mute</a></li>
+									<li><a href=""><span class="icon-16-trash"></span> Leave</a></li>
 								</ul>
 							</div>
 						</div>

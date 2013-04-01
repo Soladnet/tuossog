@@ -3,9 +3,10 @@
         <img class="profile-pic" src="images/1.jpg">
         <table>
             <tr><td></td><td><h3><a href="">Ciroma Chukwuma Adekunle</a></h3></td></tr>
-            <tr><td><span class="icon-16-map"></span></td><td class="profile-meta"> Abuja, Federal Capital Territory, Nigeria</td></tr>
-            <tr><td><span class="icon-16-female"></span></td><td class="profile-meta">Joined on Feb 18, 2013 </td></tr>
-            <tr><td><span class="icon-16-male"></span></td><td class="profile-meta"> Male</td></tr>
+            <tr><td><span class="icon-16-location"></span></td><td class="profile-meta">Abuja, Federal Capital Territory, Nigeria</td></tr>
+            <tr><td><span class="icon-16-calendar"></span></td><td class="profile-meta">Joined on Feb 18, 2013 </td></tr>
+            <tr><td><span class="icon-16-male"></span></td><td class="profile-meta">Male</td></tr>
+            <tr><td><span class="icon-16-female"></span></td><td class="profile-meta">Female</td></tr>
             <tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a id="show-full-profile" href="javascript:toggle('full-profile-data', 'show-full-profile');" > View Full Profile</a> </td></tr>
         </table>					
         <div class="clear"></div>
@@ -17,16 +18,17 @@
         </div>
         <div class="clear"></div>
         <button class=" button profile-button"><span class="icon-16-mail"></span> Message</button>
-        <div class="button profile-button more-div" id="more" onclick="javascript:toggle('pop-up-more', 'more');"> More<span class="icon-16-checkmark"></span>
+        <div class="button profile-button more-div" id="more" onclick="javascript:toggle('pop-up-more', 'more');"> More<span class="icon-16-arrow-down"></span>
             <div class="more-container" id="pop-up-more">
                 <div class="more">
                     <ul>
-                        <li><a href=""><span class="icon-16-eye"></span> Wink</a></li>
-                        <li><a href=""><span class="icon-16-mail"></span> Message</a></li>
-                        <li><a href=""><span class="icon-16-checkmark"></span> Favourite</a></li>
+                        <li><a href=""><span class="icon-16-eye"></span>Wink</a></li>
+                        <li><a href=""><span class="icon-16-mail"></span>Message</a></li>
+                        <li><a href=""><span class="icon-16-star"></span>Favourite</a></li>
+                        <li><a href=""><span class="icon-16-star-empty"></span>Un-Favourite</a></li>
                         <hr>
-                        <li><a href=""><span class="icon-16-checkmark"></span> Mute</a></li>
-                        <li><a href=""><span class="icon-16-cross"></span> Delete</a></li>
+                        <li><a href=""><span class="icon-16-sound-off"></span>Mute</a></li>
+                        <li><a href=""><span class="icon-16-trash"></span>Delete</a></li>
                     </ul>
                 </div>
             </div>
@@ -38,13 +40,13 @@
             <hr>
             <b>Personal Information</b>
             <table class="profile-meta " colspan="1">
-                <tr><td>Name</td><td>Ciroma Chukwuma Adekunle <td></tr>
-                <tr><td>Email</td><td>chukwuade2344555555@gmail.com<td></tr>
-                <tr><td>Gender</td><td>Male<td></tr>
-                <tr><td>Date of Birth</td><td>31 January <td></tr>
-                <tr><td>Relationship</td><td>Single<td></tr>
-                <tr><td>Phone</td><td>+234000000000<td></tr>
-                <tr><td>Website</td><td>www.chukwuade.com<td></tr>
+                <tr><td><strong>Name</strong></td><td>Ciroma Chukwuma Adekunle <td></tr>
+                <tr><td><strong>Email</strong></td><td>chukwuade2344555555@gmail.com<td></tr>
+                <tr><td><strong>Gender</strong></td><td>Male<td></tr>
+                <tr><td><strong>Date of Birth</strong></td><td>31 January <td></tr>
+                <tr><td><strong>Relationship</strong></td><td>Single<td></tr>
+                <tr><td><strong>Phone</strong></td><td>+234000000000<td></tr>
+                <tr><td><strong>Website</strong></td><td>www.chukwuade.com<td></tr>
             </table>
             <hr>
             <p><b>Location</b></p>

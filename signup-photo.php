@@ -4,8 +4,6 @@
 	<?php
 	include ("head.php");
 	?>
-	<script src="scripts/jquery.min.js"></script>
-	<script src="scripts/jquery.Jcrop.min.js"></script>
 	<link rel="stylesheet" href="css/jquery.Jcrop.min.css" type="text/css" />
 </head>
 <body>

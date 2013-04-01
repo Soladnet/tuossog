@@ -285,7 +285,7 @@ input[type=checkbox]{
 				}
 			}
 			span{
-				@media only screen and (max-width: 350px) {
+				@media only screen and (max-width: 640px) {
 				margin: 0px auto;
 				font-size: 0.8em;
 				display:block;
@@ -656,7 +656,7 @@ input[type=checkbox]{
 		padding: 0 0 0 22px;
 		border: 1px solid #eee;
 		background:	#fff url(../images/community.png) no-repeat left;
-		background:	rgba(255, 255, 255, 0.9) url(../images/community.png) no-repeat left;
+		background-position: 7px;
 		width: 320px;
 		@media only screen and (max-width : 768px) {
 			width: 100%;
@@ -768,7 +768,7 @@ input[type=checkbox]{
 		}
 	}
 }
-.post-meta { 
+.post-meta, .post-meta-delete { 
 	padding: .4em 0 0;
 	span {
 		cursor: pointer;

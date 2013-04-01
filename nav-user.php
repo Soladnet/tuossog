@@ -2,7 +2,7 @@
     <ul>
         <li>
             <a href="javascript:toggle('pop-up-gossbag','gossbag');">
-                <span class="icon-16-list"></span>
+                <span class="icon-16-asterisk"></span>
                 <span id="gossbag">Gossbag</span>
             </a>
             <span class="notification-number">19</span>
@@ -45,7 +45,7 @@
                     </div>
 
                     <div class="individual-notification viewed-notification">
-                        <p> <span class="icon-16-contract"></span> 
+                        <p> <span class="icon-16-earth"></span> 
                             <span class="float-right"> 17 hrs </span>
                         </p>
                         <img class= "notification-icon" src="images/1.jpg">
@@ -117,7 +117,7 @@
 
         <li class="nav-user-profile last"  id="user-actions">
             <a href="javascript:toggle('pop-up-user-actions','user-actions');">
-                <span class="icon-16-vcard"></span></a>
+                <span class="icon-16-user"></span></a>
                 <div class="user-actions-container" id="pop-up-user-actions">
                     <div class="user-actions">
                         <ul>

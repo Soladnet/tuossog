@@ -37,12 +37,8 @@
 .timeline-photo-upload{
 	img{
 		border: 1px solid #ddd;
-		max-height: 100px;
+		max-height: 75px;
 		margin: .2em auto;
-		@media only screen and (max-width: 320px) {
-			max-height: none;
-			width: 100%;
-		}	
 	}
 }
 .community-meta {

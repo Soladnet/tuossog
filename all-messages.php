@@ -50,7 +50,7 @@
                         </p>
                         <img class= "all-messages-image" src="images/1.jpg">
                         <div class="all-messages-text"> 
-                            <a href=""><h3>Chiroma Chukwuma Adekunle </h3></a>
+                           <h3> <a href="">Chiroma Chukwuma Adekunle</a> </h3>
                             <div class="all-messages-message">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -58,7 +58,7 @@
                         </div> 
                         <hr>
                         <p>
-	                        <a class="all-messages-actions"><span class="icon-16-cross"></span>Delete</a>
+	                        <a class="all-messages-actions"><span class="icon-16-trash"></span>Delete</a>
 	                        <a href="message-conversation.php" class="all-messages-actions"><span class="icon-16-reply"></span>Reply</a>
                         </p>   
                  </div>
@@ -68,7 +68,7 @@
                         </p>
                         <img class= "all-messages-image" src="images/1.jpg">
                         <div class="all-messages-text"> 
-                            <a href=""><h3>Chiroma Chukwuma Adekunle </h3></a>
+                            <h3><a href="">Chiroma Chukwuma Adekunle </a></h3>
                             <div class="all-messages-message">
                             	<span class="icon-16-reply"></span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -77,7 +77,7 @@
                         </div> 
                         <hr>
                         <p>
-	                        <a class="all-messages-actions"><span class="icon-16-cross"></span>Delete</a>
+	                        <a class="all-messages-actions"><span class="icon-16-trash"></span>Delete</a>
 	                        <a href="message-conversation.php" class="all-messages-actions"><span class="icon-16-dot"></span>View</a>
                         </p>   
                  </div>
