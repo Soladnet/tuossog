@@ -1,159 +1,17 @@
-.icon-warning-sign,.icon-contract,.icon-mail,.icon-contract2,.icon-plus,.icon-minus,.icon-crop,.icon-male,.icon-female,.icon-pencil,.icon-reply,.icon-forward,.icon-user,.icon-user-add,.icon-vcard,.icon-location,.icon-map,.icon-share,.icon-chat,.icon-comment,.icon-house,.icon-search,.icon-cog,.icon-camera,.icon-eye,.icon-clock,.icon-calendar,.icon-lock,.icon-logout,.icon-login,.icon-checkmark,.icon-cross,.icon-blocked,.icon-info,.icon-help,.icon-warning,.icon-add-to-list,.icon-list,.icon-text,.icon-pictures,.icon-trash,.icon-disk,.icon-arrow-left,.icon-arrow-down,.icon-arrow-up,.icon-arrow-right,.icon-dot,.icon-twitter,.icon-facebook,.icon-fullscreen-exit {
+.icon-globe,.icon-house,.icon-search {
+	margin-right: .15em;
 	display: inline-block;
-	width: 32px;
-	height: 32px;
+	width: 24px;
+	height: 24px;
 	background-image: url(../images/sprites.png);
 	background-repeat: no-repeat;
 }
-.icon-warning-sign {
+.icon-globe {
 	background-position: 0 0;
 }
-.icon-contract {
-	background-position: -64px 0;
-	width: 35px;
-	height: 35px;
-}
-.icon-mail {
-	background-position: -128px 0;
-}
-.icon-contract2 {
-	background-position: -192px 0;
-}
-.icon-plus {
-	background-position: -256px 0;
-}
-.icon-minus {
-	background-position: -320px 0;
-}
-.icon-crop {
-	background-position: -384px 0;
-}
-.icon-male {
-	background-position: -448px 0;
-}
-.icon-female {
-	background-position: -512px 0;
-}
-.icon-pencil {
-	background-position: -576px 0;
-}
-.icon-reply {
-	background-position: -640px 0;
-}
-.icon-forward {
-	background-position: -704px 0;
-}
-.icon-user {
-	background-position: -768px 0;
-}
-.icon-user-add {
-	background-position: -832px 0;
-}
-.icon-vcard {
-	background-position: -896px 0;
-}
-.icon-location {
-	background-position: -960px 0;
-}
-.icon-map {
-	background-position: 0 -64px;
-}
-.icon-share {
-	background-position: -64px -64px;
-}
-.icon-chat {
-	background-position: -128px -64px;
-}
-.icon-comment {
-	background-position: -192px -64px;
-}
 .icon-house {
-	background-position: -256px -64px;
+	background-position: -48px 0;
 }
 .icon-search {
-	background-position: -320px -64px;
-}
-.icon-cog {
-	background-position: -384px -64px;
-}
-.icon-camera {
-	background-position: -448px -64px;
-}
-.icon-eye {
-	background-position: -512px -64px;
-}
-.icon-clock {
-	background-position: -576px -64px;
-}
-.icon-calendar {
-	background-position: -640px -64px;
-}
-.icon-lock {
-	background-position: -704px -64px;
-}
-.icon-logout {
-	background-position: -768px -64px;
-}
-.icon-login {
-	background-position: -832px -64px;
-}
-.icon-checkmark {
-	background-position: -896px -64px;
-}
-.icon-cross {
-	background-position: -960px -64px;
-}
-.icon-blocked {
-	background-position: 0 -128px;
-}
-.icon-info {
-	background-position: -64px -128px;
-}
-.icon-help {
-	background-position: -128px -128px;
-}
-.icon-warning {
-	background-position: -192px -128px;
-}
-.icon-add-to-list {
-	background-position: -256px -128px;
-}
-.icon-list {
-	background-position: -320px -128px;
-}
-.icon-text {
-	background-position: -384px -128px;
-}
-.icon-pictures {
-	background-position: -448px -128px;
-}
-.icon-trash {
-	background-position: -512px -128px;
-}
-.icon-disk {
-	background-position: -576px -128px;
-}
-.icon-arrow-left {
-	background-position: -640px -128px;
-}
-.icon-arrow-down {
-	background-position: -704px -128px;
-}
-.icon-arrow-up {
-	background-position: -768px -128px;
-}
-.icon-arrow-right {
-	background-position: -832px -128px;
-}
-.icon-dot {
-	background-position: -896px -128px;
-}
-.icon-twitter {
-	background-position: -960px -128px;
-}
-.icon-facebook {
-	background-position: 0 -192px;
-}
-.icon-fullscreen-exit {
-	background-position: -64px -192px;
+	background-position: -96px 0;
 }
