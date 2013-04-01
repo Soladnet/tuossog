@@ -45,8 +45,8 @@
 					<ul>
 						<li><span class="icon-16-list"></span></li>
 						<li class="active"><a href="">All</a></li>
-						<li><a href=""><p>Friends</p> </a></li>
-						<li><a href=""><p>Communities</p></a></li>
+						<li><a href="">Posts</a></li>
+						<li><a href="">Activities</a></li>
 					</ul>
 				</div>
 				<div class="clear"></div>
