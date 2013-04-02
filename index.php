@@ -19,7 +19,7 @@
 		<div class="index-intro">
 			<div class="index-intro-1">
 				<h1>
-					Join Communities and share stories, images, opinions, with people who share the same interests, locality, school or  with you
+					Join Communities and share stories, images, opinions, with people who share the same interests, locality, or school with you
   <!-- <a href="suite101.com">www.suite101.com</a> -->
 				</h1>
 				<hr>
