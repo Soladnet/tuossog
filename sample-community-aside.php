@@ -16,11 +16,10 @@
 					<div class="clear"></div>
 		
 					<button class=" button profile-button"><span class="icon-16-chat"></span> Chat</button>
-					<button class=" button profile-button" id="more" onclick="javascript:toggle('pop-up-more','more');">More<span class="icon-16-checkmark"></span>
+					<button class=" button profile-button" id="more" onclick="javascript:toggle('pop-up-more','more');">More<span class="icon-16-arrow-down"></span>
 						<div class="more-container" id="pop-up-more">
 							<div class="more">
 								<ul>
-									<li><a href=""><span class="icon-16-chat"></span> Chat</a></li>
 									<li><a href=""><span class="icon-16-user-add"></span> Invite Members</a></li>
 									<li><a href=""><span class="icon-16-star"></span> Favourite</a></li>
 									<li><a href=""><span class="icon-16-star-empty"></span> Un-Favourite</a></li>

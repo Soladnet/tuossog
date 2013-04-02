@@ -99,13 +99,15 @@
 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		<p class="post-meta">
+		<span id="comment" class=""><span class="icon-16-comment"></span>Comment(20)</span>
+			<span class="post-meta-gossout"><span class="icon-16-share"></span><a class="fancybox " id="inline" href="#share-123456">Share(20)</a></span>
 			
-			<span id="comment" class=""><span class="icon-16-comment"></span>Comment(20)</span>
-			<span class="post-meta-gossout"><span class="icon-16-share"></span>Share(20)</span>
-			<!--<span class="post-meta-delete"><span class="icon-16-trash"></span> Delete </span>
-			-->
-
-		</p>
+	
+		
+		</p>	
+	<?php
+	include ("share.php");
+	?>
 		<div class="clear"></div>
 	</div>
 

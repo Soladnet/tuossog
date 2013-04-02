@@ -1,0 +1,25 @@
+.share {
+	line-height: 1em;
+	width: 200px;
+	max-width: 100%;
+	font-size: 16px !important;
+	h3{
+		line-height: 24px;
+		text-transform: uppercase;
+	}
+	li{
+		border-top: 1px solid #ddd;
+		padding: .8em;
+		&:hover{
+			cursor: pointer;
+			color: #99C43D !important;
+			-webkit-box-shadow: inset 0px 0px 1px 1px #ddd;
+					box-shadow: inset 0px 0px 1px 1px #ddd; 
+		}
+		&:active {
+			color: #C4953D !important;
+			-webkit-box-shadow: inset 0px 0px 1px 2px #ddd;
+					box-shadow: inset 0px 0px 1px 2px #ddd; 
+		}
+	}
+}

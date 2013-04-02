@@ -174,3 +174,28 @@ $nav-gradient-1: #99C43D;
 		margin-top: .5em;
 	}
 }
+.index-functions {
+	margin-top: 1em;
+	display: block;
+	float: left;
+	padding: 1em;
+	max-width: 240px;
+	h3{
+		text-align: center;
+	}
+	p {
+		font-size: .8em;
+		padding-top: 0;
+	}
+	&:hover{
+		cursor: pointer;
+		color: #99C43D !important;
+		-webkit-box-shadow: inset 0px 0px 1px 1px #ddd;
+				box-shadow: inset 0px 0px 1px 1px #ddd; 
+	}
+	&:active {
+		color: #C4953D !important;
+		-webkit-box-shadow: inset 0px 0px 1px 2px #ddd;
+				box-shadow: inset 0px 0px 1px 2px #ddd; 
+	}
+}

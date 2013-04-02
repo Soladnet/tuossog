@@ -10,7 +10,7 @@
 		<a  class="fancybox" rel="gallery1"  href="images/pic-1.jpg" rel="group"><img src="images/pic-1.jpg"></a>					
 		<a  class="fancybox" rel="gallery1"  href="images/eset.jpg" rel="group"><img src="images/eset.jpg"></a>	
 		<hr>						
-		<h3 class="name">Sample Name
+		<h3 class="name">Ciroma Chukwuma Adekunle
 			<div class="float-right">
 				<span class="post-time"><span class="icon-16-comment"></span>50</span>
 				<span class="post-time"><span class="icon-16-share"></span>24</span>
@@ -24,11 +24,14 @@
 	<div class="post-meta">
 		
 		<span id="post-new-comment-show" class="" onclick="javascript:toggle('post-comments', 'post-new-comment-show');"><span class="icon-16-comment"></span>Comment</span>
-		<span class="post-meta-gossout"><span class="icon-16-share"></span>Share</span>
+		<span class="post-meta-gossout"><span class="icon-16-share"></span><a class="fancybox " id="inline" href="#share-123456">Share</a></span>
 		<span class="post-meta-delete"><span class="icon-16-trash"></span>Delete </span>
 		
 
 	</div>
+	<?php
+	include ("share.php");
+	?>
 	<!-- ************************************************************************************** -->
 	<div class="post-comments" id="post-comments">
 		<div class="post-comment">

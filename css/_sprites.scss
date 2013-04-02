@@ -1,4 +1,4 @@
-.icon-globe,.icon-house,.icon-search {
+.icon-globe,.icon-house,.icon-search, .icon-share {
 	margin-right: .15em;
 	display: inline-block;
 	width: 24px;
@@ -9,9 +9,12 @@
 .icon-globe {
 	background-position: 0 0;
 }
-.icon-house {
+.icon-share {
 	background-position: -48px 0;
 }
-.icon-search {
+.icon-house {
 	background-position: -96px 0;
+}
+.icon-search {
+	background-position: -144px 0;
 }

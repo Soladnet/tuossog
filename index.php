@@ -34,6 +34,31 @@
 				</p>
 				<button class="button-big"><a href="signup-personal.php">Sign up now!</a></button>
 				<div class="clear"></div>
+				<div class="index-functions">
+					<div style="margin: 0 auto; width: 24px;">
+						<span class="icon-globe"></span>
+					</div>
+						<h3>Discover</h3>
+						<p>Communities &amp; Friends</p>
+				</div>
+				
+				<div class="index-functions">
+					<div style="margin: 0 auto; width: 24px;">
+						<span class="icon-share"></span>
+					</div>
+						<h3>Connect</h3>
+						<p>Meet People, Share Interests</p>
+				</div>
+
+				<div class="index-functions">
+					<div style="margin: 0 auto; width: 24px;">
+						<span class="icon-search"></span>
+					</div>
+						<h3>Search</h3>
+						<p>Communities and Friends</p>
+				</div>
+				
+				<div class="clear"></div>
 			</div>
 		</div>		
 		</div>

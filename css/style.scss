@@ -15,17 +15,21 @@ $max-width: 1025px;
 
 @import "_sprites.scss";
 @import "_16px-sprites.scss";
-@import "_communities.scss";
-@import "_index.scss";
-@import "_timeline.scss";
+
 @import "_all-friends.scss";
 @import "_all-notifications.scss"; 
 @import "_all-messages.scss";
 @import "_all-search.scss";
-@import "_jquery.fancybox.scss";
-@import "_settings.scss";
+@import "_communities.scss";
 @import "_create-community.scss";
+@import "_hint.min.scss";
+@import "_index.scss";
+@import "_jquery.fancybox.scss";
+@import "_libnotify.scss";
+@import "_settings.scss";
+@import "_share.scss";
 @import "_slide-in.scss";
+@import "_timeline.scss";
 
 
 
@@ -263,6 +267,7 @@ input[type=checkbox]{
 			padding: .3em .5em;
 			font-family: 'Segoe UI Light', Segoe UI,sans-serif;
 			font-size: 1.2em;
+			line-height:1.2em;
 			text-shadow: 0 1px 1px #ddd !important;
 			box-shadow: 2px 0 0 rgba(255, 255, 255, 0.11);
 			@media only screen and (max-width: 240px) {
