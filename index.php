@@ -8,7 +8,7 @@
 <body>
 	<div class="index-page-wrapper">	
 		<div class="index-nav">
-			<span class="index-login">Already have an account? <a href="home.php">Login Here!</a></span>
+			<span class="index-login">Already have an account? <a href="home.php">Login Here</a></span>
 			<div class="clear"></div>
 		</div>
 		<div class="index-banner">
@@ -19,20 +19,16 @@
 		<div class="index-intro">
 			<div class="index-intro-1">
 				<h1>
-					"We're building a great place to tell stories, share wisdom, and learn from each other's experiences." - <a href="suite101.com">www.suite101.com</a>
+					Join Communities and share stories, images, opinions, with people who share the same interests, locality, school or  with you
+  <!-- <a href="suite101.com">www.suite101.com</a> -->
 				</h1>
 				<hr>
 			</div>
 		<div class="index-intro-2-container">
 			<div class="index-intro-2">	
-				<p>And if our headline wasn't good
-					enough, what if our secondary messaging 
-					was here to further push our value proposition?
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-					Sapiente similique magnam error repudiandae in tempore iusto libero porro 
-					fugit nemo. Minima quia odio saepe ea blanditiis labore molestias dolores impedit.
+				<p>Gossout introduces a fun way of letting you know about things relevant to you. Go ahead and join Communities. You can create your own Community, invite friends and start sharing with them now.
 				</p>
-				<button class="button-big"><a href="signup-personal.php">Sign up now!</a></button>
+				<button class="button-big"><a href="signup-personal.php">Sign up now</a></button>
 				<div class="clear"></div>
 				<div class="index-functions">
 					<div style="margin: 0 auto; width: 24px;">
