@@ -19,4 +19,12 @@
 	input[type="checkbox"]{
 		vertical-align: baseline !important;
 	}
+	.pic-user {
+		display: block;
+ 		border: 1px solid #ddd;
+		max-width: 150px;
+		width: 100%;
+		padding: .4em;
+		margin: 0 auto;
+	}
 }

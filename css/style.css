@@ -497,6 +497,7 @@ html, body { min-height: 100%; }
 .settings-list .individual-setting { border-bottom: 1px solid #dadada; padding: .5em; width: 100%; margin: 0 0 0.5em 0; }
 .settings-list input[type=text], .settings-list input[type=password], .settings-list textarea { width: 100%; }
 .settings-list input[type="checkbox"] { vertical-align: baseline !important; }
+.settings-list .pic-user { display: block; border: 1px solid #ddd; max-width: 150px; width: 100%; padding: .4em; margin: 0 auto; }
 
 .share { line-height: 1em; width: 200px; max-width: 100%; font-size: 16px !important; }
 .share h3 { line-height: 24px; text-transform: uppercase; }

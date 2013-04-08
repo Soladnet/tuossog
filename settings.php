@@ -41,7 +41,27 @@
 				<h1>Settings</h1>
 				<hr>
 				<hr>
-				
+				<div class="individual-setting">
+					<h2>Profile Photo</h2>
+								<div class="pic-user">
+									<img src="images/no-pic.svg" id="user-img">
+									<script language="Javascript">
+									jQuery(function($) {
+										$('#user-img').Jcrop({
+											setSelect:   [ 0, 0, 150, 150 ],
+											aspectRatio: 1 / 1,
+											minSize: [150,150]
+										});
+									});
+									</script>
+								</div>
+								<hr>
+								<label>Select an image: </label>
+								<input type="file" name="img" class="input-fields">
+								<p></p>
+								<input type="submit" class="button" value="Upload photo">
+								<hr>
+				</div>
 				<div class="individual-setting" >
 					<h2>Name</h2>
 					<input type="text" placeholder="Chiroma Chukwuma Adekunle">
