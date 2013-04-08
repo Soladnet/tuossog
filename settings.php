@@ -41,11 +41,22 @@
 				<h1>Settings</h1>
 				<hr>
 				<hr>
+				
+				<div class="individual-setting" >
+					<h2>Name</h2>
+					<input type="text" placeholder="Chiroma Chukwuma Adekunle">
+				</div>
 				<div class="individual-setting">
-					<h2>Basic Settings</h2>
-					<p>Name</p>
-					<p>Email</p>
-					<p>Password</p>
+					<h2>Email</h2>
+					<input type="text" placeholder="Chiroma@email.com">
+				</div>
+				<div class="individual-setting">
+					<h2>Password</h2>
+					<input type="password">
+				</div>
+				<div class="individual-setting">
+					<h2>Confirm Password</h2>
+					<input type="password">
 				</div>
 				<div class="individual-setting">
 					<h2>Privacy</h2>
