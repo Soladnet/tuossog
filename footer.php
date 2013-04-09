@@ -14,10 +14,10 @@
 <div class="footer">
 	<hr>
 	<ul>      
-		<li> <a href="">About</a> </li>
-		<li> <a href="">Terms</a> </li>
-		<li> <a href="">Privacy</a> </li>
-		<li> <a href="">Help</a> </li>
+		<li> <a href="about.php">About</a> </li>
+		<li> <a href="terms.php">Terms</a> </li>
+		<li> <a href="privacy.php">Privacy</a> </li>
+		<li> <a href="help.php">Help</a> </li>
 		<div class="clear"></div>
 		<li class="float-none"> &copy; <?php echo date("Y");?> <a href="http://www.gossout.com">Gossout</a></li>		
 	</ul> 
