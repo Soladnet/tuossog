@@ -29,7 +29,6 @@
 				<button class="button-big"><a href="">Search</a></button>
 				<div class="clear"></div>
 
-				<hr>
 			</div>
 			<div class="index-intro-2-container">
 				<div class="index-intro-2">	

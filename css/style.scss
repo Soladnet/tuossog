@@ -709,9 +709,12 @@ input[type=checkbox]{
 	-webkit-border-radius: 4px; 
 	-o-border-radius: 4px;
 	border-radius: 4px;
-	border: 1px solid #eee;
+	border: 1px solid #dadada;
 	&:hover {
-		border: 1px solid #bbb;
+		border: 1px solid #ddd;
+	}
+	hr {
+		background-color: #eee;
 	}
 	img {
 		border: 1px solid #ddd;
@@ -740,6 +743,14 @@ input[type=checkbox]{
 	width: 40px !important;
 	margin: .2em !important;
 	padding: .15em !important;
+}
+.post-profile-pic{
+	height: 24px !important;
+	width: 24px !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	margin-right: .15em !important;
+	border: none !important;
 }
 .post-time {
 	color: #777;

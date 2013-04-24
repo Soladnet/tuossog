@@ -10,12 +10,13 @@
 		<a  class="fancybox" rel="gallery1"  href="images/pic-1.jpg" rel="group"><img src="images/pic-1.jpg"></a>					
 		<a  class="fancybox" rel="gallery1"  href="images/eset.jpg" rel="group"><img src="images/eset.jpg"></a>	
 		<hr>						
-		<h3 class="name">Ciroma Chukwuma Adekunle
+		<h3 class="name"><img class="post-profile-pic" src="images/2.jpg">Ciroma Chukwuma Adekunle
 			<div class="float-right">
 				<span class="post-time"><span class="icon-16-comment"></span>50</span>
 				<span class="post-time"><span class="icon-16-share"></span>24</span>
 				<span class="post-time"><span class="icon-16-clock"></span>5 mins</span>
 			</div>
+			<div class="clear"></div>
 		</h3>
 	</div>
 	<!-- ******** 	To be hidden/visualised using js onclick when "Show all" button is clicked 	***** -->

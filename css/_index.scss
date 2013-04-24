@@ -74,9 +74,6 @@ $nav-gradient-1: #99C43D;
 	background-image:         linear-gradient(to bottom, #f6f6f4, #ffffff);
 	h1 { text-align: center; }
 }
-.index-intro-1 .button-big{
-	margin-bottom: .7em;
-}
 .index-intro-2-container {
 	max-width: 100% !important;
 }
@@ -205,7 +202,7 @@ $nav-gradient-1: #99C43D;
 .main-search {	
 	margin: .7em 0 .3em 0;
     border-radius: 5px;
-    font-size: 1.8em;
+    font-size: 1.5em;
     border: 1px solid #ddd;
     width: 100%;
     &:focus, &:active {
@@ -213,4 +210,42 @@ $nav-gradient-1: #99C43D;
     	box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
     }
 
+}
+.index-search-results{
+	background-color: #fff;
+	max-width: 1025px !important;
+	margin: 0 auto !important;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	img {
+		border: 1px solid #ddd;
+		max-height: 100px;
+		margin: .2em;
+		@media only screen and (max-width : 360px){
+			max-height: 100%;
+			width: 100%;
+		}
+	}
+}
+.index-search-result{
+	margin-bottom: .4em !important;
+	border: 1px solid #ddd;
+	padding: .5em;
+	border-radius: 3px;
+	&:hover {
+		background-color: #fcfcfc;
+	}
+}
+.index-search-results-communities,
+.index-search-results-posts,
+.index-search-results-friends {
+	padding: 1em;
+}
+.index-search-results-communities a{
+	line-height: 1;
+}
+.index-search-results-friends p {
+	line-height: 1;
+	padding: .2em 0;
+	text-overflow: ellipsis;
 }
