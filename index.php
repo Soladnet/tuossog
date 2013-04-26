@@ -26,7 +26,7 @@
 
 				<input class="main-search" type="text" placeholder="...">
 
-				<button class="button-big"><a href="">Search</a></button>
+                                <span><button class="button-big"><a href="">Search</a></button> <button class="button-big"><a href="">Sign up</a></button></span>
 				<div class="clear"></div>
 
 			</div>
@@ -49,13 +49,13 @@
 						<p>Meet People, Share Interests</p>
 					</div>
 
-				<!-- <div class="index-functions">
+				 <div class="index-functions">
 					<div style="margin: 0 auto; width: 24px;">
 						<span class="icon-search"></span>
 					</div>
 						<h3>Search</h3>
 						<p>Communities and Friends</p>
-					</div> -->
+					</div> 
 
 					<div class="clear"></div>
 				</div>
