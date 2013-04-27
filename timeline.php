@@ -99,12 +99,42 @@
 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		<p class="post-meta">
-		<span id="comment" class=""><span class="icon-16-comment"></span>Comment(20)</span>
+		<span id="comment" class=""><span class="icon-16-comment"></span><a href="javascript:toggle('post-comments','toggle-comment');" id="toggle-comment">Comment(20)</a></span>
 			<span class="post-meta-gossout"><span class="icon-16-share"></span><a class="fancybox " id="inline" href="#share-123456">Share(20)</a></span>
 			
 	
 		
-		</p>	
+		</p>
+		<div class="post-comments" id="post-comments" style="display: none;">
+			<div class="home-post-comment">
+				<img class="post-thumb" src="images/1.jpg">
+				<h4 class="name">Sample Name</h4>
+				<span class="post-time">2 minutes ago.</span>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.
+				<br><span class="post-meta-delete"><span class="icon-16-trash"></span><span>Delete</span> </span>
+				</p>
+			
+				<div class="clear"></div>
+			</div>
+			<div class="home-post-comment">
+				<img class="post-thumb" src="images/1.jpg">
+				<h4 class="name">Sample Name</h4>
+				<span class="post-time">2 minutes ago.</span>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.
+				<br><span class="post-meta-delete"><span class="icon-16-trash"></span><span>Delete</span> </span>
+				</p>
+			
+				<div class="clear"></div>
+			</div>
+		</div>	
 	<?php
 	include ("share.php");
 	?>
