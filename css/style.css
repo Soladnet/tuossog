@@ -3219,6 +3219,8 @@ input[type=checkbox] {
 }
 /* line 840, style.scss */
 .aside-wrapper .profile-pic {
+  width: 150px;
+  height: 150px;
   float: left;
   margin: 0 .2em .2em 0;
 }
@@ -3246,72 +3248,72 @@ input[type=checkbox] {
     margin: .2em auto;
   }
 }
-/* line 859, style.scss */
+/* line 861, style.scss */
 .aside-wrapper h3 {
   font-weight: normal;
 }
-/* line 863, style.scss */
+/* line 865, style.scss */
 .aside-wrapper .profile-meta {
   font-size: .8em;
   color: #000;
 }
-/* line 868, style.scss */
+/* line 870, style.scss */
 .aside-wrapper .community-listing {
   font-size: .9em;
   padding: .5em 0;
 }
-/* line 872, style.scss */
+/* line 874, style.scss */
 .aside-wrapper .community-functions-wrapper {
   float: right;
 }
-/* line 875, style.scss */
+/* line 877, style.scss */
 .aside-wrapper .community-functions {
   padding: .5em;
   overflow: hidden;
   display: inline-block;
 }
-/* line 880, style.scss */
+/* line 882, style.scss */
 .aside-wrapper .profile-summary {
   margin: 0 0 0.5em 0;
   border: 1px solid #ebebeb;
   border-left: none;
   border-right: none;
 }
-/* line 885, style.scss */
+/* line 887, style.scss */
 .aside-wrapper .profile-summary .profile-summary-wrapper {
   width: 33%;
   float: left;
   padding: 0.2em 0;
   cursor: pointer;
 }
-/* line 890, style.scss */
+/* line 892, style.scss */
 .aside-wrapper .profile-summary .profile-summary-wrapper:hover {
   background-color: #f8f8f8;
 }
-/* line 893, style.scss */
+/* line 895, style.scss */
 .aside-wrapper .profile-summary .profile-summary-wrapper .number {
   font-weight: bold;
   font-size: 1.2em;
 }
-/* line 897, style.scss */
+/* line 899, style.scss */
 .aside-wrapper .profile-summary .profile-summary-wrapper .type {
   color: #000;
   font-size: 0.8em;
 }
-/* line 902, style.scss */
+/* line 904, style.scss */
 .aside-wrapper .profile-summary .profile-summary-wrapper a {
   color: #777;
 }
-/* line 904, style.scss */
+/* line 906, style.scss */
 .aside-wrapper .profile-summary .profile-summary-wrapper a:hover {
   color: #000;
 }
-/* line 908, style.scss */
+/* line 910, style.scss */
 .aside-wrapper .profile-summary .profile-summary-wrapper p {
   text-align: center;
 }
 
-/* line 915, style.scss */
+/* line 917, style.scss */
 .footer {
   max-width: 1025px !important;
   margin: 0 auto !important;
@@ -3319,22 +3321,22 @@ input[type=checkbox] {
   margin: .5em 2em;
 }
 @media only screen and (max-width: 1024px) {
-  /* line 915, style.scss */
+  /* line 917, style.scss */
   .footer {
     margin: .5em;
   }
 }
-/* line 923, style.scss */
+/* line 925, style.scss */
 .footer li {
   color: #555;
   float: left;
   padding: .2em 1em .2em 0;
 }
-/* line 927, style.scss */
+/* line 929, style.scss */
 .footer li a {
   color: #555;
 }
-/* line 929, style.scss */
+/* line 931, style.scss */
 .footer li a:hover {
   color: #000;
 }
