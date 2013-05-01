@@ -1330,7 +1330,7 @@
 .index-intro-2 {
   margin: 1em auto;
   padding-bottom: 1.5em;
-  max-width: 400px;
+  max-width: 580px;
 }
 /* line 84, _index.scss */
 .index-intro-2 p {
@@ -2732,7 +2732,7 @@ input[type=checkbox] {
   position: absolute;
   padding: 0 .5em .5em .5em;
   right: -6px;
-  width: 10em;
+  width: 14em;
   min-height: 50px;
   top: 15px;
   border: 1px solid #bbb;
