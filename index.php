@@ -26,7 +26,7 @@
 
 				<input class="main-search" type="text" placeholder="...">
 
-                                <span><button class="button-big"><a href="">Search</a></button> <button class="button-big"><a href="">Sign up</a></button></span>
+                                <span><center><button class="button-big"><a href="">Search</a></button> <!--<button class="button-big"><a href="">Sign up</a></button>--></center></span>
 				<div class="clear"></div>
 
 			</div>
