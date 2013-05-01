@@ -117,7 +117,6 @@ select {
 input[type=checkbox]{
 	vertical-align: baseline !important;
 }
-
 .clear { clear: both;}
 .float-left { float: left !important;}
 .float-right { float: right !important;}
@@ -348,6 +347,9 @@ input[type=checkbox]{
 	}
 	-webkit-box-shadow: 0px 1px 6px 0px #555;
 			box-shadow: 0px 1px 6px 0px #555;
+}
+.no-boxshadow #nav-user{
+	border: 1px solid #ddd;
 }
 .mobile-search{
 	display:none;
@@ -619,6 +621,7 @@ input[type=checkbox]{
 				background-color: #f8f8f8;	
 				border: 1px solid #eee;	
 				color:#000;
+				margin: 0px !important;
 			}
 	ul{
 		li{

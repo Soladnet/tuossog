@@ -46,6 +46,7 @@ $nav-gradient-2: #BAD533;
  	    }
 	    .friend-name{
  	    	color:$nav-gradient-1 !important;
+ 	    	text-transform: capitalize;
  	    }
  	    .friend-location{
  	    	font-size:0.8em;

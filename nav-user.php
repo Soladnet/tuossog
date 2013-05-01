@@ -1,4 +1,4 @@
-<div class="nav-user">
+<div class="nav-user" id="nav-user">
     <ul>
         <li>
             <a href="javascript:toggle('pop-up-gossbag','gossbag');">
