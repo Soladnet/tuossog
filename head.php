@@ -7,9 +7,21 @@
 <link rel="stylesheet" media="screen" href="css/style.css">
 <link rel="stylesheet" href="css/hint.min.css">
 <link rel="stylesheet" href="css/libnotify.css">
-
+<script type="text/javascript" src="scripts/modernizr.custom.77319.js"></script>
 <title>Gossout - </title>
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" > 
 <!--<script>
 humane.log("Hello", {timeout: 10000, clickToClose:'true'});
 </script>-->
+<script type="text/javascript">
+$(document).ready(function() {
+	if (Modernizr.inlinesvg) {
+		//SVG.
+		$('#logo').html('<img src="images/gossout-logo-text-svg.svg" alt="Your Company" />');
+
+	} else {
+		//No SVG.
+		$('#logo').html('<img src="images/gossout-logo-text-svg.png" alt="Your Company" />');
+	}
+});
+</script>
