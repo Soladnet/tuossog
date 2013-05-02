@@ -1330,7 +1330,7 @@
 .index-intro-2 {
   margin: 1em auto;
   padding-bottom: 1.5em;
-  max-width: 580px;
+  max-width: 400px;
 }
 /* line 84, _index.scss */
 .index-intro-2 p {
@@ -2261,41 +2261,46 @@ input[type=checkbox] {
 }
 
 /* line 120, style.scss */
+.full-width {
+  width: 100% !important;
+}
+
+/* line 121, style.scss */
 .clear {
   clear: both;
 }
 
-/* line 121, style.scss */
+/* line 122, style.scss */
 .float-left {
   float: left !important;
 }
 
-/* line 122, style.scss */
+/* line 123, style.scss */
 .float-right {
   float: right !important;
 }
 
-/* line 123, style.scss */
+/* line 124, style.scss */
 .float-none {
   float: none !important;
 }
 
-/* line 124, style.scss */
+/* line 125, style.scss */
 .no-padding {
   padding: 0 !important;
 }
 
-/* line 125, style.scss */
+/* line 126, style.scss */
 .no-display {
   display: none;
 }
 
-/* line 126, style.scss */
+/* line 127, style.scss */
 .no-margin {
   margin: 0 !important;
 }
 
-/* line 127, style.scss */
+/* line 128, style.scss */
 .error, .alert, .notice, .success, .info {
   padding: .75em;
   margin: .5em 0;
@@ -2303,31 +2308,31 @@ input[type=checkbox] {
   font-size: .9em;
 }
 
-/* line 128, style.scss */
+/* line 129, style.scss */
 .error, .alert {
   background: #FBE3E4;
   color: #8A1F11 !important;
 }
 
-/* line 129, style.scss */
+/* line 130, style.scss */
 .notice {
   background: #FFF6BF;
   color: #514721 !important;
 }
 
-/* line 130, style.scss */
+/* line 131, style.scss */
 .info {
   background: #ddd;
   color: #264409 !important;
 }
 
-/* line 131, style.scss */
+/* line 132, style.scss */
 .success {
   background: #F1F8D2;
   color: #264409 !important;
 }
 
-/* line 132, style.scss */
+/* line 133, style.scss */
 .button {
   color: #777;
   border: 1px solid #ddd;
@@ -2343,7 +2348,7 @@ input[type=checkbox] {
   -webkit-border-radius: 2px;
   border-radius: 2px;
 }
-/* line 146, style.scss */
+/* line 147, style.scss */
 .button:hover {
   cursor: pointer;
   color: #333;
@@ -2356,7 +2361,7 @@ input[type=checkbox] {
   -moz-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
-/* line 158, style.scss */
+/* line 159, style.scss */
 .button:active {
   color: #999;
   -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
@@ -2367,7 +2372,7 @@ input[type=checkbox] {
   transition-duration: 0.2s;
 }
 
-/* line 168, style.scss */
+/* line 169, style.scss */
 .button-big {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -2388,13 +2393,13 @@ input[type=checkbox] {
   background-image: -o-linear-gradient(top, #b9d532, #99c53d);
   background-image: linear-gradient(to bottom, #b9d532, #99c53d);
 }
-/* line 187, style.scss */
+/* line 188, style.scss */
 .button-big:hover {
   color: #fff !important;
   cursor: pointer;
   background-color: #99c43d;
 }
-/* line 192, style.scss */
+/* line 193, style.scss */
 .button-big:active {
   -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
   -moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
@@ -2403,32 +2408,32 @@ input[type=checkbox] {
   -moz-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
-/* line 200, style.scss */
+/* line 201, style.scss */
 .button-big a {
   color: #777 !important;
 }
-/* line 202, style.scss */
+/* line 203, style.scss */
 .button-big a:hover {
   color: #fff !important;
 }
 
-/* line 208, style.scss */
+/* line 209, style.scss */
 .profile-button {
   min-width: 6em;
 }
 
-/* line 211, style.scss */
+/* line 212, style.scss */
 .tag a {
   padding: 0 .15em;
   color: #99c43d;
   font-style: italic;
 }
-/* line 215, style.scss */
+/* line 216, style.scss */
 .tag a:hover {
   color: #000;
 }
 
-/* line 219, style.scss */
+/* line 220, style.scss */
 .page-wrapper2 {
   background-color: #bababa;
   background-image: url("../images/gossout-logo-image-svg.svg"), -webkit-gradient(linear, left top, left bottom, from(#bababa), to(#fdfdfd));
@@ -2442,52 +2447,52 @@ input[type=checkbox] {
   background-attachment: fixed;
 }
 
-/* line 232, style.scss */
+/* line 233, style.scss */
 .nav {
   background-color: #99c43d;
 }
 @media only screen and (min-width: 1024px) {
-  /* line 232, style.scss */
+  /* line 233, style.scss */
   .nav {
     -webkit-box-shadow: 0px 1px 6px 0px #555;
     box-shadow: 0px 1px 6px 0px #555;
   }
 }
-/* line 237, style.scss */
+/* line 238, style.scss */
 .nav a {
   color: #222 !important;
 }
-/* line 239, style.scss */
+/* line 240, style.scss */
 .nav a:visited {
   color: #222 !important;
 }
-/* line 242, style.scss */
+/* line 243, style.scss */
 .nav a:hover {
   color: #C4953D !important;
 }
-/* line 245, style.scss */
+/* line 246, style.scss */
 .nav a:focus {
   color: #785B25 !important;
 }
-/* line 248, style.scss */
+/* line 249, style.scss */
 .nav a:active {
   color: #99C43D !important;
 }
-/* line 253, style.scss */
+/* line 254, style.scss */
 .nav ul {
   max-width: 1025px !important;
   margin: 0 auto !important;
 }
-/* line 256, style.scss */
+/* line 257, style.scss */
 .nav ul img {
   max-height: 40px;
   float: left;
 }
-/* line 257, style.scss */
+/* line 258, style.scss */
 .nav ul .last {
   border-right: 1px solid #8aa883;
 }
-/* line 258, style.scss */
+/* line 259, style.scss */
 .nav ul li {
   border-left: 1px solid #8aa883;
   -webkit-transition: all 0.4s ease-out;
@@ -2504,17 +2509,17 @@ input[type=checkbox] {
   box-shadow: 2px 0 0 rgba(255, 255, 255, 0.11);
 }
 @media only screen and (max-width: 240px) {
-  /* line 258, style.scss */
+  /* line 259, style.scss */
   .nav ul li {
     padding: .3em;
   }
 }
-/* line 275, style.scss */
+/* line 276, style.scss */
 .nav ul li:hover {
   background: #fff;
   background: rgba(255, 255, 255, 0.9);
 }
-/* line 279, style.scss */
+/* line 280, style.scss */
 .nav ul li input {
   -webkit-border-radius: 5px;
   -o-border-radius: 5px;
@@ -2524,40 +2529,40 @@ input[type=checkbox] {
   font-size: .8em;
   color: #aaa;
 }
-/* line 287, style.scss */
+/* line 288, style.scss */
 .nav ul li input:hover, .nav ul li input:active, .nav ul li input:focus {
   color: #707373;
   border: none;
 }
 @media only screen and (max-width: 640px) {
-  /* line 292, style.scss */
+  /* line 293, style.scss */
   .nav ul li span {
     margin: 0px auto;
     font-size: 0.8em;
     display: block;
   }
 }
-/* line 301, style.scss */
+/* line 302, style.scss */
 .nav .nav-login {
   float: right !important;
 }
 
-/* line 305, style.scss */
+/* line 306, style.scss */
 .nav-search-container {
   border: none !important;
 }
-/* line 307, style.scss */
+/* line 308, style.scss */
 .nav-search-container:hover {
   background-color: transparent !important;
 }
 @media only screen and (max-width: 720px) {
-  /* line 305, style.scss */
+  /* line 306, style.scss */
   .nav-search-container {
     display: none !important;
   }
 }
 
-/* line 314, style.scss */
+/* line 315, style.scss */
 .nav-user {
   margin: 3px 0;
   background: #fff;
@@ -2566,21 +2571,21 @@ input[type=checkbox] {
   box-shadow: 0px 1px 6px 0px #555;
 }
 @media only screen and (max-width: 1024px) {
-  /* line 314, style.scss */
+  /* line 315, style.scss */
   .nav-user {
     padding: .2em;
   }
 }
-/* line 321, style.scss */
+/* line 322, style.scss */
 .nav-user ul {
   max-width: 1025px !important;
   margin: 0 auto !important;
 }
-/* line 324, style.scss */
+/* line 325, style.scss */
 .nav-user ul .last {
   border-right: 1px solid #eaeaea;
 }
-/* line 325, style.scss */
+/* line 326, style.scss */
 .nav-user ul li {
   border-left: 1px solid #eaeaea;
   padding: .5em;
@@ -2588,60 +2593,60 @@ input[type=checkbox] {
   float: left;
 }
 @media only screen and (max-width: 240px) {
-  /* line 325, style.scss */
+  /* line 326, style.scss */
   .nav-user ul li {
     padding: .3em;
   }
 }
-/* line 333, style.scss */
+/* line 334, style.scss */
 .nav-user ul li a {
   color: #969696;
 }
-/* line 335, style.scss */
+/* line 336, style.scss */
 .nav-user ul li a:hover {
   color: #000;
 }
-/* line 339, style.scss */
+/* line 340, style.scss */
 .nav-user ul li span {
   padding: 0 .1em;
 }
-/* line 342, style.scss */
+/* line 343, style.scss */
 .nav-user ul li .notification-number {
   color: #99c43d;
   cursor: pointer;
 }
 
-/* line 351, style.scss */
+/* line 352, style.scss */
 .no-boxshadow #nav-user {
   border: 1px solid #ddd;
 }
 
-/* line 354, style.scss */
+/* line 355, style.scss */
 .mobile-search {
   display: none;
 }
 @media only screen and (max-width: 720px) {
-  /* line 354, style.scss */
+  /* line 355, style.scss */
   .mobile-search {
     display: inline-block;
   }
 }
 
-/* line 360, style.scss */
+/* line 361, style.scss */
 .search-pop-out {
   font-size: 0.8em !important;
 }
 
-/* line 363, style.scss */
+/* line 364, style.scss */
 .search-result-container {
   position: relative;
   display: none;
 }
-/* line 366, style.scss */
+/* line 367, style.scss */
 .search-result-container .search-friends-list {
   width: 100% !important;
 }
-/* line 369, style.scss */
+/* line 370, style.scss */
 .search-result-container .search {
   -moz-box-shadow: 0px 3px 5px 3px #ccc;
   -webkit-box-shadow: 0px 3px 5px 3px #ccc;
@@ -2659,16 +2664,16 @@ input[type=checkbox] {
   font-size: .8em !important;
   text-shadow: none !important;
 }
-/* line 385, style.scss */
+/* line 386, style.scss */
 .search-result-container .search li {
   border: none;
 }
-/* line 388, style.scss */
+/* line 389, style.scss */
 .search-result-container .search .actions {
   font-size: .9em;
 }
 
-/* line 393, style.scss */
+/* line 394, style.scss */
 .notifications-container:before, .search-result-container:before, .more-container:before, .user-actions-container:before {
   content: ' ';
   height: 0;
@@ -2679,7 +2684,7 @@ input[type=checkbox] {
   z-index: 10000;
 }
 
-/* line 402, style.scss */
+/* line 403, style.scss */
 .notifications-container:after, .search-result-container:after, .more-container:after, .user-actions-container:after {
   content: ' ';
   height: 0;
@@ -2690,7 +2695,7 @@ input[type=checkbox] {
   z-index: 10000;
 }
 
-/* line 411, style.scss */
+/* line 412, style.scss */
 .messages-container:before {
   left: 95px;
   content: ' ';
@@ -2702,7 +2707,7 @@ input[type=checkbox] {
   z-index: 10000;
 }
 
-/* line 421, style.scss */
+/* line 422, style.scss */
 .messages-container:after {
   left: 95px;
   content: ' ';
@@ -2714,12 +2719,12 @@ input[type=checkbox] {
   z-index: 10000;
 }
 
-/* line 431, style.scss */
+/* line 432, style.scss */
 .user-actions-container {
   position: relative;
   display: none;
 }
-/* line 434, style.scss */
+/* line 435, style.scss */
 .user-actions-container .user-actions {
   -webkit-border-radius: 3px;
   border-radius: 3px;
@@ -2732,29 +2737,29 @@ input[type=checkbox] {
   position: absolute;
   padding: 0 .5em .5em .5em;
   right: -6px;
-  width: 14em;
+  width: 15em;
   min-height: 50px;
   top: 15px;
   border: 1px solid #bbb;
 }
-/* line 451, style.scss */
+/* line 452, style.scss */
 .user-actions-container .user-actions ul li {
   border: none;
   font-size: 1em;
   padding: 0.8em 0.5em;
   width: 100%;
 }
-/* line 456, style.scss */
+/* line 457, style.scss */
 .user-actions-container .user-actions ul li:hover {
   background-color: #f8f8f8;
 }
 
-/* line 463, style.scss */
+/* line 464, style.scss */
 .notifications-container, .messages-container {
   position: relative;
   display: none;
 }
-/* line 466, style.scss */
+/* line 467, style.scss */
 .notifications-container .notifications, .notifications-container .messages, .messages-container .notifications, .messages-container .messages {
   -webkit-border-radius: 3px;
   border-radius: 3px;
@@ -2772,68 +2777,68 @@ input[type=checkbox] {
   border: 1px solid #bbb;
 }
 @media only screen and (max-width: 300px) {
-  /* line 466, style.scss */
+  /* line 467, style.scss */
   .notifications-container .notifications, .notifications-container .messages, .messages-container .notifications, .messages-container .messages {
     width: 18em;
   }
 }
-/* line 485, style.scss */
+/* line 486, style.scss */
 .notifications-container hr, .messages-container hr {
   background-color: #F0F0F0;
 }
-/* line 488, style.scss */
+/* line 489, style.scss */
 .notifications-container a, .messages-container a {
   margin: 0 0 0 .6em;
   cursor: pointer;
   padding: .3em;
 }
-/* line 493, style.scss */
+/* line 494, style.scss */
 .notifications-container .individual-notification, .messages-container .individual-notification {
   border: 1px solid #ebebeb;
   padding: .3em;
   margin: 0 0 .4em 0;
   background-color: #f8f8f8;
 }
-/* line 499, style.scss */
+/* line 500, style.scss */
 .notifications-container .viewed-notification, .messages-container .viewed-notification {
   background-color: #fff !important;
 }
-/* line 502, style.scss */
+/* line 503, style.scss */
 .notifications-container .notification-icon, .messages-container .notification-icon {
   float: left;
   width: 50px;
   margin: 0 .2em 0 0;
 }
 @media only screen and (max-width: 300px) {
-  /* line 502, style.scss */
+  /* line 503, style.scss */
   .notifications-container .notification-icon, .messages-container .notification-icon {
     display: none;
   }
 }
-/* line 510, style.scss */
+/* line 511, style.scss */
 .notifications-container .notification-text, .messages-container .notification-text {
   padding: 0 0 0 52px;
 }
-/* line 513, style.scss */
+/* line 514, style.scss */
 .notifications-container .notification-actions, .messages-container .notification-actions {
   float: right;
 }
-/* line 516, style.scss */
+/* line 517, style.scss */
 .notifications-container .name, .messages-container .name {
   color: #99c43d;
 }
 
-/* line 520, style.scss */
+/* line 521, style.scss */
 .more-div {
   text-align: center;
 }
 
-/* line 523, style.scss */
+/* line 524, style.scss */
 .more-container {
   position: relative;
   display: none;
 }
-/* line 526, style.scss */
+/* line 527, style.scss */
 .more-container .more {
   -webkit-box-shadow: 0px 1px 6px 0px #555;
   box-shadow: 0px 1px 6px 0px #555;
@@ -2848,17 +2853,17 @@ input[type=checkbox] {
   border: 1px solid #bbb;
   text-align: left;
 }
-/* line 543, style.scss */
+/* line 544, style.scss */
 .more-container .more ul li {
   padding: 0.8em 0.5em;
   width: 100%;
 }
-/* line 546, style.scss */
+/* line 547, style.scss */
 .more-container .more ul li:hover {
   background-color: #f8f8f8;
 }
 
-/* line 553, style.scss */
+/* line 554, style.scss */
 .content {
   max-width: 1025px !important;
   margin: 0 auto !important;
@@ -2871,14 +2876,14 @@ input[type=checkbox] {
   border: 1px solid #ddd;
 }
 @media only screen and (max-width: 1024px) {
-  /* line 553, style.scss */
+  /* line 554, style.scss */
   .content {
     margin: .4em !important;
     background-color: #fff;
   }
 }
 @media only screen and (max-width: 720px) {
-  /* line 553, style.scss */
+  /* line 554, style.scss */
   .content {
     -webkit-border-radius: 0 !important;
     -o-border-radius: 0 !important;
@@ -2890,17 +2895,17 @@ input[type=checkbox] {
   }
 }
 
-/* line 578, style.scss */
+/* line 579, style.scss */
 .nav-user-profile {
   float: right !important;
 }
 
-/* line 581, style.scss */
+/* line 582, style.scss */
 .logo {
   max-width: 1025px !important;
   margin: 0 auto !important;
 }
-/* line 584, style.scss */
+/* line 585, style.scss */
 .logo img {
   max-width: 200px !important;
   margin-top: .3em !important;
@@ -2908,7 +2913,7 @@ input[type=checkbox] {
   margin: 0 auto;
 }
 
-/* line 592, style.scss */
+/* line 593, style.scss */
 .content {
   max-width: 1025px !important;
   margin: 0 auto !important;
@@ -2921,14 +2926,14 @@ input[type=checkbox] {
   border: 1px solid #ddd;
 }
 @media only screen and (max-width: 1024px) {
-  /* line 592, style.scss */
+  /* line 593, style.scss */
   .content {
     margin: .4em !important;
     background-color: #fff;
   }
 }
 @media only screen and (max-width: 720px) {
-  /* line 592, style.scss */
+  /* line 593, style.scss */
   .content {
     -webkit-border-radius: 0 !important;
     -o-border-radius: 0 !important;
@@ -2940,39 +2945,39 @@ input[type=checkbox] {
   }
 }
 
-/* line 618, style.scss */
+/* line 619, style.scss */
 .timeline-filter {
   float: right;
+  margin: 0.1em;
 }
-/* line 620, style.scss */
+/* line 622, style.scss */
 .timeline-filter .active {
   background-color: #f8f8f8;
   border: 1px solid #eee;
   color: #000;
   margin: 0px !important;
 }
-/* line 627, style.scss */
+/* line 629, style.scss */
 .timeline-filter ul li {
-  margin: 0.2em 0;
   cursor: pointer;
   float: left;
-  padding: .25em .55em;
+  padding: .25em .50em;
   font-size: .8em;
 }
-/* line 633, style.scss */
+/* line 634, style.scss */
 .timeline-filter ul li a {
   color: #969696;
 }
-/* line 635, style.scss */
+/* line 636, style.scss */
 .timeline-filter ul li a:hover {
   color: #000;
 }
-/* line 638, style.scss */
+/* line 639, style.scss */
 .timeline-filter ul li a p {
   text-align: center;
 }
 
-/* line 646, style.scss */
+/* line 647, style.scss */
 .posts {
   width: 62.5%;
   float: right;
@@ -2980,21 +2985,21 @@ input[type=checkbox] {
   padding: .5em;
 }
 @media only screen and (max-width: 720px) {
-  /* line 646, style.scss */
+  /* line 647, style.scss */
   .posts {
     width: 100%;
     font-size: .9em;
   }
 }
 
-/* line 655, style.scss */
+/* line 656, style.scss */
 .post-box {
   margin: 0 0 0.5em 0;
   padding: .5em;
   border: 1px solid #dadada;
   background-color: #f8f8f8;
 }
-/* line 660, style.scss */
+/* line 661, style.scss */
 .post-box .group-1 {
   float: left;
   display: inline-block;
@@ -3007,17 +3012,17 @@ input[type=checkbox] {
   width: 320px;
 }
 @media only screen and (max-width: 768px) {
-  /* line 660, style.scss */
+  /* line 661, style.scss */
   .post-box .group-1 {
     width: 100%;
     margin: 0 0 0.3em  0;
   }
 }
-/* line 675, style.scss */
+/* line 676, style.scss */
 .post-box .group-1:hover {
   border: 1px solid #ddd;
 }
-/* line 679, style.scss */
+/* line 680, style.scss */
 .post-box .group-1 select {
   color: #bbb;
   width: 100%;
@@ -3025,30 +3030,30 @@ input[type=checkbox] {
   -webkit-appearance: none;
   background: transparent;
 }
-/* line 688, style.scss */
+/* line 689, style.scss */
 .post-box textarea {
   color: #707373;
   width: 100%;
   margin: 0 0 .4em 0;
   border: 1px solid #ddd;
 }
-/* line 693, style.scss */
+/* line 694, style.scss */
 .post-box textarea:hover {
   border: 1px solid #aaa;
 }
 
-/* line 698, style.scss */
+/* line 699, style.scss */
 .submit {
   background-color: #99C43D;
   color: #f2f2f2;
 }
-/* line 701, style.scss */
+/* line 702, style.scss */
 .submit:hover {
   color: #777;
   background-color: #c1e089;
 }
 
-/* line 706, style.scss */
+/* line 707, style.scss */
 .post {
   background: #fff;
   background: rgba(255, 255, 255, 0.9);
@@ -3060,55 +3065,55 @@ input[type=checkbox] {
   border-radius: 4px;
   border: 1px solid #dadada;
 }
-/* line 716, style.scss */
+/* line 717, style.scss */
 .post:hover {
   border: 1px solid #ddd;
 }
-/* line 719, style.scss */
+/* line 720, style.scss */
 .post hr {
   background-color: #eee;
 }
-/* line 722, style.scss */
+/* line 723, style.scss */
 .post img {
   border: 1px solid #ddd;
   max-height: 100px;
   margin: .4em auto;
 }
 
-/* line 728, style.scss */
+/* line 729, style.scss */
 .post-content {
   color: #4c4c4c;
   line-height: 1.5em;
 }
 
-/* line 732, style.scss */
+/* line 733, style.scss */
 .post-comments {
   display: none;
   background: #fafafa;
 }
 
-/* line 736, style.scss */
+/* line 737, style.scss */
 .post-comment {
   border-top: 1px solid #e3e3e3;
   padding: .4em;
 }
-/* line 739, style.scss */
+/* line 740, style.scss */
 .post-comment p {
   padding: 0 0 0 47px;
   line-height: 1.4em;
 }
 
-/* line 744, style.scss */
+/* line 745, style.scss */
 .home-post-comment {
   border-top: 1px solid #e3e3e3;
   padding: .4em;
 }
-/* line 747, style.scss */
+/* line 748, style.scss */
 .home-post-comment p {
   line-height: 1.4em;
 }
 
-/* line 751, style.scss */
+/* line 752, style.scss */
 .post-thumb {
   float: left;
   width: 40px !important;
@@ -3116,7 +3121,7 @@ input[type=checkbox] {
   padding: .15em !important;
 }
 
-/* line 757, style.scss */
+/* line 758, style.scss */
 .post-profile-pic {
   height: 24px !important;
   width: 24px !important;
@@ -3126,23 +3131,23 @@ input[type=checkbox] {
   border: none !important;
 }
 
-/* line 765, style.scss */
+/* line 766, style.scss */
 .post-time {
   color: #777;
   line-height: .9em;
 }
 
-/* line 769, style.scss */
+/* line 770, style.scss */
 .post-new-comment {
   margin: .2em;
   padding: .2em;
   display: none;
 }
-/* line 773, style.scss */
+/* line 774, style.scss */
 .post-new-comment span {
   margin: .3em 0 0 0;
 }
-/* line 776, style.scss */
+/* line 777, style.scss */
 .post-new-comment .comment-field {
   color: #707373;
   height: 38px;
@@ -3150,11 +3155,11 @@ input[type=checkbox] {
   margin: .2em !important;
   border: 1px solid #ddd;
 }
-/* line 782, style.scss */
+/* line 783, style.scss */
 .post-new-comment .comment-field:hover {
   border: 1px solid #aaa;
 }
-/* line 786, style.scss */
+/* line 787, style.scss */
 .post-new-comment .submit {
   height: 38px;
   padding: .5em;
@@ -3162,29 +3167,29 @@ input[type=checkbox] {
   background-color: #99C43D;
   color: #f2f2f2;
 }
-/* line 792, style.scss */
+/* line 793, style.scss */
 .post-new-comment .submit:hover {
   color: #777;
   background-color: #c1e089;
 }
 
-/* line 798, style.scss */
+/* line 799, style.scss */
 .post-meta, .post-meta-delete {
   padding: .4em 0 0;
 }
-/* line 800, style.scss */
+/* line 801, style.scss */
 .post-meta span, .post-meta-delete span {
   cursor: pointer;
   font-size: .8em;
   color: #888;
   line-height: 1.2em;
 }
-/* line 805, style.scss */
+/* line 806, style.scss */
 .post-meta span:hover, .post-meta-delete span:hover {
   color: #000;
 }
 
-/* line 810, style.scss */
+/* line 811, style.scss */
 .friends-thumbnails {
   border: 1px solid #ddd;
   max-width: 50px;
@@ -3194,12 +3199,12 @@ input[type=checkbox] {
   overflow: hidden;
 }
 
-/* line 818, style.scss */
+/* line 819, style.scss */
 .suggested-friend {
   padding: .2em;
 }
 
-/* line 821, style.scss */
+/* line 822, style.scss */
 .aside {
   font-size: .9em;
   overflow: auto !important;
@@ -3207,25 +3212,25 @@ input[type=checkbox] {
   margin: 0 1em .5em 0;
 }
 @media only screen and (max-width: 720px) {
-  /* line 821, style.scss */
+  /* line 822, style.scss */
   .aside {
     margin: 0;
     padding: .5em;
   }
 }
-/* line 831, style.scss */
+/* line 832, style.scss */
 .aside span a {
   color: #777 !important;
 }
 
-/* line 837, style.scss */
+/* line 838, style.scss */
 .aside-wrapper {
   border: 1px solid #ebebeb;
   background: #fcfcfc;
   margin: 0 0 1em 0;
   padding: .3em;
 }
-/* line 843, style.scss */
+/* line 844, style.scss */
 .aside-wrapper .profile-pic {
   width: 150px;
   height: 150px;
@@ -3233,7 +3238,7 @@ input[type=checkbox] {
   margin: 0 .2em .2em 0;
 }
 @media only screen and (max-width: 1024px) {
-  /* line 843, style.scss */
+  /* line 844, style.scss */
   .aside-wrapper .profile-pic {
     float: none;
     display: block;
@@ -3241,7 +3246,7 @@ input[type=checkbox] {
   }
 }
 @media only screen and (max-width: 720px) {
-  /* line 843, style.scss */
+  /* line 844, style.scss */
   .aside-wrapper .profile-pic {
     float: left;
     display: inline-block;
@@ -3249,79 +3254,80 @@ input[type=checkbox] {
   }
 }
 @media only screen and (max-width: 440px) {
-  /* line 843, style.scss */
+  /* line 844, style.scss */
   .aside-wrapper .profile-pic {
     float: none;
     display: block;
     margin: .2em auto;
   }
 }
-/* line 864, style.scss */
+/* line 865, style.scss */
 .aside-wrapper h3 {
   font-weight: normal;
 }
-/* line 868, style.scss */
+/* line 869, style.scss */
 .aside-wrapper .profile-meta {
   font-size: .8em;
   color: #000;
 }
-/* line 873, style.scss */
+/* line 874, style.scss */
 .aside-wrapper .community-listing {
   font-size: .9em;
   padding: .5em 0;
+  text-transform: capitalize;
 }
-/* line 877, style.scss */
+/* line 879, style.scss */
 .aside-wrapper .community-functions-wrapper {
   float: right;
 }
-/* line 880, style.scss */
+/* line 882, style.scss */
 .aside-wrapper .community-functions {
   padding: .5em;
   overflow: hidden;
   display: inline-block;
 }
-/* line 885, style.scss */
+/* line 887, style.scss */
 .aside-wrapper .profile-summary {
   margin: 0 0 0.5em 0;
   border: 1px solid #ebebeb;
   border-left: none;
   border-right: none;
 }
-/* line 890, style.scss */
+/* line 892, style.scss */
 .aside-wrapper .profile-summary .profile-summary-wrapper {
   width: 33%;
   float: left;
   padding: 0.2em 0;
   cursor: pointer;
 }
-/* line 895, style.scss */
+/* line 897, style.scss */
 .aside-wrapper .profile-summary .profile-summary-wrapper:hover {
   background-color: #f8f8f8;
 }
-/* line 898, style.scss */
+/* line 900, style.scss */
 .aside-wrapper .profile-summary .profile-summary-wrapper .number {
   font-weight: bold;
   font-size: 1.2em;
 }
-/* line 902, style.scss */
+/* line 904, style.scss */
 .aside-wrapper .profile-summary .profile-summary-wrapper .type {
   color: #000;
   font-size: 0.8em;
 }
-/* line 907, style.scss */
+/* line 909, style.scss */
 .aside-wrapper .profile-summary .profile-summary-wrapper a {
   color: #777;
 }
-/* line 909, style.scss */
+/* line 911, style.scss */
 .aside-wrapper .profile-summary .profile-summary-wrapper a:hover {
   color: #000;
 }
-/* line 913, style.scss */
+/* line 915, style.scss */
 .aside-wrapper .profile-summary .profile-summary-wrapper p {
   text-align: center;
 }
 
-/* line 920, style.scss */
+/* line 922, style.scss */
 .footer {
   max-width: 1025px !important;
   margin: 0 auto !important;
@@ -3329,22 +3335,22 @@ input[type=checkbox] {
   margin: .5em 2em;
 }
 @media only screen and (max-width: 1024px) {
-  /* line 920, style.scss */
+  /* line 922, style.scss */
   .footer {
     margin: .5em;
   }
 }
-/* line 928, style.scss */
+/* line 930, style.scss */
 .footer li {
   color: #555;
   float: left;
   padding: .2em 1em .2em 0;
 }
-/* line 932, style.scss */
+/* line 934, style.scss */
 .footer li a {
   color: #555;
 }
-/* line 934, style.scss */
+/* line 936, style.scss */
 .footer li a:hover {
   color: #000;
 }

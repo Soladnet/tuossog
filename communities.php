@@ -56,131 +56,126 @@
 				
 
 				<div class="community-box">
-					<div class="notice">
-						You do not currently belong to any Community.
-						Here are some suggestions we think you might like!
-
+					<div class="timeline-filter">
+						<ul>
+							<li><span class="icon-16-earth"></span></li>
+							<li id="all"><div ><a>All</a></li>
+							<li id="suggestions"><a>Suggestions</a></li>
+							<li id="my-communities"><a>My Communities</a></li>
+						</ul>
 					</div>
-				<div class="timeline-filter">
-					<ul>
-						<li><span class="icon-16-earth"></span></li>
-						<li id="all"><div ><a>All</a></li>
-						<li id="suggestions"><a>Suggestions</a></li>
-						<li id="my-communities"><a>My Communities</a></li>
-					</ul>
-				</div>
 				<div class="clear"></div>
 					
 										
-											<div id="suggestion-list">
-												<div class="community-box-wrapper">
-													<div class="community-image">
-														<img src="images/1.jpg">
-													</div>
-													<div class="community-text">
-														<div class="community-name"><a href="sample-community.php">Suggested Community 1</a> </div>
-														<hr>
-														<p class="community-privacy"> 
-															<div class="details">ERP, a radio programme like no other... 
-																with sole objective of making serious issues light. We educate and entertain.
+				<div id="suggestion-list">
+					<div class="community-box-wrapper">
+						<div class="community-image">
+							<img src="images/1.jpg">
+						</div>
+						<div class="community-text">
+							<div class="community-name"><a href="sample-community.php">Suggested Community 1</a> </div>
+							<hr>
+							<p class="community-privacy"> 
+								<div class="details">ERP, a radio programme like no other... 
+									with sole objective of making serious issues light. We educate and entertain.
 
-															</div>
-															<div class="members">Private</div>
-															<div class="members">200 Members</div>
-															<div class="members">200 Posts</div>
-													</div>
-													<a class="float-right">Join</a> <div class="clear"></div>
-													
-												</div>
-												<div class="community-box-wrapper">
-													<div class="community-image">
-														<img src="images/1.jpg">
-													</div>
-													<div class="community-text">
-														<div class="community-name"><a href="sample-community.php">Suggested Community 2</a> </div>
-														<hr>
-														<p class="community-privacy"> 
-															<div class="details">ERP, a radio programme like no other... 
-																with sole objective of making serious issues light. We educate and entertain.
+								</div>
+								<div class="members">Private</div>
+								<div class="members">200 Members</div>
+								<div class="members">200 Posts</div>
+							</div>
+							<a class="float-right">Join</a> <div class="clear"></div>
 
-															</div>
-															<div class="members">Private</div>
-															<div class="members">200 Members</div>
-															<div class="members">200 Posts</div>
-													</div>
-													<a class="float-right">Join</a> <div class="clear"></div>
-													
-												</div>
-											</div>
+						</div>
+						<div class="community-box-wrapper">
+							<div class="community-image">
+								<img src="images/1.jpg">
+							</div>
+							<div class="community-text">
+								<div class="community-name"><a href="sample-community.php">Suggested Community 2</a> </div>
+								<hr>
+								<p class="community-privacy"> 
+									<div class="details">ERP, a radio programme like no other... 
+										with sole objective of making serious issues light. We educate and entertain.
 
-											<div id="my-communities-list">
-												<div class="community-box-wrapper">
-													<div class="community-image">
-														<img src="images/1.jpg">
-													</div>
-													<div class="community-text">
-														<div class="community-name"><a href="sample-community.php">My Personal Community</a> </div>
-														<hr>
-														<p class="community-privacy"> 
-															<div class="details">ERP, a radio programme like no other... 
-																with sole objective of making serious issues light. We educate and entertain.
+									</div>
+									<div class="members">Private</div>
+									<div class="members">200 Members</div>
+									<div class="members">200 Posts</div>
+								</div>
+								<a class="float-right">Join</a> <div class="clear"></div>
 
-															</div>
-															<div class="members">Private</div>
-															<div class="members">200 Members</div>
-															<div class="members">200 Posts</div>
-													</div>
-												</div>
-												<div class="community-box-wrapper">
-													<div class="community-image">
-														<img src="images/1.jpg">
-													</div>
-													<div class="community-text">
-														<div class="community-name"><a href="sample-community.php">My Personal Community 2</a> </div>
-														<hr>
-														<p class="community-privacy"> 
-															<div class="details">ERP, a radio programme like no other... 
-																with sole objective of making serious issues light. We educate and entertain.
+							</div>
+						</div>
 
-															</div>
-															<div class="members">Private</div>
-															<div class="members">200 Members</div>
-															<div class="members">200 Posts</div>
-													</div>
-												</div>
-												<div class="community-box-wrapper">
-													<div class="community-image">
-														<img src="images/1.jpg">
-													</div>
-													<div class="community-text">
-														<div class="community-name"><a href="sample-community.php">My Personal Community 3</a> </div>
-														<hr>
-														<p class="community-privacy"> 
-															<div class="details">ERP, a radio programme like no other... 
-																with sole objective of making serious issues light. We educate and entertain.
+						<div id="my-communities-list">
+							<div class="community-box-wrapper">
+								<div class="community-image">
+									<img src="images/1.jpg">
+								</div>
+								<div class="community-text">
+									<div class="community-name"><a href="sample-community.php">My Personal Community</a> </div>
+									<hr>
+									<p class="community-privacy"> 
+										<div class="details">ERP, a radio programme like no other... 
+											with sole objective of making serious issues light. We educate and entertain.
 
-															</div>
-															<div class="members">Private</div>
-															<div class="members">200 Members</div>
-															<div class="members">200 Posts</div>
-													</div>
-												</div>
-											</div>
-
-												</div>
-												<div><h3>Would you like to create one? It's very easy! 
-													<br>
-													<button class="button-big"><a href="create-community.php">New Community</a></button></h3></div>
-											</div>
-
-											<?php
-											include("aside.php");
-											?>	
 										</div>
-										<?php
-										include("footer.php");
-										?>
+										<div class="members">Private</div>
+										<div class="members">200 Members</div>
+										<div class="members">200 Posts</div>
+									</div>
+								</div>
+								<div class="community-box-wrapper">
+									<div class="community-image">
+										<img src="images/1.jpg">
+									</div>
+									<div class="community-text">
+										<div class="community-name"><a href="sample-community.php">My Personal Community 2</a> </div>
+										<hr>
+										<p class="community-privacy"> 
+											<div class="details">ERP, a radio programme like no other... 
+												with sole objective of making serious issues light. We educate and entertain.
+
+											</div>
+											<div class="members">Private</div>
+											<div class="members">200 Members</div>
+											<div class="members">200 Posts</div>
+										</div>
+									</div>
+									<div class="community-box-wrapper">
+										<div class="community-image">
+											<img src="images/1.jpg">
+										</div>
+										<div class="community-text">
+											<div class="community-name"><a href="sample-community.php">My Personal Community 3</a> </div>
+											<hr>
+											<p class="community-privacy"> 
+												<div class="details">ERP, a radio programme like no other... 
+													with sole objective of making serious issues light. We educate and entertain.
+
+												</div>
+												<div class="members">Private</div>
+												<div class="members">200 Members</div>
+												<div class="members">200 Posts</div>
+											</div>
+										</div>
 									</div>
 
-								</body>
-								</html>
+								</div>
+								<div><h3>Would you like to create one? It's very easy! 
+									<br>
+									<button class="button-big"><a href="create-community.php">New Community</a></button></h3></div>
+								</div>
+
+								<?php
+								include("aside.php");
+								?>	
+							</div>
+							<?php
+							include("footer.php");
+							?>
+						</div>
+
+	</body>
+</html>

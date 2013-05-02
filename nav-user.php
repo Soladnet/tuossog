@@ -123,9 +123,10 @@
                         <ul>
                             <li><a href="home.php"><span class="icon-16-vcard"></span> My Profile</a></li>
                             <li><a href="settings.php"><span class="icon-16-cog"></span> Settings</a></li>
-                            <hr>
+                            <li class="no-padding"><hr></li>
                             <li><a><span class="icon-16-logout"></span> Log Out</a></li>
                         </ul>
+
                     </div>
                  </div>
                 

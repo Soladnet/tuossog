@@ -117,6 +117,7 @@ select {
 input[type=checkbox]{
 	vertical-align: baseline !important;
 }
+.full-width{width:100% !important}
 .clear { clear: both;}
 .float-left { float: left !important;}
 .float-right { float: right !important;}
@@ -443,7 +444,7 @@ input[type=checkbox]{
 		position: absolute;
 		padding: 0 .5em .5em .5em;
 		right:-6px;
-		width: 10em;
+		width: 15em;
 		min-height: 50px;
 		top:15px;
 		border: 1px solid #bbb;
@@ -617,6 +618,7 @@ input[type=checkbox]{
 
 .timeline-filter{
 	float: right;
+	margin:0.1em;
 	.active{
 				background-color: #f8f8f8;	
 				border: 1px solid #eee;	
@@ -625,10 +627,9 @@ input[type=checkbox]{
 			}
 	ul{
 		li{
-			margin: 0.2em 0;
 			cursor: pointer;
 			float: left;
-			padding: .25em .55em;
+			padding: .25em .50em;
 			font-size:.8em;
 			a{
 				color: #969696;
@@ -872,7 +873,8 @@ input[type=checkbox]{
 	}
 	.community-listing {
 		font-size: .9em;
-		padding: .5em 0;		
+		padding: .5em 0;	
+		text-transform: capitalize;	
 	}
 	.community-functions-wrapper{
 		float: right;
