@@ -737,100 +737,105 @@
 }
 
 /* line 4, _communities.scss */
+.verified-community {
+  max-width: 25px;
+}
+
+/* line 7, _communities.scss */
 .communities-list {
   width: 62.5%;
   float: right;
   padding: .5em;
 }
 @media only screen and (max-width: 720px) {
-  /* line 4, _communities.scss */
+  /* line 7, _communities.scss */
   .communities-list {
     width: 100%;
     font-size: .9em;
   }
 }
-/* line 12, _communities.scss */
+/* line 15, _communities.scss */
 .communities-list h1 {
   display: inline-block;
 }
-/* line 15, _communities.scss */
+/* line 18, _communities.scss */
 .communities-list .community-box {
   background: #fff;
   border: 1px solid #dadada;
   margin: 0 0 1em 0;
 }
-/* line 19, _communities.scss */
+/* line 22, _communities.scss */
 .communities-list .community-box .community-box-wrapper {
   border-top: 1px solid #dadada;
   padding: 1em;
 }
-/* line 22, _communities.scss */
+/* line 25, _communities.scss */
 .communities-list .community-box .community-box-wrapper:hover {
   background: #f8f8f8;
 }
-/* line 26, _communities.scss */
+/* line 29, _communities.scss */
 .communities-list .community-box .community-image {
   display: inline-block;
   width: 100px;
   float: left;
 }
 @media only screen and (max-width: 260px) {
-  /* line 26, _communities.scss */
+  /* line 29, _communities.scss */
   .communities-list .community-box .community-image {
     float: none;
     display: block;
     margin: 0 auto;
   }
 }
-/* line 36, _communities.scss */
+/* line 39, _communities.scss */
 .communities-list .community-box .community-text {
   display: table;
 }
 @media only screen and (max-width: 260px) {
-  /* line 36, _communities.scss */
+  /* line 39, _communities.scss */
   .communities-list .community-box .community-text {
     width: 100%;
   }
 }
-/* line 44, _communities.scss */
+/* line 47, _communities.scss */
 .communities-list .community-box .community-name {
   padding: 0 0 .2em 0;
   vertical-align: text-bottom;
   text-transform: capitalize;
 }
-/* line 49, _communities.scss */
+/* line 52, _communities.scss */
 .communities-list .community-box .details {
   font-size: .8em;
   text-align: justify;
   text-justify: inter-word;
 }
-/* line 55, _communities.scss */
+/* line 58, _communities.scss */
 .communities-list .community-box .members {
   display: inline;
   color: #ccc;
   margin-right: .5em;
   font-size: .7em;
 }
-/* line 62, _communities.scss */
+/* line 65, _communities.scss */
 .communities-list .community-search-box {
   display: inline-block;
   float: right;
   margin: .85em 0 .4em 0;
 }
 @media only screen and (max-width: 520px) {
-  /* line 62, _communities.scss */
+  /* line 65, _communities.scss */
   .communities-list .community-search-box {
     display: block;
     float: none;
   }
 }
-/* line 70, _communities.scss */
+/* line 73, _communities.scss */
 .communities-list .community-search-box input[type=text] {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: .4em;
 }
-/* line 72, _communities.scss */
+/* line 75, _communities.scss */
 .communities-list .community-search-box input[type=text]:hover {
   border: 1px solid #c6c6c6;
   -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
@@ -841,24 +846,24 @@
   transition-duration: 0.2s;
 }
 @media only screen and (max-width: 520px) {
-  /* line 70, _communities.scss */
+  /* line 73, _communities.scss */
   .communities-list .community-search-box input[type=text] {
     width: 77%;
   }
 }
-/* line 87, _communities.scss */
+/* line 90, _communities.scss */
 .communities-list .community-search-box input[type=submit] {
   border-radius: 4px;
 }
 @media only screen and (max-width: 520px) {
-  /* line 87, _communities.scss */
+  /* line 90, _communities.scss */
   .communities-list .community-search-box input[type=submit] {
     width: 20%;
     float: right;
   }
 }
 @media only screen and (max-width: 380px) {
-  /* line 98, _communities.scss */
+  /* line 101, _communities.scss */
   .communities-list .community-buttons {
     width: 100%;
     display: block;

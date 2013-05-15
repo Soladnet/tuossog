@@ -73,7 +73,7 @@
 							<img src="images/1.jpg">
 						</div>
 						<div class="community-text">
-							<div class="community-name"><a href="sample-community.php">Suggested Community 1</a> </div>
+							<div class="community-name"><a href="sample-community.php"><img src="images/gossout-verified.png" class="verified-community">Suggested Community 1</a> </div>
 							<hr>
 							<p class="community-privacy"> 
 								<div class="details">ERP, a radio programme like no other... 
