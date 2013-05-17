@@ -19,7 +19,7 @@
                         </p>
                         <img class= "notification-icon" src="images/1.jpg">
                         <div class="notification-text"> 
-                            <p class="name">Chiroma Chukwuma Adekunle </p>
+                            <a href="user-profile.php" class="name">Chiroma Chukwuma Adekunle </a>
                             <p>wants to add you</p>
                         </div>
                         <div class="clear"></div>
@@ -34,7 +34,7 @@
 
                         <img class= "notification-icon" src="images/1.jpg">
                         <div class="notification-text"> 
-                            <p class="name">Chiroma Chukwuma Adekunle </p>
+                            <a href="user-profile.php" class="name">Chiroma Chukwuma Adekunle </a>
                             <p>commented on your post</p>
                             <p>"Ahmadu Bello University is..."</p>
                         </div>
@@ -50,7 +50,7 @@
                         </p>
                         <img class= "notification-icon" src="images/1.jpg">
                         <div class="notification-text"> 
-                            <p class="name">Chiroma Chukwuma Adekunle </p>
+                            <a href="user-profile.php" class="name">Chiroma Chukwuma Adekunle </a>
                             <p>invites you to join community</p>
                             <p>"Ahmadu Bello University Zaria..."</p>
                         </div>
@@ -77,7 +77,7 @@
                         </p>
                         <img class= "notification-icon" src="images/1.jpg">
                         <div class="notification-text"> 
-                            <p class="name">Chiroma Chukwuma Adekunle </p>
+                            <a href="user-profile.php" class="name">Chiroma Chukwuma Adekunle </a>
                             <p><span class="icon-16-reply"></span>Lorem ipsum dolor sit amet...</p>
                         </div>
                         <div class="clear"></div>
@@ -92,7 +92,7 @@
                         </p>
                         <img class= "notification-icon" src="images/1.jpg">
                         <div class="notification-text"> 
-                            <p class="name">Chiroma Chukwuma Adekunle </p>
+                            <a href="user-profile.php" class="name">Chiroma Chukwuma Adekunle </a>
                             <p>Message body</p>
                         </div>
                         <div class="clear"></div>
@@ -121,7 +121,7 @@
                 <div class="user-actions-container" id="pop-up-user-actions">
                     <div class="user-actions">
                         <ul>
-                            <li><a href="home.php"><span class="icon-16-vcard"></span> My Profile</a></li>
+                            <li><a href="user-profile.php"><span class="icon-16-vcard"></span> My Profile</a></li>
                             <li><a href="settings.php"><span class="icon-16-cog"></span> Settings</a></li>
                             <li class="no-padding"><hr></li>
                             <li><a><span class="icon-16-logout"></span> Log Out</a></li>

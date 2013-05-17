@@ -19,8 +19,7 @@
 		<div class="index-intro">
 			<div class="index-intro-1">
 				<h1>Join Communities and Share Stories, 
-					Photos, Opinions with People who Share the same 
-					Interests, Locality with you.
+					Photos, Opinions with People.
 				</h1>
 
 

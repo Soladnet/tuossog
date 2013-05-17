@@ -60,7 +60,7 @@
 						<ul>
 							<li><span class="icon-16-earth"></span></li>
 							<li id="all"><div ><a>All</a></li>
-							<li id="suggestions"><a>Suggestions</a></li>
+							<li id="suggestions"><a>Suggested</a></li>
 							<li id="my-communities"><a>My Communities</a></li>
 						</ul>
 					</div>

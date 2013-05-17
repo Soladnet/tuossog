@@ -47,7 +47,14 @@
 					<input type="submit" class="button" value="Search">
 				</div>
 				<div class="clear"></div>
-
+				<div class="timeline-filter">
+						<ul>
+							<li><span class="icon-16-user2"></span></li>
+							<li id="suggestions" class="active"><a>Suggested</a></li>
+							<li id="my-communities"><a>My Friends</a></li>
+						</ul>
+					</div>
+				<div class="clear"></div>
 				<div class="individual-friend-box">
 					<a class= "fancybox " id="inline" href="#kori">
 						<div class="friend-image">

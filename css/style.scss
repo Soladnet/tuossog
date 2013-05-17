@@ -316,9 +316,7 @@ input[type=checkbox]{
 	margin: 3px 0;
 	background: #fff;
 	background: rgba(255, 255, 255, 0.9);
-	@media only screen and (max-width: 1024px) {
-		padding: .2em;
-	}
+	
 	ul {
 		max-width: $max-width !important;
 		margin: 0 auto !important;
@@ -329,7 +327,8 @@ input[type=checkbox]{
 			font-size: .75em;
 			float: left; 
 			@media only screen and (max-width: 240px) {
-				padding: .3em;
+				padding: .5em .3em;
+				font-size: .7em;
 			}
 			a{
 				color: #969696;
@@ -515,7 +514,9 @@ input[type=checkbox]{
 	   		float:right;
 	   }	
 	   .name{
-	   		color:#99c43d;
+	   		color: #99c43d;
+	   		padding: 0px;
+	   		margin:0px;
 	   }	
 }
 .more-div{
