@@ -16,7 +16,7 @@
 						<tr><td><span class="icon-16-map"></span></td><td class="profile-meta"> Abuja, Federal Capital Territory, Nigeria</td></tr>
 						<tr><td><span class="icon-16-female"></span></td><td class="profile-meta"> Female</td></tr>
 						<tr><td><span class="icon-16-male"></span></td><td class="profile-meta"> Male</td></tr>
-						<tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a href="">See Profile</a> </td></tr>
+						<tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a href="friend-profile.php">See Profile</a> </td></tr>
 					</table>					
 					<div class="clear"></div>
 					<button class="profile-meta-functions button"><span class="icon-16-eye"></span> Wink</button>
@@ -38,7 +38,7 @@
 						<tr><td><span class="icon-16-map"></span></td><td class="profile-meta"> Abuja, Federal Capital Territory, Nigeria</td></tr>
 						<tr><td><span class="icon-16-female"></span></td><td class="profile-meta"> Female</td></tr>
 						<tr><td><span class="icon-16-male"></span></td><td class="profile-meta"> Male</td></tr>
-						<tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a href="">See Profile</a> </td></tr>
+						<tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a href="friend-profile.php">See Profile</a> </td></tr>
 					</table>					
 					<div class="clear"></div>
 					<button class="profile-meta-functions button"><span class="icon-16-eye"></span> Wink</button>
@@ -73,7 +73,7 @@
 						<tr><td><span class="icon-16-map"></span></td><td class="profile-meta"> Abuja, Federal Capital Territory, Nigeria</td></tr>
 						<tr><td><span class="icon-16-female"></span></td><td class="profile-meta"> Female</td></tr>
 						<tr><td><span class="icon-16-male"></span></td><td class="profile-meta"> Male</td></tr>
-						<tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a href="">See Profile</a> </td></tr>
+						<tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a href="friend-profile.php">See Profile</a> </td></tr>
 					</table>					
 					<div class="clear"></div>
 					<button class="profile-meta-functions button"><span class="icon-16-eye"></span> Wink</button>
@@ -184,7 +184,7 @@
 						<tr><td><span class="icon-16-map"></span></td><td class="profile-meta"> Abuja, Federal Capital Territory, Nigeria</td></tr>
 						<tr><td><span class="icon-16-female"></span></td><td class="profile-meta"> Female</td></tr>
 						<tr><td><span class="icon-16-male"></span></td><td class="profile-meta"> Male</td></tr>
-						<tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a href="">See Profile</a> </td></tr>
+						<tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a href="friend-profile.php">See Profile</a> </td></tr>
 					</table>					
 					<div class="clear"></div>
 					<button class="profile-meta-functions button"><span class="icon-16-eye"></span> Wink</button>

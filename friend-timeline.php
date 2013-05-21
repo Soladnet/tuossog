@@ -3,12 +3,12 @@
 		<div class="timeline-news-profile-pic">
 			<img src="images/1.jpg">
 		</div>
-		<p><a class="fancybox " id="inline" href="#you">You</a> and <a class="fancybox " id="inline" href="#Morgan">Piers Morgan</a> are now friends</p>
+		<p><a class="fancybox " id="inline" href="#Friend">Friend</a> and <a class="fancybox " id="inline" href="#Morgan">Piers Morgan</a> are now friends</p>
 		<p class="timeline-time">Just now...</p>
 		<div class="clear"></div>
-		<!-- ------------------------- Your profile Pop-up ------------------------- -->
+		<!-- ------------------------- Friend profile Pop-up ------------------------- -->
 		<div style="display:none">
-			<div id="you">
+			<div id="Friend">
 				<div class="aside-wrapper">
 					<img class="profile-pic" src="images/1.jpg">
 					<table>
@@ -38,7 +38,7 @@
 						<tr><td><span class="icon-16-map"></span></td><td class="profile-meta"> Abuja, Federal Capital Territory, Nigeria</td></tr>
 						<tr><td><span class="icon-16-female"></span></td><td class="profile-meta"> Female</td></tr>
 						<tr><td><span class="icon-16-male"></span></td><td class="profile-meta"> Male</td></tr>
-						<tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a href="friend-profile.php">See Profile</a> </td></tr>
+						<tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a href="">See Profile</a> </td></tr>
 					</table>					
 					<div class="clear"></div>
 					<button class="profile-meta-functions button"><span class="icon-16-eye"></span> Wink</button>
@@ -55,7 +55,7 @@
 		<div class="timeline-news-profile-pic">
 			<img src="images/1.jpg">
 		</div>
-		<p><a class="fancybox " id="inline" href="#you">You</a> posted to <a href="sample-community.php">Eko Radio Party</a></p>
+		<p><a class="fancybox " id="inline" href="#Friend">Friend</a> posted to <a href="sample-community.php">Eko Radio Party</a></p>
 		<p class="timeline-time">25 minutes ago.</p>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -103,7 +103,7 @@
 		<div class="timeline-news-profile-pic">
 			<img src="images/1.jpg">
 		</div>
-		<p><a class="fancybox " id="inline" href="#you">You</a> created a new <a href="sample-community.php">Community</a></p>
+		<p><a class="fancybox " id="inline" href="#Friend">Friend</a> created a new <a href="sample-community.php">Community</a></p>
 		<p class="timeline-time">25 minutes ago.</p>
 		<div class="community-meta">
 			<img src="images/cbn.jpg">

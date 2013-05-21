@@ -2,7 +2,7 @@
     <div class="aside-wrapper">
         <img class="profile-pic" src="images/1.jpg">
         <table>
-            <tr><td></td><td><h3><a href="user-profile.php">Ciroma Chukwuma Adekunle</a></h3></td></tr>
+            <tr><td></td><td><h3><a href="friend-profile.php">Friend Profile</a></h3></td></tr>
             <tr><td><span class="icon-16-location"></span></td><td class="profile-meta">Abuja, Federal Capital Territory, Nigeria</td></tr>
             <tr><td><span class="icon-16-calendar"></span></td><td class="profile-meta">Joined on Feb 18, 2013 </td></tr>
             <tr><td><span class="icon-16-male"></span></td><td class="profile-meta">Male</td></tr>
@@ -11,7 +11,7 @@
         </table>					
         <div class="clear"></div>
         <div class="profile-summary">
-            <div class="profile-summary-wrapper"><a href="user-profile.php"><p class="number">50 </p> <p class="type">Posts</p></a></div>
+            <div class="profile-summary-wrapper"><a href="friend-profile.php"><p class="number">50 </p> <p class="type">Posts</p></a></div>
             <div class="profile-summary-wrapper"><a href="communities.php"><p class="number">30 </p> <p class="type">Communities</p></a></div>
             <div class="profile-summary-wrapper"><a href="all-friends.php"><p class="number">50 </p> <p class="type">Friends</p></a></div>
             <div class="clear"></div>
@@ -93,7 +93,7 @@ window.open("http://tlk.io/Gossout-30", null, "toolbar=no,menubar=no,resizable =
                             <tr><td><span class="icon-16-map"></span></td><td class="profile-meta"> Abuja, Federal Capital Territory, Nigeria</td></tr>
                             <tr><td><span class="icon-16-female"></span></td><td class="profile-meta"> Female</td></tr>
                             <tr><td><span class="icon-16-male"></span></td><td class="profile-meta"> Male</td></tr>
-                            <tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a href="friend-profile.php">See Profile</a> </td></tr>
+                            <tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a href="">See Profile</a> </td></tr>
                         </table>					
                         <div class="clear"></div>
                         <button class="profile-meta-functions button"><span class="icon-16-eye"></span> Wink</button>
@@ -117,7 +117,7 @@ window.open("http://tlk.io/Gossout-30", null, "toolbar=no,menubar=no,resizable =
                             <tr><td><span class="icon-16-map"></span></td><td class="profile-meta"> Abuja, Federal Capital Territory, Nigeria</td></tr>
                             <tr><td><span class="icon-16-female"></span></td><td class="profile-meta"> Female</td></tr>
                             <tr><td><span class="icon-16-male"></span></td><td class="profile-meta"> Male</td></tr>
-                            <tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a href="friend-profile.php">See Profile</a> </td></tr>
+                            <tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a href="">See Profile</a> </td></tr>
                         </table>					
                         <div class="clear"></div>
                         <button class="profile-meta-functions button"><span class="icon-16-eye"></span> Wink</button>
@@ -141,7 +141,7 @@ window.open("http://tlk.io/Gossout-30", null, "toolbar=no,menubar=no,resizable =
                             <tr><td><span class="icon-16-map"></span></td><td class="profile-meta"> Abuja, Federal Capital Territory, Nigeria</td></tr>
                             <tr><td><span class="icon-16-female"></span></td><td class="profile-meta"> Female</td></tr>
                             <tr><td><span class="icon-16-male"></span></td><td class="profile-meta"> Male</td></tr>
-                            <tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a href="friend-profile.php">See Profile</a> </td></tr>
+                            <tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a href="">See Profile</a> </td></tr>
                         </table>					
                         <div class="clear"></div>
                         <button class="profile-meta-functions button"><span class="icon-16-eye"></span> Wink</button>
@@ -165,7 +165,7 @@ window.open("http://tlk.io/Gossout-30", null, "toolbar=no,menubar=no,resizable =
                             <tr><td><span class="icon-16-map"></span></td><td class="profile-meta"> Abuja, Federal Capital Territory, Nigeria</td></tr>
                             <tr><td><span class="icon-16-female"></span></td><td class="profile-meta"> Female</td></tr>
                             <tr><td><span class="icon-16-male"></span></td><td class="profile-meta"> Male</td></tr>
-                            <tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a href="friend-profile.php">See Profile</a> </td></tr>
+                            <tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a href="">See Profile</a> </td></tr>
                         </table>					
                         <div class="clear"></div>
                         <button class="profile-meta-functions button"><span class="icon-16-eye"></span> Wink</button>
@@ -188,7 +188,7 @@ window.open("http://tlk.io/Gossout-30", null, "toolbar=no,menubar=no,resizable =
                                 <tr><td><span class="icon-16-map"></span></td><td class="profile-meta"> Abuja, Federal Capital Territory, Nigeria</td></tr>
                                 <tr><td><span class="icon-16-female"></span></td><td class="profile-meta"> Female</td></tr>
                                 <tr><td><span class="icon-16-male"></span></td><td class="profile-meta"> Male</td></tr>
-                                <tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a href="friend-profile.php">See Profile</a> </td></tr>
+                                <tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a href="">See Profile</a> </td></tr>
                             </table>					
                             <div class="clear"></div>
                             <button class="profile-meta-functions button"><span class="icon-16-eye"></span> Wink</button>
