@@ -12,8 +12,9 @@
 		<hr>						
 		<h3 class="name"><img class="post-profile-pic" src="images/2.jpg"><a href="user-profile.php">Ciroma Chukwuma Adekunle</a>
 			<div class="float-right">
+				<span class="post-time"><span class="icon-16-star"></span>30</span>
 				<span class="post-time"><span class="icon-16-comment"></span>50</span>
-				<span class="post-time"><span class="icon-16-share"></span>24</span>
+				<!--<span class="post-time"><span class="icon-16-share"></span>24</span>-->
 				<span class="post-time"><span class="icon-16-clock"></span>5 mins</span>
 			</div>
 			<div class="clear"></div>
@@ -23,9 +24,9 @@
 	<!-- *************************************************************************************** -->
 	<hr>
 	<div class="post-meta">
-		
+		<span class="post-meta-delete"><span class="icon-16-star"></span>Like </span>
 		<span id="post-new-comment-show" class="" onclick="javascript:toggle('post-comments', 'post-new-comment-show');"><span class="icon-16-comment"></span>Comment</span>
-		<span class="post-meta-gossout"><span class="icon-16-share"></span><a class="fancybox " id="inline" href="#share-123456">Share</a></span>
+		<!--<span class="post-meta-gossout"><span class="icon-16-share"></span><a class="fancybox " id="inline" href="#share-123456">Share</a></span>-->
 		<span class="post-meta-delete"><span class="icon-16-trash"></span>Delete </span>
 		
 
