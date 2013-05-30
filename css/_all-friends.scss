@@ -36,9 +36,15 @@ $nav-gradient-2: #BAD533;
 		}
 	    .friend-image{
 	    	float:left;
+	    	height:50px;
 	    	width:50px;
+	    	position: relative;
+	    	overflow: hidden;
 	    	display:block;
-	    	
+	    	margin:.2em;
+	    	img{
+	    		position:absolute;
+	    	}
 	    }
 	    .friend-text{
 	    	 display:block;

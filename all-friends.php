@@ -58,7 +58,7 @@
 				<div class="individual-friend-box">
 					<a class= "fancybox " id="inline" href="#kori">
 						<div class="friend-image">
-							<img src="images/2.jpg">
+							<img src="images/2.jpg" onload="OnImageLoad(event);">
 						</div>
 						<div class="friend-text">
 							<div class="friend-name">Muhammad Abdullahi Kori</div>
@@ -90,7 +90,7 @@
 				<div class="individual-friend-box">
 					<a class= "fancybox" id="inline" href="#data9">
 						<div class="friend-image">
-							<img src="images/1.jpg">
+							<img src="images/1.jpg" onload="OnImageLoad(event);">
 						</div>
 						<div class="friend-text">
 							<div class="friend-name">Al-Asaad Bin Muhammad Al-Menk Daud Suleiman</div>
