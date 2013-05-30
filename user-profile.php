@@ -49,7 +49,7 @@
 			</div>
 			
 		<?php
-			include("aside.php");
+			include("user-aside.php");
 		?>			
 		</div>
 		<?php

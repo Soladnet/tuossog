@@ -1,7 +1,7 @@
 <div class="aside">
 				<div class="aside-wrapper">
 					<div class="profile-pic">
-						<img src="images/1.jpg" onload="OnImageLoad(event);">
+						<img src="images/community-no-pic.png" onload="OnImageLoad(event);">
 					</div>
 					<table>
 						<tr>
