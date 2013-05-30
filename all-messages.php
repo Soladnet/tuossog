@@ -48,7 +48,7 @@
                         <p> 
                             <span class="all-messages-time"> 17 hrs </span>
                         </p>
-                        <img class= "all-messages-image" src="images/1.jpg">
+                        <div class="all-messages-image"> <img src="images/1.jpg" onload="OnImageLoad(event);"> </div>
                         <div class="all-messages-text"> 
                            <h3> <a href="">Chiroma Chukwuma Adekunle</a> </h3>
                             <div class="all-messages-message">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -66,7 +66,7 @@
                         <p>
                             <span class="all-messages-time"> 17 hrs </span>
                         </p>
-                        <img class= "all-messages-image" src="images/1.jpg">
+                        <div class="all-messages-image"> <img src="images/1.jpg" onload="OnImageLoad(event);"> </div>
                         <div class="all-messages-text"> 
                             <h3><a href="">Chiroma Chukwuma Adekunle </a></h3>
                             <div class="all-messages-message">

@@ -32,10 +32,16 @@ $nav-gradient-2: #BAD533;
 	    	font-size: 0.8em;
 	    }
 	    .all-notification-image{
-	    	float:left;
 	    	width:50px;
-	    	display:block;
-	    	
+	    	height:50px;
+	    	float:left;
+	    	position:relative;
+	    	overflow:hidden;
+	    	margin:.2em;
+	    	border:1px solid #ddd;
+	    	img{
+	    		position:absolute;
+	    	}
 	    }
 	    .all-notification-text{
 	    	 display:block;

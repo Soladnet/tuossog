@@ -1,6 +1,8 @@
 <div class="aside">
-    <div class="aside-wrapper">
-        <img class="profile-pic" src="images/1.jpg">
+    <div class="aside-wrapper" >
+        <div class="profile-pic">
+            <img src="images/1.jpg" onload="OnImageLoad(event);">
+        </div>
         <table>
             <tr><td></td><td><h3><a href="friend-profile.php">Friend Profile</a></h3></td></tr>
             <tr><td><span class="icon-16-location"></span></td><td class="profile-meta">Abuja, Federal Capital Territory, Nigeria</td></tr>
@@ -201,7 +203,7 @@ window.open("http://tlk.io/Gossout-30", null, "toolbar=no,menubar=no,resizable =
                 </div>
             </a>
         </a>
-
+        <div class="clear"></div>
         <p class="community-listing">
             <span>
                 <span><span class="icon-16-dot"></span><a href="all-friends.php">Show all</a></span>

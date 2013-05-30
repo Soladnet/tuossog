@@ -1,7 +1,7 @@
 <div class="timeline-container">
 	<div class="timeline-news-single">
 		<div class="timeline-news-profile-pic">
-			<img src="images/1.jpg">
+			<img src="images/1.jpg" onload="OnImageLoad(event);">
 		</div>
 		<p><a class="fancybox " id="inline" href="#you">You</a> and <a class="fancybox " id="inline" href="#Morgan">Piers Morgan</a> are now friends</p>
 		<p class="timeline-time">Just now...</p>
@@ -10,7 +10,7 @@
 		<div style="display:none">
 			<div id="you">
 				<div class="aside-wrapper">
-					<img class="profile-pic" src="images/1.jpg">
+					<div class="profile-pic"><img src="images/1.jpg" onload="OnImageLoad(event);"></div>
 					<table>
 						<tr><td></td><td><h3>Chiroma Chukwuma Adekunle</h3></td></tr>
 						<tr><td><span class="icon-16-map"></span></td><td class="profile-meta"> Abuja, Federal Capital Territory, Nigeria</td></tr>
@@ -32,7 +32,7 @@
 		<div style="display:none">
 			<div id="Morgan">
 				<div class="aside-wrapper">
-					<img class="profile-pic" src="images/1.jpg">
+					<div class="profile-pic"><img src="images/1.jpg" onload="OnImageLoad(event);"></div>
 					<table>
 						<tr><td></td><td><h3>Piers Morgan</h3></td></tr>
 						<tr><td><span class="icon-16-map"></span></td><td class="profile-meta"> Abuja, Federal Capital Territory, Nigeria</td></tr>
@@ -53,7 +53,7 @@
 
 	<div class="timeline-news-single">
 		<div class="timeline-news-profile-pic">
-			<img src="images/1.jpg">
+			<img src="images/1.jpg" onload="OnImageLoad(event);">
 		</div>
 		<p><a class="fancybox " id="inline" href="#you">You</a> posted to <a href="sample-community.php">Eko Radio Party</a></p>
 		<p class="timeline-time">25 minutes ago.</p>
@@ -101,7 +101,7 @@
 
 	<div class="timeline-news-single">
 		<div class="timeline-news-profile-pic">
-			<img src="images/1.jpg">
+			<img src="images/1.jpg" onload="OnImageLoad(event);">
 		</div>
 		<p><a class="fancybox " id="inline" href="#you">You</a> created a new <a href="sample-community.php">Community</a></p>
 		<p class="timeline-time">25 minutes ago.</p>

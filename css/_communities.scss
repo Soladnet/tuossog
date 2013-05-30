@@ -3,6 +3,7 @@ $nav-gradient-2: #BAD533;
 
 .verified-community{
 	max-width:25px;
+	margin: 0 .1em .1em 0;
 }
 .communities-list{
 	width: 62.5%;
@@ -28,8 +29,15 @@ $nav-gradient-2: #BAD533;
 		}
 	    .community-image{
 	    	display: inline-block;
-	    	width:100px;
-	    	float: left;	    	
+	    	position:relative;
+			width:100px;
+			height:100px;
+			overflow:hidden;
+	    	float: left;	
+	    	margin-right:.2em;  
+	    	img{
+	    		position:absolute;
+	    	}  	
 	    	@media only screen and (max-width : 260px){
 				float: none;
 				display: block;

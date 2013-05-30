@@ -57,7 +57,7 @@
                             <span class="icon-16-user-add"></span> 
                             <span class="all-notifications-time"> 17 hrs </span>
                         </p>
-                        <img class= "all-notification-image" src="images/1.jpg">
+                        <div class="all-notification-image"> <img src="images/1.jpg" onload="OnImageLoad(event);"> </div>
                         <div class="all-notification-text"> 
                             <a href=""><h3>Chiroma Chukwuma Adekunle </h3></a>
                             <div class="all-notifications-message">Wants To Add You</div>
@@ -75,7 +75,7 @@
                             <span class="icon-16-user-add"></span> 
                             <span class="all-notifications-time"> 17 hrs </span>
                         </p>
-                        <img class= "all-notification-image" src="images/1.jpg">
+                        <div class="all-notification-image"> <img src="images/1.jpg" onload="OnImageLoad(event);"> </div>
                         <div class="all-notification-text"> 
                             <a href=""><h3>Chiroma Chukwuma Adekunle</h3></a>
                             <div class="all-notifications-message">Commented on Your Post</div>

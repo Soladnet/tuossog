@@ -37,7 +37,7 @@
 	<!-- ************************************************************************************** -->
 	<div class="post-comments" id="post-comments">
 		<div class="post-comment">
-			<img class="post-thumb" src="images/1.jpg">
+			<div class="post-thumb"><img src="images/snip.jpg" onload="OnImageLoad(event);"></div>
 			<h4 class="name">Sample Name</h4>
 			<span class="post-time">2 minutes ago.</span>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -47,7 +47,7 @@
 			<div class="clear"></div>
 		</div>
 		<div class="post-comment">
-			<img class="post-thumb" src="images/2.jpg">
+			<div class="post-thumb"><img src="images/snip.jpg" onload="OnImageLoad(event);"></div>
 			<h4 class="name">Sample Name</h4>
 			<span class="post-time">2 minutes ago.</span>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -62,7 +62,7 @@
 			<div class="clear"></div>
 		</div>
 		<div class="post-comment">
-			<img class="post-thumb" src="images/3.jpg">
+			<div class="post-thumb"><img src="images/snip.jpg" onload="OnImageLoad(event);"></div>
 			<h4 class="name">Sample Name</h4>
 			<span class="post-time">2 minutes ago.</span>
 			<p>loremLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -75,7 +75,7 @@
 	<!-- *************************	comment box *********************************************** -->
 	<div class="post-new-comment" id="post-new-comment">
 		<form>
-			<img class="post-thumb" src="images/snip.jpg">
+			<div class="post-thumb"><img src="images/snip.jpg" onload="OnImageLoad(event);"></div>
 			<span><input type="text" class="comment-field" required placeholder="Add comment..."></input></span>
 			<input type="submit" class="submit">
 			<div class="clear"></div>

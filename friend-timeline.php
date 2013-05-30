@@ -1,7 +1,7 @@
 <div class="timeline-container">
 	<div class="timeline-news-single">
 		<div class="timeline-news-profile-pic">
-			<img src="images/1.jpg">
+			<img src="images/1.jpg" onload="OnImageLoad(event);">
 		</div>
 		<p><a class="fancybox " id="inline" href="#Friend">Friend</a> and <a class="fancybox " id="inline" href="#Morgan">Piers Morgan</a> are now friends</p>
 		<p class="timeline-time">Just now...</p>
@@ -53,7 +53,7 @@
 
 	<div class="timeline-news-single">
 		<div class="timeline-news-profile-pic">
-			<img src="images/1.jpg">
+			<img src="images/1.jpg" onload="OnImageLoad(event);">
 		</div>
 		<p><a class="fancybox " id="inline" href="#Friend">Friend</a> posted to <a href="sample-community.php">Eko Radio Party</a></p>
 		<p class="timeline-time">25 minutes ago.</p>
@@ -101,7 +101,7 @@
 
 	<div class="timeline-news-single">
 		<div class="timeline-news-profile-pic">
-			<img src="images/1.jpg">
+			<img src="images/1.jpg" onload="OnImageLoad(event);">
 		</div>
 		<p><a class="fancybox " id="inline" href="#Friend">Friend</a> created a new <a href="sample-community.php">Community</a></p>
 		<p class="timeline-time">25 minutes ago.</p>

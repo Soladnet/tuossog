@@ -1,6 +1,8 @@
 <div class="aside">
 				<div class="aside-wrapper">
-					<img class="profile-pic" src="images/1.jpg">
+					<div class="profile-pic">
+						<img src="images/1.jpg" onload="OnImageLoad(event);">
+					</div>
 					<table>
 						<tr>
 							<td><h3><img src="images/gossout-verified.png" class="verified-community">Eko Radio Party</h3></td>
@@ -40,11 +42,19 @@
 			
 				<div class="aside-wrapper">
 					<h3>Members</h3>
-					<img class= "friends-thumbnails" src="images/1.jpg">
-					<img class= "friends-thumbnails" src="images/2.jpg">
-					<img class= "friends-thumbnails" src="images/3.jpg">
-					<img class= "friends-thumbnails" src="images/snip.jpg">
-					<img class= "friends-thumbnails" src="images/1.jpg">
+					<div class= "friends-thumbnails"><img src="images/1.jpg" onload="OnImageLoad(event);"></div>
+					<div class= "friends-thumbnails"><img src="images/1.jpg" onload="OnImageLoad(event);"></div>
+					<div class= "friends-thumbnails"><img src="images/1.jpg" onload="OnImageLoad(event);"></div>
+					<div class= "friends-thumbnails"><img src="images/1.jpg" onload="OnImageLoad(event);"></div>
+					<div class= "friends-thumbnails"><img src="images/1.jpg" onload="OnImageLoad(event);"></div>
+					<div class= "friends-thumbnails"><img src="images/1.jpg" onload="OnImageLoad(event);"></div>
+					<div class= "friends-thumbnails"><img src="images/1.jpg" onload="OnImageLoad(event);"></div>
+					<div class= "friends-thumbnails"><img src="images/1.jpg" onload="OnImageLoad(event);"></div>
+					<div class= "friends-thumbnails"><img src="images/1.jpg" onload="OnImageLoad(event);"></div>
+					<div class= "friends-thumbnails"><img src="images/1.jpg" onload="OnImageLoad(event);"></div>
+					<div class= "friends-thumbnails"><img src="images/1.jpg" onload="OnImageLoad(event);"></div>
+					<div class= "friends-thumbnails"><img src="images/1.jpg" onload="OnImageLoad(event);"></div>
+					<div class="clear"></div>
 					<p class="community-listing">
 						<span>
 							<span><span class="icon-16-dot"></span><a href="all-friends.php">Show all</a></span>

@@ -17,7 +17,9 @@
                             <span class="icon-16-user-add"></span> 
                             <span class="float-right"> 17 hrs </span>
                         </p>
-                        <img class= "notification-icon" src="images/1.jpg">
+                        <div class= "notification-icon">
+                            <img src="images/1.jpg" onload="OnImageLoad(event);">
+                        </div>
                         <div class="notification-text"> 
                             <a href="user-profile.php" class="name">Chiroma Chukwuma Adekunle </a>
                             <p>wants to add you</p>
@@ -32,7 +34,9 @@
                     <div class="individual-notification">
                         <p> <span class="icon-16-comment"></span> <span class="float-right"> 17 hrs </span></p>
 
-                        <img class= "notification-icon" src="images/1.jpg">
+                        <div class= "notification-icon">
+                            <img src="images/1.jpg" onload="OnImageLoad(event);">
+                        </div>
                         <div class="notification-text"> 
                             <a href="user-profile.php" class="name">Chiroma Chukwuma Adekunle </a>
                             <p>commented on your post</p>
@@ -48,7 +52,9 @@
                         <p> <span class="icon-16-earth"></span> 
                             <span class="float-right"> 17 hrs </span>
                         </p>
-                        <img class= "notification-icon" src="images/1.jpg">
+                        <div class= "notification-icon">
+                            <img src="images/1.jpg" onload="OnImageLoad(event);">
+                        </div>
                         <div class="notification-text"> 
                             <a href="user-profile.php" class="name">Chiroma Chukwuma Adekunle </a>
                             <p>invites you to join community</p>
@@ -75,7 +81,9 @@
                             <span class="float-right"> 17 hrs </span>
                         <div class="clear"></div>
                         </p>
-                        <img class= "notification-icon" src="images/1.jpg">
+                        <div class= "notification-icon">
+                            <img src="images/1.jpg" onload="OnImageLoad(event);">
+                        </div>
                         <div class="notification-text"> 
                             <a href="user-profile.php" class="name">Chiroma Chukwuma Adekunle </a>
                             <p><span class="icon-16-reply"></span>Lorem ipsum dolor sit amet...</p>
@@ -90,7 +98,9 @@
                             <span class="float-right"> 17 hrs </span>
                         <div class="clear"></div>
                         </p>
-                        <img class= "notification-icon" src="images/1.jpg">
+                        <div class= "notification-icon">
+                            <img src="images/1.jpg" onload="OnImageLoad(event);">
+                        </div>
                         <div class="notification-text"> 
                             <a href="user-profile.php" class="name">Chiroma Chukwuma Adekunle </a>
                             <p>Message body</p>

@@ -70,7 +70,7 @@
 				<div id="suggestion-list">
 					<div class="community-box-wrapper">
 						<div class="community-image">
-							<img src="images/1.jpg">
+							<img src="images/1.jpg" onload="OnImageLoad(event);">
 						</div>
 						<div class="community-text">
 							<div class="community-name"><a href="sample-community.php"><img src="images/gossout-verified.png" class="verified-community">Suggested Community 1</a> </div>
@@ -89,8 +89,8 @@
 						</div>
 						<div class="community-box-wrapper">
 							<div class="community-image">
-								<img src="images/1.jpg">
-							</div>
+							<img src="images/1.jpg" onload="OnImageLoad(event);">
+						</div>
 							<div class="community-text">
 								<div class="community-name"><a href="sample-community.php">Suggested Community 2</a> </div>
 								<hr>
@@ -111,7 +111,7 @@
 						<div id="my-communities-list">
 							<div class="community-box-wrapper">
 								<div class="community-image">
-									<img src="images/1.jpg">
+									<img src="images/1.jpg" onload="OnImageLoad(event);">
 								</div>
 								<div class="community-text">
 									<div class="community-name"><a href="sample-community.php">My Personal Community</a> </div>
@@ -128,7 +128,7 @@
 								</div>
 								<div class="community-box-wrapper">
 									<div class="community-image">
-										<img src="images/1.jpg">
+										<img src="images/1.jpg" onload="OnImageLoad(event);">
 									</div>
 									<div class="community-text">
 										<div class="community-name"><a href="sample-community.php">My Personal Community 2</a> </div>
@@ -145,7 +145,7 @@
 									</div>
 									<div class="community-box-wrapper">
 										<div class="community-image">
-											<img src="images/1.jpg">
+											<img src="images/1.jpg" onload="OnImageLoad(event);">
 										</div>
 										<div class="community-text">
 											<div class="community-name"><a href="sample-community.php">My Personal Community 3</a> </div>

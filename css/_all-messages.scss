@@ -44,8 +44,15 @@ $nav-gradient-2: #BAD533;
 	    }
 	    .all-messages-image{
 	    	width:50px;
+	    	height:50px;
+	    	overflow:hidden;
+	    	position:relative;
 	    	float:left;
-	    	
+	    	border:1px solid #ddd;
+	    	margin:0.2em;
+	    	img{
+	    		position:absolute;
+	    	}
 	    }
 	    .all-messages-text{
 	    	 padding: 0 0 0 52px;

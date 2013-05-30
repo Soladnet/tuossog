@@ -1,7 +1,7 @@
 <div class="timeline-container">
 	<div class="timeline-news-single">
 		<div class="timeline-news-profile-pic">
-			<img src="images/2.jpg">
+			<img src="images/2.jpg" onload="OnImageLoad(event);">
 		</div>
 		<p><a class="fancybox " id="inline" href="#Jeremy">Jeremy Clarkson</a> and <a class="fancybox " id="inline" href="#Morgan">Piers Morgan</a> are now friends!</p>
 		<p class="timeline-time">Just now...</p>
@@ -53,7 +53,7 @@
 
 	<div class="timeline-news-single">
 		<div class="timeline-news-profile-pic">
-			<img src="images/3.jpg">
+			<img src="images/3.jpg" onload="OnImageLoad(event);">
 		</div>
 		<p><a class="fancybox " id="inline" href="#Wizzy">WizKid Ayo</a> uploaded <a href="">2 photos.</a></p>
 		<p class="timeline-time">7 minutes ago.</p>
@@ -88,7 +88,7 @@
 
 	<div class="timeline-news-single">
 		<div class="timeline-news-profile-pic">
-			<img src="images/2.jpg">
+			<img src="images/2.jpg" onload="OnImageLoad(event);">
 		</div>
 		<p><a class="fancybox " id="inline" href="#Jeremy">Jeremy Clarkson</a> posted to <a href="sample-community.php">Eko Radio Party</a></p>
 		<p class="timeline-time">25 minutes ago.</p>
@@ -107,7 +107,7 @@
 		</p>
 		<div class="post-comments" id="post-comments" style="display: none;">
 			<div class="home-post-comment">
-				<img class="post-thumb" src="images/1.jpg">
+				<div class="post-thumb"><img  src="images/1.jpg" onload="OnImageLoad(event);"></div>
 				<h4 class="name">Sample Name</h4>
 				<span class="post-time">2 minutes ago.</span>
 				<p>
@@ -121,7 +121,7 @@
 				<div class="clear"></div>
 			</div>
 			<div class="home-post-comment">
-				<img class="post-thumb" src="images/1.jpg">
+				<div class="post-thumb"><img src="images/1.jpg" onload="OnImageLoad(event);"></div>
 				<h4 class="name">Sample Name</h4>
 				<span class="post-time">2 minutes ago.</span>
 				<p>
@@ -144,7 +144,7 @@
 
 	<div class="timeline-news-single">
 		<div class="timeline-news-profile-pic">
-			<img src="images/2.jpg">
+			<img src="images/2.jpg" onload="OnImageLoad(event);">
 		</div>
 		<p><a class="fancybox " id="inline" href="#Jeremy">Sanusi Lamido</a> created a new <a href="sample-community.php">Community</a></p>
 		<p class="timeline-time">25 minutes ago.</p>
@@ -163,7 +163,7 @@
 
 	<div class="timeline-news-single">
 		<div class="timeline-news-profile-pic">
-			<img src="images/3.jpg">
+			<img src="images/2.jpg" onload="OnImageLoad(event);">
 		</div>
 		<p><a class="fancybox " id="inline" href="#Wizzy">WizKid Ayo</a> uploaded <a href="">3 photos.</a></p>
 		<p class="timeline-time">4 hours ago.</p>

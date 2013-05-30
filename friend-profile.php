@@ -40,9 +40,9 @@
 			</script>
 			<div class="posts">
 				<h1>Friend</h1>
-				<hr>
+				
 				<?php
-				include("post-box.php");
+				
 				include("friend-timeline.php");
 				?>
 				

@@ -1,6 +1,7 @@
 <div class="aside">
     <div class="aside-wrapper">
-        <img class="profile-pic" src="images/1.jpg">
+        <div class="profile-pic" >
+            <img src="images/1.jpg" onload="OnImageLoad(event);"></div>
         <table>
             <tr><td></td><td><h3><a href="user-profile.php">Ciroma Chukwuma Adekunle</a></h3></td></tr>
             <tr><td><span class="icon-16-location"></span></td><td class="profile-meta">Abuja, Federal Capital Territory, Nigeria</td></tr>
@@ -83,7 +84,7 @@ window.open("http://tlk.io/Gossout-30", null, "toolbar=no,menubar=no,resizable =
     <div class="aside-wrapper">
         <h3><a href="all-friends.php">Friends</a></h3>
         <a class= "fancybox " id="inline" href="#kori">
-            <img class= "friends-thumbnails" src="images/2.jpg">
+            <div class= "friends-thumbnails"><img src="images/1.jpg" onload="OnImageLoad(event);"></div>
             <div style="display:none">
                 <div id="kori">
                     <div class="aside-wrapper">
@@ -107,7 +108,175 @@ window.open("http://tlk.io/Gossout-30", null, "toolbar=no,menubar=no,resizable =
         </a>
 
         <a class= "fancybox " id="inline" href="#kori">
-            <img class= "friends-thumbnails" src="images/2.jpg">
+            <div class= "friends-thumbnails"><img src="images/1.jpg" onload="OnImageLoad(event);"></div>
+            <div style="display:none">
+                <div id="kori">
+                    <div class="aside-wrapper">
+                        <img class="profile-pic" src="images/2.jpg">
+                        <table>
+                            <tr><td></td><td><h3>Kori Muhammad Abdullahi</h3></td></tr>
+                            <tr><td><span class="icon-16-map"></span></td><td class="profile-meta"> Abuja, Federal Capital Territory, Nigeria</td></tr>
+                            <tr><td><span class="icon-16-female"></span></td><td class="profile-meta"> Female</td></tr>
+                            <tr><td><span class="icon-16-male"></span></td><td class="profile-meta"> Male</td></tr>
+                            <tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a href="friend-profile.php">See Profile</a> </td></tr>
+                        </table>                    
+                        <div class="clear"></div>
+                        <button class="profile-meta-functions button"><span class="icon-16-eye"></span> Wink</button>
+                        <button class="profile-meta-functions button"><span class="icon-16-mail"></span> Send Message</button>
+                        <button class="profile-meta-functions button"><span class="icon-16-checkmark"></span> Accept Friendship</button>
+
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class= "fancybox " id="inline" href="#kori">
+            <div class= "friends-thumbnails"><img src="images/1.jpg" onload="OnImageLoad(event);"></div>
+            <div style="display:none">
+                <div id="kori">
+                    <div class="aside-wrapper">
+                        <img class="profile-pic" src="images/2.jpg">
+                        <table>
+                            <tr><td></td><td><h3>Kori Muhammad Abdullahi</h3></td></tr>
+                            <tr><td><span class="icon-16-map"></span></td><td class="profile-meta"> Abuja, Federal Capital Territory, Nigeria</td></tr>
+                            <tr><td><span class="icon-16-female"></span></td><td class="profile-meta"> Female</td></tr>
+                            <tr><td><span class="icon-16-male"></span></td><td class="profile-meta"> Male</td></tr>
+                            <tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a href="friend-profile.php">See Profile</a> </td></tr>
+                        </table>                    
+                        <div class="clear"></div>
+                        <button class="profile-meta-functions button"><span class="icon-16-eye"></span> Wink</button>
+                        <button class="profile-meta-functions button"><span class="icon-16-mail"></span> Send Message</button>
+                        <button class="profile-meta-functions button"><span class="icon-16-checkmark"></span> Accept Friendship</button>
+
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class= "fancybox " id="inline" href="#kori">
+            <div class= "friends-thumbnails"><img src="images/1.jpg" onload="OnImageLoad(event);"></div>
+            <div style="display:none">
+                <div id="kori">
+                    <div class="aside-wrapper">
+                        <img class="profile-pic" src="images/2.jpg">
+                        <table>
+                            <tr><td></td><td><h3>Kori Muhammad Abdullahi</h3></td></tr>
+                            <tr><td><span class="icon-16-map"></span></td><td class="profile-meta"> Abuja, Federal Capital Territory, Nigeria</td></tr>
+                            <tr><td><span class="icon-16-female"></span></td><td class="profile-meta"> Female</td></tr>
+                            <tr><td><span class="icon-16-male"></span></td><td class="profile-meta"> Male</td></tr>
+                            <tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a href="friend-profile.php">See Profile</a> </td></tr>
+                        </table>                    
+                        <div class="clear"></div>
+                        <button class="profile-meta-functions button"><span class="icon-16-eye"></span> Wink</button>
+                        <button class="profile-meta-functions button"><span class="icon-16-mail"></span> Send Message</button>
+                        <button class="profile-meta-functions button"><span class="icon-16-checkmark"></span> Accept Friendship</button>
+
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class= "fancybox " id="inline" href="#kori">
+            <div class= "friends-thumbnails"><img src="images/1.jpg" onload="OnImageLoad(event);"></div>
+            <div style="display:none">
+                <div id="kori">
+                    <div class="aside-wrapper">
+                        <img class="profile-pic" src="images/2.jpg">
+                        <table>
+                            <tr><td></td><td><h3>Kori Muhammad Abdullahi</h3></td></tr>
+                            <tr><td><span class="icon-16-map"></span></td><td class="profile-meta"> Abuja, Federal Capital Territory, Nigeria</td></tr>
+                            <tr><td><span class="icon-16-female"></span></td><td class="profile-meta"> Female</td></tr>
+                            <tr><td><span class="icon-16-male"></span></td><td class="profile-meta"> Male</td></tr>
+                            <tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a href="friend-profile.php">See Profile</a> </td></tr>
+                        </table>                    
+                        <div class="clear"></div>
+                        <button class="profile-meta-functions button"><span class="icon-16-eye"></span> Wink</button>
+                        <button class="profile-meta-functions button"><span class="icon-16-mail"></span> Send Message</button>
+                        <button class="profile-meta-functions button"><span class="icon-16-checkmark"></span> Accept Friendship</button>
+
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class= "fancybox " id="inline" href="#kori">
+            <div class= "friends-thumbnails"><img src="images/1.jpg" onload="OnImageLoad(event);"></div>
+            <div style="display:none">
+                <div id="kori">
+                    <div class="aside-wrapper">
+                        <img class="profile-pic" src="images/2.jpg">
+                        <table>
+                            <tr><td></td><td><h3>Kori Muhammad Abdullahi</h3></td></tr>
+                            <tr><td><span class="icon-16-map"></span></td><td class="profile-meta"> Abuja, Federal Capital Territory, Nigeria</td></tr>
+                            <tr><td><span class="icon-16-female"></span></td><td class="profile-meta"> Female</td></tr>
+                            <tr><td><span class="icon-16-male"></span></td><td class="profile-meta"> Male</td></tr>
+                            <tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a href="friend-profile.php">See Profile</a> </td></tr>
+                        </table>                    
+                        <div class="clear"></div>
+                        <button class="profile-meta-functions button"><span class="icon-16-eye"></span> Wink</button>
+                        <button class="profile-meta-functions button"><span class="icon-16-mail"></span> Send Message</button>
+                        <button class="profile-meta-functions button"><span class="icon-16-checkmark"></span> Accept Friendship</button>
+
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class= "fancybox " id="inline" href="#kori">
+            <div class= "friends-thumbnails"><img src="images/1.jpg" onload="OnImageLoad(event);"></div>
+            <div style="display:none">
+                <div id="kori">
+                    <div class="aside-wrapper">
+                        <img class="profile-pic" src="images/2.jpg">
+                        <table>
+                            <tr><td></td><td><h3>Kori Muhammad Abdullahi</h3></td></tr>
+                            <tr><td><span class="icon-16-map"></span></td><td class="profile-meta"> Abuja, Federal Capital Territory, Nigeria</td></tr>
+                            <tr><td><span class="icon-16-female"></span></td><td class="profile-meta"> Female</td></tr>
+                            <tr><td><span class="icon-16-male"></span></td><td class="profile-meta"> Male</td></tr>
+                            <tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a href="friend-profile.php">See Profile</a> </td></tr>
+                        </table>                    
+                        <div class="clear"></div>
+                        <button class="profile-meta-functions button"><span class="icon-16-eye"></span> Wink</button>
+                        <button class="profile-meta-functions button"><span class="icon-16-mail"></span> Send Message</button>
+                        <button class="profile-meta-functions button"><span class="icon-16-checkmark"></span> Accept Friendship</button>
+
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class= "fancybox " id="inline" href="#kori">
+            <div class= "friends-thumbnails"><img src="images/1.jpg" onload="OnImageLoad(event);"></div>
+            <div style="display:none">
+                <div id="kori">
+                    <div class="aside-wrapper">
+                        <img class="profile-pic" src="images/2.jpg">
+                        <table>
+                            <tr><td></td><td><h3>Kori Muhammad Abdullahi</h3></td></tr>
+                            <tr><td><span class="icon-16-map"></span></td><td class="profile-meta"> Abuja, Federal Capital Territory, Nigeria</td></tr>
+                            <tr><td><span class="icon-16-female"></span></td><td class="profile-meta"> Female</td></tr>
+                            <tr><td><span class="icon-16-male"></span></td><td class="profile-meta"> Male</td></tr>
+                            <tr><td><span class="icon-16-dot"></span></td><td class="profile-meta"><a href="friend-profile.php">See Profile</a> </td></tr>
+                        </table>                    
+                        <div class="clear"></div>
+                        <button class="profile-meta-functions button"><span class="icon-16-eye"></span> Wink</button>
+                        <button class="profile-meta-functions button"><span class="icon-16-mail"></span> Send Message</button>
+                        <button class="profile-meta-functions button"><span class="icon-16-checkmark"></span> Accept Friendship</button>
+
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class= "fancybox " id="inline" href="#kori">
+            <div class= "friends-thumbnails"><img src="images/1.jpg" onload="OnImageLoad(event);"></div>
             <div style="display:none">
                 <div id="kori">
                     <div class="aside-wrapper">
@@ -131,7 +300,7 @@ window.open("http://tlk.io/Gossout-30", null, "toolbar=no,menubar=no,resizable =
         </a>
 
         <a class= "fancybox " id="inline" href="#kori">
-            <img class= "friends-thumbnails" src="images/2.jpg">
+            <div class= "friends-thumbnails"><img src="images/1.jpg" onload="OnImageLoad(event);"></div>
             <div style="display:none">
                 <div id="kori">
                     <div class="aside-wrapper">
@@ -155,7 +324,7 @@ window.open("http://tlk.io/Gossout-30", null, "toolbar=no,menubar=no,resizable =
         </a>
 
         <a class= "fancybox " id="inline" href="#kori">
-            <img class= "friends-thumbnails" src="images/2.jpg">
+            <div class= "friends-thumbnails"><img src="images/1.jpg" onload="OnImageLoad(event);"></div>
             <div style="display:none">
                 <div id="kori">
                     <div class="aside-wrapper">
@@ -178,7 +347,7 @@ window.open("http://tlk.io/Gossout-30", null, "toolbar=no,menubar=no,resizable =
             </div>
 
             <a class= "fancybox " id="inline" href="#kori">
-                <img class= "friends-thumbnails" src="images/2.jpg">
+                <div class= "friends-thumbnails"><img src="images/1.jpg" onload="OnImageLoad(event);"></div>
                 <div style="display:none">
                     <div id="kori">
                         <div class="aside-wrapper">
@@ -201,7 +370,7 @@ window.open("http://tlk.io/Gossout-30", null, "toolbar=no,menubar=no,resizable =
                 </div>
             </a>
         </a>
-
+        <div class="clear"></div>
         <p class="community-listing">
             <span>
                 <span><span class="icon-16-dot"></span><a href="all-friends.php">Show all</a></span>

@@ -28,10 +28,16 @@
 }
 .timeline-news-profile-pic{
 	display: inline-block;
-	width: 45px;
+	position:relative;
+    width:45px;
+	height:45px;
+	overflow:hidden;
+	border:1px solid #eee;
 	float: left;
+	margin: 0 .2em 0 0;
 	img {
-		margin: 0 .2em 0 0;
+		position:absolute;
+		
 	}
 }
 .timeline-photo-upload{
