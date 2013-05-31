@@ -201,7 +201,7 @@ window.open("http://tlk.io/Gossout-30", null, "toolbar=no,menubar=no,resizable =
                 </div>
             </a>
         </a>
-
+        <div class="clear"></div>
         <p class="community-listing">
             <span>
                 <span><span class="icon-16-dot"></span><a href="all-friends.php">Show all</a></span>

@@ -12,7 +12,7 @@
 		<hr>						
 		<h3 class="name"><img class="post-profile-pic" src="images/2.jpg"><a href="user-profile.php">Ciroma Chukwuma Adekunle</a>
 			<div class="float-right">
-				<span class="post-time"><span class="icon-16-star"></span>30</span>
+				<span class="post-time"><span class="icon-16-heart"></span>30</span>
 				<span class="post-time"><span class="icon-16-comment"></span>50</span>
 				<!--<span class="post-time"><span class="icon-16-share"></span>24</span>-->
 				<span class="post-time"><span class="icon-16-clock"></span>5 mins</span>
