@@ -4,6 +4,7 @@
 <script type="text/javascript" src="scripts/script.js"></script>
 <script type="text/javascript" src="scripts/jquery.fancybox.pack.js?v=2.1.4"></script>
 <script type="text/javascript" src="scripts/humane.min.js"></script>
+<script src="scripts/jquery.sticky.js"></script>
 <link rel="stylesheet" media="screen" href="css/style.css">
 <link rel="stylesheet" href="css/hint.min.css">
 <link rel="stylesheet" href="css/libnotify.css">
@@ -23,6 +24,9 @@ $(document).ready(function() {
 		//No SVG.
 		$('#logo').html('<img src="images/gossout-logo-text-svg.png" alt="Your Company" />');
 	}
+	//$(".nav").sticky({topSpacing:0});
+	//$(".nav-user").sticky({topSpacing:32});
+	 $("#nav-user").sticky({topSpacing:-4});
 });
 </script>
 <script>
@@ -44,3 +48,4 @@ $(document).ready(function() {
 	    $(img).css("top", result.targettop);
 	}
 </script>
+

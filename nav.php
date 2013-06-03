@@ -1,4 +1,4 @@
-<div class="nav">
+<div class="nav" id="nav">
     <ul>
             <!-- <img src="images/gossout-logo-image-svg.svg" alt="gossout-logo"> -->
         <li><a href="home.php"><span class="icon-house"></span><span>Home</span></a></li>

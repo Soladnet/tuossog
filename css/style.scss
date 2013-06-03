@@ -254,6 +254,8 @@ input[type=checkbox]{
 		}
 	}
 	background-color: $nav-gradient-1;	
+	width:100%;
+	z-index: 9999999;
 	ul {
 		max-width: $max-width !important;
 		margin: 0 auto !important;
@@ -319,7 +321,8 @@ input[type=checkbox]{
 	margin: 3px 0;
 	background: #fff;
 	background: rgba(255, 255, 255, 0.9);
-	
+	width:100%;
+	z-index: 9999999;
 	ul {
 		max-width: $max-width !important;
 		margin: 0 auto !important;
