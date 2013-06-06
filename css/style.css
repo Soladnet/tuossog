@@ -2581,48 +2581,101 @@ input[type=checkbox] {
 }
 /* line 285, style.scss */
 .nav ul li input {
-  -webkit-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
   padding: .2em;
   border: none;
   font-size: .8em;
   color: #aaa;
 }
-/* line 293, style.scss */
+/* line 291, style.scss */
 .nav ul li input:hover, .nav ul li input:active, .nav ul li input:focus {
   color: #707373;
   border: none;
 }
 @media only screen and (max-width: 640px) {
-  /* line 298, style.scss */
+  /* line 296, style.scss */
   .nav ul li span {
     margin: 0px auto;
     font-size: 0.8em;
     display: block;
   }
 }
-/* line 307, style.scss */
+/* line 305, style.scss */
 .nav .nav-login {
   float: right !important;
 }
 
-/* line 311, style.scss */
+/* line 309, style.scss */
 .nav-search-container {
   border: none !important;
 }
+/* line 311, style.scss */
+.nav-search-container .search-container {
+  position: relative;
+}
 /* line 313, style.scss */
+.nav-search-container .search-container .search-field {
+  position: absolute;
+  right: 22px;
+  top: 0;
+  height: 25px;
+  -webkit-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+/* line 321, style.scss */
+.nav-search-container .search-container .search-button {
+  position: absolute;
+  right: -8px;
+  top: 0;
+  width: 30px;
+  height: 25px;
+  background: #fff;
+  border: 1px solid #fff;
+  color: #777;
+  background-color: #fff;
+  font-size: .8em;
+  display: inline-block;
+  border-left: 1px solid #eee;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-border-radius: 0px 3px 3px 0;
+  border-radius: 0px 3px 3px 0;
+}
+/* line 340, style.scss */
+.nav-search-container .search-container .search-button:hover {
+  cursor: pointer;
+  color: #333;
+  border: 1px solid #c6c6c6;
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+/* line 351, style.scss */
+.nav-search-container .search-container .search-button:active {
+  color: #999;
+  -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+/* line 362, style.scss */
 .nav-search-container:hover {
   background-color: transparent !important;
 }
 @media only screen and (max-width: 720px) {
-  /* line 311, style.scss */
+  /* line 309, style.scss */
   .nav-search-container {
     display: none !important;
   }
 }
 
-/* line 320, style.scss */
+/* line 369, style.scss */
 .nav-user {
   margin: 3px 0;
   background: #fff;
@@ -2632,16 +2685,16 @@ input[type=checkbox] {
   -webkit-box-shadow: 0px 1px 6px 0px #555;
   box-shadow: 0px 1px 6px 0px #555;
 }
-/* line 326, style.scss */
+/* line 375, style.scss */
 .nav-user ul {
   max-width: 1025px !important;
   margin: 0 auto !important;
 }
-/* line 329, style.scss */
+/* line 378, style.scss */
 .nav-user ul .last {
   border-right: 1px solid #eaeaea;
 }
-/* line 330, style.scss */
+/* line 379, style.scss */
 .nav-user ul li {
   border-left: 1px solid #eaeaea;
   padding: .5em;
@@ -2649,61 +2702,61 @@ input[type=checkbox] {
   float: left;
 }
 @media only screen and (max-width: 240px) {
-  /* line 330, style.scss */
+  /* line 379, style.scss */
   .nav-user ul li {
     padding: .5em .3em;
     font-size: .7em;
   }
 }
-/* line 339, style.scss */
+/* line 388, style.scss */
 .nav-user ul li a {
   color: #969696;
 }
-/* line 341, style.scss */
+/* line 390, style.scss */
 .nav-user ul li a:hover {
   color: #000;
 }
-/* line 345, style.scss */
+/* line 394, style.scss */
 .nav-user ul li span {
   padding: 0 .1em;
 }
-/* line 348, style.scss */
+/* line 397, style.scss */
 .nav-user ul li .notification-number {
   color: #99c43d;
   cursor: pointer;
 }
 
-/* line 357, style.scss */
+/* line 406, style.scss */
 .no-boxshadow #nav-user {
   border: 1px solid #ddd;
 }
 
-/* line 360, style.scss */
+/* line 409, style.scss */
 .mobile-search {
   display: none;
 }
 @media only screen and (max-width: 720px) {
-  /* line 360, style.scss */
+  /* line 409, style.scss */
   .mobile-search {
     display: inline-block;
   }
 }
 
-/* line 366, style.scss */
+/* line 415, style.scss */
 .search-pop-out {
   font-size: 0.8em !important;
 }
 
-/* line 369, style.scss */
+/* line 418, style.scss */
 .search-result-container {
   position: relative;
   display: none;
 }
-/* line 372, style.scss */
+/* line 421, style.scss */
 .search-result-container .search-friends-list {
   width: 100% !important;
 }
-/* line 375, style.scss */
+/* line 424, style.scss */
 .search-result-container .search {
   -moz-box-shadow: 0px 3px 5px 3px #ccc;
   -webkit-box-shadow: 0px 3px 5px 3px #ccc;
@@ -2716,22 +2769,22 @@ input[type=checkbox] {
   right: 0px;
   width: 25em;
   min-height: 200px;
-  top: 15px;
+  top: 32px;
   border: 1px solid #bbb;
   font-size: .8em !important;
   text-shadow: none !important;
 }
-/* line 391, style.scss */
+/* line 440, style.scss */
 .search-result-container .search li {
   border: none;
 }
-/* line 394, style.scss */
+/* line 443, style.scss */
 .search-result-container .search .actions {
   font-size: .9em;
 }
 
-/* line 399, style.scss */
-.notifications-container:before, .search-result-container:before, .more-container:before, .user-actions-container:before {
+/* line 448, style.scss */
+.notifications-container:before, .more-container:before, .user-actions-container:before {
   content: ' ';
   height: 0;
   position: absolute;
@@ -2741,8 +2794,8 @@ input[type=checkbox] {
   z-index: 10000;
 }
 
-/* line 408, style.scss */
-.notifications-container:after, .search-result-container:after, .more-container:after, .user-actions-container:after {
+/* line 457, style.scss */
+.notifications-container:after, .more-container:after, .user-actions-container:after {
   content: ' ';
   height: 0;
   position: absolute;
@@ -2752,7 +2805,7 @@ input[type=checkbox] {
   z-index: 10000;
 }
 
-/* line 417, style.scss */
+/* line 466, style.scss */
 .messages-container:before {
   left: 95px;
   content: ' ';
@@ -2764,7 +2817,7 @@ input[type=checkbox] {
   z-index: 10000;
 }
 
-/* line 427, style.scss */
+/* line 476, style.scss */
 .messages-container:after {
   left: 95px;
   content: ' ';
@@ -2776,12 +2829,12 @@ input[type=checkbox] {
   z-index: 10000;
 }
 
-/* line 437, style.scss */
+/* line 486, style.scss */
 .user-actions-container {
   position: relative;
   display: none;
 }
-/* line 440, style.scss */
+/* line 489, style.scss */
 .user-actions-container .user-actions {
   -webkit-border-radius: 3px;
   border-radius: 3px;
@@ -2799,24 +2852,24 @@ input[type=checkbox] {
   top: 15px;
   border: 1px solid #bbb;
 }
-/* line 457, style.scss */
+/* line 506, style.scss */
 .user-actions-container .user-actions ul li {
   border: none;
   font-size: 1em;
   padding: 0.8em 0.5em;
   width: 100%;
 }
-/* line 462, style.scss */
+/* line 511, style.scss */
 .user-actions-container .user-actions ul li:hover {
   background-color: #f8f8f8;
 }
 
-/* line 469, style.scss */
+/* line 518, style.scss */
 .notifications-container, .messages-container {
   position: relative;
   display: none;
 }
-/* line 472, style.scss */
+/* line 521, style.scss */
 .notifications-container .notifications, .notifications-container .messages, .messages-container .notifications, .messages-container .messages {
   -webkit-border-radius: 3px;
   border-radius: 3px;
@@ -2834,33 +2887,33 @@ input[type=checkbox] {
   border: 1px solid #bbb;
 }
 @media only screen and (max-width: 300px) {
-  /* line 472, style.scss */
+  /* line 521, style.scss */
   .notifications-container .notifications, .notifications-container .messages, .messages-container .notifications, .messages-container .messages {
     width: 18em;
   }
 }
-/* line 491, style.scss */
+/* line 540, style.scss */
 .notifications-container hr, .messages-container hr {
   background-color: #F0F0F0;
 }
-/* line 494, style.scss */
+/* line 543, style.scss */
 .notifications-container a, .messages-container a {
   margin: 0 0 0 .6em;
   cursor: pointer;
   padding: .3em;
 }
-/* line 499, style.scss */
+/* line 548, style.scss */
 .notifications-container .individual-notification, .messages-container .individual-notification {
   border: 1px solid #ebebeb;
   padding: .3em;
   margin: 0 0 .4em 0;
   background-color: #f8f8f8;
 }
-/* line 505, style.scss */
+/* line 554, style.scss */
 .notifications-container .viewed-notification, .messages-container .viewed-notification {
   background-color: #fff !important;
 }
-/* line 508, style.scss */
+/* line 557, style.scss */
 .notifications-container .notification-icon, .messages-container .notification-icon {
   float: left;
   width: 50px;
@@ -2870,42 +2923,42 @@ input[type=checkbox] {
   overflow: hidden;
   border: 1px solid #ddd;
 }
-/* line 517, style.scss */
+/* line 566, style.scss */
 .notifications-container .notification-icon img, .messages-container .notification-icon img {
   position: absolute;
 }
 @media only screen and (max-width: 300px) {
-  /* line 508, style.scss */
+  /* line 557, style.scss */
   .notifications-container .notification-icon, .messages-container .notification-icon {
     display: none;
   }
 }
-/* line 524, style.scss */
+/* line 573, style.scss */
 .notifications-container .notification-text, .messages-container .notification-text {
   padding: 0 0 0 52px;
 }
-/* line 527, style.scss */
+/* line 576, style.scss */
 .notifications-container .notification-actions, .messages-container .notification-actions {
   float: right;
 }
-/* line 530, style.scss */
+/* line 579, style.scss */
 .notifications-container .name, .messages-container .name {
   color: #99c43d;
   padding: 0px;
   margin: 0px;
 }
 
-/* line 536, style.scss */
+/* line 585, style.scss */
 .more-div {
   text-align: center;
 }
 
-/* line 539, style.scss */
+/* line 588, style.scss */
 .more-container {
   position: relative;
   display: none;
 }
-/* line 542, style.scss */
+/* line 591, style.scss */
 .more-container .more {
   -webkit-box-shadow: 0px 1px 6px 0px #555;
   box-shadow: 0px 1px 6px 0px #555;
@@ -2920,17 +2973,17 @@ input[type=checkbox] {
   border: 1px solid #bbb;
   text-align: left;
 }
-/* line 559, style.scss */
+/* line 608, style.scss */
 .more-container .more ul li {
   padding: 0.8em 0.5em;
   width: 100%;
 }
-/* line 562, style.scss */
+/* line 611, style.scss */
 .more-container .more ul li:hover {
   background-color: #f8f8f8;
 }
 
-/* line 569, style.scss */
+/* line 618, style.scss */
 .content {
   max-width: 1025px !important;
   margin: 0 auto !important;
@@ -2943,14 +2996,14 @@ input[type=checkbox] {
   border: 1px solid #ddd;
 }
 @media only screen and (max-width: 1024px) {
-  /* line 569, style.scss */
+  /* line 618, style.scss */
   .content {
     margin: .4em !important;
     background-color: #fff;
   }
 }
 @media only screen and (max-width: 720px) {
-  /* line 569, style.scss */
+  /* line 618, style.scss */
   .content {
     -webkit-border-radius: 0 !important;
     -o-border-radius: 0 !important;
@@ -2962,17 +3015,17 @@ input[type=checkbox] {
   }
 }
 
-/* line 594, style.scss */
+/* line 643, style.scss */
 .nav-user-profile {
   float: right !important;
 }
 
-/* line 597, style.scss */
+/* line 646, style.scss */
 .logo {
   max-width: 1025px !important;
   margin: 0 auto !important;
 }
-/* line 600, style.scss */
+/* line 649, style.scss */
 .logo img {
   max-width: 200px !important;
   margin-top: .3em !important;
@@ -2980,7 +3033,7 @@ input[type=checkbox] {
   margin: 0 auto;
 }
 
-/* line 608, style.scss */
+/* line 657, style.scss */
 .content {
   max-width: 1025px !important;
   margin: 0 auto !important;
@@ -2993,14 +3046,14 @@ input[type=checkbox] {
   border: 1px solid #ddd;
 }
 @media only screen and (max-width: 1024px) {
-  /* line 608, style.scss */
+  /* line 657, style.scss */
   .content {
     margin: .4em !important;
     background-color: #fff;
   }
 }
 @media only screen and (max-width: 720px) {
-  /* line 608, style.scss */
+  /* line 657, style.scss */
   .content {
     -webkit-border-radius: 0 !important;
     -o-border-radius: 0 !important;
@@ -3012,39 +3065,39 @@ input[type=checkbox] {
   }
 }
 
-/* line 634, style.scss */
+/* line 683, style.scss */
 .timeline-filter {
   float: right;
   margin: 0.1em;
 }
-/* line 637, style.scss */
+/* line 686, style.scss */
 .timeline-filter .active {
   background-color: #f8f8f8;
   border: 1px solid #eee;
   color: #000;
   margin: 0px !important;
 }
-/* line 644, style.scss */
+/* line 693, style.scss */
 .timeline-filter ul li {
   cursor: pointer;
   float: left;
   padding: .25em .50em;
   font-size: .8em;
 }
-/* line 649, style.scss */
+/* line 698, style.scss */
 .timeline-filter ul li a {
   color: #969696;
 }
-/* line 651, style.scss */
+/* line 700, style.scss */
 .timeline-filter ul li a:hover {
   color: #000;
 }
-/* line 654, style.scss */
+/* line 703, style.scss */
 .timeline-filter ul li a p {
   text-align: center;
 }
 
-/* line 662, style.scss */
+/* line 711, style.scss */
 .posts {
   width: 62.5%;
   float: right;
@@ -3052,21 +3105,21 @@ input[type=checkbox] {
   padding: .5em;
 }
 @media only screen and (max-width: 720px) {
-  /* line 662, style.scss */
+  /* line 711, style.scss */
   .posts {
     width: 100%;
     font-size: .9em;
   }
 }
 
-/* line 671, style.scss */
+/* line 720, style.scss */
 .post-box {
   margin: 0 0 0.5em 0;
   padding: .5em;
   border: 1px solid #dadada;
   background-color: #f8f8f8;
 }
-/* line 676, style.scss */
+/* line 725, style.scss */
 .post-box .group-1 {
   float: left;
   display: inline-block;
@@ -3079,17 +3132,17 @@ input[type=checkbox] {
   width: 320px;
 }
 @media only screen and (max-width: 768px) {
-  /* line 676, style.scss */
+  /* line 725, style.scss */
   .post-box .group-1 {
     width: 100%;
     margin: 0 0 0.3em  0;
   }
 }
-/* line 691, style.scss */
+/* line 740, style.scss */
 .post-box .group-1:hover {
   border: 1px solid #ddd;
 }
-/* line 695, style.scss */
+/* line 744, style.scss */
 .post-box .group-1 select {
   color: #bbb;
   width: 100%;
@@ -3097,30 +3150,30 @@ input[type=checkbox] {
   -webkit-appearance: none;
   background: transparent;
 }
-/* line 704, style.scss */
+/* line 753, style.scss */
 .post-box textarea {
   color: #707373;
   width: 100%;
   margin: 0 0 .4em 0;
   border: 1px solid #ddd;
 }
-/* line 709, style.scss */
+/* line 758, style.scss */
 .post-box textarea:hover {
   border: 1px solid #aaa;
 }
 
-/* line 714, style.scss */
+/* line 763, style.scss */
 .submit {
   background-color: #99C43D;
   color: #f2f2f2;
 }
-/* line 717, style.scss */
+/* line 766, style.scss */
 .submit:hover {
   color: #777;
   background-color: #c1e089;
 }
 
-/* line 722, style.scss */
+/* line 771, style.scss */
 .post {
   background: #fff;
   background: rgba(255, 255, 255, 0.9);
@@ -3132,55 +3185,55 @@ input[type=checkbox] {
   border-radius: 4px;
   border: 1px solid #dadada;
 }
-/* line 732, style.scss */
+/* line 781, style.scss */
 .post:hover {
   border: 1px solid #ddd;
 }
-/* line 735, style.scss */
+/* line 784, style.scss */
 .post hr {
   background-color: #eee;
 }
-/* line 738, style.scss */
+/* line 787, style.scss */
 .post img {
   border: 1px solid #ddd;
   max-height: 100px;
   margin: .4em auto;
 }
 
-/* line 744, style.scss */
+/* line 793, style.scss */
 .post-content {
   color: #4c4c4c;
   line-height: 1.5em;
 }
 
-/* line 748, style.scss */
+/* line 797, style.scss */
 .post-comments {
   display: none;
   background: #fafafa;
 }
 
-/* line 752, style.scss */
+/* line 801, style.scss */
 .post-comment {
   border-top: 1px solid #e3e3e3;
   padding: .4em;
 }
-/* line 755, style.scss */
+/* line 804, style.scss */
 .post-comment p {
   padding: 0 0 0 47px;
   line-height: 1.4em;
 }
 
-/* line 760, style.scss */
+/* line 809, style.scss */
 .home-post-comment {
   border-top: 1px solid #e3e3e3;
   padding: .4em;
 }
-/* line 763, style.scss */
+/* line 812, style.scss */
 .home-post-comment p {
   line-height: 1.4em;
 }
 
-/* line 767, style.scss */
+/* line 816, style.scss */
 .post-thumb {
   float: left;
   width: 40px !important;
@@ -3190,12 +3243,12 @@ input[type=checkbox] {
   position: relative;
   overflow: hidden;
 }
-/* line 775, style.scss */
+/* line 824, style.scss */
 .post-thumb img {
   position: absolute;
 }
 
-/* line 779, style.scss */
+/* line 828, style.scss */
 .post-profile-pic {
   height: 24px !important;
   width: 24px !important;
@@ -3205,23 +3258,23 @@ input[type=checkbox] {
   border: none !important;
 }
 
-/* line 787, style.scss */
+/* line 836, style.scss */
 .post-time {
   color: #777;
   line-height: .9em;
 }
 
-/* line 791, style.scss */
+/* line 840, style.scss */
 .post-new-comment {
   margin: .2em;
   padding: .2em;
   display: none;
 }
-/* line 795, style.scss */
+/* line 844, style.scss */
 .post-new-comment span {
   margin: .3em 0 0 0;
 }
-/* line 798, style.scss */
+/* line 847, style.scss */
 .post-new-comment .comment-field {
   color: #707373;
   height: 38px;
@@ -3229,11 +3282,11 @@ input[type=checkbox] {
   margin: .2em !important;
   border: 1px solid #ddd;
 }
-/* line 804, style.scss */
+/* line 853, style.scss */
 .post-new-comment .comment-field:hover {
   border: 1px solid #aaa;
 }
-/* line 808, style.scss */
+/* line 857, style.scss */
 .post-new-comment .submit {
   height: 38px;
   padding: .5em;
@@ -3241,29 +3294,29 @@ input[type=checkbox] {
   background-color: #99C43D;
   color: #f2f2f2;
 }
-/* line 814, style.scss */
+/* line 863, style.scss */
 .post-new-comment .submit:hover {
   color: #777;
   background-color: #c1e089;
 }
 
-/* line 820, style.scss */
+/* line 869, style.scss */
 .post-meta, .post-meta-delete {
   padding: .4em 0 0;
 }
-/* line 822, style.scss */
+/* line 871, style.scss */
 .post-meta span, .post-meta-delete span {
   cursor: pointer;
   font-size: .8em;
   color: #888;
   line-height: 1.2em;
 }
-/* line 827, style.scss */
+/* line 876, style.scss */
 .post-meta span:hover, .post-meta-delete span:hover {
   color: #000;
 }
 
-/* line 832, style.scss */
+/* line 881, style.scss */
 .friends-thumbnails {
   border: 1px solid #ddd;
   width: 50px;
@@ -3274,17 +3327,17 @@ input[type=checkbox] {
   position: relative;
   overflow: hidden;
 }
-/* line 841, style.scss */
+/* line 890, style.scss */
 .friends-thumbnails img {
   position: absolute;
 }
 
-/* line 845, style.scss */
+/* line 894, style.scss */
 .suggested-friend {
   padding: .2em;
 }
 
-/* line 848, style.scss */
+/* line 897, style.scss */
 .aside {
   font-size: .9em;
   overflow: auto !important;
@@ -3292,25 +3345,25 @@ input[type=checkbox] {
   margin: 0 1em .5em 0;
 }
 @media only screen and (max-width: 720px) {
-  /* line 848, style.scss */
+  /* line 897, style.scss */
   .aside {
     margin: 0;
     padding: .5em;
   }
 }
-/* line 858, style.scss */
+/* line 907, style.scss */
 .aside span a {
   color: #777 !important;
 }
 
-/* line 864, style.scss */
+/* line 913, style.scss */
 .aside-wrapper {
   border: 1px solid #ebebeb;
   background: #fcfcfc;
   margin: 0 0 1em 0;
   padding: .3em;
 }
-/* line 869, style.scss */
+/* line 918, style.scss */
 .aside-wrapper .profile-pic {
   position: relative;
   width: 150px;
@@ -3320,13 +3373,13 @@ input[type=checkbox] {
   float: left;
   margin: 0.2em;
 }
-/* line 877, style.scss */
+/* line 926, style.scss */
 .aside-wrapper .profile-pic img {
   padding: 0 !important;
   position: absolute;
 }
 @media only screen and (max-width: 1024px) {
-  /* line 869, style.scss */
+  /* line 918, style.scss */
   .aside-wrapper .profile-pic {
     float: none;
     display: block;
@@ -3334,7 +3387,7 @@ input[type=checkbox] {
   }
 }
 @media only screen and (max-width: 720px) {
-  /* line 869, style.scss */
+  /* line 918, style.scss */
   .aside-wrapper .profile-pic {
     float: left;
     display: inline-block;
@@ -3342,80 +3395,80 @@ input[type=checkbox] {
   }
 }
 @media only screen and (max-width: 440px) {
-  /* line 869, style.scss */
+  /* line 918, style.scss */
   .aside-wrapper .profile-pic {
     float: none;
     display: block;
     margin: .2em auto;
   }
 }
-/* line 899, style.scss */
+/* line 948, style.scss */
 .aside-wrapper h3 {
   font-weight: normal;
 }
-/* line 903, style.scss */
+/* line 952, style.scss */
 .aside-wrapper .profile-meta {
   font-size: .8em;
   color: #000;
 }
-/* line 908, style.scss */
+/* line 957, style.scss */
 .aside-wrapper .community-listing {
   font-size: .9em;
   padding: .5em 0;
   text-transform: capitalize;
 }
-/* line 913, style.scss */
+/* line 962, style.scss */
 .aside-wrapper .community-functions-wrapper {
   float: right;
 }
-/* line 916, style.scss */
+/* line 965, style.scss */
 .aside-wrapper .community-functions {
   padding: .5em;
   overflow: hidden;
   display: inline-block;
 }
-/* line 921, style.scss */
+/* line 970, style.scss */
 .aside-wrapper .profile-summary {
   margin: 0 0 0.5em 0;
   border: 1px solid #ebebeb;
   border-left: none;
   border-right: none;
 }
-/* line 926, style.scss */
+/* line 975, style.scss */
 .aside-wrapper .profile-summary .profile-summary-wrapper {
   width: 33%;
   float: left;
   padding: 0.2em 0;
   cursor: pointer;
 }
-/* line 931, style.scss */
+/* line 980, style.scss */
 .aside-wrapper .profile-summary .profile-summary-wrapper:hover {
   background-color: #f8f8f8;
 }
-/* line 934, style.scss */
+/* line 983, style.scss */
 .aside-wrapper .profile-summary .profile-summary-wrapper .number {
   font-weight: bold;
   font-size: 1.2em;
 }
-/* line 938, style.scss */
+/* line 987, style.scss */
 .aside-wrapper .profile-summary .profile-summary-wrapper .type {
   color: #000;
   font-size: 0.8em;
 }
-/* line 943, style.scss */
+/* line 992, style.scss */
 .aside-wrapper .profile-summary .profile-summary-wrapper a {
   color: #777;
 }
-/* line 945, style.scss */
+/* line 994, style.scss */
 .aside-wrapper .profile-summary .profile-summary-wrapper a:hover {
   color: #000;
 }
-/* line 949, style.scss */
+/* line 998, style.scss */
 .aside-wrapper .profile-summary .profile-summary-wrapper p {
   text-align: center;
 }
 
-/* line 956, style.scss */
+/* line 1005, style.scss */
 .footer {
   max-width: 1025px !important;
   margin: 0 auto !important;
@@ -3423,22 +3476,22 @@ input[type=checkbox] {
   margin: .5em 2em;
 }
 @media only screen and (max-width: 1024px) {
-  /* line 956, style.scss */
+  /* line 1005, style.scss */
   .footer {
     margin: .5em;
   }
 }
-/* line 964, style.scss */
+/* line 1013, style.scss */
 .footer li {
   color: #555;
   float: left;
   padding: .2em 1em .2em 0;
 }
-/* line 968, style.scss */
+/* line 1017, style.scss */
 .footer li a {
   color: #555;
 }
-/* line 970, style.scss */
+/* line 1019, style.scss */
 .footer li a:hover {
   color: #000;
 }

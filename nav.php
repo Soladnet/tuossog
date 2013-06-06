@@ -5,8 +5,12 @@
         <li class="last"><a href="communities.php"><span class="icon-globe"></span><span>Communities</span></a></li>		
         <li class="nav-login mobile-search last"><a href="all-search.php"><span>Search</span><span class="icon-search"></span></a></li>
         <li class="nav-search-container float-right">
-            <label for="nav-search"></label>
-            <input name="nav-search " placeholder="" type="text" value=""  required onfocus="javascript:toggle('pop-up-search','search');"/>
+            <div class="search-container">
+                <label for="nav-search"></label>
+                <input class="search-field" name="nav-search " placeholder="" type="text" value=""  required onfocus="javascript:toggle('pop-up-search','search');"/>
+                <button class="search-button"><span class="icon-16-search"></span></button>
+                <div class="clear"></div>
+             </div>
             <?php
                 include("search-pop-out.php");
             ?>
